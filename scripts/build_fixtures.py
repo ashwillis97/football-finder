@@ -64,6 +64,7 @@ def parse_structured(soup, league):
     <td class="home-team" data-export="A">..<td class="away-team" data-export="B">.."""
     fixtures = []
     current_date = None
+    found = False  # True once any fixture/result row is seen, even if all are already played
     for row in soup.find_all("tr"):
         th = row.find("th")
         if th and not row.get("data-href"):
@@ -75,6 +76,7 @@ def parse_structured(soup, league):
         away_td = row.find("td", class_="away-team")
         if not (home_td and away_td and current_date):
             continue
+        found = True
         home = clean(home_td.get("data-export") or home_td.get_text(" "))
         away = clean(away_td.get("data-export") or away_td.get_text(" "))
         status_td = row.find("td", class_="status")
@@ -94,7 +96,7 @@ def parse_structured(soup, league):
             "date": current_date.isoformat(), "time": kickoff, "home": home, "away": away,
             "status": state, "league": league["name"], "level": league["level"], "gender": league["gender"],
         })
-    return fixtures
+    return fixtures if found else None
 
 
 def month_options(html):
@@ -107,7 +109,7 @@ def parse_fixtures(html, league):
     """Return (fixtures, month_links). Tries the structured parser first, then a tolerant fallback."""
     soup = BeautifulSoup(html, "html.parser")
     structured = parse_structured(soup, league)
-    if structured:
+    if structured is not None:
         links = sorted({a["href"] for a in soup.find_all("a", href=True) if "fixtures-results" in a["href"]})
         return structured, links
     fixtures = []
