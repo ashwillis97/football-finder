@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:04:25+00:00",
+ "updated": "2026-11-04T22:07:03+00:00",
  "matches": [
   {
    "date": "2026-11-07",
@@ -142,6 +142,34 @@
    "lon": -0.205338
   },
   {
+   "date": "2026-11-20",
+   "time": "19:45",
+   "home": "Southend United",
+   "away": "Boreham Wood",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Roots Hall",
+   "postcode": "SS2 6NQ",
+   "lat": 51.54927,
+   "lon": 0.702095
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:30",
+   "home": "Solihull Moors",
+   "away": "Altrincham",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Damson Park",
+   "postcode": "B92 9EJ",
+   "lat": 52.443184,
+   "lon": -1.761603
+  },
+  {
    "date": "2026-11-21",
    "time": "15:00",
    "home": "Aldershot Town",
@@ -240,6 +268,90 @@
    "lon": -0.383799
   },
   {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "AFC Fylde",
+   "away": "FC Halifax Town",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Mill Farm",
+   "postcode": "PR4 3HD",
+   "lat": 53.798372,
+   "lon": -2.887611
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "Altrincham",
+   "away": "Wealdstone",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Moss Lane",
+   "postcode": "WA15 8AP",
+   "lat": 53.382992,
+   "lon": -2.335213
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "Carlisle United",
+   "away": "Tamworth",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Brunton Park",
+   "postcode": "CA1 1LL",
+   "lat": 54.895823,
+   "lon": -2.914479
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "Eastleigh",
+   "away": "Yeovil Town",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Silverlake Stadium",
+   "postcode": "SO50 9HT",
+   "lat": 50.950952,
+   "lon": -1.382047
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "Forest Green Rovers",
+   "away": "Southend United",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "The New Lawn",
+   "postcode": "GL5 5NF",
+   "lat": 51.725158,
+   "lon": -2.233762
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:45",
+   "home": "Scunthorpe United",
+   "away": "Gateshead",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Glanford Park",
+   "postcode": "DN15 8TD",
+   "lat": 53.586721,
+   "lon": -0.695972
+  },
+  {
    "date": "2026-11-25",
    "time": "19:00",
    "home": "Boreham Wood",
@@ -252,6 +364,62 @@
    "postcode": "WD6 5AL",
    "lat": 51.662123,
    "lon": -0.273685
+  },
+  {
+   "date": "2026-11-25",
+   "time": "19:45",
+   "home": "Harrogate Town",
+   "away": "Kidderminster Harriers",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Wetherby Road",
+   "postcode": "HG2 7SA",
+   "lat": 53.99151,
+   "lon": -1.517057
+  },
+  {
+   "date": "2026-11-25",
+   "time": "19:45",
+   "home": "Hartlepool United",
+   "away": "Solihull Moors",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Victoria Park",
+   "postcode": "TS24 8BZ",
+   "lat": 54.689582,
+   "lon": -1.213621
+  },
+  {
+   "date": "2026-11-27",
+   "time": "19:45",
+   "home": "Scunthorpe United",
+   "away": "Wealdstone",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Glanford Park",
+   "postcode": "DN15 8TD",
+   "lat": 53.586721,
+   "lon": -0.695972
+  },
+  {
+   "date": "2026-11-28",
+   "time": "12:30",
+   "home": "AFC Fylde",
+   "away": "Aldershot Town",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Mill Farm",
+   "postcode": "PR4 3HD",
+   "lat": 53.798372,
+   "lon": -2.887611
   },
   {
    "date": "2026-11-28",
@@ -336,6 +504,20 @@
    "postcode": "HG2 7SA",
    "lat": 53.99151,
    "lon": -1.517057
+  },
+  {
+   "date": "2026-11-28",
+   "time": "17:30",
+   "home": "Hartlepool United",
+   "away": "Southend United",
+   "status": "scheduled",
+   "league": "National League",
+   "level": "Step 1",
+   "gender": "men",
+   "ground": "Victoria Park",
+   "postcode": "TS24 8BZ",
+   "lat": 54.689582,
+   "lon": -1.213621
   }
  ]
 }

@@ -32,7 +32,7 @@ MONTHS = {m: i for i, m in enumerate(
 DATE_HEADER = re.compile(
     r"([A-Za-z]+day)\s+(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})")
 NUMERIC_DATE = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
-TIME_CELL = re.compile(r"^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$|^(\d{1,2}):(\d{2})$", re.I)
+TIME_CELL = re.compile(r"^(\d{1,2})(?:[:.](\d{2}))?\s*(am|pm)$|^(\d{1,2})[:.](\d{2})$", re.I)
 HALF_TIME = re.compile(r"\(\d+\)")
 POSTPONED = {"P", "PP", "POSTPONED", "PPD"}
 RESULT_STATUS = re.compile(r"^(FT|HT|AET|PEN|ABD|AB|A)\b", re.I)
@@ -57,9 +57,59 @@ def norm_time(cell):
     return f"{int(m.group(4)):02d}:{m.group(5)}"
 
 
-def parse_fixtures(html, league):
-    """Return (fixtures, month_links). Tolerant: works on table rows or div rows."""
+def parse_structured(soup, league):
+    """Parser for the real Football Web Pages markup:
+    <tr class="title"><th>Saturday 14th November 2026</th></tr> then
+    <tr data-href=... title="A v B[ - Postponed]"><td class="status">3pm</td>
+    <td class="home-team" data-export="A">..<td class="away-team" data-export="B">.."""
+    fixtures = []
+    current_date = None
+    for row in soup.find_all("tr"):
+        th = row.find("th")
+        if th and not row.get("data-href"):
+            h = DATE_HEADER.search(clean(th.get_text(" ")))
+            if h and MONTHS.get(h.group(3).lower()):
+                current_date = datetime(int(h.group(4)), MONTHS[h.group(3).lower()], int(h.group(2))).date()
+            continue
+        home_td = row.find("td", class_="home-team")
+        away_td = row.find("td", class_="away-team")
+        if not (home_td and away_td and current_date):
+            continue
+        home = clean(home_td.get("data-export") or home_td.get_text(" "))
+        away = clean(away_td.get("data-export") or away_td.get_text(" "))
+        status_td = row.find("td", class_="status")
+        status_text = clean((status_td.get_text(" ") if status_td else "").replace("\xa0", " "))
+        title = row.get("title", "")
+        score_cells = [clean(c.get_text(" ")) for c in row.find_all("td", class_="score")]
+        kickoff = norm_time(status_text) if status_text else None
+        if "postponed" in title.lower() or any(s.upper() in POSTPONED for s in score_cells):
+            state = "postponed"
+        elif status_text and not kickoff and RESULT_STATUS.match(status_text):
+            continue  # finished
+        elif any(s.isdigit() for s in score_cells):
+            continue  # has a score, so already played
+        else:
+            state = "scheduled"
+        fixtures.append({
+            "date": current_date.isoformat(), "time": kickoff, "home": home, "away": away,
+            "status": state, "league": league["name"], "level": league["level"], "gender": league["gender"],
+        })
+    return fixtures
+
+
+def month_options(html):
     soup = BeautifulSoup(html, "html.parser")
+    sel = soup.find("select", id="month")
+    return [o.get("value", "") for o in sel.find_all("option")] if sel else []
+
+
+def parse_fixtures(html, league):
+    """Return (fixtures, month_links). Tries the structured parser first, then a tolerant fallback."""
+    soup = BeautifulSoup(html, "html.parser")
+    structured = parse_structured(soup, league)
+    if structured:
+        links = sorted({a["href"] for a in soup.find_all("a", href=True) if "fixtures-results" in a["href"]})
+        return structured, links
     fixtures = []
     current_date = None
 
@@ -157,6 +207,17 @@ def geocode(postcodes):
                 cache[item["query"]] = [res["latitude"], res["longitude"]] if res else None
         except requests.RequestException as e:
             print(f"postcode lookup failed: {e}", file=sys.stderr)
+    # Postcodes missing from the live database may still be in the terminated list.
+    for pc in [p for p in postcodes if p in cache and cache[p] is None]:
+        try:
+            r = requests.get("https://api.postcodes.io/terminated_postcodes/" + pc.replace(" ", ""),
+                             headers={"User-Agent": USER_AGENT}, timeout=30)
+            if r.ok and r.json().get("result"):
+                res = r.json()["result"]
+                if res.get("latitude"):
+                    cache[pc] = [res["latitude"], res["longitude"]]
+        except requests.RequestException:
+            pass
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, indent=1))
     return cache
@@ -195,8 +256,33 @@ def main():
             (RAW / f"{league['id']}.html").write_text(html, encoding="utf-8")
             time.sleep(2)  # be polite between requests
         fixtures, links = parse_fixtures(html, league)
+        month_log = []
+        if not args.html:
+            # The page shows one month at a time. The month dropdown's URL scheme isn't known,
+            # so try a couple of likely patterns and log which (if any) return different content.
+            seen = {(f["date"], f["home"], f["away"]) for f in fixtures}
+            base = league["url"].rstrip("/")
+            for month in [m for m in month_options(html) if m]:
+                got = None
+                for pattern in (f"{base}/{month}", f"{base}?month={month}"):
+                    try:
+                        page = fetch(pattern)
+                    except (RuntimeError, requests.RequestException) as e:
+                        month_log.append({"url": pattern, "result": f"error: {e}"})
+                        time.sleep(2)
+                        continue
+                    time.sleep(2)
+                    extra, _ = parse_fixtures(page, league)
+                    new = [f for f in extra if (f["date"], f["home"], f["away"]) not in seen]
+                    month_log.append({"url": pattern, "result": f"{len(extra)} parsed, {len(new)} new"})
+                    if new:
+                        got = new
+                        break
+                if got:
+                    fixtures.extend(got)
+                    seen |= {(f["date"], f["home"], f["away"]) for f in got}
         print(f"{league['id']}: {len(fixtures)} fixtures parsed")
-        report[league["id"]] = {"fixtures": len(fixtures), "month_links": links[:40]}
+        report[league["id"]] = {"fixtures": len(fixtures), "month_links": links[:40], "month_attempts": month_log}
         all_fixtures.extend(fixtures)
 
     grounds = load_grounds()
@@ -210,6 +296,7 @@ def main():
         else:
             unmatched.add(f["home"])
     report["unmatched_clubs"] = sorted(unmatched)
+    report["bad_postcodes"] = sorted(p for p in {g["postcode"] for g in grounds.values()} if not coords.get(p))
 
     placed = [f for f in all_fixtures if "lat" in f]
     placed.sort(key=lambda f: (f["date"], f["time"] or "99:99", f["home"]))
