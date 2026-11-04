@@ -1,6 +1,6 @@
 {
  "national-league": {
-  "fixtures": 448,
+  "fixtures": 364,
   "month_links": [
    "embed?national-league%2Ffixtures-results",
    "national-league/fixtures-results"
@@ -8,11 +8,19 @@
   "month_attempts": [
    {
     "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/august",
-    "result": "40 parsed, 40 new"
+    "result": "0 parsed, 0 new"
+   },
+   {
+    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results?month=august",
+    "result": "49 parsed, 0 new"
    },
    {
     "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/september",
-    "result": "44 parsed, 44 new"
+    "result": "0 parsed, 0 new"
+   },
+   {
+    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results?month=september",
+    "result": "49 parsed, 0 new"
    },
    {
     "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/october",
@@ -40,91 +48,6 @@
    }
   ]
  },
- "unmatched_clubs": [
-  "Aboh (35'), Sachdev (43')",
-  "Abrahams (24', 31', 47')",
-  "Agyemang (6')",
-  "Allarakhia (21'), Brunt (44' pen), Bird (55'), Whitfield (66')",
-  "Azeez (29'), Bunker (46', 66'), Martyn Linney (75')",
-  "Azeez (6'), Martyn Linney (34'), Williams (38'), Luamba (68')",
-  "Babalola (19'), Osadebe (26')",
-  "Baptiste (44'), Morris (58'), Mcguckin (84', 90'), Vaughan (90+6')",
-  "Bird (79'), Brunt (83')",
-  "Blair (90+4')",
-  "Brennan (89')",
-  "Bristow (15'), Heffernan (85')",
-  "Butterfield (30'), Gale (56'), Beestin (76')",
-  "Cameron (76' pen)",
-  "Campbell (38')",
-  "Carty (18'), Gilsenan (41', 44'), Tollitt (49')",
-  "Carty (47')",
-  "Clarke (4')",
-  "Colclough (75' pen), Parillon (90+2')",
-  "Coleman De-Graft (22', 90')",
-  "Crawford (13'), Humbles (55')",
-  "Crawford (8')",
-  "Donnelly (10')",
-  "Donnelly (23'), Roberts (53')",
-  "Efete (66')",
-  "Eweka (84')",
-  "Eweka (89')",
-  "Grimes (12')",
-  "Harris (77')",
-  "Hemmings (28' pen), Crawford (81')",
-  "Henry (89')",
-  "Hmami (52'), Unknown (90+1' og)",
-  "Hobson (15'), Mcgowan (41'), Hmami (62')",
-  "Hutchinson (50', 61')",
-  "James Creaney (53'), Muya Tshikuna (90+4' pen), Roberts (90+8')",
-  "Jenks (2')",
-  "Jones (14'), Spasov (57'), Powell (88', 90+6')",
-  "Jones (30'), Hurst (48'), Parker (68', 68')",
-  "Kelly (4', 90+6')",
-  "Kelly (42', 88')",
-  "Knowles (15'), Crawford (45')",
-  "Lewis (67'), Morris (84')",
-  "Mabete (48'), Etaluku (59'), Mcallister (80')",
-  "Mcallister (55')",
-  "Mcavoy (30')",
-  "Mccormick (16'), Charlie Y Obeng (52'), Jones (66')",
-  "Mccormick (75')",
-  "Mcgavin (46')",
-  "Muya Tshikuna (69' pen), Hutchinson (90+6')",
-  "Njoku (71'), Carter (78'), Babalola (90+3')",
-  "O'brien (61')",
-  "Obiero (29')",
-  "Obiero (38')",
-  "Oldaker (66'), Parillon (79'), Omochere (86')",
-  "Oliver Cook (7'), Young (39')",
-  "Osadebe (17'), Njoku (21')",
-  "Osagie Eguaibor (90')",
-  "Parillon (10')",
-  "Parillon (61'), Omochere (68'), Austin (84')",
-  "Peart (2'), Efete (19', 44'), Dinanga (33', 51')",
-  "Poleon (24'), Alexander (59')",
-  "Rush (49', 67', 69')",
-  "Rush (85', 88')",
-  "Sellars-Fleming (57')",
-  "Sidwell (14'), Lundstram (51')",
-  "Sidwell (37'), Blair (54'), Lundstram (72')",
-  "Spellman (90+4')",
-  "Taylor (86')",
-  "Thomas (60', 72')",
-  "Thomas Dolaghan (5', 38'), Hobson (78'), Thomson (88')",
-  "Tollitt (51')",
-  "Unknown (9' og), Martyn Linney (83')",
-  "Unknown (90+4' og)",
-  "Wakeling (15')",
-  "Wakeling (51')",
-  "Walker (19')",
-  "Walker (28')",
-  "Walker (43')",
-  "Ward (20'), Marquis (25', 36' pen), Akinola (60'), Syla (70')",
-  "Ward (23'), Marquis (25')",
-  "Ward (67'), Syla (89'), Harris (90+3')",
-  "Ward (75')",
-  "Whelan (17')",
-  "Wodskou (44')"
- ],
+ "unmatched_clubs": [],
  "bad_postcodes": []
 }
