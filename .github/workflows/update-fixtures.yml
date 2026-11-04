@@ -1,0 +1,32 @@
+name: Update fixtures
+
+on:
+  schedule:
+    - cron: "0 5,17 * * *"   # twice a day, UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Build fixtures
+        run: python scripts/build_fixtures.py
+      - name: Commit changes
+        run: |
+          git config user.name "fixtures-bot"
+          git config user.email "fixtures-bot@users.noreply.github.com"
+          git add docs/data data/postcode_cache.json data/raw
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update fixtures"
+            git push
+          fi

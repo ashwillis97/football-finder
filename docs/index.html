@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Football Finder – matches near you</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #ffffff; --ink: #1d2320; --muted: #5d6762;
+    --accent: #1f7a4d; --accent-ink: #ffffff; --line: #dcd8cf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151a17; --card: #1e2521; --ink: #eef1ee; --muted: #a2aca6; --accent: #3fb77a; --accent-ink: #0e1511; --line: #333c37; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+  header { padding: 20px 16px 8px; max-width: 1200px; margin: 0 auto; }
+  h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+  main { max-width: 1200px; margin: 0 auto; padding: 8px 16px 32px; display: grid; gap: 16px; grid-template-columns: 340px 1fr; }
+  @media (max-width: 820px) { main { grid-template-columns: 1fr; } }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  label { display: block; font-size: .85rem; color: var(--muted); margin: 12px 0 4px; }
+  input[type=text], select, input[type=date] { width: 100%; padding: 10px; font: inherit; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+  input[type=range] { width: 100%; accent-color: var(--accent); }
+  .row { display: flex; gap: 8px; }
+  button { font: inherit; padding: 10px 14px; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  #map { height: 460px; border-radius: 12px; border: 1px solid var(--line); }
+  #status { margin: 8px 0 0; font-size: .9rem; color: var(--muted); min-height: 1.3em; }
+  ul#list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; max-height: 420px; overflow: auto; }
+  li.match { border: 1px solid var(--line); border-radius: 10px; padding: 10px; cursor: pointer; }
+  li.match:hover, li.match:focus-visible { border-color: var(--accent); outline: none; }
+  li.match b { display: block; }
+  li.match small { color: var(--muted); }
+  .tag { display: inline-block; font-size: .75rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; }
+  footer { max-width: 1200px; margin: 0 auto; padding: 0 16px 24px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Football finder</h1>
+  <p>Find the nearest non-league and professional matches, with kick-off times and grounds.</p>
+</header>
+<main>
+  <section class="panel" aria-label="Search and filters">
+    <label for="place">Postcode or place</label>
+    <div class="row">
+      <input id="place" type="text" placeholder="e.g. NG1 5AW or Derby" autocomplete="postal-code">
+      <button id="go">Search</button>
+    </div>
+    <button id="locate" class="secondary" style="margin-top:8px;width:100%">Use my location</button>
+
+    <label for="dist">Distance: <span id="distVal">25</span> miles</label>
+    <input id="dist" type="range" min="1" max="200" value="25">
+
+    <label for="level">Level</label>
+    <select id="level"><option value="">All levels</option></select>
+
+    <label for="gender">Men's / women's</label>
+    <select id="gender">
+      <option value="">All matches</option>
+      <option value="men">Men's</option>
+      <option value="women">Women's</option>
+    </select>
+
+    <div class="row">
+      <div style="flex:1"><label for="from">From</label><input id="from" type="date"></div>
+      <div style="flex:1"><label for="to">To</label><input id="to" type="date"></div>
+    </div>
+
+    <p id="status" role="status"></p>
+    <ul id="list"></ul>
+  </section>
+  <section>
+    <div id="map" role="application" aria-label="Map of matches"></div>
+  </section>
+</main>
+<footer id="updated"></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function () {
+  var DATA = { matches: [], updated: null };
+  var origin = null;           // {lat, lon}
+  var map = L.map('map').setView([52.8, -1.6], 6);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18, attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+  var layer = L.layerGroup().addTo(map);
+  var originMarker = null;
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  function miles(a, b) {
+    var R = 3958.8, rad = Math.PI / 180;
+    var dLat = (b.lat - a.lat) * rad, dLon = (b.lon - a.lon) * rad;
+    var x = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+  }
+
+  function fmtDate(iso) {
+    var d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function render() {
+    layer.clearLayers();
+    var maxD = +$('dist').value, level = $('level').value, gender = $('gender').value;
+    var from = $('from').value, to = $('to').value;
+    var rows = DATA.matches.filter(function (m) {
+      if (m.status === 'postponed') return false;
+      if (level && m.level !== level) return false;
+      if (gender && m.gender !== gender) return false;
+      if (from && m.date < from) return false;
+      if (to && m.date > to) return false;
+      return true;
+    }).map(function (m) {
+      m.dist = origin ? miles(origin, m) : null;
+      return m;
+    }).filter(function (m) { return !origin || m.dist <= maxD; });
+
+    rows.sort(function (a, b) {
+      if (origin && a.dist !== b.dist && a.date === b.date) return a.dist - b.dist;
+      return (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''));
+    });
+    if (origin) {
+      // nearest first overall when searching by place
+      rows.sort(function (a, b) { return a.dist - b.dist; });
+    }
+
+    var list = $('list');
+    list.innerHTML = '';
+    var bounds = [];
+    rows.slice(0, 200).forEach(function (m) {
+      var ko = m.time || 'KO TBC';
+      var popup = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b><br>' +
+        esc(fmtDate(m.date)) + ', ' + esc(ko) + '<br>' +
+        esc(m.ground) + ', ' + esc(m.postcode) + '<br><small>' + esc(m.league) + '</small>';
+      var marker = L.marker([m.lat, m.lon]).bindPopup(popup).addTo(layer);
+      bounds.push([m.lat, m.lon]);
+
+      var li = document.createElement('li');
+      li.className = 'match';
+      li.tabIndex = 0;
+      li.innerHTML = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b>' +
+        '<small>' + esc(fmtDate(m.date)) + ' · ' + esc(ko) + (m.dist != null ? ' · ' + m.dist.toFixed(1) + ' mi' : '') + '<br>' +
+        esc(m.ground) + ', ' + esc(m.postcode) + '</small>' +
+        '<span class="tag">' + esc(m.level) + '</span>';
+      var open = function () { map.setView([m.lat, m.lon], 13); marker.openPopup(); };
+      li.addEventListener('click', open);
+      li.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
+      list.appendChild(li);
+    });
+
+    $('status').textContent = rows.length
+      ? rows.length + ' match' + (rows.length === 1 ? '' : 'es') + (origin ? ' within ' + maxD + ' miles' : ' found') + (rows.length > 200 ? ' (showing first 200)' : '')
+      : (DATA.matches.length ? 'No matches with those filters. Try a wider distance or date range.' : 'No fixtures loaded yet.');
+
+    if (origin) bounds.push([origin.lat, origin.lon]);
+    if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 12 });
+  }
+
+  function setOrigin(lat, lon, label) {
+    origin = { lat: lat, lon: lon };
+    if (originMarker) map.removeLayer(originMarker);
+    originMarker = L.circleMarker([lat, lon], { radius: 8, color: '#1f7a4d', fillOpacity: .9 })
+      .addTo(map).bindTooltip(label || 'You');
+    render();
+  }
+
+  function search() {
+    var q = $('place').value.trim();
+    if (!q) return;
+    $('status').textContent = 'Searching…';
+    var pc = q.replace(/\s+/g, '').toUpperCase();
+    var isPostcode = /^[A-Z]{1,2}\d[A-Z\d]?\d[A-Z]{2}$/.test(pc);
+    var url = isPostcode
+      ? 'https://api.postcodes.io/postcodes/' + encodeURIComponent(pc)
+      : 'https://api.postcodes.io/places?q=' + encodeURIComponent(q) + '&limit=1';
+    fetch(url).then(function (r) { return r.json(); }).then(function (j) {
+      var res = isPostcode ? j.result : (j.result && j.result[0]);
+      if (!res) { $('status').textContent = 'Could not find that place. Try a full postcode.'; return; }
+      setOrigin(res.latitude, res.longitude, q);
+    }).catch(function () { $('status').textContent = 'Search is unavailable right now. Please try again.'; });
+  }
+
+  $('go').addEventListener('click', search);
+  $('place').addEventListener('keydown', function (e) { if (e.key === 'Enter') search(); });
+  $('locate').addEventListener('click', function () {
+    if (!navigator.geolocation) { $('status').textContent = 'Location is not available in this browser.'; return; }
+    navigator.geolocation.getCurrentPosition(
+      function (p) { setOrigin(p.coords.latitude, p.coords.longitude, 'Your location'); },
+      function () { $('status').textContent = 'Location permission was declined. Enter a postcode instead.'; });
+  });
+  $('dist').addEventListener('input', function () { $('distVal').textContent = this.value; render(); });
+  ['level', 'gender', 'from', 'to'].forEach(function (id) { $(id).addEventListener('change', render); });
+
+  var today = new Date().toISOString().slice(0, 10);
+  $('from').value = today;
+
+  fetch('data/fixtures.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+    DATA = d;
+    var levels = Array.from(new Set(d.matches.map(function (m) { return m.level; }))).sort();
+    levels.forEach(function (l) {
+      var o = document.createElement('option'); o.value = l; o.textContent = l; $('level').appendChild(o);
+    });
+    if (d.updated) $('updated').textContent = 'Fixtures last updated ' + new Date(d.updated).toLocaleString('en-GB') + '. Kick-off times and dates can change; check the club before travelling.';
+    render();
+  }).catch(function () { $('status').textContent = 'Could not load fixtures.'; });
+})();
+</script>
+</body>
+</html>
