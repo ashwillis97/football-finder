@@ -10,7 +10,7 @@
    "may": 50
   },
   "clubs": 20,
-  "missing_grounds": 6,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "championship": {
@@ -24,7 +24,7 @@
    "may": 12
   },
   "clubs": 24,
-  "missing_grounds": 15,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "league-one": {
@@ -38,7 +38,7 @@
    "may": 24
   },
   "clubs": 24,
-  "missing_grounds": 13,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "league-two": {
@@ -52,7 +52,7 @@
    "may": 24
   },
   "clubs": 24,
-  "missing_grounds": 12,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "national-league": {
@@ -78,7 +78,7 @@
    "april": 48
   },
   "clubs": 24,
-  "missing_grounds": 12,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "national-league-south": {
@@ -91,7 +91,7 @@
    "april": 48
   },
   "clubs": 24,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
@@ -104,7 +104,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 7,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-premier-division": {
@@ -117,7 +117,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 8,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
@@ -130,7 +130,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 10,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
@@ -143,7 +143,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 8,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-premier-league-east-division": {
@@ -156,7 +156,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 8,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-premier-league-midlands-division": {
@@ -169,7 +169,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 7,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-premier-league-west-division": {
@@ -182,7 +182,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 12,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
@@ -195,7 +195,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
@@ -208,7 +208,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 6,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-south-east-division": {
@@ -221,7 +221,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 10,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
@@ -234,7 +234,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 10,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
@@ -247,7 +247,7 @@
    "april": 32
   },
   "clubs": 22,
-  "missing_grounds": 12,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-premier-division-north": {
@@ -260,7 +260,7 @@
    "april": 15
   },
   "clubs": 20,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-premier-division-south": {
@@ -273,7 +273,7 @@
    "april": 17
   },
   "clubs": 20,
-  "missing_grounds": 8,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "eastern-counties-league-premier-division": {
@@ -286,7 +286,7 @@
    "april": 23
   },
   "clubs": 20,
-  "missing_grounds": 8,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "essex-senior-league": {
@@ -299,7 +299,7 @@
    "april": 29
   },
   "clubs": 20,
-  "missing_grounds": 7,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "hellenic-league-premier-division": {
@@ -312,7 +312,7 @@
    "april": 40
   },
   "clubs": 21,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-league-division-one": {
@@ -325,7 +325,7 @@
    "april": 29
   },
   "clubs": 21,
-  "missing_grounds": 13,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
@@ -338,7 +338,7 @@
    "april": 10
   },
   "clubs": 20,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-counties-east-league-premier-division": {
@@ -351,8 +351,10 @@
    "april": 36
   },
   "clubs": 18,
-  "missing_grounds": 7,
-  "unlocated": []
+  "missing_grounds": 0,
+  "unlocated": [
+   "Petts Wood & Holmesdale"
+  ]
  },
  "spartan-south-midlands-league-premier-division": {
   "fixtures": 249,
@@ -364,7 +366,7 @@
    "april": 30
   },
   "clubs": 20,
-  "missing_grounds": 8,
+  "missing_grounds": 2,
   "unlocated": [
    "Arlesey Town",
    "Baldock Town",
@@ -381,14 +383,14 @@
    "april": 18
   },
   "clubs": 18,
-  "missing_grounds": 4,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
   "fixtures": 36,
   "months": {},
   "clubs": 19,
-  "missing_grounds": 7,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-division-one": {
@@ -401,7 +403,7 @@
    "april": 14
   },
   "clubs": 22,
-  "missing_grounds": 11,
+  "missing_grounds": 0,
   "unlocated": [
    "Eagles Land Benfica"
   ]
@@ -410,7 +412,7 @@
   "fixtures": 30,
   "months": {},
   "clubs": 18,
-  "missing_grounds": 10,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-league-division-two": {
@@ -423,7 +425,7 @@
    "april": 30
   },
   "clubs": 20,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "northern-counties-east-league-division-one": {
@@ -436,7 +438,7 @@
    "april": 20
   },
   "clubs": 21,
-  "missing_grounds": 6,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "southern-counties-east-league-first-division": {
@@ -449,7 +451,7 @@
    "april": 36
   },
   "clubs": 18,
-  "missing_grounds": 9,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "united-counties-league-division-one": {
@@ -462,7 +464,7 @@
    "april": 33
   },
   "clubs": 22,
-  "missing_grounds": 14,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "womens-super-league": {
@@ -514,8 +516,8 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 450,
-  "not_yet_fetched": 342,
+  "fetched_this_run": 342,
+  "not_yet_fetched": 0,
   "page_has_no_ground_info": [
    "afc bournemouth",
    "afc welwyn",
@@ -546,181 +548,34 @@
    "liverpool feds wfc",
    "london city lionesses",
    "loughborough lightning",
-   "lowestoft town",
-   "ludlow town",
-   "luton town",
-   "lutterworth town",
-   "lydd town",
-   "lydney town",
-   "macclesfield",
-   "maidenhead town",
-   "maidenhead united",
-   "maidstone united",
-   "maldon & tiptree",
-   "malmesbury victoria",
-   "maltby main",
-   "malvern town",
-   "manchester city",
    "manchester city",
    "manchester united",
-   "manchester united",
-   "mangotsfield united",
-   "mansfield town",
-   "march town united",
-   "margate",
-   "marine",
-   "marlow",
-   "marske united",
-   "matlock town",
-   "melksham town",
-   "merstham",
-   "merthyr town",
-   "metropolitan police",
-   "mickleover",
    "middlesbrough",
-   "middlesbrough",
-   "mildenhall town",
-   "millwall",
-   "milton keynes dons",
-   "milton keynes irish",
-   "minster",
-   "molesey",
-   "moneyfields",
-   "morecambe",
-   "morpeth town",
-   "mossley",
-   "moulton",
-   "mulbarton wanderers",
-   "nantwich town",
-   "needham market",
-   "newark town",
-   "newcastle benfield",
-   "newcastle blue star",
-   "newcastle town",
    "newcastle united",
-   "newcastle united",
-   "newcastle university",
-   "newent town",
-   "newmarket town",
-   "newport county",
-   "newport pagnell town",
-   "newton aycliffe",
-   "north ferriby",
-   "north greenford united",
-   "north leigh",
-   "north shields",
-   "northallerton town",
-   "northampton on chenecks",
-   "northampton sileby rangers",
-   "northampton town",
-   "northwood",
-   "norwich city",
    "norwich city",
    "nottingham forest",
-   "nottingham forest",
-   "notts county",
-   "nuneaton town",
-   "oldham athletic",
-   "ossett united",
-   "oxford city",
    "oxford united",
-   "oxford united",
-   "oxhey jets",
-   "padiham",
-   "park view afc",
-   "parkgate",
-   "paulton rovers",
-   "peacehaven & telscombe",
-   "penistone church",
-   "penn & tylers green",
-   "penrith",
-   "pershore town",
-   "peterborough sports",
    "peterborough united",
-   "peterborough united",
-   "petts wood & holmesdale",
-   "pfc victoria london",
-   "phoenix sports",
-   "pickering town",
-   "pinchbeck united",
-   "pinxton",
    "plymouth argyle",
-   "plymouth argyle",
-   "plymouth parkway",
-   "pontefract collieries",
-   "poole town",
-   "port vale",
-   "portland united",
    "portsmouth",
-   "portsmouth",
-   "potters bar town",
-   "potton united",
-   "prescot cables",
-   "preston north end",
-   "prudhoe yc seniors",
-   "punjab united",
-   "queens park rangers",
-   "quorn",
-   "racing club warwick",
-   "radcliffe",
-   "radford",
-   "ramsgate",
-   "rayners lane",
-   "raynes park vale",
-   "reading",
-   "reading city",
    "real bedford",
-   "real bedford",
-   "redbridge",
-   "redcar athletic",
-   "redcar town",
-   "redditch borough",
-   "redditch united",
-   "redhill",
-   "retford fc",
-   "retford united",
-   "risborough rangers",
-   "rochdale",
-   "rochester united",
-   "roman glass st george",
-   "romford",
-   "rossington main",
-   "rotherham united",
-   "route one rovers",
-   "royal wootton bassett",
-   "royston town",
    "rugby borough",
-   "rugby borough",
-   "rugby town",
-   "runcorn linnets",
-   "rushall olympic",
-   "rusthall",
-   "ryton & crawcrook albion",
-   "saffron walden town",
-   "salford city",
-   "salisbury",
-   "sandiacre town",
-   "sawbridgeworth town",
-   "sc thamesmead",
-   "scarborough athletic",
-   "se dons",
-   "seaham red star",
-   "seaton carew",
-   "selby town",
-   "selston",
-   "sevenoaks town",
-   "shaftesbury",
-   "sharpness",
-   "sheerwater",
-   "sheffield",
    "sheffield united",
-   "sheffield united",
-   "sheffield wednesday",
-   "shepherd's bush"
+   "southampton",
+   "stoke city",
+   "sunderland",
+   "swindon town",
+   "tottenham hotspur",
+   "watford",
+   "west bromwich albion",
+   "west ham united",
+   "wolverhampton wanderers"
   ]
  },
  "low_confidence_places": [],
  "bad_postcodes": [
+  "BR52 8HG",
+  "JE2 4LF",
   "SB15 6RS"
  ]
 }
