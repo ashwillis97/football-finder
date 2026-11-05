@@ -24,6 +24,8 @@ CACHE = ROOT / "data" / "postcode_cache.json"
 PLACE_CACHE = ROOT / "data" / "place_cache.json"
 DEBUG = ROOT / "data" / "debug"
 MISSING = ROOT / "data" / "missing_grounds.csv"
+CLUBINFO = ROOT / "data" / "club_info_cache.json"
+CLUB_PAGE_BUDGET = int(__import__("os").environ.get("CLUB_PAGE_BUDGET", "450"))  # club pages fetched per run
 MAX_PLACE_LOOKUPS = 250  # per run, so a first run on a big list stays quick; the rest follow next run
 
 USER_AGENT = "football-finder/0.1 (+https://github.com/ashwillis97/football-finder)"
@@ -307,6 +309,77 @@ def fetch(url):
     return r.text
 
 
+POSTCODE = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?)\s*([0-9O][A-Z]{2})\b")
+KNOWN_LABELS = {"ground", "address", "capacity", "manager", "colours (home)", "colours (away)",
+                "official club website", "social media accounts", "club information"}
+
+
+def team_slugs(html):
+    """{club title: page slug} from the teams list on a league page."""
+    soup = BeautifulSoup(html, "html.parser")
+    out = {}
+    for ul in soup.find_all("ul", class_="teams"):
+        for a in ul.find_all("a", href=True):
+            title = clean(a.get("title") or a.get_text(" "))
+            href = a["href"].strip("/")
+            if title and href and "/" not in href:
+                out[title] = href
+    return out
+
+
+def parse_club_info(html):
+    """Read Ground and Address from a club's club-information page. Works whether the
+    label and value are table cells or separate blocks, since it reads the page text line by line."""
+    soup = BeautifulSoup(html, "html.parser")
+    lines = [clean(l) for l in soup.get_text("\n").split("\n")]
+    lines = [l for l in lines if l]
+
+    def value(label):
+        for i, l in enumerate(lines):
+            if l.lower().rstrip(":").strip() == label:
+                nxt = lines[i + 1] if i + 1 < len(lines) else ""
+                return "" if nxt.lower().rstrip(":").strip() in KNOWN_LABELS else nxt
+        for l in lines:  # label and value on one line
+            m = re.match(rf"^{label}\s*:\s*(.+)$", l, re.I)
+            if m:
+                return m.group(1)
+        return ""
+
+    ground, address = value("ground"), value("address")
+    m = POSTCODE.search(address.upper())
+    postcode = f"{m.group(1)} {m.group(2).replace('O', '0', 1) if m.group(2)[0] == 'O' else m.group(2)}" if m else ""
+    return {"ground": ground, "address": address, "postcode": postcode}
+
+
+def fetch_club_info(slugs, cache, budget):
+    """Fetch club-information pages not yet cached (or stale). Stops on any refusal."""
+    today = datetime.now(timezone.utc).date()
+    fetched = 0
+    for slug in sorted(slugs):
+        entry = cache.get(slug)
+        if entry:
+            age = (today - datetime.fromisoformat(entry["fetched"]).date()).days
+            if age < (90 if (entry.get("ground") or entry.get("postcode")) else 14):
+                continue
+        if fetched >= budget:
+            break
+        try:
+            html = fetch(f"https://www.footballwebpages.co.uk/{slug}/club-information")
+        except RuntimeError as e:
+            print(f"club pages: {e}", file=sys.stderr)
+            break
+        except requests.RequestException as e:
+            print(f"club page {slug}: {e}", file=sys.stderr)
+            time.sleep(2)
+            continue
+        info = parse_club_info(html)
+        info["fetched"] = today.isoformat()
+        cache[slug] = info
+        fetched += 1
+        time.sleep(1.5)
+    return fetched
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--html", help="parse a local HTML file instead of fetching")
@@ -317,7 +390,7 @@ def main():
     if args.league:
         leagues = [l for l in leagues if l["id"] == args.league]
 
-    all_fixtures, report, league_clubs = [], {}, {}
+    all_fixtures, report, league_clubs, club_slugs = [], {}, {}, {}
     for league in leagues:
         if args.html:
             html = Path(args.html).read_text(encoding="utf-8")
@@ -331,6 +404,8 @@ def main():
                 continue
             time.sleep(2)  # be polite between requests
         fixtures, _ = parse_fixtures(html, league)
+        for title, slug in team_slugs(html).items():
+            club_slugs.setdefault((title.lower(), league["gender"]), slug)
         months = {}
         if not args.html:
             base = league["url"].rstrip("/")
@@ -357,6 +432,26 @@ def main():
         all_fixtures.extend(fixtures)
 
     grounds = load_grounds()
+    club_info = json.loads(CLUBINFO.read_text()) if CLUBINFO.exists() else {}
+    need = {slug for (c, g), slug in club_slugs.items() if (c, g) not in grounds and (c, "") not in grounds}
+    fetched = 0
+    if not args.html:
+        fetched = fetch_club_info(need, club_info, CLUB_PAGE_BUDGET)
+        CLUBINFO.parent.mkdir(parents=True, exist_ok=True)
+        CLUBINFO.write_text(json.dumps(club_info, indent=1, sort_keys=True))
+    no_info = []
+    for (c, g), slug in club_slugs.items():
+        if (c, g) in grounds or (c, "") in grounds:
+            continue
+        info = club_info.get(slug)
+        if info and (info.get("ground") or info.get("postcode") or info.get("address")):
+            grounds[(c, g)] = {"club": c, "gender": g, "ground": info.get("ground", ""),
+                               "town": "" if info.get("postcode") else info.get("address", ""),
+                               "postcode": info.get("postcode", "")}
+        else:
+            no_info.append(c)
+    report["club_pages"] = {"fetched_this_run": fetched, "not_yet_fetched": len([s_ for s_ in need if s_ not in club_info]),
+                            "page_has_no_ground_info": sorted(no_info)[:200]}
     coords = geocode(sorted({g["postcode"] for g in grounds.values() if g.get("postcode")}))
     need_places = {(g["ground"], g.get("town", "")) for g in grounds.values()
                    if g.get("ground") and g.get("town") and not (g.get("postcode") and coords.get(g["postcode"]))}
