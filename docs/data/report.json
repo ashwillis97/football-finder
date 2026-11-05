@@ -1,53 +1,512 @@
 {
- "national-league": {
-  "fixtures": 364,
-  "month_links": [
-   "embed?national-league%2Ffixtures-results",
-   "national-league/fixtures-results"
-  ],
-  "month_attempts": [
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/august",
-    "result": "0 parsed, 0 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results?month=august",
-    "result": "49 parsed, 0 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/september",
-    "result": "0 parsed, 0 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results?month=september",
-    "result": "49 parsed, 0 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/october",
-    "result": "1 parsed, 1 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/december",
-    "result": "61 parsed, 61 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/january",
-    "result": "61 parsed, 61 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/february",
-    "result": "72 parsed, 72 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/march",
-    "result": "72 parsed, 72 new"
-   },
-   {
-    "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results/april",
-    "result": "48 parsed, 48 new"
-   }
-  ]
+ "premier-league": {
+  "fixtures": 293,
+  "months": {
+   "december": 63,
+   "january": 50,
+   "february": 40,
+   "march": 30,
+   "april": 30,
+   "may": 50
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
  },
- "unmatched_clubs": [],
+ "championship": {
+  "fixtures": 384,
+  "months": {
+   "december": 72,
+   "january": 60,
+   "february": 60,
+   "march": 60,
+   "april": 72,
+   "may": 12
+  },
+  "clubs": 24,
+  "missing_grounds": 24,
+  "unlocated": []
+ },
+ "league-one": {
+  "fixtures": 391,
+  "months": {
+   "december": 63,
+   "january": 74,
+   "february": 60,
+   "march": 60,
+   "april": 72,
+   "may": 24
+  },
+  "clubs": 24,
+  "missing_grounds": 24,
+  "unlocated": []
+ },
+ "league-two": {
+  "fixtures": 388,
+  "months": {
+   "december": 62,
+   "january": 72,
+   "february": 60,
+   "march": 60,
+   "april": 72,
+   "may": 24
+  },
+  "clubs": 24,
+  "missing_grounds": 24,
+  "unlocated": []
+ },
+ "national-league": {
+  "fixtures": 363,
+  "months": {
+   "december": 61,
+   "january": 61,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
+ },
+ "national-league-north": {
+  "fixtures": 380,
+  "months": {
+   "december": 64,
+   "january": 72,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
+  "missing_grounds": 24,
+  "unlocated": []
+ },
+ "national-league-south": {
+  "fixtures": 379,
+  "months": {
+   "december": 63,
+   "january": 71,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
+  "missing_grounds": 24,
+  "unlocated": []
+ },
+ "northern-premier-league-premier-division": {
+  "fixtures": 288,
+  "months": {
+   "december": 51,
+   "january": 55,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "isthmian-football-league-premier-division": {
+  "fixtures": 303,
+  "months": {
+   "december": 51,
+   "january": 59,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "southern-football-league-premier-central-division": {
+  "fixtures": 301,
+  "months": {
+   "december": 51,
+   "january": 56,
+   "february": 45,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "southern-football-league-premier-south-division": {
+  "fixtures": 293,
+  "months": {
+   "december": 48,
+   "january": 56,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "northern-premier-league-east-division": {
+  "fixtures": 280,
+  "months": {
+   "december": 45,
+   "january": 54,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "northern-premier-league-midlands-division": {
+  "fixtures": 287,
+  "months": {
+   "december": 49,
+   "january": 55,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "northern-premier-league-west-division": {
+  "fixtures": 284,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 43,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "isthmian-football-league-north-division": {
+  "fixtures": 299,
+  "months": {
+   "december": 47,
+   "january": 55,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "isthmian-football-league-south-central-division": {
+  "fixtures": 306,
+  "months": {
+   "december": 53,
+   "january": 55,
+   "february": 55,
+   "march": 54,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "isthmian-football-league-south-east-division": {
+  "fixtures": 303,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "southern-football-league-division-one-central": {
+  "fixtures": 299,
+  "months": {
+   "december": 50,
+   "january": 55,
+   "february": 43,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "southern-football-league-division-one-south": {
+  "fixtures": 292,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 43,
+   "march": 55,
+   "april": 32
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "combined-counties-league-premier-division-north": {
+  "fixtures": 226,
+  "months": {
+   "december": 41,
+   "january": 52,
+   "february": 36,
+   "march": 48,
+   "april": 15
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "combined-counties-league-premier-division-south": {
+  "fixtures": 231,
+  "months": {
+   "december": 41,
+   "january": 51,
+   "february": 40,
+   "march": 44,
+   "april": 17
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "eastern-counties-league-premier-division": {
+  "fixtures": 235,
+  "months": {
+   "december": 38,
+   "january": 47,
+   "february": 41,
+   "march": 42,
+   "april": 23
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "essex-senior-league": {
+  "fixtures": 257,
+  "months": {
+   "december": 46,
+   "january": 47,
+   "february": 41,
+   "march": 41,
+   "april": 29
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "hellenic-league-premier-division": {
+  "fixtures": 254,
+  "months": {
+   "december": 33,
+   "january": 55,
+   "february": 45,
+   "march": 44,
+   "april": 40
+  },
+  "clubs": 21,
+  "missing_grounds": 21,
+  "unlocated": []
+ },
+ "northern-league-division-one": {
+  "fixtures": 207,
+  "months": {
+   "december": 37,
+   "january": 45,
+   "february": 29,
+   "march": 29,
+   "april": 29
+  },
+  "clubs": 21,
+  "missing_grounds": 21,
+  "unlocated": []
+ },
+ "northern-counties-east-league-premier-division": {
+  "fixtures": 210,
+  "months": {
+   "december": 43,
+   "january": 43,
+   "february": 40,
+   "march": 25,
+   "april": 10
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "southern-counties-east-league-premier-division": {
+  "fixtures": 196,
+  "months": {
+   "december": 35,
+   "january": 40,
+   "february": 27,
+   "march": 32,
+   "april": 36
+  },
+  "clubs": 18,
+  "missing_grounds": 18,
+  "unlocated": []
+ },
+ "spartan-south-midlands-league-premier-division": {
+  "fixtures": 249,
+  "months": {
+   "december": 39,
+   "january": 50,
+   "february": 36,
+   "march": 57,
+   "april": 30
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "united-counties-league-premier-division-north": {
+  "fixtures": 182,
+  "months": {
+   "december": 37,
+   "january": 44,
+   "february": 24,
+   "march": 24,
+   "april": 18
+  },
+  "clubs": 18,
+  "missing_grounds": 18,
+  "unlocated": []
+ },
+ "united-counties-league-premier-division-south": {
+  "fixtures": 36,
+  "months": {},
+  "clubs": 19,
+  "missing_grounds": 19,
+  "unlocated": []
+ },
+ "combined-counties-league-division-one": {
+  "fixtures": 252,
+  "months": {
+   "december": 45,
+   "january": 57,
+   "february": 40,
+   "march": 49,
+   "april": 14
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "hellenic-league-division-one": {
+  "fixtures": 30,
+  "months": {},
+  "clubs": 18,
+  "missing_grounds": 18,
+  "unlocated": []
+ },
+ "northern-league-division-two": {
+  "fixtures": 199,
+  "months": {
+   "december": 31,
+   "january": 44,
+   "february": 28,
+   "march": 26,
+   "april": 30
+  },
+  "clubs": 20,
+  "missing_grounds": 20,
+  "unlocated": []
+ },
+ "northern-counties-east-league-division-one": {
+  "fixtures": 233,
+  "months": {
+   "december": 41,
+   "january": 50,
+   "february": 40,
+   "march": 40,
+   "april": 20
+  },
+  "clubs": 21,
+  "missing_grounds": 21,
+  "unlocated": []
+ },
+ "southern-counties-east-league-first-division": {
+  "fixtures": 191,
+  "months": {
+   "december": 26,
+   "january": 38,
+   "february": 29,
+   "march": 34,
+   "april": 36
+  },
+  "clubs": 18,
+  "missing_grounds": 18,
+  "unlocated": []
+ },
+ "united-counties-league-division-one": {
+  "fixtures": 268,
+  "months": {
+   "december": 43,
+   "january": 56,
+   "february": 43,
+   "march": 44,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 22,
+  "unlocated": []
+ },
+ "womens-super-league": {
+  "fixtures": 126,
+  "months": {
+   "december": 14,
+   "january": 28,
+   "february": 14,
+   "march": 21,
+   "april": 8,
+   "may": 20
+  },
+  "clubs": 14,
+  "missing_grounds": 14,
+  "unlocated": []
+ },
+ "womens-super-league-two": {
+  "fixtures": 96,
+  "months": {
+   "december": 6,
+   "january": 24,
+   "february": 12,
+   "march": 18,
+   "april": 12,
+   "may": 12
+  },
+  "clubs": 12,
+  "missing_grounds": 12,
+  "unlocated": []
+ },
+ "womens-national-league-north": {
+  "fixtures": 72,
+  "months": {
+   "december": 6,
+   "january": 12,
+   "february": 18,
+   "march": 12,
+   "april": 12
+  },
+  "clubs": 12,
+  "missing_grounds": 12,
+  "unlocated": []
+ },
+ "womens-national-league-south": {
+  "fixtures": 13,
+  "months": {},
+  "clubs": 12,
+  "missing_grounds": 12,
+  "unlocated": []
+ },
+ "low_confidence_places": [],
  "bad_postcodes": []
 }
