@@ -2,7 +2,7 @@ name: Update fixtures
 
 on:
   schedule:
-    - cron: "0 5,17 * * *"   # twice a day, UTC
+    - cron: "30 5 * * *"   # once a day, UTC
   workflow_dispatch: {}
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,10 +24,11 @@ jobs:
         run: |
           git config user.name "fixtures-bot"
           git config user.email "fixtures-bot@users.noreply.github.com"
-          git add docs/data data/postcode_cache.json data/raw
+          git add docs/data data/postcode_cache.json data/place_cache.json data/missing_grounds.csv data/debug 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes"
           else
             git commit -m "Update fixtures"
+            git pull --rebase origin main
             git push
           fi

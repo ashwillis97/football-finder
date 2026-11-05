@@ -1,25 +1,25 @@
-club,ground,postcode
-Aldershot Town,EBB Stadium,GU11 1TW
-Altrincham,Moss Lane,WA15 8AP
-AFC Fylde,Mill Farm,PR4 3HD
-Barrow,Holker Street,LA14 5UW
-Boreham Wood,Meadow Park,WD6 5AL
-Carlisle United,Brunton Park,CA1 1LL
-Eastleigh,Silverlake Stadium,SO50 9HT
-FC Halifax Town,The Shay,HX1 2YS
-Forest Green Rovers,The New Lawn,GL5 5NF
-Gateshead,Gateshead International Stadium,NE10 0EF
-Harrogate Town,Wetherby Road,HG2 7SA
-Hartlepool United,Victoria Park,TS24 8BZ
-Kidderminster Harriers,Aggborough,DY10 1QR
-Scunthorpe United,Glanford Park,DN15 8TD
-Solihull Moors,Damson Park,B92 9EJ
-Southend United,Roots Hall,SS2 6NQ
-Sutton United,Gander Green Lane,SM1 2EY
-Wealdstone,Grosvenor Vale,HA4 6JQ
-Worthing,Woodside Road,BN14 7HQ
-Boston United,Jakemans Stadium,PE21 8JJ
-Hornchurch,Hornchurch Stadium,RM13 9AA
-Woking,Kingfield Stadium,GU22 9AA
-Yeovil Town,Huish Park,BA22 8YF
-Tamworth,The Lamb Ground,B77 1AA
+club,gender,ground,town,postcode
+Aldershot Town,men,EBB Stadium,Aldershot,GU11 1TW
+Altrincham,men,Moss Lane,Altrincham,WA15 8AP
+AFC Fylde,men,Mill Farm,Wesham,PR4 3HD
+Barrow,men,Holker Street,Barrow-in-Furness,LA14 5UW
+Boreham Wood,men,Meadow Park,Borehamwood,WD6 5AL
+Carlisle United,men,Brunton Park,Carlisle,CA1 1LL
+Eastleigh,men,Silverlake Stadium,Eastleigh,SO50 9HT
+FC Halifax Town,men,The Shay,Halifax,HX1 2YS
+Forest Green Rovers,men,The New Lawn,Nailsworth,GL5 5NF
+Gateshead,men,Gateshead International Stadium,Gateshead,NE10 0EF
+Harrogate Town,men,Wetherby Road,Harrogate,HG2 7SA
+Hartlepool United,men,Victoria Park,Hartlepool,TS24 8BZ
+Kidderminster Harriers,men,Aggborough,Kidderminster,DY10 1QR
+Scunthorpe United,men,Glanford Park,Scunthorpe,DN15 8TD
+Solihull Moors,men,Damson Park,Solihull,B92 9EJ
+Southend United,men,Roots Hall,Southend-on-Sea,SS2 6NQ
+Sutton United,men,Gander Green Lane,Sutton,SM1 2EY
+Wealdstone,men,Grosvenor Vale,Harrow,HA4 6JQ
+Worthing,men,Woodside Road,Worthing,BN14 7HQ
+Boston United,men,Jakemans Stadium,Boston,PE21 8JJ
+Hornchurch,men,Hornchurch Stadium,Hornchurch,RM13 9AA
+Woking,men,Kingfield Stadium,Woking,GU22 9AA
+Yeovil Town,men,Huish Park,Yeovil,BA22 8YF
+Tamworth,men,The Lamb Ground,Tamworth,B77 1AA

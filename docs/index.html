@@ -105,6 +105,10 @@
     return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
   }
 
+  function addr(m) {
+    return [m.ground, m.town, m.postcode].filter(Boolean).join(', ');
+  }
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -162,7 +166,7 @@
       var ko = m.time || 'KO TBC';
       var popup = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b><br>' +
         esc(fmtDate(m.date)) + ', ' + esc(ko) + '<br>' +
-        esc(m.ground) + ', ' + esc(m.postcode) + '<br><small>' + esc(m.league) + '</small>';
+        esc(addr(m)) + '<br><small>' + esc(m.league) + '</small>';
       var marker = L.marker([m.lat, m.lon]).bindPopup(popup).addTo(layer);
       bounds.push([m.lat, m.lon]);
 
@@ -171,7 +175,7 @@
       li.tabIndex = 0;
       li.innerHTML = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b>' +
         '<small>' + esc(fmtDate(m.date)) + ' · ' + esc(ko) + (m.dist != null ? ' · ' + m.dist.toFixed(1) + ' mi' : '') + '<br>' +
-        esc(m.ground) + ', ' + esc(m.postcode) + '</small>' +
+        esc(addr(m)) + '</small>' +
         '<span class="tag">' + esc(m.level) + '</span>';
       var open = function () { map.setView([m.lat, m.lon], 13); marker.openPopup(); };
       li.addEventListener('click', open);
@@ -227,7 +231,12 @@
 
   fetch('data/fixtures.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
     DATA = d;
-    var levels = Array.from(new Set(d.matches.map(function (m) { return m.level; }))).sort();
+    var ORDER = ['Premier League', 'EFL Championship', 'EFL League One', 'EFL League Two', 'Step 1', 'Step 2', 'Step 3',
+      'Step 4', 'Step 5', 'Step 6', "Women's Super League", "Women's Super League 2", "Women's National League"];
+    var levels = Array.from(new Set(d.matches.map(function (m) { return m.level; }))).sort(function (a, b) {
+      var ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
     levels.forEach(function (l) {
       var o = document.createElement('option'); o.value = l; o.textContent = l; $('level').appendChild(o);
     });

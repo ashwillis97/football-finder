@@ -1,9 +1,282 @@
 [
   {
+    "id": "premier-league",
+    "name": "Premier League",
+    "level": "Premier League",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/premier-league/fixtures-results"
+  },
+  {
+    "id": "championship",
+    "name": "Championship",
+    "level": "EFL Championship",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/championship/fixtures-results"
+  },
+  {
+    "id": "league-one",
+    "name": "League One",
+    "level": "EFL League One",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/league-one/fixtures-results"
+  },
+  {
+    "id": "league-two",
+    "name": "League Two",
+    "level": "EFL League Two",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/league-two/fixtures-results"
+  },
+  {
     "id": "national-league",
     "name": "National League",
     "level": "Step 1",
     "gender": "men",
     "url": "https://www.footballwebpages.co.uk/national-league/fixtures-results"
+  },
+  {
+    "id": "national-league-north",
+    "name": "National League North",
+    "level": "Step 2",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/national-league-north/fixtures-results"
+  },
+  {
+    "id": "national-league-south",
+    "name": "National League South",
+    "level": "Step 2",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/national-league-south/fixtures-results"
+  },
+  {
+    "id": "northern-premier-league-premier-division",
+    "name": "Northern Premier League Premier",
+    "level": "Step 3",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-premier-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "isthmian-football-league-premier-division",
+    "name": "Isthmian League Premier",
+    "level": "Step 3",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/isthmian-football-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "southern-football-league-premier-central-division",
+    "name": "Southern League Premier Central",
+    "level": "Step 3",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-football-league-premier-central-division/fixtures-results"
+  },
+  {
+    "id": "southern-football-league-premier-south-division",
+    "name": "Southern League Premier South",
+    "level": "Step 3",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-football-league-premier-south-division/fixtures-results"
+  },
+  {
+    "id": "northern-premier-league-east-division",
+    "name": "Northern Premier League East",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-premier-league-east-division/fixtures-results"
+  },
+  {
+    "id": "northern-premier-league-midlands-division",
+    "name": "Northern Premier League Midlands",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-premier-league-midlands-division/fixtures-results"
+  },
+  {
+    "id": "northern-premier-league-west-division",
+    "name": "Northern Premier League West",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results"
+  },
+  {
+    "id": "isthmian-football-league-north-division",
+    "name": "Isthmian League North",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/isthmian-football-league-north-division/fixtures-results"
+  },
+  {
+    "id": "isthmian-football-league-south-central-division",
+    "name": "Isthmian League South Central",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/isthmian-football-league-south-central-division/fixtures-results"
+  },
+  {
+    "id": "isthmian-football-league-south-east-division",
+    "name": "Isthmian League South East",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/isthmian-football-league-south-east-division/fixtures-results"
+  },
+  {
+    "id": "southern-football-league-division-one-central",
+    "name": "Southern League Division One Central",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-football-league-division-one-central/fixtures-results"
+  },
+  {
+    "id": "southern-football-league-division-one-south",
+    "name": "Southern League Division One South",
+    "level": "Step 4",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-football-league-division-one-south/fixtures-results"
+  },
+  {
+    "id": "combined-counties-league-premier-division-north",
+    "name": "Combined Counties Premier North",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/combined-counties-league-premier-division-north/fixtures-results"
+  },
+  {
+    "id": "combined-counties-league-premier-division-south",
+    "name": "Combined Counties Premier South",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/combined-counties-league-premier-division-south/fixtures-results"
+  },
+  {
+    "id": "eastern-counties-league-premier-division",
+    "name": "Eastern Counties Premier",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/eastern-counties-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "essex-senior-league",
+    "name": "Essex Senior League",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/essex-senior-league/fixtures-results"
+  },
+  {
+    "id": "hellenic-league-premier-division",
+    "name": "Hellenic League Premier",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/hellenic-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "northern-league-division-one",
+    "name": "Northern League Division One",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-league-division-one/fixtures-results"
+  },
+  {
+    "id": "northern-counties-east-league-premier-division",
+    "name": "Northern Counties East Premier",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-counties-east-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "southern-counties-east-league-premier-division",
+    "name": "Southern Counties East Premier",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-counties-east-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "spartan-south-midlands-league-premier-division",
+    "name": "Spartan South Midlands Premier",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/spartan-south-midlands-league-premier-division/fixtures-results"
+  },
+  {
+    "id": "united-counties-league-premier-division-north",
+    "name": "United Counties Premier North",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/united-counties-league-premier-division-north/fixtures-results"
+  },
+  {
+    "id": "united-counties-league-premier-division-south",
+    "name": "United Counties Premier South",
+    "level": "Step 5",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/united-counties-league-premier-division-south/fixtures-results"
+  },
+  {
+    "id": "combined-counties-league-division-one",
+    "name": "Combined Counties Division One",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/combined-counties-league-division-one/fixtures-results"
+  },
+  {
+    "id": "hellenic-league-division-one",
+    "name": "Hellenic League Division One",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/hellenic-league-division-one/fixtures-results"
+  },
+  {
+    "id": "northern-league-division-two",
+    "name": "Northern League Division Two",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-league-division-two/fixtures-results"
+  },
+  {
+    "id": "northern-counties-east-league-division-one",
+    "name": "Northern Counties East Division One",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/northern-counties-east-league-division-one/fixtures-results"
+  },
+  {
+    "id": "southern-counties-east-league-first-division",
+    "name": "Southern Counties East First Division",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/southern-counties-east-league-first-division/fixtures-results"
+  },
+  {
+    "id": "united-counties-league-division-one",
+    "name": "United Counties Division One",
+    "level": "Step 6",
+    "gender": "men",
+    "url": "https://www.footballwebpages.co.uk/united-counties-league-division-one/fixtures-results"
+  },
+  {
+    "id": "womens-super-league",
+    "name": "Women's Super League",
+    "level": "Women's Super League",
+    "gender": "women",
+    "url": "https://www.footballwebpages.co.uk/womens-super-league/fixtures-results"
+  },
+  {
+    "id": "womens-super-league-two",
+    "name": "Women's Super League 2",
+    "level": "Women's Super League 2",
+    "gender": "women",
+    "url": "https://www.footballwebpages.co.uk/womens-super-league-two/fixtures-results"
+  },
+  {
+    "id": "womens-national-league-north",
+    "name": "Women's National League North",
+    "level": "Women's National League",
+    "gender": "women",
+    "url": "https://www.footballwebpages.co.uk/womens-national-league-north/fixtures-results"
+  },
+  {
+    "id": "womens-national-league-south",
+    "name": "Women's National League South",
+    "level": "Women's National League",
+    "gender": "women",
+    "url": "https://www.footballwebpages.co.uk/womens-national-league-south/fixtures-results"
   }
 ]

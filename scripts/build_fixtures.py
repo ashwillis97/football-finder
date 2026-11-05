@@ -20,8 +20,11 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config"
 OUT = ROOT / "docs" / "data"
-RAW = ROOT / "data" / "raw"
 CACHE = ROOT / "data" / "postcode_cache.json"
+PLACE_CACHE = ROOT / "data" / "place_cache.json"
+DEBUG = ROOT / "data" / "debug"
+MISSING = ROOT / "data" / "missing_grounds.csv"
+MAX_PLACE_LOOKUPS = 250  # per run, so a first run on a big list stays quick; the rest follow next run
 
 USER_AGENT = "football-finder/0.1 (+https://github.com/ashwillis97/football-finder)"
 
@@ -97,6 +100,20 @@ def parse_structured(soup, league):
             "status": state, "league": league["name"], "level": league["level"], "gender": league["gender"],
         })
     return fixtures if found else None
+
+
+def future_months(html):
+    """Months after the currently selected one in the page's month dropdown.
+    Earlier months only hold matches that were already played."""
+    soup = BeautifulSoup(html, "html.parser")
+    sel = soup.find("select", id="month")
+    if not sel:
+        return []
+    opts = sel.find_all("option")
+    idx = next((i for i, o in enumerate(opts) if o.has_attr("selected")), None)
+    if idx is None:
+        return []
+    return [o.get("value", "") for o in opts[idx + 1:] if o.get("value")]
 
 
 def month_options(html):
@@ -187,15 +204,25 @@ def parse_fixtures(html, league):
 
 
 def load_grounds():
+    """config/grounds.csv columns: club, gender (men/women, blank = both), ground, town, postcode.
+    A postcode is preferred. Without one, the ground and town are looked up on OpenStreetMap."""
     grounds = {}
     with open(CONFIG / "grounds.csv", newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            grounds[row["club"].strip().lower()] = row
+            club = (row.get("club") or "").strip()
+            if not club:
+                continue
+            gender = (row.get("gender") or "").strip().lower()
+            grounds[(club.lower(), gender)] = {k: (v or "").strip() for k, v in row.items() if k}
     return grounds
 
 
+def find_ground(grounds, club, gender):
+    return grounds.get((club.lower(), gender)) or grounds.get((club.lower(), ""))
+
+
 def geocode(postcodes):
-    """Look up postcodes via postcodes.io (cached). Returns {postcode: (lat, lon)}."""
+    """Look up postcodes via postcodes.io (cached). Returns {postcode: [lat, lon] or None}."""
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     missing = [p for p in postcodes if p not in cache]
     for i in range(0, len(missing), 100):
@@ -225,6 +252,53 @@ def geocode(postcodes):
     return cache
 
 
+def geocode_places(places):
+    """Look up (ground, town) pairs on OpenStreetMap Nominatim, one per second, cached."""
+    cache = json.loads(PLACE_CACHE.read_text()) if PLACE_CACHE.exists() else {}
+    todo = [p for p in sorted(places) if f"{p[0]}|{p[1]}" not in cache]
+    done = 0
+    for ground, town in todo:
+        if done >= MAX_PLACE_LOOKUPS:
+            print(f"place lookups capped at {MAX_PLACE_LOOKUPS}; {len(todo) - done} left for next run")
+            break
+        try:
+            r = requests.get("https://nominatim.openstreetmap.org/search",
+                             params={"q": f"{ground}, {town}, United Kingdom", "format": "jsonv2", "limit": 1,
+                                     "addressdetails": 1, "countrycodes": "gb"},
+                             headers={"User-Agent": USER_AGENT}, timeout=30)
+            r.raise_for_status()
+            res = r.json()
+            if res:
+                a = res[0]
+                addr = a.get("address", {})
+                first_town = town.split(",")[0].strip().lower()
+                cache[f"{ground}|{town}"] = {
+                    "lat": float(a["lat"]), "lon": float(a["lon"]),
+                    "postcode": addr.get("postcode", ""), "display": a.get("display_name", ""),
+                    "confident": bool(first_town) and first_town in a.get("display_name", "").lower(),
+                }
+            else:
+                cache[f"{ground}|{town}"] = None
+        except (requests.RequestException, ValueError, KeyError) as e:
+            print(f"place lookup failed ({ground}, {town}): {e}", file=sys.stderr)
+            break
+        done += 1
+        time.sleep(1.1)  # Nominatim allows at most one request per second
+    PLACE_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    PLACE_CACHE.write_text(json.dumps(cache, indent=1))
+    return cache
+
+
+def locate(g, coords, places):
+    pc = g.get("postcode", "")
+    if pc and coords.get(pc):
+        return {"lat": coords[pc][0], "lon": coords[pc][1], "postcode": pc, "confident": True}
+    p = places.get(f"{g.get('ground', '')}|{g.get('town', '')}")
+    if p:
+        return {"lat": p["lat"], "lon": p["lon"], "postcode": pc or p.get("postcode", ""), "confident": p["confident"]}
+    return None
+
+
 def fetch(url):
     r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     if r.status_code in (401, 403, 429):
@@ -243,7 +317,7 @@ def main():
     if args.league:
         leagues = [l for l in leagues if l["id"] == args.league]
 
-    all_fixtures, report = [], {}
+    all_fixtures, report, league_clubs = [], {}, {}
     for league in leagues:
         if args.html:
             html = Path(args.html).read_text(encoding="utf-8")
@@ -253,62 +327,78 @@ def main():
             except (RuntimeError, requests.RequestException) as e:
                 print(f"{league['id']}: {e}", file=sys.stderr)
                 report[league["id"]] = {"error": str(e)}
+                time.sleep(2)
                 continue
-            RAW.mkdir(parents=True, exist_ok=True)
-            (RAW / f"{league['id']}.html").write_text(html, encoding="utf-8")
             time.sleep(2)  # be polite between requests
-        fixtures, links = parse_fixtures(html, league)
-        month_log = []
+        fixtures, _ = parse_fixtures(html, league)
+        months = {}
         if not args.html:
-            # The page shows one month at a time. The month dropdown's URL scheme isn't known,
-            # so try a couple of likely patterns and log which (if any) return different content.
-            seen = {(f["date"], f["home"], f["away"]) for f in fixtures}
             base = league["url"].rstrip("/")
-            for month in [m for m in month_options(html) if m]:
-                got = None
-                for pattern in (f"{base}/{month}", f"{base}?month={month}"):
-                    try:
-                        page = fetch(pattern)
-                    except (RuntimeError, requests.RequestException) as e:
-                        month_log.append({"url": pattern, "result": f"error: {e}"})
-                        time.sleep(2)
-                        continue
+            seen = {(f["date"], f["home"], f["away"]) for f in fixtures}
+            for month in future_months(html):
+                try:
+                    page = fetch(f"{base}/{month}")
+                except (RuntimeError, requests.RequestException) as e:
+                    months[month] = f"error: {e}"
                     time.sleep(2)
-                    extra, _ = parse_fixtures(page, league)
-                    new = [f for f in extra if (f["date"], f["home"], f["away"]) not in seen]
-                    month_log.append({"url": pattern, "result": f"{len(extra)} parsed, {len(new)} new"})
-                    if new:
-                        got = new
-                        break
-                if got:
-                    fixtures.extend(got)
-                    seen |= {(f["date"], f["home"], f["away"]) for f in got}
+                    continue
+                time.sleep(2)
+                extra, _ = parse_fixtures(page, league)
+                new = [f for f in extra if (f["date"], f["home"], f["away"]) not in seen]
+                months[month] = len(new)
+                fixtures.extend(new)
+                seen |= {(f["date"], f["home"], f["away"]) for f in new}
+            if not fixtures:
+                DEBUG.mkdir(parents=True, exist_ok=True)
+                (DEBUG / f"{league['id']}.html").write_text(html, encoding="utf-8")
         print(f"{league['id']}: {len(fixtures)} fixtures parsed")
-        report[league["id"]] = {"fixtures": len(fixtures), "month_links": links[:40], "month_attempts": month_log}
+        report[league["id"]] = {"fixtures": len(fixtures), "months": months}
+        league_clubs[league["id"]] = (league["gender"], sorted({c for f in fixtures for c in (f["home"], f["away"])}))
         all_fixtures.extend(fixtures)
 
     grounds = load_grounds()
-    coords = geocode(sorted({g["postcode"] for g in grounds.values()}))
-    unmatched = set()
-    for f in all_fixtures:
-        g = grounds.get(f["home"].lower())
-        pc = coords.get(g["postcode"]) if g else None
-        if g and pc:
-            f.update(ground=g["ground"], postcode=g["postcode"], lat=pc[0], lon=pc[1])
-        else:
-            unmatched.add(f["home"])
-    report["unmatched_clubs"] = sorted(unmatched)
-    report["bad_postcodes"] = sorted(p for p in {g["postcode"] for g in grounds.values()} if not coords.get(p))
+    coords = geocode(sorted({g["postcode"] for g in grounds.values() if g.get("postcode")}))
+    need_places = {(g["ground"], g.get("town", "")) for g in grounds.values()
+                   if g.get("ground") and g.get("town") and not (g.get("postcode") and coords.get(g["postcode"]))}
+    places = geocode_places(need_places)
 
-    placed = [f for f in all_fixtures if "lat" in f]
+    for f in all_fixtures:
+        g = find_ground(grounds, f["home"], f["gender"])
+        loc = locate(g, coords, places) if g else None
+        if loc:
+            f.update(ground=g.get("ground", ""), town=g.get("town", ""), postcode=loc["postcode"],
+                     lat=loc["lat"], lon=loc["lon"])
+            f["_confident"] = loc["confident"]
+
+    missing_rows, low_conf = [], set()
+    for lid, (gender, clubs) in league_clubs.items():
+        no_ground = [c for c in clubs if not find_ground(grounds, c, gender)]
+        unlocated = [c for c in clubs if find_ground(grounds, c, gender)
+                     and not locate(find_ground(grounds, c, gender), coords, places)]
+        report[lid].update(clubs=len(clubs), missing_grounds=len(no_ground), unlocated=unlocated)
+        missing_rows += [(lid, c, "no ground") for c in no_ground] + [(lid, c, "could not locate") for c in unlocated]
+    for f in all_fixtures:
+        if f.get("_confident") is False:
+            low_conf.add(f"{f['home']} ({f.get('ground', '')}, {f.get('town', '')})")
+    report["low_confidence_places"] = sorted(low_conf)
+    report["bad_postcodes"] = sorted(p for p in {g["postcode"] for g in grounds.values() if g.get("postcode")}
+                                     if not coords.get(p))
+
+    MISSING.parent.mkdir(parents=True, exist_ok=True)
+    with open(MISSING, "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["league", "club", "problem"])
+        w.writerows(missing_rows)
+
+    placed = [{k: v for k, v in f.items() if not k.startswith("_")} for f in all_fixtures if "lat" in f]
     placed.sort(key=lambda f: (f["date"], f["time"] or "99:99", f["home"]))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "fixtures.json").write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "matches": placed,
-    }, indent=1))
+    }))
     (OUT / "report.json").write_text(json.dumps(report, indent=1))
-    print(f"wrote {len(placed)} fixtures with coordinates; unmatched clubs: {sorted(unmatched) or 'none'}")
+    print(f"wrote {len(placed)} fixtures with coordinates; {len(missing_rows)} club problems in {MISSING.name}")
 
 
 if __name__ == "__main__":
