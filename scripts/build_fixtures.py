@@ -226,6 +226,7 @@ def find_ground(grounds, club, gender):
 def geocode(postcodes):
     """Look up postcodes via postcodes.io (cached). Returns {postcode: [lat, lon] or None}."""
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    cache = {k: (v if v and v[0] is not None else None) for k, v in cache.items()}
     missing = [p for p in postcodes if p not in cache]
     for i in range(0, len(missing), 100):
         batch = missing[i:i + 100]
@@ -235,7 +236,7 @@ def geocode(postcodes):
             r.raise_for_status()
             for item in r.json().get("result", []):
                 res = item.get("result")
-                cache[item["query"]] = [res["latitude"], res["longitude"]] if res else None
+                cache[item["query"]] = [res["latitude"], res["longitude"]] if res and res.get("latitude") is not None else None
         except requests.RequestException as e:
             print(f"postcode lookup failed: {e}", file=sys.stderr)
     # Postcodes missing from the live database may still be in the terminated list.
@@ -293,6 +294,11 @@ def geocode_places(places):
 
 def locate(g, coords, places):
     pc = g.get("postcode", "")
+    try:  # manual coordinates in grounds.csv (columns lat, lon) override everything
+        if g.get("lat") and g.get("lon"):
+            return {"lat": float(g["lat"]), "lon": float(g["lon"]), "postcode": pc, "confident": True}
+    except ValueError:
+        pass
     if pc and coords.get(pc):
         return {"lat": coords[pc][0], "lon": coords[pc][1], "postcode": pc, "confident": True}
     p = places.get(f"{g.get('ground', '')}|{g.get('town', '')}")
