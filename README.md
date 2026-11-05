@@ -26,7 +26,7 @@ Add an entry to `config/leagues.json` and add each club's ground to `config/grou
 
 ## Notes
 
-- The map shows only each team's next match (not the whole season). A match appears if it is the next one for either team. The full season stays in the data file; the page works this out each time it loads.
+- The map shows only each team's next match (not the whole season). A match appears only when it is the next one for BOTH clubs, so no club is ever listed twice. If a club's opponent plays another game first (cup weekend, midweek game), that club's match appears once the opponent's earlier game has passed. The full season stays in the data file; the page works this out each time it loads.
 - Postponed matches are kept in the data but hidden on the map, and skipped when working out a team's next match.
 - Match dates and kick-off times change; the page tells visitors to check with the club.
 - Check the source site's terms before launching publicly.

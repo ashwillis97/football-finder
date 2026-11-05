@@ -120,14 +120,21 @@
   function nextMatchIds() {
     var d = new Date();
     var today = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-    var seen = {}, ids = {};
-    DATA.matches.slice().sort(function (a, b) {
+    var next = {}, upcoming = DATA.matches.filter(function (m) {
+      return m.status !== 'postponed' && m.date >= today;
+    }).sort(function (a, b) {
       return (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''));
-    }).forEach(function (m) {
-      if (m.status === 'postponed' || m.date < today) return;
+    });
+    var id = function (m) { return m.date + '|' + m.home + '|' + m.away; };
+    upcoming.forEach(function (m) {
       [m.league + '|' + m.home, m.league + '|' + m.away].forEach(function (t) {
-        if (!seen[t]) { seen[t] = true; ids[m.date + '|' + m.home + '|' + m.away] = true; }
+        if (!next[t]) next[t] = id(m);
       });
+    });
+    // A match is shown only when it is the next one for BOTH clubs, so no club ever appears twice.
+    var ids = {};
+    upcoming.forEach(function (m) {
+      if (next[m.league + '|' + m.home] === id(m) && next[m.league + '|' + m.away] === id(m)) ids[id(m)] = true;
     });
     return ids;
   }
