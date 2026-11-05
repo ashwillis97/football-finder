@@ -1,0 +1,2702 @@
+{
+ "1874-northwich": {
+  "address": "Townfield Lane, Barnton, Northwich, CW8 4LH",
+  "fetched": "2026-11-05",
+  "ground": "Townfield",
+  "postcode": "CW8 4LH"
+ },
+ "abbey-rangers": {
+  "address": "Addlestone Moor, Addlestone, Surrey, KT15 2QH",
+  "fetched": "2026-11-05",
+  "ground": "The Addlestone Moor",
+  "postcode": "KT15 2QH"
+ },
+ "abingdon-united": {
+  "address": "Northcourt Stadium, Northcourt Road, Abingdon, Oxfordshire, OX14 1PL",
+  "fetched": "2026-11-05",
+  "ground": "Northcourt",
+  "postcode": "OX14 1PL"
+ },
+ "accrington-stanley": {
+  "address": "Livingstone Road, Accrington, Lancashire, BB5 5BX",
+  "fetched": "2026-11-05",
+  "ground": "Wham Stadium",
+  "postcode": "BB5 5BX"
+ },
+ "afc-bournemouth": {
+  "address": "Dean Court, Bournemouth, Dorset, BH7 7AF",
+  "fetched": "2026-11-05",
+  "ground": "Vitality Stadium",
+  "postcode": "BH7 7AF"
+ },
+ "afc-bournemouth-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "afc-croydon-athletic": {
+  "address": "Mayfield Road, Thornton Heath, CR7 6DN",
+  "fetched": "2026-11-05",
+  "ground": "Mayfield Stadium",
+  "postcode": "CR7 6DN"
+ },
+ "afc-greenwich-borough": {
+  "address": "Oakley Road, Bromley, Kent, BR2 8HQ",
+  "fetched": "2026-11-05",
+  "ground": "The New Inn Stadium (Holmesdale FC)",
+  "postcode": "BR2 8HQ"
+ },
+ "afc-mansfield": {
+  "address": "Clipstone Rd. West, Forest Town, Mansfield., NG19 0EE",
+  "fetched": "2026-11-05",
+  "ground": "Forest Town Arena",
+  "postcode": "NG19 0EE"
+ },
+ "afc-newbiggin": {
+  "address": "Woodhorn Road, Newbiggin by the Sea, NE64 6JD",
+  "fetched": "2026-11-05",
+  "ground": "Newbiggin Sports Community Hub",
+  "postcode": "NE64 6JD"
+ },
+ "afc-portchester": {
+  "address": "Privett Road, Gosport, Hampshire, PO12 3SX",
+  "fetched": "2026-11-05",
+  "ground": "AEI Stadium (Gosport Borough FC)",
+  "postcode": "PO12 3SX"
+ },
+ "afc-rushden-and-diamonds": {
+  "address": "Hayden Road, Rushden, Northamptonshire, NN10 0HX",
+  "fetched": "2026-11-05",
+  "ground": "Hayden Road Sports Ground",
+  "postcode": "NN10 0HX"
+ },
+ "afc-stoneham": {
+  "address": "SO16 2PA",
+  "fetched": "2026-11-05",
+  "ground": "Stoneham Football Complex",
+  "postcode": "SO16 2PA"
+ },
+ "afc-sudbury": {
+  "address": "Brundon Lane, Sudbury, Suffolk, CO10 7HN",
+  "fetched": "2026-11-05",
+  "ground": "MEL Group Stadium",
+  "postcode": "CO10 7HN"
+ },
+ "afc-telford-united": {
+  "address": "Watling Street, Wellington, Telford, TF1 2TU",
+  "fetched": "2026-11-05",
+  "ground": "New Bucks Head Stadium",
+  "postcode": "TF1 2TU"
+ },
+ "afc-totton": {
+  "address": "Salisbury Road, Totton, Southampton, Hampshire, SO40 2RW",
+  "fetched": "2026-11-05",
+  "ground": "Testwood Stadium",
+  "postcode": "SO40 2RW"
+ },
+ "afc-welwyn": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "afc-whyteleafe": {
+  "address": "Sidcup By-Pass Road, Chislehurst, BR7 6HL",
+  "fetched": "2026-11-05",
+  "ground": "Flamingo Park",
+  "postcode": "BR7 6HL"
+ },
+ "afc-wimbledon": {
+  "address": "Plough Lane, London, SW17 0NR",
+  "fetched": "2026-11-05",
+  "ground": "New Plough Lane",
+  "postcode": "SW17 0NR"
+ },
+ "afc-wimbledon-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "albion-sports": {
+  "address": "489 Barkerend Road, Bradford, BD3 8QX",
+  "fetched": "2026-11-05",
+  "ground": "Myra Shay",
+  "postcode": "BD3 8QX"
+ },
+ "alcester-town": {
+  "address": "B49 6LN",
+  "fetched": "2026-11-05",
+  "ground": "Stratford Road",
+  "postcode": "B49 6LN"
+ },
+ "alfreton-town": {
+  "address": "North Street, Alfreton, Derbyshire, DE55 7FZ",
+  "fetched": "2026-11-05",
+  "ground": "The Impact Arena",
+  "postcode": "DE55 7FZ"
+ },
+ "alnwick-town": {
+  "address": "Weaver's Way, Alnwick, Northumberland, NE66 1BG",
+  "fetched": "2026-11-05",
+  "ground": "St James' Park",
+  "postcode": "NE66 1BG"
+ },
+ "alton": {
+  "address": "The Enclosure, Anstey Park, Anstey Road, Alton GU34 2NB, GU34 2NB",
+  "fetched": "2026-11-05",
+  "ground": "The Exclusive Networks Stadium",
+  "postcode": "GU34 2NB"
+ },
+ "alvechurch": {
+  "address": "Redditch Road, Alvechurch, B48 7RS",
+  "fetched": "2026-11-05",
+  "ground": "Lye Meadow",
+  "postcode": "B48 7RS"
+ },
+ "amersham-town": {
+  "address": "School Lane, Amersham, Buckinghamshire, HP7 0EL",
+  "fetched": "2026-11-05",
+  "ground": "Spratleys Meadow",
+  "postcode": "HP7 0EL"
+ },
+ "anstey-nomads": {
+  "address": "Cropston Road, LE7 7BP",
+  "fetched": "2026-11-05",
+  "ground": "Mark\u2019s Electrical Arena",
+  "postcode": "LE7 7BP"
+ },
+ "appleby-frodingham": {
+  "address": "DN16 1AA",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "DN16 1AA"
+ },
+ "ardley-united": {
+  "address": "Ardley Playing Field, Ardley Road, Ardley, OX27 7PA",
+  "fetched": "2026-11-05",
+  "ground": "The Nolan Oils Ground",
+  "postcode": "OX27 7PA"
+ },
+ "arlesey-town": {
+  "address": "Hitchin Road, Arlesey, Bedfordshire, SB15 6RS",
+  "fetched": "2026-11-05",
+  "ground": "New Lamb Meadow",
+  "postcode": "SB15 6RS"
+ },
+ "armthorpe-welfare": {
+  "address": "DN3 3AG",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "DN3 3AG"
+ },
+ "arsenal": {
+  "address": "Highbury House, 75 Drayton Park, London, N5 1BU",
+  "fetched": "2026-11-05",
+  "ground": "Emirates Stadium",
+  "postcode": "N5 1BU"
+ },
+ "arsenal-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "ascot-united": {
+  "address": "Winkfield Road, Ascot, Berkshire, SL5 7LJ",
+  "fetched": "2026-11-05",
+  "ground": "Ascot Racecourse",
+  "postcode": "SL5 7LJ"
+ },
+ "ashby-ivanhoe": {
+  "address": "lower Packington road, Ashby De La Zouch, Leicestershire, LE65 1TS",
+  "fetched": "2026-11-05",
+  "ground": "The Element ground",
+  "postcode": "LE65 1TS"
+ },
+ "ashford-town-middx": {
+  "address": "Short Lane, Stanwell, Staines upon Thames, Surrey, TW19 7BH",
+  "fetched": "2026-11-05",
+  "ground": "Robert Parker Stadium",
+  "postcode": "TW19 7BH"
+ },
+ "ashford-united": {
+  "address": "Ashford Road, Kingsnorth, Ashford, Kent, TN26 1NJ",
+  "fetched": "2026-11-05",
+  "ground": "The Green Box Stadium",
+  "postcode": "TN26 1NJ"
+ },
+ "ashington-afc": {
+  "address": "Woodhorn Lane, Ashington, Northumberland, NE63 9FW",
+  "fetched": "2026-11-05",
+  "ground": "Woodhorn Lane",
+  "postcode": "NE63 9FW"
+ },
+ "ashton-united": {
+  "address": "Surrey Street, Ashton Under Lyne, Lancashire, OL6 8DY",
+  "fetched": "2026-11-05",
+  "ground": "Hurst Cross",
+  "postcode": "OL6 8DY"
+ },
+ "aston-villa": {
+  "address": "Birmingham, B6 6HE",
+  "fetched": "2026-11-05",
+  "ground": "Villa Park",
+  "postcode": "B6 6HE"
+ },
+ "aston-villa-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "athersley-recreation": {
+  "address": "REAR OF 123-125 OLLERTON ROAD, ATHERSLEY NORTH, BARNSLEY, S71 3DP",
+  "fetched": "2026-11-05",
+  "ground": "Sheerien Park",
+  "postcode": "S71 3DP"
+ },
+ "atherstone-town": {
+  "address": "CV9 3AD",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "CV9 3AD"
+ },
+ "atherton-collieries": {
+  "address": "Alder Street, Atherton, M46 9EY",
+  "fetched": "2026-11-05",
+  "ground": "The Dreams2Reality Stadium",
+  "postcode": "M46 9EY"
+ },
+ "aveley": {
+  "address": "Park Lane, Aveley, Essex, RM15 4PX",
+  "fetched": "2026-11-05",
+  "ground": "Parkside",
+  "postcode": "RM15 4PX"
+ },
+ "avro": {
+  "address": "White Bank Road, Oldham, Greater Manchester, OL8 3JH",
+  "fetched": "2026-11-05",
+  "ground": "The Vestacare Stadium",
+  "postcode": "OL8 3JH"
+ },
+ "aylesbury-united": {
+  "address": "Amy Lane, Chesham, Buckinghamshire, HP5 1NE",
+  "fetched": "2026-11-05",
+  "ground": "The Meadow (Chesham United FC)",
+  "postcode": "HP5 1NE"
+ },
+ "aylesbury-vale-dynamos": {
+  "address": "Haywood Way, Aylesbury, Bucks, HP19 9WZ",
+  "fetched": "2026-11-05",
+  "ground": "Greenfleets Stadium",
+  "postcode": "HP19 9WZ"
+ },
+ "aylestone-park": {
+  "address": "Saffron Lane, Wigston, Leicester, LE2 6TG",
+  "fetched": "2026-11-05",
+  "ground": "Mary Linwood Ground",
+  "postcode": "LE2 6TG"
+ },
+ "badshot-lea": {
+  "address": "GU10 4PF",
+  "fetched": "2026-11-05",
+  "ground": "Westfield Lane",
+  "postcode": "GU10 4PF"
+ },
+ "baldock-town": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "New Lamb Meadow",
+  "postcode": ""
+ },
+ "balham": {
+  "address": "SM4 6BF",
+  "fetched": "2026-11-05",
+  "ground": "Imperial Fields (Tooting & Mitcham United)",
+  "postcode": "SM4 6BF"
+ },
+ "bamber-bridge": {
+  "address": "Brownedge Road, Bamber Bridge, Preston, Lancashire, PR5 6UU",
+  "fetched": "2026-11-05",
+  "ground": "The SFC Stadium at Irongate",
+  "postcode": "PR5 6UU"
+ },
+ "banbury-united": {
+  "address": "Station Approach, Banbury, Oxfordshire, OX16 5AB",
+  "fetched": "2026-11-05",
+  "ground": "The Banbury Plant Hire Community Stadium",
+  "postcode": "OX16 5AB"
+ },
+ "banstead-athletic": {
+  "address": "Merland Rise,, Tadworth,, Surrey, KT20 5JG",
+  "fetched": "2026-11-05",
+  "ground": "Banstead Athletic Football Club",
+  "postcode": "KT20 5JG"
+ },
+ "barking": {
+  "address": "Mayesbrook Park,, Lodge Avenue,, Dagenham,, Essex,, RM8 2JR",
+  "fetched": "2026-11-05",
+  "ground": "Lawtech Stadium",
+  "postcode": "RM8 2JR"
+ },
+ "barnet": {
+  "address": "Camrose Avenue, London, HA8 6AG",
+  "fetched": "2026-11-05",
+  "ground": "The Hive London",
+  "postcode": "HA8 6AG"
+ },
+ "barnsley": {
+  "address": "Grove Street, Barnsley, South Yorkshire, S71 1ET",
+  "fetched": "2026-11-05",
+  "ground": "Oakwell Stadium",
+  "postcode": "S71 1ET"
+ },
+ "barnstaple-town": {
+  "address": "Barnstaple, Devon, EX31 1JQ",
+  "fetched": "2026-11-05",
+  "ground": "Mill Road",
+  "postcode": "EX31 1JQ"
+ },
+ "barton-rovers": {
+  "address": "Barton Le Clay, Bedfordshire, MK45 4LQ",
+  "fetched": "2026-11-05",
+  "ground": "The Winton Haulage Stadium",
+  "postcode": "MK45 4LQ"
+ },
+ "barton-town": {
+  "address": "off Falkland Way, Barton upon Humber, DN18 5JD",
+  "fetched": "2026-11-05",
+  "ground": "The Barton Town Stadium",
+  "postcode": "DN18 5JD"
+ },
+ "barwell": {
+  "address": "Kirkby Road, Barwell, Leicestershire, LE9 8FQ",
+  "fetched": "2026-11-05",
+  "ground": "Kirkby Road Sports Ground",
+  "postcode": "LE9 8FQ"
+ },
+ "basford-united": {
+  "address": "Greenwich Avenue, Basford, Nottingham, NG6 0LD",
+  "fetched": "2026-11-05",
+  "ground": "Mill Street Playing Field",
+  "postcode": "NG6 0LD"
+ },
+ "basildon-united": {
+  "address": "Gardiners Close, Basildon, Essex, SS14 3AW",
+  "fetched": "2026-11-05",
+  "ground": "DST Stadium",
+  "postcode": "SS14 3AW"
+ },
+ "basingstoke-town": {
+  "address": "RG23 8BF",
+  "fetched": "2026-11-05",
+  "ground": "Winklebury Stadium",
+  "postcode": "RG23 8BF"
+ },
+ "bath-city": {
+  "address": "Twerton, Bath, BA2 1DB",
+  "fetched": "2026-11-05",
+  "ground": "Twerton Park",
+  "postcode": "BA2 1DB"
+ },
+ "beaconsfield-town": {
+  "address": "Windsor Road, Beaconsfield, Buckinghamshire, HP9 2SE",
+  "fetched": "2026-11-05",
+  "ground": "Holloways Park",
+  "postcode": "HP9 2SE"
+ },
+ "bearsted": {
+  "address": "Bearsted Football Club, Otham Sports Ground, Honey Lane, Otham, Kent, ME15 8RG",
+  "fetched": "2026-11-05",
+  "ground": "Otham Sports Ground",
+  "postcode": "ME15 8RG"
+ },
+ "beckenham-town": {
+  "address": "374 Eden Park Avenue, BR3 3JL",
+  "fetched": "2026-11-05",
+  "ground": "Eden Park Avenue",
+  "postcode": "BR3 3JL"
+ },
+ "bedfont": {
+  "address": "Hatton Road, Bedfont, TW14 9QT",
+  "fetched": "2026-11-05",
+  "ground": "The Orchard",
+  "postcode": "TW14 9QT"
+ },
+ "bedfont-sports": {
+  "address": "The Recreation Ground, Hatton Rd, Bedfont, TW14 9QS",
+  "fetched": "2026-11-05",
+  "ground": "Bedfont Sports Club",
+  "postcode": "TW14 9QS"
+ },
+ "bedford-town": {
+  "address": "Meadow Lane, Cardington, Bedfordshire, MK44 3LW",
+  "fetched": "2026-11-05",
+  "ground": "The Eyrie",
+  "postcode": "MK44 3LW"
+ },
+ "bedworth-united": {
+  "address": "Coventry Road, Bedworth, CV12 8NN",
+  "fetched": "2026-11-05",
+  "ground": "The Oval",
+  "postcode": "CV12 8NN"
+ },
+ "belper-town": {
+  "address": "Christchurch Meadow, Belper, Derbyshire, DE56 1BA",
+  "fetched": "2026-11-05",
+  "ground": "The Raygar Stadium",
+  "postcode": "DE56 1BA"
+ },
+ "belper-united": {
+  "address": "DE3 9FB",
+  "fetched": "2026-11-05",
+  "ground": "The Don Amott Arena (Mickleover)",
+  "postcode": "DE3 9FB"
+ },
+ "belstone": {
+  "address": "Watling Street, Radlett, WD6 3AB",
+  "fetched": "2026-11-05",
+  "ground": "The Medburn Ground",
+  "postcode": "WD6 3AB"
+ },
+ "benfleet": {
+  "address": "Benfleet, Essex, SS7 4PA",
+  "fetched": "2026-11-05",
+  "ground": "Woodside Park",
+  "postcode": "SS7 4PA"
+ },
+ "berkhamsted": {
+  "address": "HP4 2AL",
+  "fetched": "2026-11-05",
+  "ground": "Glencar Community Stadium",
+  "postcode": "HP4 2AL"
+ },
+ "berks-county": {
+  "address": "Winkfield Road, Ascot, SL5 7LJ",
+  "fetched": "2026-11-05",
+  "ground": "Racecourse Ground",
+  "postcode": "SL5 7LJ"
+ },
+ "beverley-town": {
+  "address": "Recreation Lane, Norwood, Beverley, HU17 9HW",
+  "fetched": "2026-11-05",
+  "ground": "Norwood",
+  "postcode": "HU17 9HW"
+ },
+ "bewdley-town": {
+  "address": "Ribbesford, Bewdley, Worcestershire, DY12 2TJ",
+  "fetched": "2026-11-05",
+  "ground": "Ribbesford Meadows",
+  "postcode": "DY12 2TJ"
+ },
+ "bideford": {
+  "address": "Kingsley Road, Bideford, Devon, EX39 2NG",
+  "fetched": "2026-11-05",
+  "ground": "The Sports Ground",
+  "postcode": "EX39 2NG"
+ },
+ "biggleswade": {
+  "address": "MK44 3LW",
+  "fetched": "2026-11-05",
+  "ground": "The Eyrie (Bedford Town FC)",
+  "postcode": "MK44 3LW"
+ },
+ "biggleswade-town": {
+  "address": "Langford Road, Biggleswade, Bedfordshire, SG18 9JT",
+  "fetched": "2026-11-05",
+  "ground": "The Carlsberg Stadium",
+  "postcode": "SG18 9JT"
+ },
+ "biggleswade-united": {
+  "address": "Fairfield Rd, Biggleswade, SG18 0AA",
+  "fetched": "2026-11-05",
+  "ground": "Verdant Stadium",
+  "postcode": "SG18 0AA"
+ },
+ "billericay-town": {
+  "address": "Blunts Wall Road, Billericay, Essex, CM12 9SA",
+  "fetched": "2026-11-05",
+  "ground": "New Lodge",
+  "postcode": "CM12 9SA"
+ },
+ "billingham-synthonia": {
+  "address": "Bisopton Road West, Stockton-on-Tees, TS9 5NY",
+  "fetched": "2026-11-05",
+  "ground": "Bishopton Road West",
+  "postcode": "TS9 5NY"
+ },
+ "billingham-town": {
+  "address": "Bedford Terrace, Billingham, TS23 4AE",
+  "fetched": "2026-11-05",
+  "ground": "The Carters Stadium",
+  "postcode": "TS23 4AE"
+ },
+ "binfield": {
+  "address": "Hill Farm Lane,, Binfield, RG42 5NR",
+  "fetched": "2026-11-05",
+  "ground": "The Iconic Stadium",
+  "postcode": "RG42 5NR"
+ },
+ "birmingham-city": {
+  "address": "Birmingham, B9 4RL",
+  "fetched": "2026-11-05",
+  "ground": "St Andrew's Stadium",
+  "postcode": "B9 4RL"
+ },
+ "birmingham-city-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "birtley-town": {
+  "address": "Durham Road, Birtley., DH3 2QW",
+  "fetched": "2026-11-05",
+  "ground": "The Arrowmark Home Improvements Stadium",
+  "postcode": "DH3 2QW"
+ },
+ "bishop-auckland": {
+  "address": "Heritage Park, Stadium Way, Bishop Auckland, Co Durham, DL14 9AE",
+  "fetched": "2026-11-05",
+  "ground": "Vest Construction Stadium",
+  "postcode": "DL14 9AE"
+ },
+ "bishops-cleeve": {
+  "address": "Bishops Cleeve, Cheltenham, Gloucestershire, GL52 3PD",
+  "fetched": "2026-11-05",
+  "ground": "Kayte Lane",
+  "postcode": "GL52 3PD"
+ },
+ "bishops-stortford": {
+  "address": "Dunmow Road, Bishop\u2019s Stortford, Hertfordshire, CM23 5RG",
+  "fetched": "2026-11-05",
+  "ground": "Woodside Park",
+  "postcode": "CM23 5RG"
+ },
+ "blackburn-rovers": {
+  "address": "Blackburn, Lancashire, BB2 4JF",
+  "fetched": "2026-11-05",
+  "ground": "Ewood Park",
+  "postcode": "BB2 4JF"
+ },
+ "blackpool": {
+  "address": "Seasiders Way, Blackpool, Lancashire, FY1 6JJ",
+  "fetched": "2026-11-05",
+  "ground": "Bloomfield Road",
+  "postcode": "FY1 6JJ"
+ },
+ "blackstones": {
+  "address": "PE9 1UU",
+  "fetched": "2026-11-05",
+  "ground": "SBJ Stadium",
+  "postcode": "PE9 1UU"
+ },
+ "blyth-spartans": {
+  "address": "Blyth, Northumberland, NE24 3JE",
+  "fetched": "2026-11-05",
+  "ground": "Croft Park",
+  "postcode": "NE24 3JE"
+ },
+ "blyth-town": {
+  "address": "Sandringham Drive, Blyth, NE24 3PS",
+  "fetched": "2026-11-05",
+  "ground": "Gateway Park",
+  "postcode": "NE24 3PS"
+ },
+ "bognor-regis-town": {
+  "address": "Bognor Regis, West Sussex, PO21 2TY",
+  "fetched": "2026-11-05",
+  "ground": "Nyewood Lane",
+  "postcode": "PO21 2TY"
+ },
+ "boldmere-st-michaels": {
+  "address": "B73 5RY",
+  "fetched": "2026-11-05",
+  "ground": "The Boldmere Community Stadium",
+  "postcode": "B73 5RY"
+ },
+ "boldmere-st-michaels-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "boldon-community-association": {
+  "address": "NE35 9AN",
+  "fetched": "2026-11-05",
+  "ground": "Boldon Colliery Welfare Ground",
+  "postcode": "NE35 9AN"
+ },
+ "bolton-wanderers": {
+  "address": "Burnden Way, Lostock, Bolton, Lancashire, BL6 6JW",
+  "fetched": "2026-11-05",
+  "ground": "University of Bolton Stadium",
+  "postcode": "BL6 6JW"
+ },
+ "bootle": {
+  "address": "Vesty Road, Bootle, L30 1NY",
+  "fetched": "2026-11-05",
+  "ground": "Berry Street Garage Stadium",
+  "postcode": "L30 1NY"
+ },
+ "boston-town": {
+  "address": "Tattershall Road, PE21 9LR",
+  "fetched": "2026-11-05",
+  "ground": "The Mortgages for You Stadium",
+  "postcode": "PE21 9LR"
+ },
+ "bottesford-town": {
+  "address": "The Barrett Steel Stadium, Bottesford Town Football Club, Bottesford, Scunthorpe, DN17 2TQ",
+  "fetched": "2026-11-05",
+  "ground": "Barrett Steel Stadium",
+  "postcode": "DN17 2TQ"
+ },
+ "bourne-town": {
+  "address": "PE10 9EN",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "PE10 9EN"
+ },
+ "bovingdon": {
+  "address": "HP3 0LA",
+  "fetched": "2026-11-05",
+  "ground": "Green Lane",
+  "postcode": "HP3 0LA"
+ },
+ "bowers-and-pitsea": {
+  "address": "Crown Avenue, Pitsea, Essex, SS13 2BE",
+  "fetched": "2026-11-05",
+  "ground": "Len Salmon Stadium",
+  "postcode": "SS13 2BE"
+ },
+ "brackley-town": {
+  "address": "Churchill Way, Brackley, Northamptonshire, NN13 7EJ",
+  "fetched": "2026-11-05",
+  "ground": "St James Park",
+  "postcode": "NN13 7EJ"
+ },
+ "bracknell-town": {
+  "address": "GU47 9BJ",
+  "fetched": "2026-11-05",
+  "ground": "Bottom Meadow",
+  "postcode": "GU47 9BJ"
+ },
+ "bradford-city": {
+  "address": "Valley Parade, Bradford, West Yorkshire, BD8 7DY",
+  "fetched": "2026-11-05",
+  "ground": "Mbanq Valley Parade Stadium",
+  "postcode": "BD8 7DY"
+ },
+ "bradford-park-avenue": {
+  "address": "Cemetery Road, Bradford, West Yorkshire, BD6 2NG",
+  "fetched": "2026-11-05",
+  "ground": "Horsfall Community Stadium",
+  "postcode": "BD6 2NG"
+ },
+ "bradford-town": {
+  "address": "Trowbridge Road, Bradford on Avon, Wiltshire, BA15 1EX",
+  "fetched": "2026-11-05",
+  "ground": "BK Decorators Ground",
+  "postcode": "BA15 1EX"
+ },
+ "braintree-town": {
+  "address": "Clockhouse Way, Braintree, Essex, CM7 3DE",
+  "fetched": "2026-11-05",
+  "ground": "The Ironmongery Direct Stadium",
+  "postcode": "CM7 3DE"
+ },
+ "brantham-athletic": {
+  "address": "New Village, Brantham, Cattawade, Manningtree, CO11 1RZ",
+  "fetched": "2026-11-05",
+  "ground": "Brantham Leisure Centre",
+  "postcode": "CO11 1RZ"
+ },
+ "brentford": {
+  "address": "Lionel Road, Brentford, Middlesex, TW8 0RU",
+  "fetched": "2026-11-05",
+  "ground": "Gtech Community Stadium",
+  "postcode": "TW8 0RU"
+ },
+ "brentwood-town": {
+  "address": "Brentwood Centre, Doddinghurst Road, Brentwood, Essex, CM15 9NN",
+  "fetched": "2026-11-05",
+  "ground": "Brentwood Centre Arena",
+  "postcode": "CM15 9NN"
+ },
+ "bridlington-town": {
+  "address": "Queensgate, Bridlington, East Yorkshire, YO16 7LN, YO16 7LN",
+  "fetched": "2026-11-05",
+  "ground": "Mounting Systems Stadium",
+  "postcode": "YO16 7LN"
+ },
+ "bridon-ropes": {
+  "address": "Charlton Park Lane, Charlton, SE7 8QS",
+  "fetched": "2026-11-05",
+  "ground": "Meridian Sports & Social Club",
+  "postcode": "SE7 8QS"
+ },
+ "brigg-town": {
+  "address": "The Hawthorns, Hawthorn Avenue, Brigg, North Lincolnshire, DN20 8PG",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "DN20 8PG"
+ },
+ "brightlingsea-regent": {
+  "address": "North Road, Brightlingsea, Essex, CO7 0PL",
+  "fetched": "2026-11-05",
+  "ground": "North Road",
+  "postcode": "CO7 0PL"
+ },
+ "brighton-and-hove-albion": {
+  "address": "Village Way, Brighton, East Sussex, BN1 9BL",
+  "fetched": "2026-11-05",
+  "ground": "American Express Stadium",
+  "postcode": "BN1 9BL"
+ },
+ "brighton-and-hove-albion-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "brimscombe-and-thrupp": {
+  "address": "London Road, Stroud, GL5 2SH",
+  "fetched": "2026-11-05",
+  "ground": "The Meadow",
+  "postcode": "GL5 2SH"
+ },
+ "bristol-city": {
+  "address": "Bristol, BS3 2EJ",
+  "fetched": "2026-11-05",
+  "ground": "Ashton Gate Stadium",
+  "postcode": "BS3 2EJ"
+ },
+ "bristol-city-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "bristol-manor-farm": {
+  "address": "Portway, Bristol, BS9 2HS",
+  "fetched": "2026-11-05",
+  "ground": "The Creek",
+  "postcode": "BS9 2HS"
+ },
+ "bristol-rovers": {
+  "address": "Filton Avenue, Horfield, Bristol, BS7 0BF",
+  "fetched": "2026-11-05",
+  "ground": "The Memorial Stadium",
+  "postcode": "BS7 0BF"
+ },
+ "broadbridge-heath": {
+  "address": "Wickhurst Lane, Broadbridge Heath, West Sussex, RH12 3YS, RH12 3YS",
+  "fetched": "2026-11-05",
+  "ground": "The Air Engineering Stadium",
+  "postcode": "RH12 3YS"
+ },
+ "broadfields-united": {
+  "address": "151 Rayners Lane, Harrow, Middlesex, HA2 0XH",
+  "fetched": "2026-11-05",
+  "ground": "Tithe Farm",
+  "postcode": "HA2 0XH"
+ },
+ "bromley": {
+  "address": "Bromley, Kent, BR2 9EF",
+  "fetched": "2026-11-05",
+  "ground": "Westminster Waste Stadium",
+  "postcode": "BR2 9EF"
+ },
+ "bromsgrove-sporting": {
+  "address": "B61 0DR",
+  "fetched": "2026-11-05",
+  "ground": "The Victoria Ground",
+  "postcode": "B61 0DR"
+ },
+ "bromyard-town": {
+  "address": "Stourport Road, Bromyard, HR7 4NT",
+  "fetched": "2026-11-05",
+  "ground": "Delahay Meadow",
+  "postcode": "HR7 4NT"
+ },
+ "brook-house": {
+  "address": "Kingshill Avenue, Hayes,, UB4 8DD",
+  "fetched": "2026-11-05",
+  "ground": "Farm Park",
+  "postcode": "UB4 8DD"
+ },
+ "buckhurst-hill": {
+  "address": "Roding Ln, Buckhurst Hill, IG9 6BJ",
+  "fetched": "2026-11-05",
+  "ground": "Roding Lane",
+  "postcode": "IG9 6BJ"
+ },
+ "burgess-hill-town": {
+  "address": "Leylands Park, Maple Drive, Burgess Hill, West Sussex, RH15 8DL",
+  "fetched": "2026-11-05",
+  "ground": "The Medical Travel Compared Stadium",
+  "postcode": "RH15 8DL"
+ },
+ "burnham": {
+  "address": "Burnham Football Club, Wymers Wood Road, Burnham, Buckinghamshire, SL1 8JG",
+  "fetched": "2026-11-05",
+  "ground": "The 1878 Stadium",
+  "postcode": "SL1 8JG"
+ },
+ "burnley": {
+  "address": "Harry Potts Way, Burnley, Lancashire, BB10 4BX",
+  "fetched": "2026-11-05",
+  "ground": "Turf Moor",
+  "postcode": "BB10 4BX"
+ },
+ "burnley-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "burton-albion": {
+  "address": "Princess Way, Burton on Trent, Staffordshire, DE13 0AR",
+  "fetched": "2026-11-05",
+  "ground": "Pirelli Stadium",
+  "postcode": "DE13 0AR"
+ },
+ "bury": {
+  "address": "Bury, BL9 9HU",
+  "fetched": "2026-11-05",
+  "ground": "Gigg Lane",
+  "postcode": "BL9 9HU"
+ },
+ "bury-town": {
+  "address": "Ram Meadow, Cotton Lane, Bury St Edmunds, Suffolk, IP33 1XP",
+  "fetched": "2026-11-05",
+  "ground": "Getaway Cars Stadium",
+  "postcode": "IP33 1XP"
+ },
+ "buxton": {
+  "address": "Buxton, Derbyshire, SK17 6QH",
+  "fetched": "2026-11-05",
+  "ground": "The Silverlands",
+  "postcode": "SK17 6QH"
+ },
+ "camberley-town": {
+  "address": "32 Wilton Road,, Camberley,, Surrey, GU15 2QW",
+  "fetched": "2026-11-05",
+  "ground": "Krooner Park",
+  "postcode": "GU15 2QW"
+ },
+ "cambridge-city": {
+  "address": "West Way, Sawston, Cambridgeshire, CB22 3FG",
+  "fetched": "2026-11-05",
+  "ground": "FWD-IP Community Stadium",
+  "postcode": "CB22 3FG"
+ },
+ "cambridge-united": {
+  "address": "Newmarket Road, Cambridge, CB5 8LN",
+  "fetched": "2026-11-05",
+  "ground": "The Abbey Stadium",
+  "postcode": "CB5 8LN"
+ },
+ "campion-afc": {
+  "address": "BD9 5DB",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "BD9 5DB"
+ },
+ "canvey-island": {
+  "address": "Park Lane, Canvey Island, Essex, SS8 7PX",
+  "fetched": "2026-11-05",
+  "ground": "The Steve Taxi\u2019s Stadium",
+  "postcode": "SS8 7PX"
+ },
+ "cardiff-city": {
+  "address": "Leckwith Road, Leckwith, Cardiff, CF11 8AZ",
+  "fetched": "2026-11-05",
+  "ground": "Cardiff City Stadium",
+  "postcode": "CF11 8AZ"
+ },
+ "carlisle-city": {
+  "address": "Petteril Bank Road, Carlisle, CA1 3AF",
+  "fetched": "2026-11-05",
+  "ground": "Office Technology Stadium",
+  "postcode": "CA1 3AF"
+ },
+ "carlton-town": {
+  "address": "Stoke Lane, Gedling, Nottingham, NG4 2QS",
+  "fetched": "2026-11-05",
+  "ground": "Bill Stokeld Stadium",
+  "postcode": "NG4 2QS"
+ },
+ "carshalton-athletic": {
+  "address": "Colston Avenue, Carshalton, Surrey, SM5 2PW",
+  "fetched": "2026-11-05",
+  "ground": "War Memorial Sports Ground",
+  "postcode": "SM5 2PW"
+ },
+ "carterton": {
+  "address": "Swinbrook Road, Carterton, Oxon, OX18 1DY",
+  "fetched": "2026-11-05",
+  "ground": "Empire Stadium",
+  "postcode": "OX18 1DY"
+ },
+ "charlton-athletic": {
+  "address": "Floyd Road, Charlton, London, SE7 8BL",
+  "fetched": "2026-11-05",
+  "ground": "The Valley",
+  "postcode": "SE7 8BL"
+ },
+ "charlton-athletic-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "chasetown": {
+  "address": "Church Street, Chasetown, WS7 3QL",
+  "fetched": "2026-11-05",
+  "ground": "The Scholars Ground, Chasetown FC",
+  "postcode": "WS7 3QL"
+ },
+ "chatham-town": {
+  "address": "Maidstone Road, Chatham, Kent, ME4 6LR",
+  "fetched": "2026-11-05",
+  "ground": "The Bauvill Stadium",
+  "postcode": "ME4 6LR"
+ },
+ "chelmsford-city": {
+  "address": "Salerno Way, Chelmsford, Essex, CM1 2EH",
+  "fetched": "2026-11-05",
+  "ground": "Melbourne Community Stadium",
+  "postcode": "CM1 2EH"
+ },
+ "chelsea": {
+  "address": "Fulham Road, London, SW6 1HS",
+  "fetched": "2026-11-05",
+  "ground": "Stamford Bridge",
+  "postcode": "SW6 1HS"
+ },
+ "chelsea-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "cheltenham-saracens": {
+  "address": "St Peters Close, Cheltenham, GL51 9GE",
+  "fetched": "2026-11-05",
+  "ground": "Petersfield Park",
+  "postcode": "GL51 9GE"
+ },
+ "cheltenham-town": {
+  "address": "Whaddon Road, Cheltenham, Gloucestershire, GL52 5NA",
+  "fetched": "2026-11-05",
+  "ground": "Jonny-Rocks Stadium",
+  "postcode": "GL52 5NA"
+ },
+ "cheltenham-town-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "chertsey-town": {
+  "address": "Alwyns Lane, Chertsey, Surrey, KT16 9DW",
+  "fetched": "2026-11-05",
+  "ground": "Alwyns Lane",
+  "postcode": "KT16 9DW"
+ },
+ "chesham-united": {
+  "address": "Amy Lane, Chesham, Buckinghamshire, HP5 1NE",
+  "fetched": "2026-11-05",
+  "ground": "The Meadow",
+  "postcode": "HP5 1NE"
+ },
+ "cheshunt": {
+  "address": "Theobalds Lane, Cheshunt, Waltham Cross,, Herts, EN8 8RU",
+  "fetched": "2026-11-05",
+  "ground": "The Cheshunt Stadium",
+  "postcode": "EN8 8RU"
+ },
+ "chester": {
+  "address": "Bumpers Lane, Chester, CH1 4LT",
+  "fetched": "2026-11-05",
+  "ground": "Lookers Vauxhall Stadium",
+  "postcode": "CH1 4LT"
+ },
+ "chester-le-street-town": {
+  "address": "Union Lane, Chester Moor, DH2 3RW",
+  "fetched": "2026-11-05",
+  "ground": "Moor Park",
+  "postcode": "DH2 3RW"
+ },
+ "chesterfield": {
+  "address": "1866 Sheffield Road, Whittington Moor, Chesterfield, Derbyshire, S41 8NZ",
+  "fetched": "2026-11-05",
+  "ground": "The Proact Stadium",
+  "postcode": "S41 8NZ"
+ },
+ "chichester-city": {
+  "address": "Oaklands Way, Chichester, West Sussex, PO19 6AR",
+  "fetched": "2026-11-05",
+  "ground": "Oaklands Park",
+  "postcode": "PO19 6AR"
+ },
+ "chippenham-town": {
+  "address": "Bristol Road, Chippenham, Wiltshire, SN14 6LR",
+  "fetched": "2026-11-05",
+  "ground": "Hardenhuish Park",
+  "postcode": "SN14 6LR"
+ },
+ "chipping-sodbury-town": {
+  "address": "Wickwar Road, Chipping Sodbury , Bristol, BS37 6GA",
+  "fetched": "2026-11-05",
+  "ground": "The Ridings",
+  "postcode": "BS37 6GA"
+ },
+ "chipstead": {
+  "address": "High Road, Chipstead, Surrey, CR5 3SF",
+  "fetched": "2026-11-05",
+  "ground": "NRT Stadium",
+  "postcode": "CR5 3SF"
+ },
+ "chislehurst-glebe": {
+  "address": "The Clubhouse, Foxbury Avenue, Chislehurst, Kent, BR7 6SD",
+  "fetched": "2026-11-05",
+  "ground": "Glebe FC",
+  "postcode": "BR7 6SD"
+ },
+ "chorley": {
+  "address": "Duke Street, Chorley, Lancashire, PR7 3DU",
+  "fetched": "2026-11-05",
+  "ground": "The Chorley Group Victory Park Stadium",
+  "postcode": "PR7 3DU"
+ },
+ "cinderford-town": {
+  "address": "Edge Hills Road, Hilldeane, Cinderford, Gloucestershire, GL14 2QH",
+  "fetched": "2026-11-05",
+  "ground": "Causeway Ground",
+  "postcode": "GL14 2QH"
+ },
+ "cirencester-town": {
+  "address": "Kingshill Lane, Cirencester, Gloucestershire, GL7 1HS",
+  "fetched": "2026-11-05",
+  "ground": "Corinium Stadium",
+  "postcode": "GL7 1HS"
+ },
+ "clanfield": {
+  "address": "Main Street ,Clanfield,Ox18 2st, OX18 2ST",
+  "fetched": "2026-11-05",
+  "ground": "Radcot Road",
+  "postcode": "OX18 2ST"
+ },
+ "clapton-community": {
+  "address": "Walter Tull Way, 212 Upton Lane, Forest Gate, London, E7 9NP",
+  "fetched": "2026-11-05",
+  "ground": "Old Spotted Dog Ground",
+  "postcode": "E7 9NP"
+ },
+ "clay-cross-town": {
+  "address": "Mill Lane, Clay Cross, S42 6AE",
+  "fetched": "2026-11-05",
+  "ground": "NYR Ground",
+  "postcode": "S42 6AE"
+ },
+ "cleethorpes-town": {
+  "address": "Clee Road, Grimsby, North East Lincolnshire, DN32 8QL",
+  "fetched": "2026-11-05",
+  "ground": "Linden Club",
+  "postcode": "DN32 8QL"
+ },
+ "clifton-all-whites": {
+  "address": "245 Green Lane, Clifton, Nottingham, NG11 9AZ",
+  "fetched": "2026-11-05",
+  "ground": "Norman Archer",
+  "postcode": "NG11 9AZ"
+ },
+ "clipstone-welfare": {
+  "address": "NG21 9AB",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "NG21 9AB"
+ },
+ "clitheroe": {
+  "address": "off Pendle Road, Clitheroe, Lancashire, BB7 1LZ",
+  "fetched": "2026-11-05",
+  "ground": "Shawbridge",
+  "postcode": "BB7 1LZ"
+ },
+ "club-thorne-colliery": {
+  "address": "Grange Road, Moorends, Doncaster, DN8 4NH",
+  "fetched": "2026-11-05",
+  "ground": "The Chesterfield Poultry Stadium",
+  "postcode": "DN8 4NH"
+ },
+ "cobham": {
+  "address": "KT11 1AA",
+  "fetched": "2026-11-05",
+  "ground": "Reg Madgwick Stadium",
+  "postcode": "KT11 1AA"
+ },
+ "cockfosters": {
+  "address": "Dacre Field, Chalk Lane, Enfield, EN4 9HZ",
+  "fetched": "2026-11-05",
+  "ground": "Cockfosters Football Club",
+  "postcode": "EN4 9HZ"
+ },
+ "colchester-united": {
+  "address": "United Way, Colchester, Essex, CO4 5UP",
+  "fetched": "2026-11-05",
+  "ground": "JobServe Community Stadium",
+  "postcode": "CO4 5UP"
+ },
+ "coleshill-town": {
+  "address": "Packington Lane, COLESHILL, B46 3JJ",
+  "fetched": "2026-11-05",
+  "ground": "Pack Meadow",
+  "postcode": "B46 3JJ"
+ },
+ "colliers-wood-united": {
+  "address": "Opposite 199-213 Robin Hood Way, ( A3 southbound), West Wimbledon, SW20 0AA",
+  "fetched": "2026-11-05",
+  "ground": "Wibbandune Sports Ground",
+  "postcode": "SW20 0AA"
+ },
+ "colney-heath": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "concord-rangers": {
+  "address": "Thames Road, Canvey Island, Essex, SS8 0HH",
+  "fetched": "2026-11-05",
+  "ground": "The Aspect Arena",
+  "postcode": "SS8 0HH"
+ },
+ "congleton-town": {
+  "address": "Ivy Gardens, Congleton, Cheshire, CW12 4GA",
+  "fetched": "2026-11-05",
+  "ground": "The Cleric Stadium",
+  "postcode": "CW12 4GA"
+ },
+ "consett-afc": {
+  "address": "DH8 7BF",
+  "fetched": "2026-11-05",
+  "ground": "Belle View Stadium",
+  "postcode": "DH8 7BF"
+ },
+ "corby-town": {
+  "address": "Jimmy Kane Way, Rockingham Road, Corby, NN17 2FB",
+  "fetched": "2026-11-05",
+  "ground": "Steel Park",
+  "postcode": "NN17 2FB"
+ },
+ "corinthian": {
+  "address": "Valley Road, Fawkham, Longfield, Kent, DA3 8LY",
+  "fetched": "2026-11-05",
+  "ground": "Gay Dawn Farm",
+  "postcode": "DA3 8LY"
+ },
+ "corinthian-casuals": {
+  "address": "King George's Field, Hook Rise South, Tolworth, Surrey, KT6 7NA",
+  "fetched": "2026-11-05",
+  "ground": "Armada Group Stadium",
+  "postcode": "KT6 7NA"
+ },
+ "cornard-united": {
+  "address": "Blackhouse Lane, Gt Cornard, Sudbury, Suffolk, CO10 0NL",
+  "fetched": "2026-11-05",
+  "ground": "Cornard United Football Club",
+  "postcode": "CO10 0NL"
+ },
+ "corsham-town": {
+  "address": "SN13 9HS",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "SN13 9HS"
+ },
+ "cotgrave": {
+  "address": "NG12 3PG",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "NG12 3PG"
+ },
+ "coton-green": {
+  "address": "B78 3RX",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "B78 3RX"
+ },
+ "coventry-city": {
+  "address": "Jimmy Hill Way, Rowleys Green, Coventry, CV6 6GE",
+  "fetched": "2026-11-05",
+  "ground": "Coventry Building Society Arena",
+  "postcode": "CV6 6GE"
+ },
+ "coventry-sphinx": {
+  "address": "Sphinx Drive, CV3 1WA",
+  "fetched": "2026-11-05",
+  "ground": "The Cameron Slater Arena",
+  "postcode": "CV3 1WA"
+ },
+ "coventry-united": {
+  "address": "Butts Road, Coventry, CV1 3GE",
+  "fetched": "2026-11-05",
+  "ground": "Butts Park Arena",
+  "postcode": "CV1 3GE"
+ },
+ "crawley-town": {
+  "address": "Winfield Way, Crawley, West Sussex, RH11 9RX",
+  "fetched": "2026-11-05",
+  "ground": "Peoples Pension Stadium",
+  "postcode": "RH11 9RX"
+ },
+ "cray-valley-pm": {
+  "address": "Middle Park Avenue, Eltham, London, SE9 5HP",
+  "fetched": "2026-11-05",
+  "ground": "The Mayne Arena, Badgers Sports",
+  "postcode": "SE9 5HP"
+ },
+ "cray-wanderers": {
+  "address": "Sidcup Bypass, Kent, BR7 6HL",
+  "fetched": "2026-11-05",
+  "ground": "Flamingo Park",
+  "postcode": "BR7 6HL"
+ },
+ "crewe-alexandra": {
+  "address": "Gresty Road, Crewe, Cheshire, CW2 6EB",
+  "fetched": "2026-11-05",
+  "ground": "The Alexandra Stadium",
+  "postcode": "CW2 6EB"
+ },
+ "cribbs": {
+  "address": "Oaklands Park Stadium, Gloucester Road, Almondsbury, Bristol, BS32 4AG",
+  "fetched": "2026-11-05",
+  "ground": "GFA Headquarters",
+  "postcode": "BS32 4AG"
+ },
+ "crook-town": {
+  "address": "West Road, Crook, County Durham, DL15 9PW",
+  "fetched": "2026-11-05",
+  "ground": "Sir Tom Cowie Millfield",
+  "postcode": "DL15 9PW"
+ },
+ "crowborough-athletic": {
+  "address": "TN6 3FY",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "TN6 3FY"
+ },
+ "crowle-colts": {
+  "address": "Godnow Road, Crowle, DN17 4EE",
+  "fetched": "2026-11-05",
+  "ground": "Windsor Park",
+  "postcode": "DN17 4EE"
+ },
+ "croydon": {
+  "address": "SE25 4QL",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "SE25 4QL"
+ },
+ "crystal-palace": {
+  "address": "Whitehorse Lane, London, SE25 6PU",
+  "fetched": "2026-11-05",
+  "ground": "Selhurst Park",
+  "postcode": "SE25 6PU"
+ },
+ "crystal-palace-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "curzon-ashton": {
+  "address": "Richmond Street, Ashton-under-Lyne, Greater Manchester, OL7 9HG",
+  "fetched": "2026-11-05",
+  "ground": "Tameside Stadium",
+  "postcode": "OL7 9HG"
+ },
+ "dagenham-and-redbridge": {
+  "address": "Victoria Road, Dagenham, Essex, RM10 7XL",
+  "fetched": "2026-11-05",
+  "ground": "Chigwell Construction Stadium",
+  "postcode": "RM10 7XL"
+ },
+ "darlington": {
+  "address": "Grange Road, Darlington, Durham, DL1 5NR",
+  "fetched": "2026-11-05",
+  "ground": "Blackwell Meadows",
+  "postcode": "DL1 5NR"
+ },
+ "darlington-town": {
+  "address": "Bourne Avenue, DL1 1LD",
+  "fetched": "2026-11-05",
+  "ground": "Eastbourne Community Stadium",
+  "postcode": "DL1 1LD"
+ },
+ "dartford": {
+  "address": "Darenth Road, Dartford, Kent, DA1 1RT",
+  "fetched": "2026-11-05",
+  "ground": "Princes Park Stadium",
+  "postcode": "DA1 1RT"
+ },
+ "daventry-town": {
+  "address": "Browns Road, Daventry, Northamptonshire, NN11 4NS",
+  "fetched": "2026-11-05",
+  "ground": "Master Abrasives Stadium",
+  "postcode": "NN11 4NS"
+ },
+ "deal-town": {
+  "address": "St Leonard\u2019s Road, Deal, Kent, CT14 9AU",
+  "fetched": "2026-11-05",
+  "ground": "Charles Sports Ground",
+  "postcode": "CT14 9AU"
+ },
+ "dearne-and-district": {
+  "address": "S63 9EH",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "S63 9EH"
+ },
+ "deeping-rangers": {
+  "address": "Outgang Road, Market Deeping, Lincolnshire, PE6 8LQ",
+  "fetched": "2026-11-05",
+  "ground": "The Haydon Whitham Stadium",
+  "postcode": "PE6 8LQ"
+ },
+ "derby-county": {
+  "address": "Derby, DE24 8XL",
+  "fetched": "2026-11-05",
+  "ground": "Pride Park",
+  "postcode": "DE24 8XL"
+ },
+ "derby-county-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "dereham-town": {
+  "address": "Norwich Road, Dereham, Norfolk, NR20 3PX",
+  "fetched": "2026-11-05",
+  "ground": "Aldiss Park",
+  "postcode": "NR20 3PX"
+ },
+ "desborough-town": {
+  "address": "Braybrooke Road, Desborough, Northants., NN14 2LJ",
+  "fetched": "2026-11-05",
+  "ground": "VPK Stadium, Waterworks Field,",
+  "postcode": "NN14 2LJ"
+ },
+ "devizes-town": {
+  "address": "Nursteed Road, SN10 3DX",
+  "fetched": "2026-11-05",
+  "ground": "Grist Environmental Ground",
+  "postcode": "SN10 3DX"
+ },
+ "didcot-town": {
+  "address": "Bowmont Water, Ladygrove, Didcot, Oxfordshire, OX11 7GA",
+  "fetched": "2026-11-05",
+  "ground": "Draycott Engineering Loop Meadow Stadium",
+  "postcode": "OX11 7GA"
+ },
+ "doncaster-rovers": {
+  "address": "Stadium Way, Doncaster, DN4 5JW",
+  "fetched": "2026-11-05",
+  "ground": "Keepmoat Stadium",
+  "postcode": "DN4 5JW"
+ },
+ "dorchester-town": {
+  "address": "Weymouth Avenue, Dorchester, Dorset, DT1 2RY",
+  "fetched": "2026-11-05",
+  "ground": "The Avenue Stadium",
+  "postcode": "DT1 2RY"
+ },
+ "dorking-wanderers": {
+  "address": "Mill Lane, Dorking, Surrey, RH4 1DX",
+  "fetched": "2026-11-05",
+  "ground": "Meadowbank Football Ground",
+  "postcode": "RH4 1DX"
+ },
+ "dover-athletic": {
+  "address": "Lewisham Road, Dover, Kent, CT17 0JB",
+  "fetched": "2026-11-05",
+  "ground": "Crabble Athletic Ground",
+  "postcode": "CT17 0JB"
+ },
+ "downham-town": {
+  "address": "PE38 9QE",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "PE38 9QE"
+ },
+ "droitwich-spa": {
+  "address": "Briar Mill, Droitwich Spa, Worcestershire, WR9 0RZ",
+  "fetched": "2026-11-05",
+  "ground": "Kingy\u2019s (King Georges Playing Fields)",
+  "postcode": "WR9 0RZ"
+ },
+ "dronfield-town": {
+  "address": "Frithwood Drive, Dronfield, S18 2EU",
+  "fetched": "2026-11-05",
+  "ground": "Stonelow Stadium",
+  "postcode": "S18 2EU"
+ },
+ "dulwich-hamlet": {
+  "address": "Edgar Kail Way, Dog Kennel Hill, East Dulwich, London, SE22 8BD",
+  "fetched": "2026-11-05",
+  "ground": "Champion Hill",
+  "postcode": "SE22 8BD"
+ },
+ "dunkirk": {
+  "address": "Lenton Lane, Nottingham, NG7 2SA",
+  "fetched": "2026-11-05",
+  "ground": "Empire Sports Ground",
+  "postcode": "NG7 2SA"
+ },
+ "dunstable": {
+  "address": "Creasey Park Drive, Dunstable, Beds, LU6 1BB",
+  "fetched": "2026-11-05",
+  "ground": "Creasey Park",
+  "postcode": "LU6 1BB"
+ },
+ "dunston": {
+  "address": "NE11 9JL",
+  "fetched": "2026-11-05",
+  "ground": "UTS Stadium",
+  "postcode": "NE11 9JL"
+ },
+ "durham-united": {
+  "address": "Stockton Road, Durham, DH1 3SE",
+  "fetched": "2026-11-05",
+  "ground": "Maiden Castle",
+  "postcode": "DH1 3SE"
+ },
+ "durham-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "eagles-land-benfica": {
+  "address": "School Lane Amersham, Buckinghamshire,",
+  "fetched": "2026-11-05",
+  "ground": "Prest park",
+  "postcode": ""
+ },
+ "easington-colliery": {
+  "address": "Easington Welfare Park, Easington Colliery, County Durham, SR8 3PL",
+  "fetched": "2026-11-05",
+  "ground": "Welfare Park",
+  "postcode": "SR8 3PL"
+ },
+ "easington-sports": {
+  "address": "Addison Road, OX16 9DH",
+  "fetched": "2026-11-05",
+  "ground": "Easington Sports FC",
+  "postcode": "OX16 9DH"
+ },
+ "eastbourne-borough": {
+  "address": "Langney, Eastbourne, East Sussex, BN23 7QH",
+  "fetched": "2026-11-05",
+  "ground": "Priory Lane",
+  "postcode": "BN23 7QH"
+ },
+ "eastbourne-town": {
+  "address": "Compton Place Road, Eastbourne, East Sussex, BN21 1EA",
+  "fetched": "2026-11-05",
+  "ground": "The Saffrons",
+  "postcode": "BN21 1EA"
+ },
+ "eastwood-cfc": {
+  "address": "Coronation Park, Chewton Street, Eastwood, NG16 3HB",
+  "fetched": "2026-11-05",
+  "ground": "Coronation Park",
+  "postcode": "NG16 3HB"
+ },
+ "ebbsfleet-united": {
+  "address": "Northfleet, Kent, DA11 9GN",
+  "fetched": "2026-11-05",
+  "ground": "Stonebridge Road",
+  "postcode": "DA11 9GN"
+ },
+ "edgware-and-kingsbury": {
+  "address": "Townsend lane., Kingsbury, NW9 7NE",
+  "fetched": "2026-11-05",
+  "ground": "Silver Jubilee stadium",
+  "postcode": "NW9 7NE"
+ },
+ "egham-town": {
+  "address": "Wards Place, Egham, Surrey, TW20 8XD",
+  "fetched": "2026-11-05",
+  "ground": "Runnymede Stadium",
+  "postcode": "TW20 8XD"
+ },
+ "ely-city": {
+  "address": "Downham Road, Ely, CB6 2SH",
+  "fetched": "2026-11-05",
+  "ground": "The Demcom Stadium",
+  "postcode": "CB6 2SH"
+ },
+ "emley-afc": {
+  "address": "Off Upper Lane, Emley, Huddersfield, HD8 9RE",
+  "fetched": "2026-11-05",
+  "ground": "Fantastic Media Welfare Ground",
+  "postcode": "HD8 9RE"
+ },
+ "enfield": {
+  "address": "Watkins Rise, Potters Bar, EN6 1DP",
+  "fetched": "2026-11-05",
+  "ground": "Lantern Community Stadium",
+  "postcode": "EN6 1DP"
+ },
+ "enfield-town": {
+  "address": "Donkey Lane, Enfield, Middlesex, EN1 3PL",
+  "fetched": "2026-11-05",
+  "ground": "Dave Bryant Stadium",
+  "postcode": "EN1 3PL"
+ },
+ "epsom-and-ewell": {
+  "address": "Chalky Lane, Chessington., Surrey., KT9 2NF",
+  "fetched": "2026-11-05",
+  "ground": "Chessington & Hook United",
+  "postcode": "KT9 2NF"
+ },
+ "erith-and-belvedere": {
+  "address": "Park View Road, Welling, Kent, DA16 1SY",
+  "fetched": "2026-11-05",
+  "ground": "Acclaim Handling Community Stadium",
+  "postcode": "DA16 1SY"
+ },
+ "erith-town": {
+  "address": "Bayliss Avenue, Thamesmead, London, SE28 8NJ",
+  "fetched": "2026-11-05",
+  "ground": "The JM Clark Stadium",
+  "postcode": "SE28 8NJ"
+ },
+ "everett-rovers": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "Pure Logistics Stadium",
+  "postcode": ""
+ },
+ "eversley-and-california": {
+  "address": "RG27 0NS",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "RG27 0NS"
+ },
+ "everton": {
+  "address": "Bramley-Moore Dock, Liverpool, L5 9SR",
+  "fetched": "2026-11-05",
+  "ground": "Hill Dickinson Stadium",
+  "postcode": "L5 9SR"
+ },
+ "everton-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "evesham-united": {
+  "address": "Cheltenham Road, Evesham, Worcestershie, WR11 2LZ",
+  "fetched": "2026-11-05",
+  "ground": "Spiers & Hartwell Jubilee Stadium",
+  "postcode": "WR11 2LZ"
+ },
+ "exeter-city": {
+  "address": "Exeter, EX4 6PX",
+  "fetched": "2026-11-05",
+  "ground": "St James Park",
+  "postcode": "EX4 6PX"
+ },
+ "exeter-city-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "exmouth-town": {
+  "address": "EX8 3EE",
+  "fetched": "2026-11-05",
+  "ground": "Southern Road",
+  "postcode": "EX8 3EE"
+ },
+ "eynesbury-rovers": {
+  "address": "PE19 2SF",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "PE19 2SF"
+ },
+ "fairford-town": {
+  "address": "GL7 4AX",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "GL7 4AX"
+ },
+ "fakenham-town": {
+  "address": "NR21 8SW",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "NR21 8SW"
+ },
+ "falmouth-town": {
+  "address": "TR11 4PB",
+  "fetched": "2026-11-05",
+  "ground": "Bickland Park",
+  "postcode": "TR11 4PB"
+ },
+ "farnborough": {
+  "address": "Cherrywood Road, Farnborough, Hampshire, GU14 8UD",
+  "fetched": "2026-11-05",
+  "ground": "Saunders Transport Community Stadium",
+  "postcode": "GU14 8UD"
+ },
+ "farnham-town": {
+  "address": "Mead Lane, Farnham, GU9 7DY",
+  "fetched": "2026-11-05",
+  "ground": "The Memorial Ground",
+  "postcode": "GU9 7DY"
+ },
+ "faversham-strike-force": {
+  "address": "Whitstable Town FC, Belmont Rd, Whitstable, CT5 1QP",
+  "fetched": "2026-11-05",
+  "ground": "The Primcura Healthcare Stadium",
+  "postcode": "CT5 1QP"
+ },
+ "faversham-town": {
+  "address": "Salters Lane, Faversham, Kent, ME13 8ND",
+  "fetched": "2026-11-05",
+  "ground": "The Aquatherm Stadium",
+  "postcode": "ME13 8ND"
+ },
+ "fc-deportivo-galicia": {
+  "address": "Hatton Road, Bedfont, TW14 9QS",
+  "fetched": "2026-11-05",
+  "ground": "Bedfont Recreation Ground",
+  "postcode": "TW14 9QS"
+ },
+ "fc-elmstead": {
+  "address": "Darenth Ave,, Tonbridge, Kent, TN10 3JF",
+  "fetched": "2026-11-05",
+  "ground": "Longmead Stadium",
+  "postcode": "TN10 3JF"
+ },
+ "fc-hartlepool": {
+  "address": "Jesmond Gardens Hartlepool, TS24 8PJ",
+  "fetched": "2026-11-05",
+  "ground": "Grayfields Enclosure",
+  "postcode": "TS24 8PJ"
+ },
+ "fc-peterborough": {
+  "address": "Chestnut Ave, Peterborough, PE1 4PE",
+  "fetched": "2026-11-05",
+  "ground": "Millfield Autoparts Stadium",
+  "postcode": "PE1 4PE"
+ },
+ "fc-stratford": {
+  "address": "Knights Lane, Stratford-upon-Avon, Warwickshire, CV37 7BZ",
+  "fetched": "2026-11-05",
+  "ground": "Arden Garages Stadium",
+  "postcode": "CV37 7BZ"
+ },
+ "fc-united-of-manchester": {
+  "address": "310 Lightbowne Road, Moston, Manchester, M40 0FJ",
+  "fetched": "2026-11-05",
+  "ground": "Broadhurst Park",
+  "postcode": "M40 0FJ"
+ },
+ "felixstowe-and-walton-united": {
+  "address": "IP11 9HT",
+  "fetched": "2026-11-05",
+  "ground": "THE MARTELLO GROUND",
+  "postcode": "IP11 9HT"
+ },
+ "field-olympic": {
+  "address": "Harrogate Road, Bradford, BD10 0HT",
+  "fetched": "2026-11-05",
+  "ground": "Olympic Park",
+  "postcode": "BD10 0HT"
+ },
+ "fisher": {
+  "address": "Salter Road, Rotherhithe, London, SE16 5EF",
+  "fetched": "2026-11-05",
+  "ground": "St Paul's Sports Ground",
+  "postcode": "SE16 5EF"
+ },
+ "flackwell-heath": {
+  "address": "Magpie Lane, Flackwell Heath, Buckinghamshire, HP10 9EA",
+  "fetched": "2026-11-05",
+  "ground": "Wilks Park",
+  "postcode": "HP10 9EA"
+ },
+ "fleet-town": {
+  "address": "Crookham Road, Fleet, Hampshire, GU51 5FA",
+  "fetched": "2026-11-05",
+  "ground": "Easy As HGV Stadium",
+  "postcode": "GU51 5FA"
+ },
+ "fleetwood-town": {
+  "address": "Park Avenue, Fleetwood, Lancashire, FY7 6TX",
+  "fetched": "2026-11-05",
+  "ground": "Highbury Stadium",
+  "postcode": "FY7 6TX"
+ },
+ "folkestone-invicta": {
+  "address": "Cheriton Road, Folkestone, Kent, CT19 5JU",
+  "fetched": "2026-11-05",
+  "ground": "Alcaline Stadium",
+  "postcode": "CT19 5JU"
+ },
+ "frenford": {
+  "address": "Frenford Clubs,, The Jack Carter Centre,, The Drive,, Ilford, IG1 3PS",
+  "fetched": "2026-11-05",
+  "ground": "The Drive",
+  "postcode": "IG1 3PS"
+ },
+ "frickley-athletic": {
+  "address": "Westfield Lane, South Elmsall, Pontefract, WF9 2EQ",
+  "fetched": "2026-11-05",
+  "ground": "Big Fellas Stadium",
+  "postcode": "WF9 2EQ"
+ },
+ "frome-town": {
+  "address": "Berkeley Road, Frome, Somerset, BA11 2EH",
+  "fetched": "2026-11-05",
+  "ground": "The Special Effect Stadium",
+  "postcode": "BA11 2EH"
+ },
+ "fulham": {
+  "address": "Stevenage Road, London, SW6 6HH",
+  "fetched": "2026-11-05",
+  "ground": "Craven Cottage",
+  "postcode": "SW6 6HH"
+ },
+ "fulham-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "gainsborough-trinity": {
+  "address": "Northolme, Gainsborough, Lincolnshire, DN21 2QW",
+  "fetched": "2026-11-05",
+  "ground": "Kal Group Stadium",
+  "postcode": "DN21 2QW"
+ },
+ "garforth-town": {
+  "address": "Cedar Ridge, Garforth, Leeds, LS25 2PF",
+  "fetched": "2026-11-05",
+  "ground": "BD Community Stadium",
+  "postcode": "LS25 2PF"
+ },
+ "gedling-miners-welfare": {
+  "address": "NG3 5RH",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "NG3 5RH"
+ },
+ "gillingham": {
+  "address": "Redfern Avenue, Gillingham, Kent, ME7 4DD",
+  "fetched": "2026-11-05",
+  "ground": "MEMS Priestfield Stadium",
+  "postcode": "ME7 4DD"
+ },
+ "gloucester-city": {
+  "address": "Sudmeadow Road, Hempsted, Gloucester, GL2 5HS",
+  "fetched": "2026-11-05",
+  "ground": "Meadow Park",
+  "postcode": "GL2 5HS"
+ },
+ "godalming-town": {
+  "address": "Wey Court, Meadrow, Godalming, Surrey, GU7 3JE",
+  "fetched": "2026-11-05",
+  "ground": "The Bill Kyte Stadium",
+  "postcode": "GU7 3JE"
+ },
+ "godmanchester-rovers": {
+  "address": "PE29 2LQ",
+  "fetched": "2026-11-05",
+  "ground": "The Peter Hodson Memorial Ground",
+  "postcode": "PE29 2LQ"
+ },
+ "golcar-united": {
+  "address": "Longfield Avenue, Golcar, Huddersfield, HD7 4AZ",
+  "fetched": "2026-11-05",
+  "ground": "Skye Direct Stadium",
+  "postcode": "HD7 4AZ"
+ },
+ "goole-afc": {
+  "address": "Marcus Street, Goole, East Yorkshire, DN14 6SL",
+  "fetched": "2026-11-05",
+  "ground": "Victoria Pleasure Grounds",
+  "postcode": "DN14 6SL"
+ },
+ "gorleston": {
+  "address": "Sandown Road, Great Yarmouth, Norfolk, NR30 1EY",
+  "fetched": "2026-11-05",
+  "ground": "Wellesley Recreation Ground",
+  "postcode": "NR30 1EY"
+ },
+ "gosport-borough": {
+  "address": "Privett Road, Gosport, Hampshire, PO12 3SX",
+  "fetched": "2026-11-05",
+  "ground": "AEI Stadium",
+  "postcode": "PO12 3SX"
+ },
+ "grangetown-boys-club": {
+  "address": "Grange Farm Road, TS6 7HP",
+  "fetched": "2026-11-05",
+  "ground": "B&W Lifting Ltd Stadium",
+  "postcode": "TS6 7HP"
+ },
+ "grantham-town": {
+  "address": "Trent Road, Grantham, Lincolnshire, NG31 7XQ",
+  "fetched": "2026-11-05",
+  "ground": "South Kesteven Sports Stadium",
+  "postcode": "NG31 7XQ"
+ },
+ "grays-athletic": {
+  "address": "St. Chad's Road, Tilbury, Essex, RM18 8NL",
+  "fetched": "2026-11-05",
+  "ground": "Chadfields (Tilbury FC)",
+  "postcode": "RM18 8NL"
+ },
+ "great-wakering-rovers": {
+  "address": "Little Wakering Hall Lane, Great Wakering, Essex, SS3 0HH",
+  "fetched": "2026-11-05",
+  "ground": "Burroughs Park",
+  "postcode": "SS3 0HH"
+ },
+ "great-yarmouth-town": {
+  "address": "Sandown Road, Great Yarmouth, NR30 1EY, NR30 1EY",
+  "fetched": "2026-11-05",
+  "ground": "The Wellesley",
+  "postcode": "NR30 1EY"
+ },
+ "greenways": {
+  "address": "Rede Court Road, Rochester, Kent, ME2 3TU",
+  "fetched": "2026-11-05",
+  "ground": "Rochester United Sports Ground",
+  "postcode": "ME2 3TU"
+ },
+ "gresley-rovers": {
+  "address": "Moat Street, Church Gresley, Swadlincote, Derbyshire, DE11 9RE",
+  "fetched": "2026-11-05",
+  "ground": "Moat Ground",
+  "postcode": "DE11 9RE"
+ },
+ "grimsby-borough": {
+  "address": "DN37 0AG",
+  "fetched": "2026-11-05",
+  "ground": "The Bradley Football Development Centre",
+  "postcode": "DN37 0AG"
+ },
+ "grimsby-town": {
+  "address": "Cleethorpes, Lincolnshire, DN35 7PY",
+  "fetched": "2026-11-05",
+  "ground": "Blundell Park",
+  "postcode": "DN35 7PY"
+ },
+ "guisborough-town": {
+  "address": "Howlbeck Road, Guisborough, Cleveland, TS14 6LE",
+  "fetched": "2026-11-05",
+  "ground": "Kevin Edward KGV Ground",
+  "postcode": "TS14 6LE"
+ },
+ "guiseley": {
+  "address": "Otley Road, Guiseley, Leeds, LS20 8BT",
+  "fetched": "2026-11-05",
+  "ground": "Nethermoor Park",
+  "postcode": "LS20 8BT"
+ },
+ "hackney-wick": {
+  "address": "Spa Road, Witham, CM8 1UN",
+  "fetched": "2026-11-05",
+  "ground": "Simarco Stadium",
+  "postcode": "CM8 1UN"
+ },
+ "hadley": {
+  "address": "EN5 3LD",
+  "fetched": "2026-11-05",
+  "ground": "Brickfield Lane",
+  "postcode": "EN5 3LD"
+ },
+ "halesowen-town": {
+  "address": "Old Hawne Lane, Halesowen, West Midlands, B63 3TB",
+  "fetched": "2026-11-05",
+  "ground": "The Grove",
+  "postcode": "B63 3TB"
+ },
+ "hallam": {
+  "address": "S10 5SE",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "S10 5SE"
+ },
+ "hallen": {
+  "address": "BS10 7RU",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "BS10 7RU"
+ },
+ "halls-afc": {
+  "address": "Darenth Road, Dartford, Kent, DA1 1RT",
+  "fetched": "2026-11-05",
+  "ground": "Princes Park Stadium (Dartford FC)",
+  "postcode": "DA1 1RT"
+ },
+ "halstead-town": {
+  "address": "Rosemary Lane, Broton Industrial Estate, Halstead, CO9 1HR",
+  "fetched": "2026-11-05",
+  "ground": "Milbank Stadium",
+  "postcode": "CO9 1HR"
+ },
+ "hampton-and-richmond-borough": {
+  "address": "Beaver Close, Hampton, Middlesex, TW12 2BX",
+  "fetched": "2026-11-05",
+  "ground": "Beveree Stadium",
+  "postcode": "TW12 2BX"
+ },
+ "handsworth": {
+  "address": "Handsworth FC, Olivers Mount, Sheffield, S9 4PA",
+  "fetched": "2026-11-05",
+  "ground": "Express Worktops Stadium",
+  "postcode": "S9 4PA"
+ },
+ "hanley-town": {
+  "address": "ST2 8AJ",
+  "fetched": "2026-11-05",
+  "ground": "Potteries Park",
+  "postcode": "ST2 8AJ"
+ },
+ "hanwell-town": {
+  "address": "Perivale Lane, Greenford, Middlesex, UB6 8TL",
+  "fetched": "2026-11-05",
+  "ground": "The Oliver Connell & Son Community Stadium",
+  "postcode": "UB6 8TL"
+ },
+ "hanworth-villa": {
+  "address": "Park Rd, Hanworth, Middlesex, TW13 6PN",
+  "fetched": "2026-11-05",
+  "ground": "Rectory Meadow",
+  "postcode": "TW13 6PN"
+ },
+ "harborough-town": {
+  "address": "Northampton Road, Market Harborough, Leicestershire, LE16 9HF",
+  "fetched": "2026-11-05",
+  "ground": "Harborough Town Community Football Ground",
+  "postcode": "LE16 9HF"
+ },
+ "harefield-united": {
+  "address": "Breakspear Road North Harefield Middlesex, UB9 6NE",
+  "fetched": "2026-11-05",
+  "ground": "PRESTON PARK",
+  "postcode": "UB9 6NE"
+ },
+ "haringey-borough": {
+  "address": "White Hart Lane, London, N17 7JP",
+  "fetched": "2026-11-05",
+  "ground": "Coles Park",
+  "postcode": "N17 7JP"
+ },
+ "harleston-town": {
+  "address": "IP20 9DD",
+  "fetched": "2026-11-05",
+  "ground": "The Recreation Ground",
+  "postcode": "IP20 9DD"
+ },
+ "harlow-town": {
+  "address": "Elizabeth Way, Harlow, Essex, CM19 5BE",
+  "fetched": "2026-11-05",
+  "ground": "The Harlow Arena",
+  "postcode": "CM19 5BE"
+ },
+ "harpenden-town": {
+  "address": "Rothamsted Park, Amenbury Lane, Harpenden, AL5 2EF",
+  "fetched": "2026-11-05",
+  "ground": "Rothamsted Park",
+  "postcode": "AL5 2EF"
+ },
+ "harrogate-railway-athletic": {
+  "address": "Station View, Starbeck Harrogate, North Yorkshire, HG2 7JA",
+  "fetched": "2026-11-05",
+  "ground": "Station View Stadium",
+  "postcode": "HG2 7JA"
+ },
+ "harrow-borough": {
+  "address": "Carlyon Avenue, Harrow, Middlesex, HA2 8SS",
+  "fetched": "2026-11-05",
+  "ground": "Rogers Family Stadium, Earlsmead",
+  "postcode": "HA2 8SS"
+ },
+ "harrowby-united": {
+  "address": "Dickens Road, Grantham, Lincs, NG31 9QY",
+  "fetched": "2026-11-05",
+  "ground": "The Fruehauf Stadium",
+  "postcode": "NG31 9QY"
+ },
+ "hartley-wintney": {
+  "address": "Green Lane, Hartley Wintney, Hants, RG27 8DL",
+  "fetched": "2026-11-05",
+  "ground": "The Memorial Playing Fields",
+  "postcode": "RG27 8DL"
+ },
+ "hartpury": {
+  "address": "GL19 3BE",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "GL19 3BE"
+ },
+ "harwich-and-parkeston": {
+  "address": "CO12 4AA",
+  "fetched": "2026-11-05",
+  "ground": "Royal Oak",
+  "postcode": "CO12 4AA"
+ },
+ "hashtag-united": {
+  "address": "IG6 1NB",
+  "fetched": "2026-11-05",
+  "ground": "Techsoc.com Stadium (Redbridge)",
+  "postcode": "IG6 1NB"
+ },
+ "hashtag-united-women": {
+  "address": "Park Lane, Aveley, Essex, RM15 4PX",
+  "fetched": "2026-11-05",
+  "ground": "Techsoc.com Stadium (Redbridge FC)",
+  "postcode": "RM15 4PX"
+ },
+ "hastings-united": {
+  "address": "Elphinstone Road, Hastings, East Sussex, TN34 2AX",
+  "fetched": "2026-11-05",
+  "ground": "The Pilot Field",
+  "postcode": "TN34 2AX"
+ },
+ "havant-and-waterlooville": {
+  "address": "Martin Road, Havant, Hampshire, PO9 5TH",
+  "fetched": "2026-11-05",
+  "ground": "Westleigh Park",
+  "postcode": "PO9 5TH"
+ },
+ "haverhill-rovers": {
+  "address": "Chalkstone Way, Haverhill, Suffolk, CB9 0BW",
+  "fetched": "2026-11-05",
+  "ground": "The New Croft",
+  "postcode": "CB9 0BW"
+ },
+ "hayes-and-yeading-united": {
+  "address": "Beaconsfield Road, Hayes, Middlesex, UB4 0SL",
+  "fetched": "2026-11-05",
+  "ground": "SKYex Community Stadium",
+  "postcode": "UB4 0SL"
+ },
+ "heacham": {
+  "address": "13 Station Road Heacham, Kings lynn, Norfolk, PE31 7HG",
+  "fetched": "2026-11-05",
+  "ground": "Station Road Heacham",
+  "postcode": "PE31 7HG"
+ },
+ "heanor-town": {
+  "address": "DE75 7EN",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "DE75 7EN"
+ },
+ "heaton-stannington": {
+  "address": "Newton Road, Newcastle upon Tyne, NE7 7HP",
+  "fetched": "2026-11-05",
+  "ground": "The Willow Park",
+  "postcode": "NE7 7HP"
+ },
+ "hebburn-town": {
+  "address": "16 South Drive, Hebburn, NE31 1UN",
+  "fetched": "2026-11-05",
+  "ground": "The Trustmark Group Stadium",
+  "postcode": "NE31 1UN"
+ },
+ "hednesford-town": {
+  "address": "Keys Park Road, Hednesford, Cannock, Staffordshire, WS12 2DZ",
+  "fetched": "2026-11-05",
+  "ground": "Keys Park Stadium",
+  "postcode": "WS12 2DZ"
+ },
+ "hemel-hempstead-town": {
+  "address": "Hemel Hempstead, Hertfordshire, HP2 4HW",
+  "fetched": "2026-11-05",
+  "ground": "Vauxhall Road",
+  "postcode": "HP2 4HW"
+ },
+ "hemsworth-miners-welfare": {
+  "address": "WF9 5AJ",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "WF9 5AJ"
+ },
+ "hendon": {
+  "address": "Townsend Lane, Kingsbury, London, NW9 7NE",
+  "fetched": "2026-11-05",
+  "ground": "Silver Jubilee Park",
+  "postcode": "NW9 7NE"
+ },
+ "hereford": {
+  "address": "Hereford, HR4 9JU",
+  "fetched": "2026-11-05",
+  "ground": "Edgar Street Athletic Ground",
+  "postcode": "HR4 9JU"
+ },
+ "hereford-pegasus": {
+  "address": "Old School Lane, Hereford, HR1 1EX",
+  "fetched": "2026-11-05",
+  "ground": "The KGD Stadium",
+  "postcode": "HR1 1EX"
+ },
+ "herne-bay": {
+  "address": "Winch's Field, Stanley Gardens, Herne Bay, Kent, CT6 5SG",
+  "fetched": "2026-11-05",
+  "ground": "The Crest Stadium",
+  "postcode": "CT6 5SG"
+ },
+ "hertford-town": {
+  "address": "West Street, Hertford, SG13 8EZ",
+  "fetched": "2026-11-05",
+  "ground": "Hertingfordbury Park",
+  "postcode": "SG13 8EZ"
+ },
+ "heybridge-swifts": {
+  "address": "Scraley Road, Heybridge, Maldon, Essex, CM9 8FJ",
+  "fetched": "2026-11-05",
+  "ground": "Heybridge Swifts Community Stadium",
+  "postcode": "CM9 8FJ"
+ },
+ "highgate-united": {
+  "address": "The Coppice Stadium, Tythe Barn Lane, Solihull, West Midlands, B90 1PH",
+  "fetched": "2026-11-05",
+  "ground": "The Coppice Stadium",
+  "postcode": "B90 1PH"
+ },
+ "highworth-town": {
+  "address": "The Elms, Highworth, SN6 7DD",
+  "fetched": "2026-11-05",
+  "ground": "The Save on Tyres Stadium",
+  "postcode": "SN6 7DD"
+ },
+ "hilltop": {
+  "address": "Townsend Road, London, NW9 7NE",
+  "fetched": "2026-11-05",
+  "ground": "Silver Jubilee Park Stadium",
+  "postcode": "NW9 7NE"
+ },
+ "hinckley-afc": {
+  "address": "Kirkby Road, Barwell, LE9 8FQ, LE9 8FQ",
+  "fetched": "2026-11-05",
+  "ground": "Barwell Sports Complex",
+  "postcode": "LE9 8FQ"
+ },
+ "histon": {
+  "address": "Bridge Road, Impington, Cambridge, CB24 9PH",
+  "fetched": "2026-11-05",
+  "ground": "Bridge Road Stadium",
+  "postcode": "CB24 9PH"
+ },
+ "hitchin-town": {
+  "address": "Fishponds Road, Hitchin, Hertfordshire, SG5 1NU",
+  "fetched": "2026-11-05",
+  "ground": "Top Field",
+  "postcode": "SG5 1NU"
+ },
+ "hollands-and-blair": {
+  "address": "ME7 3AN",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "ME7 3AN"
+ },
+ "holmer-green": {
+  "address": "87 Watchet Lane, Holmer Green, Bucks, HP15 6UF",
+  "fetched": "2026-11-05",
+  "ground": "Watchet Lane",
+  "postcode": "HP15 6UF"
+ },
+ "holyport": {
+  "address": "Summerleaze Road. Maidenhead, SL6 7JR",
+  "fetched": "2026-11-05",
+  "ground": "Summerleaze Park",
+  "postcode": "SL6 7JR"
+ },
+ "horbury-town": {
+  "address": "WF4 5BH",
+  "fetched": "2026-11-05",
+  "ground": "Pulse Hire Ltd Stadium",
+  "postcode": "WF4 5BH"
+ },
+ "horden-community-welfare": {
+  "address": "Eden Street, Horden, County Durham, SR8 4LX",
+  "fetched": "2026-11-05",
+  "ground": "Horden Welfare Park",
+  "postcode": "SR8 4LX"
+ },
+ "horley-town": {
+  "address": "Court Lodge Road, Horley, Surrey, RH6 8SP",
+  "fetched": "2026-11-05",
+  "ground": "The New Defence",
+  "postcode": "RH6 8SP"
+ },
+ "horsham": {
+  "address": "Hop Oast, Worthing Road, Horsham, West Sussex, RH13 0AD",
+  "fetched": "2026-11-05",
+  "ground": "Fusion Aviation Community Stadium",
+  "postcode": "RH13 0AD"
+ },
+ "hucknall-town": {
+  "address": "Aerial Way, Hucknall, Nottingham, NG15 6DW",
+  "fetched": "2026-11-05",
+  "ground": "RM Stadium",
+  "postcode": "NG15 6DW"
+ },
+ "huddersfield-town": {
+  "address": "Huddersfield, HD1 6PX",
+  "fetched": "2026-11-05",
+  "ground": "The Accu Stadium",
+  "postcode": "HD1 6PX"
+ },
+ "huddersfield-town-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "hull-city": {
+  "address": "The Circle, Walton Street, Anlaby Road, Hull, HU3 6HU",
+  "fetched": "2026-11-05",
+  "ground": "KCOM Stadium",
+  "postcode": "HU3 6HU"
+ },
+ "hull-city-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "hullbridge-sports": {
+  "address": "Lower Road, Hullbridge, Essex, SS5 6BJ",
+  "fetched": "2026-11-05",
+  "ground": "East Bridge Recruitment Stadium",
+  "postcode": "SS5 6BJ"
+ },
+ "hungerford-town": {
+  "address": "Hungerford, West Berkshire, RG17 0AY",
+  "fetched": "2026-11-05",
+  "ground": "Bulpit Lane",
+  "postcode": "RG17 0AY"
+ },
+ "hutton": {
+  "address": "CM12 9SA",
+  "fetched": "2026-11-05",
+  "ground": "Billericay Town FC",
+  "postcode": "CM12 9SA"
+ },
+ "hyde-united": {
+  "address": "Walker Lane, Hyde, Cheshire, SK14 5PL",
+  "fetched": "2026-11-05",
+  "ground": "The Project Solar Stadium",
+  "postcode": "SK14 5PL"
+ },
+ "hythe-town": {
+  "address": "Cheriton Rd, Folkestone, CT19 5JU",
+  "fetched": "2026-11-05",
+  "ground": "Folkestone Invicta FC. Cheriton Road Sports Ground",
+  "postcode": "CT19 5JU"
+ },
+ "ilford": {
+  "address": "IG1 1FY",
+  "fetched": "2026-11-05",
+  "ground": "Cricklefields Stadium",
+  "postcode": "IG1 1FY"
+ },
+ "ilkeston-town": {
+  "address": "Awsworth Road, Ilkeston, Derbyshire, DE7 8JF",
+  "fetched": "2026-11-05",
+  "ground": "New Manor Ground",
+  "postcode": "DE7 8JF"
+ },
+ "ilkley-town": {
+  "address": "LS29 8AW",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "LS29 8AW"
+ },
+ "immingham-town": {
+  "address": "Manby road, Immingham, DN40 2LG",
+  "fetched": "2026-11-05",
+  "ground": "Woodlands sports ground",
+  "postcode": "DN40 2LG"
+ },
+ "ipswich-town": {
+  "address": "Ipswich, Suffolk, IP1 2DA",
+  "fetched": "2026-11-05",
+  "ground": "Portman Road",
+  "postcode": "IP1 2DA"
+ },
+ "ipswich-town-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "ipswich-wanderers": {
+  "address": "Humber Doucy Lane,, Ipswich, IP4 3NR",
+  "fetched": "2026-11-05",
+  "ground": "GBS Stadium",
+  "postcode": "IP4 3NR"
+ },
+ "jarrow": {
+  "address": "Perth Green CA. Inverness Road, Jarrow. Tyne & Wear, NE32 4AQ",
+  "fetched": "2026-11-05",
+  "ground": "Perth Green",
+  "postcode": "NE32 4AQ"
+ },
+ "jersey-bulls": {
+  "address": "2 Janvrin Road, St. Helier, Jersey, JE2 4LF",
+  "fetched": "2026-11-05",
+  "ground": "Springfield Stadium",
+  "postcode": "JE2 4LF"
+ },
+ "keighley-town": {
+  "address": "Hard Ings Road, Keighley, BD21 3RF",
+  "fetched": "2026-11-05",
+  "ground": "Cougar Park",
+  "postcode": "BD21 3RF"
+ },
+ "kempston-rovers": {
+  "address": "Hillgrounds Road, Kempston, Bedfordshire, MK42 8SZ",
+  "fetched": "2026-11-05",
+  "ground": "Hillgrounds Stadium",
+  "postcode": "MK42 8SZ"
+ },
+ "kendal-town": {
+  "address": "Parkside Road, Kendal, LA9 7BL",
+  "fetched": "2026-11-05",
+  "ground": "Westmorland Flooring Stadium",
+  "postcode": "LA9 7BL"
+ },
+ "kennington": {
+  "address": "Ashford Road, Kingsnorth, Ashford, Kent, TN26 1NJ",
+  "fetched": "2026-11-05",
+  "ground": "Homelands",
+  "postcode": "TN26 1NJ"
+ },
+ "kettering-town": {
+  "address": "Polwell Lane, Burton Latimer, Kettering, Northamptonshire, NN15 5PS",
+  "fetched": "2026-11-05",
+  "ground": "Latimer Park",
+  "postcode": "NN15 5PS"
+ },
+ "kidlington": {
+  "address": "Yarnton Road, Kidlington, Oxfordshire, England, OX5 1AT",
+  "fetched": "2026-11-05",
+  "ground": "Yarnton Road",
+  "postcode": "OX5 1AT"
+ },
+ "kidsgrove-athletic": {
+  "address": "Hollinwood Close, Hollinwood Road, Kidsgrove, Stoke-on-Trent, ST7 1DQ",
+  "fetched": "2026-11-05",
+  "ground": "The Fitzjohn Stadium",
+  "postcode": "ST7 1DQ"
+ },
+ "kimberley-miners-welfare": {
+  "address": "NG16 2NB",
+  "fetched": "2026-11-05",
+  "ground": "Stag Ground",
+  "postcode": "NG16 2NB"
+ },
+ "kings-langley": {
+  "address": "Hempstead Road, Kings Langley, Hertfordshire, WD4 8BS",
+  "fetched": "2026-11-05",
+  "ground": "Gaywood Park",
+  "postcode": "WD4 8BS"
+ },
+ "kings-lynn-town": {
+  "address": "Tennyson Road, King's Lynn, Norfolk, PE30 5PB",
+  "fetched": "2026-11-05",
+  "ground": "The Walks Stadium",
+  "postcode": "PE30 5PB"
+ },
+ "kingstonian": {
+  "address": "TW19 7BH",
+  "fetched": "2026-11-05",
+  "ground": "Robert Parker Stadium (Ashford Town Middx)",
+  "postcode": "TW19 7BH"
+ },
+ "kinsley-boys": {
+  "address": "WF9 5EH",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "WF9 5EH"
+ },
+ "kirkley-and-pakefield": {
+  "address": "Walmer Road, Pakefield, NR33 7LE",
+  "fetched": "2026-11-05",
+  "ground": "Lavis Life Competition Stadium",
+  "postcode": "NR33 7LE"
+ },
+ "knaphill": {
+  "address": "Knaphill Football Club, Redding Way, Knaphill, Surrey, GU21 2AY",
+  "fetched": "2026-11-05",
+  "ground": "Redding Way",
+  "postcode": "GU21 2AY"
+ },
+ "knaresborough-town": {
+  "address": "Manse Lane, Knaresborough, HG5 8LF",
+  "fetched": "2026-11-05",
+  "ground": "The Myrings Stadium",
+  "postcode": "HG5 8LF"
+ },
+ "knowle": {
+  "address": "Hampton Road, Knowle, Solihull, West Midlands, B93 0NX",
+  "fetched": "2026-11-05",
+  "ground": "Robins' Nest",
+  "postcode": "B93 0NX"
+ },
+ "lakenheath": {
+  "address": "IP27 9HN",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "IP27 9HN"
+ },
+ "lancaster-city": {
+  "address": "West Road, Lancaster, Lancashire, LA1 5PE",
+  "fetched": "2026-11-05",
+  "ground": "The Giant Axe",
+  "postcode": "LA1 5PE"
+ },
+ "langley": {
+  "address": "Stoke Road, Slough, SL2 5AY",
+  "fetched": "2026-11-05",
+  "ground": "Arbour Park",
+  "postcode": "SL2 5AY"
+ },
+ "larkfield-and-new-hythe": {
+  "address": "251a New Hythe Lane, Larkfield, Kent, ME20 6PU",
+  "fetched": "2026-11-05",
+  "ground": "Eden Estates Stadium",
+  "postcode": "ME20 6PU"
+ },
+ "larkhall-athletic": {
+  "address": "Charlcombe Lane, Bath, Somerset, BA1 8DJ",
+  "fetched": "2026-11-05",
+  "ground": "Plain Ham",
+  "postcode": "BA1 8DJ"
+ },
+ "leamington": {
+  "address": "Harbury Lane, Leamington Spa, Warwickshire, CV33 9QB",
+  "fetched": "2026-11-05",
+  "ground": "Your Co-op Community Stadium",
+  "postcode": "CV33 9QB"
+ },
+ "leatherhead": {
+  "address": "Guildford Road, Leatherhead, Surrey, KT22 9AS",
+  "fetched": "2026-11-05",
+  "ground": "Fetcham Grove",
+  "postcode": "KT22 9AS"
+ },
+ "leeds-ufca": {
+  "address": "WF4 1LB",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "WF4 1LB"
+ },
+ "leeds-united": {
+  "address": "Leeds, LS11 0ES",
+  "fetched": "2026-11-05",
+  "ground": "Elland Road",
+  "postcode": "LS11 0ES"
+ },
+ "leek-town": {
+  "address": "Macclesfield Road, Leek, Staffordshire, ST13 8LD",
+  "fetched": "2026-11-05",
+  "ground": "Harrison Park",
+  "postcode": "ST13 8LD"
+ },
+ "leicester-city": {
+  "address": "Filbert Way, Leicester, LE2 7FL",
+  "fetched": "2026-11-05",
+  "ground": "King Power Stadium",
+  "postcode": "LE2 7FL"
+ },
+ "leicester-city-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "leicester-nirvana": {
+  "address": "100 Sandhill Avenue, LE5 1LU",
+  "fetched": "2026-11-05",
+  "ground": "Hamilton Park",
+  "postcode": "LE5 1LU"
+ },
+ "leighton-town": {
+  "address": "Bell Close, Lake Street, Leighton Buzzard, Bedfordshire, LU7 1RX",
+  "fetched": "2026-11-05",
+  "ground": "Bell Close",
+  "postcode": "LU7 1RX"
+ },
+ "leiston": {
+  "address": "Victory Road, Leiston, Suffolk, IP16 4DQ",
+  "fetched": "2026-11-05",
+  "ground": "LTAA",
+  "postcode": "IP16 4DQ"
+ },
+ "leverstock-green": {
+  "address": "HP2 4NQ",
+  "fetched": "2026-11-05",
+  "ground": "Pancake Lane",
+  "postcode": "HP2 4NQ"
+ },
+ "lewes": {
+  "address": "Mountfield Road, Lewes, East Sussex, BN7 2XA",
+  "fetched": "2026-11-05",
+  "ground": "The Dripping Pan",
+  "postcode": "BN7 2XA"
+ },
+ "lewes-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "lewisham-borough": {
+  "address": "Silveremere Road, London, SE6 4QX",
+  "fetched": "2026-11-05",
+  "ground": "Ladywell Arena",
+  "postcode": "SE6 4QX"
+ },
+ "leyton-orient": {
+  "address": "Brisbane Road, Leyton, London, E10 5NF",
+  "fetched": "2026-11-05",
+  "ground": "Matchroom Stadium",
+  "postcode": "E10 5NF"
+ },
+ "lichfield-city": {
+  "address": "Brownsfield Road, Lichfield, WS13 6AY",
+  "fetched": "2026-11-05",
+  "ground": "Tyre Trade Community Stadium",
+  "postcode": "WS13 6AY"
+ },
+ "lincoln-city": {
+  "address": "Lincoln, LN5 8LD",
+  "fetched": "2026-11-05",
+  "ground": "Sincil Bank Stadium",
+  "postcode": "LN5 8LD"
+ },
+ "lincoln-united": {
+  "address": "Hartsholme, Lincoln, Lincolnshire, LN6 0DY",
+  "fetched": "2026-11-05",
+  "ground": "Ashby Avenue",
+  "postcode": "LN6 0DY"
+ },
+ "little-oakley": {
+  "address": "Harwich Road, Little Oakley, CO12 5ED",
+  "fetched": "2026-11-05",
+  "ground": "Little Oakley war memorial ground",
+  "postcode": "CO12 5ED"
+ },
+ "littlehampton-town": {
+  "address": "St Floras Road, Littlehampton, West Sussex,, BN17 6BD",
+  "fetched": "2026-11-05",
+  "ground": "The Sportsfield",
+  "postcode": "BN17 6BD"
+ },
+ "liv": {
+  "address": "Dawson Drive, HU6 7AB",
+  "fetched": "2026-11-05",
+  "ground": "Haworth Park",
+  "postcode": "HU6 7AB"
+ },
+ "liverpool": {
+  "address": "Anfield Road, Liverpool, Merseyside, L4 0TH",
+  "fetched": "2026-11-05",
+  "ground": "Anfield",
+  "postcode": "L4 0TH"
+ },
+ "liverpool-feds-wfc": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "liverpool-women": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "liversedge": {
+  "address": "Quaker Lane, Cleckheaton, West Yorkshire, WF15 8DA",
+  "fetched": "2026-11-05",
+  "ground": "The Meat Drunkery Clayborn Stadium",
+  "postcode": "WF15 8DA"
+ },
+ "london-city-lionesses": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "london-lions": {
+  "address": "EN5 3HW",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "EN5 3HW"
+ },
+ "london-samurai-rovers": {
+  "address": "Park Road, Feltham, TW4 6DH",
+  "fetched": "2026-11-05",
+  "ground": "Rectory Meadow",
+  "postcode": "TW4 6DH"
+ },
+ "long-eaton-united": {
+  "address": "Long Eaton United Football Club, Station Road Long Eaton, NG10 2EF",
+  "fetched": "2026-11-05",
+  "ground": "Grange Park",
+  "postcode": "NG10 2EF"
+ },
+ "longlevens": {
+  "address": "Saw Mills End,, Barnwood,, Gloucester, GL4 3DG",
+  "fetched": "2026-11-05",
+  "ground": "Cornell & Company Stadium",
+  "postcode": "GL4 3DG"
+ },
+ "lordswood-afc": {
+  "address": "Northdane Way, Walderslade, Chatham, Kent, ME5 8YE",
+  "fetched": "2026-11-05",
+  "ground": "K G Property Stadium",
+  "postcode": "ME5 8YE"
+ },
+ "loughborough-lightning": {
+  "address": "",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": ""
+ },
+ "loughborough-students": {
+  "address": "LE11 3QF",
+  "fetched": "2026-11-05",
+  "ground": "Loughborough University Stadium",
+  "postcode": "LE11 3QF"
+ },
+ "louth-town": {
+  "address": "Main Road, Saltfleetby, Louth, LN11 7SS",
+  "fetched": "2026-11-05",
+  "ground": "MKM Louth Stadium",
+  "postcode": "LN11 7SS"
+ },
+ "lower-breck": {
+  "address": "L6 0AG",
+  "fetched": "2026-11-05",
+  "ground": "",
+  "postcode": "L6 0AG"
+ }
+}

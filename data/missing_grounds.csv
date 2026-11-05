@@ -1,33 +1,10 @@
 league,club,problem
-premier-league,AFC Bournemouth,no ground
-premier-league,Arsenal,no ground
-premier-league,Aston Villa,no ground
-premier-league,Brentford,no ground
-premier-league,Brighton & Hove Albion,no ground
-premier-league,Chelsea,no ground
-premier-league,Coventry City,no ground
-premier-league,Crystal Palace,no ground
-premier-league,Everton,no ground
-premier-league,Fulham,no ground
-premier-league,Hull City,no ground
-premier-league,Ipswich Town,no ground
-premier-league,Leeds United,no ground
-premier-league,Liverpool,no ground
 premier-league,Manchester City,no ground
 premier-league,Manchester United,no ground
 premier-league,Newcastle United,no ground
 premier-league,Nottingham Forest,no ground
 premier-league,Sunderland,no ground
 premier-league,Tottenham Hotspur,no ground
-championship,Birmingham City,no ground
-championship,Blackburn Rovers,no ground
-championship,Bolton Wanderers,no ground
-championship,Bristol City,no ground
-championship,Burnley,no ground
-championship,Cardiff City,no ground
-championship,Charlton Athletic,no ground
-championship,Derby County,no ground
-championship,Lincoln City,no ground
 championship,Middlesbrough,no ground
 championship,Millwall,no ground
 championship,Norwich City,no ground
@@ -43,17 +20,6 @@ championship,West Bromwich Albion,no ground
 championship,West Ham United,no ground
 championship,Wolverhampton Wanderers,no ground
 championship,Wrexham,no ground
-league-one,AFC Wimbledon,no ground
-league-one,Barnsley,no ground
-league-one,Blackpool,no ground
-league-one,Bradford City,no ground
-league-one,Bromley,no ground
-league-one,Burton Albion,no ground
-league-one,Cambridge United,no ground
-league-one,Doncaster Rovers,no ground
-league-one,Huddersfield Town,no ground
-league-one,Leicester City,no ground
-league-one,Leyton Orient,no ground
 league-one,Luton Town,no ground
 league-one,Mansfield Town,no ground
 league-one,Milton Keynes Dons,no ground
@@ -67,18 +33,6 @@ league-one,Stevenage,no ground
 league-one,Stockport County,no ground
 league-one,Wigan Athletic,no ground
 league-one,Wycombe Wanderers,no ground
-league-two,Accrington Stanley,no ground
-league-two,Barnet,no ground
-league-two,Bristol Rovers,no ground
-league-two,Cheltenham Town,no ground
-league-two,Chesterfield,no ground
-league-two,Colchester United,no ground
-league-two,Crawley Town,no ground
-league-two,Crewe Alexandra,no ground
-league-two,Exeter City,no ground
-league-two,Fleetwood Town,no ground
-league-two,Gillingham,no ground
-league-two,Grimsby Town,no ground
 league-two,Newport County,no ground
 league-two,Northampton Town,no ground
 league-two,Oldham Athletic,no ground
@@ -91,18 +45,6 @@ league-two,Swindon Town,no ground
 league-two,Tranmere Rovers,no ground
 league-two,Walsall,no ground
 league-two,York City,no ground
-national-league-north,AFC Telford United,no ground
-national-league-north,Bedford Town,no ground
-national-league-north,Brackley Town,no ground
-national-league-north,Buxton,no ground
-national-league-north,Chester,no ground
-national-league-north,Chorley,no ground
-national-league-north,Darlington,no ground
-national-league-north,Harborough Town,no ground
-national-league-north,Hebburn Town,no ground
-national-league-north,Hednesford Town,no ground
-national-league-north,Hereford,no ground
-national-league-north,King's Lynn Town,no ground
 national-league-north,Macclesfield,no ground
 national-league-north,Marine,no ground
 national-league-north,Merthyr Town,no ground
@@ -115,21 +57,6 @@ national-league-north,Southport,no ground
 national-league-north,Spalding United,no ground
 national-league-north,Spennymoor Town,no ground
 national-league-north,Worksop Town,no ground
-national-league-south,AFC Totton,no ground
-national-league-south,Billericay Town,no ground
-national-league-south,Braintree Town,no ground
-national-league-south,Chelmsford City,no ground
-national-league-south,Chesham United,no ground
-national-league-south,Dagenham & Redbridge,no ground
-national-league-south,Dorking Wanderers,no ground
-national-league-south,Dover Athletic,no ground
-national-league-south,Ebbsfleet United,no ground
-national-league-south,Farnborough,no ground
-national-league-south,Farnham Town,no ground
-national-league-south,Folkestone Invicta,no ground
-national-league-south,Hampton & Richmond Borough,no ground
-national-league-south,Hemel Hempstead Town,no ground
-national-league-south,Horsham,no ground
 national-league-south,Maidenhead United,no ground
 national-league-south,Maidstone United,no ground
 national-league-south,Salisbury,no ground
@@ -139,21 +66,6 @@ national-league-south,Torquay United,no ground
 national-league-south,Truro City,no ground
 national-league-south,Walton & Hersham,no ground
 national-league-south,Weston-super-Mare,no ground
-northern-premier-league-premier-division,Alfreton Town,no ground
-northern-premier-league-premier-division,Ashton United,no ground
-northern-premier-league-premier-division,Avro,no ground
-northern-premier-league-premier-division,Bamber Bridge,no ground
-northern-premier-league-premier-division,Bury,no ground
-northern-premier-league-premier-division,Cleethorpes Town,no ground
-northern-premier-league-premier-division,Curzon Ashton,no ground
-northern-premier-league-premier-division,Emley AFC,no ground
-northern-premier-league-premier-division,FC United of Manchester,no ground
-northern-premier-league-premier-division,Gainsborough Trinity,no ground
-northern-premier-league-premier-division,Guiseley,no ground
-northern-premier-league-premier-division,Hyde United,no ground
-northern-premier-league-premier-division,Ilkeston Town,no ground
-northern-premier-league-premier-division,Lancaster City,no ground
-northern-premier-league-premier-division,Leek Town,no ground
 northern-premier-league-premier-division,Quorn,no ground
 northern-premier-league-premier-division,Redcar Athletic,no ground
 northern-premier-league-premier-division,Stockton Town,no ground
@@ -161,20 +73,6 @@ northern-premier-league-premier-division,Warrington Rylands,no ground
 northern-premier-league-premier-division,Warrington Town,no ground
 northern-premier-league-premier-division,Whitby Town,no ground
 northern-premier-league-premier-division,Workington AFC,no ground
-isthmian-football-league-premier-division,AFC Whyteleafe,no ground
-isthmian-football-league-premier-division,Aveley,no ground
-isthmian-football-league-premier-division,Brentwood Town,no ground
-isthmian-football-league-premier-division,Burgess Hill Town,no ground
-isthmian-football-league-premier-division,Carshalton Athletic,no ground
-isthmian-football-league-premier-division,Chatham Town,no ground
-isthmian-football-league-premier-division,Cheshunt,no ground
-isthmian-football-league-premier-division,Cray Wanderers,no ground
-isthmian-football-league-premier-division,Dartford,no ground
-isthmian-football-league-premier-division,Dulwich Hamlet,no ground
-isthmian-football-league-premier-division,Eastbourne Borough,no ground
-isthmian-football-league-premier-division,Enfield Town,no ground
-isthmian-football-league-premier-division,Leatherhead,no ground
-isthmian-football-league-premier-division,Lewes,no ground
 isthmian-football-league-premier-division,Maldon & Tiptree,no ground
 isthmian-football-league-premier-division,Ramsgate,no ground
 isthmian-football-league-premier-division,St Albans City,no ground
@@ -183,18 +81,6 @@ isthmian-football-league-premier-division,Three Bridges,no ground
 isthmian-football-league-premier-division,Welling United,no ground
 isthmian-football-league-premier-division,Whitehawk,no ground
 isthmian-football-league-premier-division,Wingate & Finchley,no ground
-southern-football-league-premier-central-division,Alvechurch,no ground
-southern-football-league-premier-central-division,Anstey Nomads,no ground
-southern-football-league-premier-central-division,Banbury United,no ground
-southern-football-league-premier-central-division,Bishop's Stortford,no ground
-southern-football-league-premier-central-division,Bromsgrove Sporting,no ground
-southern-football-league-premier-central-division,Bury Town,no ground
-southern-football-league-premier-central-division,Halesowen Town,no ground
-southern-football-league-premier-central-division,Hitchin Town,no ground
-southern-football-league-premier-central-division,Kettering Town,no ground
-southern-football-league-premier-central-division,Leamington,no ground
-southern-football-league-premier-central-division,Leighton Town,no ground
-southern-football-league-premier-central-division,Leiston,no ground
 southern-football-league-premier-central-division,Needham Market,no ground
 southern-football-league-premier-central-division,Peterborough Sports,no ground
 southern-football-league-premier-central-division,Racing Club Warwick,no ground
@@ -205,20 +91,6 @@ southern-football-league-premier-central-division,Stamford,no ground
 southern-football-league-premier-central-division,Stourbridge,no ground
 southern-football-league-premier-central-division,Stratford Town,no ground
 southern-football-league-premier-central-division,Worcester City,no ground
-southern-football-league-premier-south-division,Basingstoke Town,no ground
-southern-football-league-premier-south-division,Bath City,no ground
-southern-football-league-premier-south-division,Berkhamsted,no ground
-southern-football-league-premier-south-division,Bracknell Town,no ground
-southern-football-league-premier-south-division,Chertsey Town,no ground
-southern-football-league-premier-south-division,Chichester City,no ground
-southern-football-league-premier-south-division,Chippenham Town,no ground
-southern-football-league-premier-south-division,Evesham United,no ground
-southern-football-league-premier-south-division,Frome Town,no ground
-southern-football-league-premier-south-division,Gloucester City,no ground
-southern-football-league-premier-south-division,Gosport Borough,no ground
-southern-football-league-premier-south-division,Hanwell Town,no ground
-southern-football-league-premier-south-division,Hanworth Villa,no ground
-southern-football-league-premier-south-division,Havant & Waterlooville,no ground
 southern-football-league-premier-south-division,Malvern Town,no ground
 southern-football-league-premier-south-division,Plymouth Parkway,no ground
 southern-football-league-premier-south-division,Poole Town,no ground
@@ -227,20 +99,6 @@ southern-football-league-premier-south-division,Taunton Town,no ground
 southern-football-league-premier-south-division,Uxbridge,no ground
 southern-football-league-premier-south-division,Wimborne Town,no ground
 southern-football-league-premier-south-division,Yate Town,no ground
-northern-premier-league-east-division,Ashington AFC,no ground
-northern-premier-league-east-division,Beverley Town,no ground
-northern-premier-league-east-division,Blyth Spartans,no ground
-northern-premier-league-east-division,Bradford (Park Avenue),no ground
-northern-premier-league-east-division,Bridlington Town,no ground
-northern-premier-league-east-division,Consett AFC,no ground
-northern-premier-league-east-division,Dunston,no ground
-northern-premier-league-east-division,Garforth Town,no ground
-northern-premier-league-east-division,Grimsby Borough,no ground
-northern-premier-league-east-division,Guisborough Town,no ground
-northern-premier-league-east-division,Hallam,no ground
-northern-premier-league-east-division,Heaton Stannington,no ground
-northern-premier-league-east-division,Lincoln United,no ground
-northern-premier-league-east-division,Liversedge,no ground
 northern-premier-league-east-division,Matlock Town,no ground
 northern-premier-league-east-division,Morpeth Town,no ground
 northern-premier-league-east-division,North Ferriby,no ground
@@ -249,21 +107,6 @@ northern-premier-league-east-division,Pontefract Collieries,no ground
 northern-premier-league-east-division,Silsden,no ground
 northern-premier-league-east-division,Stocksbridge Park Steels,no ground
 northern-premier-league-east-division,West Auckland Town,no ground
-northern-premier-league-midlands-division,AFC Rushden & Diamonds,no ground
-northern-premier-league-midlands-division,Barwell,no ground
-northern-premier-league-midlands-division,Basford United,no ground
-northern-premier-league-midlands-division,Bedworth United,no ground
-northern-premier-league-midlands-division,Belper Town,no ground
-northern-premier-league-midlands-division,Boldmere St Michaels,no ground
-northern-premier-league-midlands-division,Boston Town,no ground
-northern-premier-league-midlands-division,Bourne Town,no ground
-northern-premier-league-midlands-division,Carlton Town,no ground
-northern-premier-league-midlands-division,Coleshill Town,no ground
-northern-premier-league-midlands-division,Corby Town,no ground
-northern-premier-league-midlands-division,Coventry United,no ground
-northern-premier-league-midlands-division,Grantham Town,no ground
-northern-premier-league-midlands-division,Long Eaton United,no ground
-northern-premier-league-midlands-division,Loughborough Students,no ground
 northern-premier-league-midlands-division,Mickleover,no ground
 northern-premier-league-midlands-division,Nuneaton Town,no ground
 northern-premier-league-midlands-division,Rugby Borough,no ground
@@ -271,16 +114,6 @@ northern-premier-league-midlands-division,Shepshed Dynamo,no ground
 northern-premier-league-midlands-division,St Ives Town,no ground
 northern-premier-league-midlands-division,Sutton Coldfield Town,no ground
 northern-premier-league-midlands-division,Wellingborough Town,no ground
-northern-premier-league-west-division,1874 Northwich,no ground
-northern-premier-league-west-division,Atherton Collieries,no ground
-northern-premier-league-west-division,Bootle,no ground
-northern-premier-league-west-division,Chasetown,no ground
-northern-premier-league-west-division,Clitheroe,no ground
-northern-premier-league-west-division,Congleton Town,no ground
-northern-premier-league-west-division,Hanley Town,no ground
-northern-premier-league-west-division,Kidsgrove Athletic,no ground
-northern-premier-league-west-division,Lichfield City,no ground
-northern-premier-league-west-division,Lower Breck,no ground
 northern-premier-league-west-division,Mossley,no ground
 northern-premier-league-west-division,Nantwich Town,no ground
 northern-premier-league-west-division,Newcastle Town,no ground
@@ -293,19 +126,6 @@ northern-premier-league-west-division,Stalybridge Celtic,no ground
 northern-premier-league-west-division,Vauxhall Motors,no ground
 northern-premier-league-west-division,Witton Albion,no ground
 northern-premier-league-west-division,Wythenshawe,no ground
-isthmian-football-league-north-division,AFC Sudbury,no ground
-isthmian-football-league-north-division,Bowers & Pitsea,no ground
-isthmian-football-league-north-division,Brightlingsea Regent,no ground
-isthmian-football-league-north-division,Buckhurst Hill,no ground
-isthmian-football-league-north-division,Cambridge City,no ground
-isthmian-football-league-north-division,Canvey Island,no ground
-isthmian-football-league-north-division,Concord Rangers,no ground
-isthmian-football-league-north-division,Fakenham Town,no ground
-isthmian-football-league-north-division,Felixstowe & Walton United,no ground
-isthmian-football-league-north-division,Gorleston,no ground
-isthmian-football-league-north-division,Grays Athletic,no ground
-isthmian-football-league-north-division,Hashtag United,no ground
-isthmian-football-league-north-division,Little Oakley,no ground
 isthmian-football-league-north-division,Lowestoft Town,no ground
 isthmian-football-league-north-division,Mulbarton Wanderers,no ground
 isthmian-football-league-north-division,Newmarket Town,no ground
@@ -315,40 +135,12 @@ isthmian-football-league-north-division,Tilbury,no ground
 isthmian-football-league-north-division,Walthamstow,no ground
 isthmian-football-league-north-division,Witham Town,no ground
 isthmian-football-league-north-division,Wroxham,no ground
-isthmian-football-league-south-central-division,AFC Portchester,no ground
-isthmian-football-league-south-central-division,AFC Stoneham,no ground
-isthmian-football-league-south-central-division,Ascot United,no ground
-isthmian-football-league-south-central-division,Ashford Town (Middx),no ground
-isthmian-football-league-south-central-division,Bedfont Sports,no ground
-isthmian-football-league-south-central-division,Binfield,no ground
-isthmian-football-league-south-central-division,Bognor Regis Town,no ground
-isthmian-football-league-south-central-division,Cobham,no ground
-isthmian-football-league-south-central-division,Egham Town,no ground
-isthmian-football-league-south-central-division,Harrow Borough,no ground
-isthmian-football-league-south-central-division,Hartley Wintney,no ground
-isthmian-football-league-south-central-division,Hayes & Yeading United,no ground
-isthmian-football-league-south-central-division,Hendon,no ground
-isthmian-football-league-south-central-division,Jersey Bulls,no ground
-isthmian-football-league-south-central-division,Kingstonian,no ground
-isthmian-football-league-south-central-division,Littlehampton Town,no ground
 isthmian-football-league-south-central-division,Moneyfields,no ground
 isthmian-football-league-south-central-division,Raynes Park Vale,no ground
 isthmian-football-league-south-central-division,Southall,no ground
 isthmian-football-league-south-central-division,Westfield,no ground
 isthmian-football-league-south-central-division,Winchester City,no ground
 isthmian-football-league-south-central-division,Windsor & Eton,no ground
-isthmian-football-league-south-east-division,AFC Croydon Athletic,no ground
-isthmian-football-league-south-east-division,Ashford United,no ground
-isthmian-football-league-south-east-division,Broadbridge Heath,no ground
-isthmian-football-league-south-east-division,Cray Valley PM,no ground
-isthmian-football-league-south-east-division,Crowborough Athletic,no ground
-isthmian-football-league-south-east-division,Deal Town,no ground
-isthmian-football-league-south-east-division,Eastbourne Town,no ground
-isthmian-football-league-south-east-division,Erith Town,no ground
-isthmian-football-league-south-east-division,Faversham Town,no ground
-isthmian-football-league-south-east-division,Hastings United,no ground
-isthmian-football-league-south-east-division,Herne Bay,no ground
-isthmian-football-league-south-east-division,Horley Town,no ground
 isthmian-football-league-south-east-division,Margate,no ground
 isthmian-football-league-south-east-division,Merstham,no ground
 isthmian-football-league-south-east-division,Peacehaven & Telscombe,no ground
@@ -359,18 +151,6 @@ isthmian-football-league-south-east-division,Sittingbourne,no ground
 isthmian-football-league-south-east-division,South Park (Reigate),no ground
 isthmian-football-league-south-east-division,Steyning Town,no ground
 isthmian-football-league-south-east-division,Whitstable Town,no ground
-southern-football-league-division-one-central,Aylesbury United,no ground
-southern-football-league-division-one-central,Barton Rovers,no ground
-southern-football-league-division-one-central,Beaconsfield Town,no ground
-southern-football-league-division-one-central,Biggleswade,no ground
-southern-football-league-division-one-central,Biggleswade Town,no ground
-southern-football-league-division-one-central,Didcot Town,no ground
-southern-football-league-division-one-central,Flackwell Heath,no ground
-southern-football-league-division-one-central,Hadley,no ground
-southern-football-league-division-one-central,Haringey Borough,no ground
-southern-football-league-division-one-central,Hertford Town,no ground
-southern-football-league-division-one-central,Leverstock Green,no ground
-southern-football-league-division-one-central,London Lions,no ground
 southern-football-league-division-one-central,Marlow,no ground
 southern-football-league-division-one-central,Milton Keynes Irish,no ground
 southern-football-league-division-one-central,Potters Bar Town,no ground
@@ -381,16 +161,6 @@ southern-football-league-division-one-central,Waltham Abbey,no ground
 southern-football-league-division-one-central,Ware,no ground
 southern-football-league-division-one-central,Welwyn Garden City,no ground
 southern-football-league-division-one-central,Winslow United,no ground
-southern-football-league-division-one-south,Barnstaple Town,no ground
-southern-football-league-division-one-south,Bideford,no ground
-southern-football-league-division-one-south,Bishops Cleeve,no ground
-southern-football-league-division-one-south,Bristol Manor Farm,no ground
-southern-football-league-division-one-south,Dorchester Town,no ground
-southern-football-league-division-one-south,Exmouth Town,no ground
-southern-football-league-division-one-south,Falmouth Town,no ground
-southern-football-league-division-one-south,Hartpury,no ground
-southern-football-league-division-one-south,Hungerford Town,no ground
-southern-football-league-division-one-south,Larkhall Athletic,no ground
 southern-football-league-division-one-south,Melksham Town,no ground
 southern-football-league-division-one-south,Paulton Rovers,no ground
 southern-football-league-division-one-south,Portland United,no ground
@@ -403,17 +173,6 @@ southern-football-league-division-one-south,Westbury United,no ground
 southern-football-league-division-one-south,Weymouth,no ground
 southern-football-league-division-one-south,Willand Rovers,no ground
 southern-football-league-division-one-south,Worcester Raiders,no ground
-combined-counties-league-premier-division-north,Abingdon United,no ground
-combined-counties-league-premier-division-north,Amersham Town,no ground
-combined-counties-league-premier-division-north,Ardley United,no ground
-combined-counties-league-premier-division-north,Bedfont,no ground
-combined-counties-league-premier-division-north,Broadfields United,no ground
-combined-counties-league-premier-division-north,Burnham,no ground
-combined-counties-league-premier-division-north,Easington Sports,no ground
-combined-counties-league-premier-division-north,Harefield United,no ground
-combined-counties-league-premier-division-north,Hilltop,no ground
-combined-counties-league-premier-division-north,Holyport,no ground
-combined-counties-league-premier-division-north,Kidlington,no ground
 combined-counties-league-premier-division-north,North Greenford United,no ground
 combined-counties-league-premier-division-north,North Leigh,no ground
 combined-counties-league-premier-division-north,Northwood,no ground
@@ -423,18 +182,6 @@ combined-counties-league-premier-division-north,Reading City,no ground
 combined-counties-league-premier-division-north,Thatcham Town,no ground
 combined-counties-league-premier-division-north,Wallingford & Crowmarsh,no ground
 combined-counties-league-premier-division-north,Wokingham Town,no ground
-combined-counties-league-premier-division-south,Abbey Rangers,no ground
-combined-counties-league-premier-division-south,Alton,no ground
-combined-counties-league-premier-division-south,Badshot Lea,no ground
-combined-counties-league-premier-division-south,Balham,no ground
-combined-counties-league-premier-division-south,Camberley Town,no ground
-combined-counties-league-premier-division-south,Chipstead,no ground
-combined-counties-league-premier-division-south,Corinthian-Casuals,no ground
-combined-counties-league-premier-division-south,Epsom & Ewell,no ground
-combined-counties-league-premier-division-south,Eversley & California,no ground
-combined-counties-league-premier-division-south,Fleet Town,no ground
-combined-counties-league-premier-division-south,Godalming Town,no ground
-combined-counties-league-premier-division-south,Knaphill,no ground
 combined-counties-league-premier-division-south,Metropolitan Police,no ground
 combined-counties-league-premier-division-south,Redhill,no ground
 combined-counties-league-premier-division-south,Sheerwater,no ground
@@ -443,18 +190,6 @@ combined-counties-league-premier-division-south,Tadley Calleva,no ground
 combined-counties-league-premier-division-south,Tooting & Mitcham United,no ground
 combined-counties-league-premier-division-south,Virginia Water,no ground
 combined-counties-league-premier-division-south,Yateley United,no ground
-eastern-counties-league-premier-division,Brantham Athletic,no ground
-eastern-counties-league-premier-division,Cornard United,no ground
-eastern-counties-league-premier-division,Dereham Town,no ground
-eastern-counties-league-premier-division,Downham Town,no ground
-eastern-counties-league-premier-division,Ely City,no ground
-eastern-counties-league-premier-division,Great Yarmouth Town,no ground
-eastern-counties-league-premier-division,Harleston Town,no ground
-eastern-counties-league-premier-division,Haverhill Rovers,no ground
-eastern-counties-league-premier-division,Heacham,no ground
-eastern-counties-league-premier-division,Ipswich Wanderers,no ground
-eastern-counties-league-premier-division,Kirkley & Pakefield,no ground
-eastern-counties-league-premier-division,Lakenheath,no ground
 eastern-counties-league-premier-division,March Town United,no ground
 eastern-counties-league-premier-division,Mildenhall Town,no ground
 eastern-counties-league-premier-division,Soham Town Rangers,no ground
@@ -463,19 +198,6 @@ eastern-counties-league-premier-division,Thetford Town,no ground
 eastern-counties-league-premier-division,Walsham le Willows,no ground
 eastern-counties-league-premier-division,Wisbech Town,no ground
 eastern-counties-league-premier-division,Woodbridge Town,no ground
-essex-senior-league,Barking,no ground
-essex-senior-league,Basildon United,no ground
-essex-senior-league,Benfleet,no ground
-essex-senior-league,Clapton Community,no ground
-essex-senior-league,Frenford,no ground
-essex-senior-league,Great Wakering Rovers,no ground
-essex-senior-league,Hackney Wick,no ground
-essex-senior-league,Halstead Town,no ground
-essex-senior-league,Harwich & Parkeston,no ground
-essex-senior-league,Heybridge Swifts,no ground
-essex-senior-league,Hullbridge Sports,no ground
-essex-senior-league,Hutton,no ground
-essex-senior-league,Ilford,no ground
 essex-senior-league,Romford,no ground
 essex-senior-league,Saffron Walden Town,no ground
 essex-senior-league,Soul Tower Hamlets,no ground
@@ -483,18 +205,6 @@ essex-senior-league,Sporting Bengal United,no ground
 essex-senior-league,West Essex,no ground
 essex-senior-league,White Ensign,no ground
 essex-senior-league,Woodford Town,no ground
-hellenic-league-premier-division,Bradford Town,no ground
-hellenic-league-premier-division,Cinderford Town,no ground
-hellenic-league-premier-division,Cirencester Town,no ground
-hellenic-league-premier-division,Corsham Town,no ground
-hellenic-league-premier-division,Cribbs,no ground
-hellenic-league-premier-division,Devizes Town,no ground
-hellenic-league-premier-division,Droitwich Spa,no ground
-hellenic-league-premier-division,Fairford Town,no ground
-hellenic-league-premier-division,Hallen,no ground
-hellenic-league-premier-division,Hereford Pegasus,no ground
-hellenic-league-premier-division,Highworth Town,no ground
-hellenic-league-premier-division,Longlevens,no ground
 hellenic-league-premier-division,Malmesbury Victoria,no ground
 hellenic-league-premier-division,Mangotsfield United,no ground
 hellenic-league-premier-division,Pershore Town,no ground
@@ -504,14 +214,6 @@ hellenic-league-premier-division,Stourport Swifts,no ground
 hellenic-league-premier-division,Thornbury Town,no ground
 hellenic-league-premier-division,Tuffley Rovers,no ground
 hellenic-league-premier-division,Westfields,no ground
-northern-league-division-one,Birtley Town,no ground
-northern-league-division-one,Bishop Auckland,no ground
-northern-league-division-one,Blyth Town,no ground
-northern-league-division-one,Carlisle City,no ground
-northern-league-division-one,Crook Town,no ground
-northern-league-division-one,Easington Colliery,no ground
-northern-league-division-one,Horden Community Welfare,no ground
-northern-league-division-one,Kendal Town,no ground
 northern-league-division-one,Marske United,no ground
 northern-league-division-one,Newcastle Benfield,no ground
 northern-league-division-one,Newcastle Blue Star,no ground
@@ -525,17 +227,6 @@ northern-league-division-one,Thornaby,no ground
 northern-league-division-one,Whickham,no ground
 northern-league-division-one,Whitley Bay,no ground
 northern-league-division-one,Yarm & Eaglescliffe,no ground
-northern-counties-east-league-premier-division,Albion Sports,no ground
-northern-counties-east-league-premier-division,Barton Town,no ground
-northern-counties-east-league-premier-division,Bottesford Town,no ground
-northern-counties-east-league-premier-division,Campion AFC,no ground
-northern-counties-east-league-premier-division,Dearne & District,no ground
-northern-counties-east-league-premier-division,Frickley Athletic,no ground
-northern-counties-east-league-premier-division,Golcar United,no ground
-northern-counties-east-league-premier-division,Handsworth,no ground
-northern-counties-east-league-premier-division,Horbury Town,no ground
-northern-counties-east-league-premier-division,Keighley Town,no ground
-northern-counties-east-league-premier-division,Knaresborough Town,no ground
 northern-counties-east-league-premier-division,Parkgate,no ground
 northern-counties-east-league-premier-division,Penistone Church,no ground
 northern-counties-east-league-premier-division,Pickering Town,no ground
@@ -545,17 +236,6 @@ northern-counties-east-league-premier-division,Rossington Main,no ground
 northern-counties-east-league-premier-division,Tadcaster Albion,no ground
 northern-counties-east-league-premier-division,Thackley,no ground
 northern-counties-east-league-premier-division,Worsbrough Bridge Athletic,no ground
-southern-counties-east-league-premier-division,AFC Greenwich Borough,no ground
-southern-counties-east-league-premier-division,Bearsted,no ground
-southern-counties-east-league-premier-division,Beckenham Town,no ground
-southern-counties-east-league-premier-division,Chislehurst Glebe,no ground
-southern-counties-east-league-premier-division,Corinthian,no ground
-southern-counties-east-league-premier-division,Erith & Belvedere,no ground
-southern-counties-east-league-premier-division,Faversham Strike Force,no ground
-southern-counties-east-league-premier-division,Fisher,no ground
-southern-counties-east-league-premier-division,Hollands & Blair,no ground
-southern-counties-east-league-premier-division,Kennington,no ground
-southern-counties-east-league-premier-division,Larkfield & New Hythe,no ground
 southern-counties-east-league-premier-division,Petts Wood & Holmesdale,no ground
 southern-counties-east-league-premier-division,Phoenix Sports,no ground
 southern-counties-east-league-premier-division,Rusthall,no ground
@@ -564,55 +244,20 @@ southern-counties-east-league-premier-division,Snodland Town,no ground
 southern-counties-east-league-premier-division,Sutton Athletic,no ground
 southern-counties-east-league-premier-division,Tunbridge Wells,no ground
 spartan-south-midlands-league-premier-division,AFC Welwyn,no ground
-spartan-south-midlands-league-premier-division,Arlesey Town,no ground
-spartan-south-midlands-league-premier-division,Aylesbury Vale Dynamos,no ground
-spartan-south-midlands-league-premier-division,Baldock Town,no ground
-spartan-south-midlands-league-premier-division,Biggleswade United,no ground
-spartan-south-midlands-league-premier-division,Cockfosters,no ground
 spartan-south-midlands-league-premier-division,Colney Heath,no ground
-spartan-south-midlands-league-premier-division,Dunstable,no ground
-spartan-south-midlands-league-premier-division,Enfield,no ground
-spartan-south-midlands-league-premier-division,Everett Rovers,no ground
-spartan-south-midlands-league-premier-division,Harlow Town,no ground
-spartan-south-midlands-league-premier-division,Harpenden Town,no ground
-spartan-south-midlands-league-premier-division,Kempston Rovers,no ground
-spartan-south-midlands-league-premier-division,Kings Langley,no ground
 spartan-south-midlands-league-premier-division,Newport Pagnell Town,no ground
 spartan-south-midlands-league-premier-division,Potton United,no ground
 spartan-south-midlands-league-premier-division,Risborough Rangers,no ground
 spartan-south-midlands-league-premier-division,Sawbridgeworth Town,no ground
 spartan-south-midlands-league-premier-division,Tring Athletic,no ground
 spartan-south-midlands-league-premier-division,Wormley Rovers,no ground
-united-counties-league-premier-division-north,AFC Mansfield,no ground
-united-counties-league-premier-division-north,Ashby Ivanhoe,no ground
-united-counties-league-premier-division-north,Aylestone Park,no ground
-united-counties-league-premier-division-north,Belper United,no ground
-united-counties-league-premier-division-north,Blackstones,no ground
-united-counties-league-premier-division-north,Clay Cross Town,no ground
-united-counties-league-premier-division-north,Deeping Rangers,no ground
-united-counties-league-premier-division-north,Eastwood CFC,no ground
-united-counties-league-premier-division-north,Gresley Rovers,no ground
-united-counties-league-premier-division-north,Heanor Town,no ground
-united-counties-league-premier-division-north,Hinckley AFC,no ground
-united-counties-league-premier-division-north,Hucknall Town,no ground
-united-counties-league-premier-division-north,Kimberley Miners Welfare,no ground
-united-counties-league-premier-division-north,Leicester Nirvana,no ground
+spartan-south-midlands-league-premier-division,Arlesey Town,could not locate
+spartan-south-midlands-league-premier-division,Baldock Town,could not locate
+spartan-south-midlands-league-premier-division,Everett Rovers,could not locate
 united-counties-league-premier-division-north,Newark Town,no ground
 united-counties-league-premier-division-north,Sheffield,no ground
 united-counties-league-premier-division-north,Sherwood Colliery,no ground
 united-counties-league-premier-division-north,Skegness Town,no ground
-united-counties-league-premier-division-south,Atherstone Town,no ground
-united-counties-league-premier-division-south,Coton Green,no ground
-united-counties-league-premier-division-south,Coventry Sphinx,no ground
-united-counties-league-premier-division-south,Daventry Town,no ground
-united-counties-league-premier-division-south,Desborough Town,no ground
-united-counties-league-premier-division-south,Eynesbury Rovers,no ground
-united-counties-league-premier-division-south,FC Peterborough,no ground
-united-counties-league-premier-division-south,FC Stratford,no ground
-united-counties-league-premier-division-south,Godmanchester Rovers,no ground
-united-counties-league-premier-division-south,Highgate United,no ground
-united-counties-league-premier-division-south,Histon,no ground
-united-counties-league-premier-division-south,Knowle,no ground
 united-counties-league-premier-division-south,Lutterworth Town,no ground
 united-counties-league-premier-division-south,Moulton,no ground
 united-counties-league-premier-division-south,Northampton ON Chenecks,no ground
@@ -620,17 +265,6 @@ united-counties-league-premier-division-south,Northampton Sileby Rangers,no grou
 united-counties-league-premier-division-south,Rugby Town,no ground
 united-counties-league-premier-division-south,St Neots Town,no ground
 united-counties-league-premier-division-south,Yaxley,no ground
-combined-counties-league-division-one,Belstone,no ground
-combined-counties-league-division-one,Berks County,no ground
-combined-counties-league-division-one,Bovingdon,no ground
-combined-counties-league-division-one,Brook House,no ground
-combined-counties-league-division-one,Colliers Wood United,no ground
-combined-counties-league-division-one,Eagles Land Benfica,no ground
-combined-counties-league-division-one,Edgware & Kingsbury,no ground
-combined-counties-league-division-one,FC Deportivo Galicia,no ground
-combined-counties-league-division-one,Holmer Green,no ground
-combined-counties-league-division-one,Langley,no ground
-combined-counties-league-division-one,London Samurai Rovers,no ground
 combined-counties-league-division-one,Maidenhead Town,no ground
 combined-counties-league-division-one,Molesey,no ground
 combined-counties-league-division-one,Oxhey Jets,no ground
@@ -642,14 +276,7 @@ combined-counties-league-division-one,Staines & Lammas (Middlesex),no ground
 combined-counties-league-division-one,Wembley,no ground
 combined-counties-league-division-one,Westside,no ground
 combined-counties-league-division-one,Woodley United,no ground
-hellenic-league-division-one,Alcester Town,no ground
-hellenic-league-division-one,Bewdley Town,no ground
-hellenic-league-division-one,Brimscombe & Thrupp,no ground
-hellenic-league-division-one,Bromyard Town,no ground
-hellenic-league-division-one,Carterton,no ground
-hellenic-league-division-one,Cheltenham Saracens,no ground
-hellenic-league-division-one,Chipping Sodbury Town,no ground
-hellenic-league-division-one,Clanfield,no ground
+combined-counties-league-division-one,Eagles Land Benfica,could not locate
 hellenic-league-division-one,Ludlow Town,no ground
 hellenic-league-division-one,Lydney Town,no ground
 hellenic-league-division-one,Newent Town,no ground
@@ -660,17 +287,6 @@ hellenic-league-division-one,Stonehouse Town,no ground
 hellenic-league-division-one,Studley,no ground
 hellenic-league-division-one,Swindon Supermarine Reserves,no ground
 hellenic-league-division-one,Wantage Town,no ground
-northern-league-division-two,AFC Newbiggin,no ground
-northern-league-division-two,Alnwick Town,no ground
-northern-league-division-two,Billingham Synthonia,no ground
-northern-league-division-two,Billingham Town,no ground
-northern-league-division-two,Boldon Community Association,no ground
-northern-league-division-two,Chester-le-Street Town,no ground
-northern-league-division-two,Darlington Town,no ground
-northern-league-division-two,Durham United,no ground
-northern-league-division-two,FC Hartlepool,no ground
-northern-league-division-two,Grangetown Boys Club,no ground
-northern-league-division-two,Jarrow,no ground
 northern-league-division-two,Newcastle University,no ground
 northern-league-division-two,Park View AFC,no ground
 northern-league-division-two,Prudhoe YC Seniors,no ground
@@ -680,36 +296,12 @@ northern-league-division-two,Seaton Carew,no ground
 northern-league-division-two,Stokesley SCFC,no ground
 northern-league-division-two,Sunderland RCA,no ground
 northern-league-division-two,Tow Law Town,no ground
-northern-counties-east-league-division-one,Appleby Frodingham,no ground
-northern-counties-east-league-division-one,Armthorpe Welfare,no ground
-northern-counties-east-league-division-one,Athersley Recreation,no ground
-northern-counties-east-league-division-one,Brigg Town,no ground
-northern-counties-east-league-division-one,Club Thorne Colliery,no ground
-northern-counties-east-league-division-one,Crowle Colts,no ground
-northern-counties-east-league-division-one,Field Olympic,no ground
-northern-counties-east-league-division-one,Goole AFC,no ground
-northern-counties-east-league-division-one,Harrogate Railway Athletic,no ground
-northern-counties-east-league-division-one,Hemsworth Miners Welfare,no ground
-northern-counties-east-league-division-one,Ilkley Town,no ground
-northern-counties-east-league-division-one,Immingham Town,no ground
-northern-counties-east-league-division-one,Kinsley Boys,no ground
-northern-counties-east-league-division-one,LIV,no ground
-northern-counties-east-league-division-one,Leeds UFCA,no ground
 northern-counties-east-league-division-one,Route One Rovers,no ground
 northern-counties-east-league-division-one,Selby Town,no ground
 northern-counties-east-league-division-one,South Leeds,no ground
 northern-counties-east-league-division-one,Wakefield,no ground
 northern-counties-east-league-division-one,Winterton Rangers,no ground
 northern-counties-east-league-division-one,Wombwell Town,no ground
-southern-counties-east-league-first-division,Banstead Athletic,no ground
-southern-counties-east-league-first-division,Bridon Ropes,no ground
-southern-counties-east-league-first-division,Croydon,no ground
-southern-counties-east-league-first-division,FC Elmstead,no ground
-southern-counties-east-league-first-division,Greenways,no ground
-southern-counties-east-league-first-division,Halls AFC,no ground
-southern-counties-east-league-first-division,Hythe Town,no ground
-southern-counties-east-league-first-division,Lewisham Borough,no ground
-southern-counties-east-league-first-division,Lordswood AFC,no ground
 southern-counties-east-league-first-division,Lydd Town,no ground
 southern-counties-east-league-first-division,Minster,no ground
 southern-counties-east-league-first-division,Rochester United,no ground
@@ -719,14 +311,6 @@ southern-counties-east-league-first-division,Stansfeld,no ground
 southern-counties-east-league-first-division,Staplehurst Monarchs,no ground
 southern-counties-east-league-first-division,Tooting Bec,no ground
 southern-counties-east-league-first-division,Welling Town,no ground
-united-counties-league-division-one,Clifton All Whites,no ground
-united-counties-league-division-one,Clipstone Welfare,no ground
-united-counties-league-division-one,Cotgrave,no ground
-united-counties-league-division-one,Dronfield Town,no ground
-united-counties-league-division-one,Dunkirk,no ground
-united-counties-league-division-one,Gedling Miners Welfare,no ground
-united-counties-league-division-one,Harrowby United,no ground
-united-counties-league-division-one,Louth Town,no ground
 united-counties-league-division-one,Maltby Main,no ground
 united-counties-league-division-one,Pinchbeck United,no ground
 united-counties-league-division-one,Pinxton,no ground
@@ -784,7 +368,6 @@ womens-national-league-south,AFC Wimbledon,no ground
 womens-national-league-south,Cheltenham Town,no ground
 womens-national-league-south,Exeter City,no ground
 womens-national-league-south,Fulham,no ground
-womens-national-league-south,Hashtag United,no ground
 womens-national-league-south,Lewes,no ground
 womens-national-league-south,Oxford United,no ground
 womens-national-league-south,Plymouth Argyle,no ground
