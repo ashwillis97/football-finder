@@ -111,12 +111,31 @@
     });
   }
 
+  // Each team shows only its next match. A match counts if it is the next one for
+  // either team, so away games appear at the host's ground. Postponed games are skipped.
+  function nextMatchIds() {
+    var d = new Date();
+    var today = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    var seen = {}, ids = {};
+    DATA.matches.slice().sort(function (a, b) {
+      return (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''));
+    }).forEach(function (m) {
+      if (m.status === 'postponed' || m.date < today) return;
+      [m.league + '|' + m.home, m.league + '|' + m.away].forEach(function (t) {
+        if (!seen[t]) { seen[t] = true; ids[m.date + '|' + m.home + '|' + m.away] = true; }
+      });
+    });
+    return ids;
+  }
+
   function render() {
     layer.clearLayers();
     var maxD = +$('dist').value, level = $('level').value, gender = $('gender').value;
     var from = $('from').value, to = $('to').value;
+    var nextIds = nextMatchIds();
     var rows = DATA.matches.filter(function (m) {
       if (m.status === 'postponed') return false;
+      if (!nextIds[m.date + '|' + m.home + '|' + m.away]) return false;
       if (level && m.level !== level) return false;
       if (gender && m.gender !== gender) return false;
       if (from && m.date < from) return false;
