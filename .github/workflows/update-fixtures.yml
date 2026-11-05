@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "fixtures-bot"
           git config user.email "fixtures-bot@users.noreply.github.com"
-          git add docs/data data/postcode_cache.json data/place_cache.json data/missing_grounds.csv data/debug 2>/dev/null || true
+          git add -A docs/data data
           if git diff --cached --quiet; then
             echo "No changes"
           else
