@@ -1,6 +1,6 @@
 {
  "premier-league": {
-  "fixtures": 290,
+  "fixtures": 289,
   "months": {
    "december": 60,
    "january": 50,
@@ -14,7 +14,7 @@
   "unlocated": []
  },
  "championship": {
-  "fixtures": 389,
+  "fixtures": 388,
   "months": {
    "december": 72,
    "january": 62,
@@ -95,7 +95,7 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 288,
+  "fixtures": 287,
   "months": {
    "december": 51,
    "january": 55,
@@ -251,7 +251,7 @@
   "unlocated": []
  },
  "combined-counties-league-premier-division-north": {
-  "fixtures": 231,
+  "fixtures": 230,
   "months": {
    "december": 42,
    "january": 54,
@@ -316,7 +316,7 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 207,
+  "fixtures": 206,
   "months": {
    "december": 37,
    "january": 45,
@@ -329,7 +329,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "fixtures": 210,
+  "fixtures": 209,
   "months": {
    "december": 43,
    "january": 43,
@@ -388,7 +388,7 @@
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 251,
+  "fixtures": 250,
   "months": {
    "december": 45,
    "january": 57,
@@ -410,7 +410,7 @@
   "unlocated": []
  },
  "northern-league-division-two": {
-  "fixtures": 199,
+  "fixtures": 198,
   "months": {
    "december": 31,
    "january": 44,
@@ -510,8 +510,8 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 450,
-  "not_yet_fetched": 9,
+  "fetched_this_run": 366,
+  "not_yet_fetched": 0,
   "page_has_no_ground_info": [
    "afc bournemouth",
    "afc wimbledon",
