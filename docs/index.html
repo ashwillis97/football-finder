@@ -4,94 +4,195 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Football Finder – matches near you</title>
+<meta name="description" content="Find the nearest football matches, from the Premier League to non-league and the women's game, with kick-off times and grounds on a map.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
   :root {
-    --bg: #f6f4ef; --card: #ffffff; --ink: #1d2320; --muted: #5d6762;
-    --accent: #1f7a4d; --accent-ink: #ffffff; --line: #dcd8cf;
+    --bg: #ffffff; --tint: #f3f5f2; --ink: #101512; --muted: #626c66; --line: #dfe3df;
+    --accent: #0a7a3d; --accent-ink: #ffffff; --women: #7a2bd6;
+    --display: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #151a17; --card: #1e2521; --ink: #eef1ee; --muted: #a2aca6; --accent: #3fb77a; --accent-ink: #0e1511; --line: #333c37; }
+    :root { --bg: #0f1411; --tint: #18201b; --ink: #f0f3f0; --muted: #98a39b; --line: #2a342d;
+            --accent: #3fc07a; --accent-ink: #07130b; --women: #b690f5; }
   }
-  * { box-sizing: border-box; }
-  body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
-  header { padding: 20px 16px 8px; max-width: 1200px; margin: 0 auto; }
-  h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
-  header p { margin: 4px 0 0; color: var(--muted); }
-  main { max-width: 1200px; margin: 0 auto; padding: 8px 16px 32px; display: grid; gap: 16px; grid-template-columns: 340px 1fr; }
-  @media (max-width: 820px) { main { grid-template-columns: 1fr; } }
-  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
-  label { display: block; font-size: .85rem; color: var(--muted); margin: 12px 0 4px; }
-  input[type=text], select, input[type=date] { width: 100%; padding: 10px; font: inherit; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
-  input[type=range] { width: 100%; accent-color: var(--accent); }
-  .row { display: flex; gap: 8px; }
-  button { font: inherit; padding: 10px 14px; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
-  button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); }
-  #map { height: 460px; border-radius: 12px; border: 1px solid var(--line); }
-  #status { margin: 8px 0 0; font-size: .9rem; color: var(--muted); min-height: 1.3em; }
-  ul#list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; max-height: 420px; overflow: auto; }
-  li.match { border: 1px solid var(--line); border-radius: 10px; padding: 10px; cursor: pointer; }
-  li.match:hover, li.match:focus-visible { border-color: var(--accent); outline: none; }
-  li.match b { display: block; }
-  li.match small { color: var(--muted); }
-  .tag { display: inline-block; font-size: .75rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; }
-  footer { max-width: 1200px; margin: 0 auto; padding: 0 16px 24px; color: var(--muted); font-size: .85rem; }
+  * { box-sizing: border-box; border-radius: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
+
+  .bar { display: flex; align-items: baseline; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+  .bar h1 { margin: 0; font: 400 1.9rem/1 var(--display); letter-spacing: .04em; }
+  .bar p { margin: 0; color: var(--muted); font-size: .9rem; }
+  @media (max-width: 640px) { .bar p { display: none; } }
+
+  .layout { display: grid; grid-template-columns: minmax(340px, 420px) 1fr; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+
+  .side { padding: 20px; min-width: 0; }
+  @media (max-width: 900px) { .side { padding: 16px; } }
+
+  label { display: block; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 2px; }
+  input[type=text], input[type=date], select {
+    width: 100%; padding: 8px 0; font: inherit; color: var(--ink); background: transparent;
+    border: 0; border-bottom: 2px solid var(--ink); outline: none; appearance: none; -webkit-appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+           background-position: calc(100% - 10px) 55%, calc(100% - 5px) 55%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 24px; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  input[type=range] { width: 100%; accent-color: var(--accent); margin: 6px 0 0; }
+  input[type=date] { color-scheme: light dark; }
+
+  .search { display: flex; gap: 12px; align-items: flex-end; }
+  .search > div { flex: 1; }
+  button { font: inherit; font-weight: 600; padding: 10px 20px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  button:hover { filter: brightness(1.08); }
+  button.link { background: none; color: var(--accent); padding: 8px 0 0; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; margin-top: 22px; }
+  .filters .wide { grid-column: 1 / -1; }
+  .distance-line { display: flex; justify-content: space-between; align-items: baseline; }
+  .distance-line b { font: 400 1.5rem/1 var(--display); letter-spacing: .03em; }
+
+  .results-head { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: space-between; align-items: baseline; margin: 26px 0 0; padding-top: 14px; border-top: 2px solid var(--ink); }
+  #status { margin: 0; font-weight: 600; }
+  .legend { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+  .legend i { display: inline-block; width: 10px; height: 10px; margin: 0 4px 0 10px; vertical-align: -1px; }
+
+  ul#list { list-style: none; margin: 4px 0 0; padding: 0; }
+  li.day { font: 400 1.15rem/1 var(--display); letter-spacing: .05em; padding: 20px 0 6px; color: var(--muted); }
+  li.match { display: grid; grid-template-columns: 66px 1fr; gap: 14px; padding: 14px 0 14px 0; border-bottom: 1px solid var(--line); cursor: pointer; border-left: 3px solid transparent; padding-left: 10px; margin-left: -13px; }
+  li.match:hover, li.match:focus-visible { background: var(--tint); outline: none; border-left-color: var(--accent); }
+  li.match.women:hover, li.match.women:focus-visible { border-left-color: var(--women); }
+  .when { font: 400 1.35rem/1.05 var(--display); letter-spacing: .03em; }
+  .when small { display: block; font: 600 .8rem/1.3 system-ui, sans-serif; letter-spacing: 0; color: var(--muted); }
+  .teams { font-weight: 700; }
+  .meta { color: var(--muted); font-size: .88rem; }
+  .meta .dist { color: var(--ink); font-weight: 600; }
+
+  .mapwrap { position: sticky; top: 0; height: 100vh; min-height: 420px; }
+  @media (max-width: 900px) { .mapwrap { position: relative; height: 62vh; min-height: 340px; order: -1; } }
+  #map { height: 100%; width: 100%; background: var(--tint); }
+
+  footer { padding: 16px 20px 32px; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line); }
+
+  /* map pieces: square pins and clusters, flat controls and popups */
+  .leaflet-container { font: inherit; }
+  .pin { width: 16px; height: 16px; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.35); }
+  .pin-men { background: var(--accent); }
+  .pin-women { background: var(--women); }
+  .pin-you { background: #101512; width: 18px; height: 18px; box-shadow: 0 0 0 4px rgba(255,255,255,.9), 0 0 0 5px #101512; }
+  .cluster span { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; background: var(--ink); color: var(--bg);
+                  font: 400 1.15rem/1 var(--display); letter-spacing: .03em; border: 2px solid var(--bg); }
+  .leaflet-bar { border: 1px solid var(--line) !important; box-shadow: none !important; }
+  .leaflet-bar a, .leaflet-bar a:first-child, .leaflet-bar a:last-child { border-radius: 0 !important; background: var(--bg); color: var(--ink); border-bottom-color: var(--line); }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { border-radius: 0; box-shadow: 0 2px 10px rgba(0,0,0,.25); background: var(--bg); color: var(--ink); }
+  .leaflet-popup-content { margin: 14px 16px; line-height: 1.4; }
+  .leaflet-popup-content b { font-size: 1.02rem; }
+  .leaflet-popup-content a { color: var(--accent); font-weight: 600; }
+  .leaflet-control-attribution { font-size: .68rem; background: rgba(255,255,255,.75) !important; }
 </style>
 </head>
 <body>
-<header>
-  <h1>Football finder</h1>
-  <p>Find the nearest non-league and professional matches, with kick-off times and grounds.</p>
-</header>
-<main>
-  <section class="panel" aria-label="Search and filters">
-    <label for="place">Postcode or place</label>
-    <div class="row">
-      <input id="place" type="text" placeholder="e.g. NG1 5AW or Derby" autocomplete="postal-code">
+<div class="bar">
+  <h1>Football Finder</h1>
+  <p>Matches near you, from the Premier League to the non-league pyramid, men's and women's.</p>
+</div>
+
+<div class="layout">
+  <div class="side">
+    <div class="search">
+      <div>
+        <label for="place">Postcode or place</label>
+        <input id="place" type="text" placeholder="e.g. NG1 5AW or Derby" autocomplete="postal-code">
+      </div>
       <button id="go">Search</button>
     </div>
-    <button id="locate" class="secondary" style="margin-top:8px;width:100%">Use my location</button>
+    <button id="locate" class="link">Use my location</button>
 
-    <label for="dist">Distance: <span id="distVal">25</span> miles</label>
-    <input id="dist" type="range" min="1" max="200" value="25">
-
-    <label for="level">Level</label>
-    <select id="level"><option value="">All levels</option></select>
-
-    <label for="gender">Men's / women's</label>
-    <select id="gender">
-      <option value="">All matches</option>
-      <option value="men">Men's</option>
-      <option value="women">Women's</option>
-    </select>
-
-    <div class="row">
-      <div style="flex:1"><label for="from">From</label><input id="from" type="date"></div>
-      <div style="flex:1"><label for="to">To</label><input id="to" type="date"></div>
+    <div class="filters">
+      <div class="wide">
+        <div class="distance-line"><label for="dist">Distance</label><b><span id="distVal">25</span> miles</b></div>
+        <input id="dist" type="range" min="1" max="200" value="25">
+      </div>
+      <div class="wide">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="distance">Distance, nearest first</option>
+          <option value="date">Date, soonest first, then nearest</option>
+        </select>
+      </div>
+      <div>
+        <label for="level">Level</label>
+        <select id="level"><option value="">All levels</option></select>
+      </div>
+      <div>
+        <label for="gender">Men's / women's</label>
+        <select id="gender">
+          <option value="">All matches</option>
+          <option value="men">Men's</option>
+          <option value="women">Women's</option>
+        </select>
+      </div>
+      <div>
+        <label for="from">From</label>
+        <input id="from" type="date">
+      </div>
+      <div>
+        <label for="to">To</label>
+        <input id="to" type="date">
+      </div>
     </div>
 
-    <p id="status" role="status"></p>
+    <div class="results-head">
+      <p id="status" role="status"></p>
+      <span class="legend"><i style="background:var(--accent)"></i>Men's<i style="background:var(--women)"></i>Women's</span>
+    </div>
     <ul id="list"></ul>
-  </section>
-  <section>
+  </div>
+
+  <div class="mapwrap">
     <div id="map" role="application" aria-label="Map of matches"></div>
-  </section>
-</main>
+  </div>
+</div>
 <footer id="updated"></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <script>
 (function () {
   var DATA = { matches: [], updated: null };
-  var origin = null;           // {lat, lon}
-  var map = L.map('map').setView([52.8, -1.6], 6);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18, attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-  var layer = L.layerGroup().addTo(map);
-  var originMarker = null;
-
+  var origin = null, originLabel = '';
   var $ = function (id) { return document.getElementById(id); };
+
+  var map = L.map('map', { zoomControl: false }).setView([52.8, -1.6], 6);
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  // Clean, light basemap (dark one when the visitor's device is in dark mode).
+  var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+  var tiles = null;
+  function setTiles() {
+    if (tiles) map.removeLayer(tiles);
+    var style = dark && dark.matches ? 'dark_all' : 'light_all';
+    tiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/' + style + '/{z}/{x}/{y}{r}.png', {
+      subdomains: 'abcd', maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+  }
+  setTiles();
+  if (dark && dark.addEventListener) dark.addEventListener('change', setTiles);
+
+  var group = L.markerClusterGroup ? L.markerClusterGroup({
+    showCoverageOnHover: false, maxClusterRadius: 42, spiderfyOnMaxZoom: true,
+    iconCreateFunction: function (c) {
+      return L.divIcon({ html: '<span>' + c.getChildCount() + '</span>', className: 'cluster', iconSize: [34, 34] });
+    }
+  }) : L.layerGroup();
+  group.addTo(map);
+  var originMarker = null;
 
   function miles(a, b) {
     var R = 3958.8, rad = Math.PI / 180;
@@ -99,24 +200,24 @@
     var x = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
     return 2 * R * Math.asin(Math.sqrt(x));
   }
-
-  function fmtDate(iso) {
-    var d = new Date(iso + 'T12:00:00');
-    return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  function parseDate(iso) { return new Date(iso + 'T12:00:00'); }
+  function fmtShort(iso) { return parseDate(iso).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }); }
+  function fmtLong(iso) { return parseDate(iso).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' }); }
+  function fmtKO(t) {
+    if (!t) return 'KO TBC';
+    var p = t.split(':'), h = +p[0], m = p[1], suffix = h >= 12 ? 'pm' : 'am';
+    h = h % 12 || 12;
+    return m === '00' ? h + suffix : h + '.' + m + suffix;
   }
-
-  function addr(m) {
-    return [m.ground, m.town, m.postcode].filter(Boolean).join(', ');
-  }
-
+  function addr(m) { return [m.ground, m.town, m.postcode].filter(Boolean).join(', '); }
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
 
-  // Each team shows only its next match. A match counts if it is the next one for
-  // either team, so away games appear at the host's ground. Postponed games are skipped.
+  // Each team shows only its next match. A match is shown only when it is the next one for BOTH
+  // clubs, so no club ever appears twice. Postponed games are skipped.
   function nextMatchIds() {
     var d = new Date();
     var today = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
@@ -127,11 +228,8 @@
     });
     var id = function (m) { return m.date + '|' + m.home + '|' + m.away; };
     upcoming.forEach(function (m) {
-      [m.league + '|' + m.home, m.league + '|' + m.away].forEach(function (t) {
-        if (!next[t]) next[t] = id(m);
-      });
+      [m.league + '|' + m.home, m.league + '|' + m.away].forEach(function (t) { if (!next[t]) next[t] = id(m); });
     });
-    // A match is shown only when it is the next one for BOTH clubs, so no club ever appears twice.
     var ids = {};
     upcoming.forEach(function (m) {
       if (next[m.league + '|' + m.home] === id(m) && next[m.league + '|' + m.away] === id(m)) ids[id(m)] = true;
@@ -139,11 +237,25 @@
     return ids;
   }
 
-  function render() {
-    layer.clearLayers();
+  function sortRows(rows, how) {
+    var byTime = function (a, b) { return (a.time || '99:99').localeCompare(b.time || '99:99'); };
+    rows.sort(function (a, b) {
+      if (how === 'distance' && origin) return (a.dist - b.dist) || a.date.localeCompare(b.date) || byTime(a, b);
+      // date: soonest first, then nearest when we know where the visitor is
+      return a.date.localeCompare(b.date) || (origin ? a.dist - b.dist : 0) || byTime(a, b);
+    });
+  }
+
+  function pin(m) {
+    return L.divIcon({ className: '', html: '<div class="pin ' + (m.gender === 'women' ? 'pin-women' : 'pin-men') + '"></div>', iconSize: [16, 16], iconAnchor: [8, 8], popupAnchor: [0, -10] });
+  }
+
+  function render(fit) {
+    group.clearLayers();
     var maxD = +$('dist').value, level = $('level').value, gender = $('gender').value;
-    var from = $('from').value, to = $('to').value;
+    var from = $('from').value, to = $('to').value, how = $('sort').value;
     var nextIds = nextMatchIds();
+
     var rows = DATA.matches.filter(function (m) {
       if (m.status === 'postponed') return false;
       if (!nextIds[m.date + '|' + m.home + '|' + m.away]) return false;
@@ -157,53 +269,64 @@
       return m;
     }).filter(function (m) { return !origin || m.dist <= maxD; });
 
-    rows.sort(function (a, b) {
-      if (origin && a.dist !== b.dist && a.date === b.date) return a.dist - b.dist;
-      return (a.date + (a.time || '')).localeCompare(b.date + (b.time || ''));
-    });
-    if (origin) {
-      // nearest first overall when searching by place
-      rows.sort(function (a, b) { return a.dist - b.dist; });
-    }
+    sortRows(rows, how);
 
     var list = $('list');
     list.innerHTML = '';
-    var bounds = [];
+    var bounds = [], lastDay = null;
     rows.slice(0, 200).forEach(function (m) {
-      var ko = m.time || 'KO TBC';
-      var popup = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b><br>' +
-        esc(fmtDate(m.date)) + ', ' + esc(ko) + '<br>' +
-        esc(addr(m)) + '<br><small>' + esc(m.league) + '</small>';
-      var marker = L.marker([m.lat, m.lon]).bindPopup(popup).addTo(layer);
+      var ko = fmtKO(m.time);
+      var dirs = 'https://www.google.com/maps/dir/?api=1&destination=' + m.lat + ',' + m.lon;
+      var popup = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b><br>' + esc(fmtShort(m.date)) + ', ' + esc(ko) +
+        '<br>' + esc(addr(m)) + '<br><small>' + esc(m.league) + '</small><br><a href="' + dirs + '" target="_blank" rel="noopener">Directions</a>';
+      var marker = L.marker([m.lat, m.lon], { icon: pin(m), title: m.home + ' v ' + m.away }).bindPopup(popup);
+      group.addLayer(marker);
       bounds.push([m.lat, m.lon]);
 
+      if (how === 'date' && m.date !== lastDay) {
+        var h = document.createElement('li');
+        h.className = 'day'; h.textContent = fmtLong(m.date);
+        list.appendChild(h);
+      }
+      lastDay = m.date;
+
       var li = document.createElement('li');
-      li.className = 'match';
+      li.className = 'match' + (m.gender === 'women' ? ' women' : '');
       li.tabIndex = 0;
-      li.innerHTML = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b>' +
-        '<small>' + esc(fmtDate(m.date)) + ' · ' + esc(ko) + (m.dist != null ? ' · ' + m.dist.toFixed(1) + ' mi' : '') + '<br>' +
-        esc(addr(m)) + '</small>' +
-        '<span class="tag">' + esc(m.level) + '</span>';
-      var open = function () { map.setView([m.lat, m.lon], 13); marker.openPopup(); };
+      li.innerHTML = '<div class="when">' + esc(fmtShort(m.date).toUpperCase()) + '<small>' + esc(ko) + '</small></div>' +
+        '<div><div class="teams">' + esc(m.home) + ' v ' + esc(m.away) + '</div>' +
+        '<div class="meta">' + esc(addr(m)) + '</div>' +
+        '<div class="meta">' + (m.dist != null ? '<span class="dist">' + m.dist.toFixed(1) + ' mi</span> · ' : '') + esc(m.level) + ' · ' + esc(m.league) + '</div></div>';
+      var open = function () {
+        map.setView([m.lat, m.lon], Math.max(map.getZoom(), 13));
+        if (group.zoomToShowLayer) group.zoomToShowLayer(marker, function () { marker.openPopup(); });
+        else marker.openPopup();
+        if (window.matchMedia('(max-width: 900px)').matches) $('map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      };
       li.addEventListener('click', open);
       li.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
       list.appendChild(li);
     });
 
+    var where = origin ? ' within ' + maxD + ' miles of ' + originLabel : '';
     $('status').textContent = rows.length
-      ? rows.length + ' match' + (rows.length === 1 ? '' : 'es') + (origin ? ' within ' + maxD + ' miles' : ' found') + (rows.length > 200 ? ' (showing first 200)' : '')
+      ? rows.length + ' match' + (rows.length === 1 ? '' : 'es') + where + (rows.length > 200 ? ' (showing 200)' : '')
       : (DATA.matches.length ? 'No matches with those filters. Try a wider distance or date range.' : 'No fixtures loaded yet.');
 
-    if (origin) bounds.push([origin.lat, origin.lon]);
-    if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 12 });
+    if (fit !== false) {
+      if (origin) bounds.push([origin.lat, origin.lon]);
+      if (bounds.length) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 12 });
+    }
   }
 
   function setOrigin(lat, lon, label) {
-    origin = { lat: lat, lon: lon };
+    origin = { lat: lat, lon: lon }; originLabel = label || 'you';
     if (originMarker) map.removeLayer(originMarker);
-    originMarker = L.circleMarker([lat, lon], { radius: 8, color: '#1f7a4d', fillOpacity: .9 })
-      .addTo(map).bindTooltip(label || 'You');
-    render();
+    originMarker = L.marker([lat, lon], {
+      icon: L.divIcon({ className: '', html: '<div class="pin pin-you"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
+      interactive: false, keyboard: false
+    }).addTo(map);
+    render(true);
   }
 
   function search() {
@@ -217,8 +340,8 @@
       : 'https://api.postcodes.io/places?q=' + encodeURIComponent(q) + '&limit=1';
     fetch(url).then(function (r) { return r.json(); }).then(function (j) {
       var res = isPostcode ? j.result : (j.result && j.result[0]);
-      if (!res) { $('status').textContent = 'Could not find that place. Try a full postcode.'; return; }
-      setOrigin(res.latitude, res.longitude, q);
+      if (!res || res.latitude == null) { $('status').textContent = 'Could not find that place. Try a full postcode.'; return; }
+      setOrigin(res.latitude, res.longitude, isPostcode ? q.toUpperCase() : (res.name_1 || q));
     }).catch(function () { $('status').textContent = 'Search is unavailable right now. Please try again.'; });
   }
 
@@ -227,14 +350,15 @@
   $('locate').addEventListener('click', function () {
     if (!navigator.geolocation) { $('status').textContent = 'Location is not available in this browser.'; return; }
     navigator.geolocation.getCurrentPosition(
-      function (p) { setOrigin(p.coords.latitude, p.coords.longitude, 'Your location'); },
+      function (p) { setOrigin(p.coords.latitude, p.coords.longitude, 'your location'); },
       function () { $('status').textContent = 'Location permission was declined. Enter a postcode instead.'; });
   });
-  $('dist').addEventListener('input', function () { $('distVal').textContent = this.value; render(); });
-  ['level', 'gender', 'from', 'to'].forEach(function (id) { $(id).addEventListener('change', render); });
+  $('dist').addEventListener('input', function () { $('distVal').textContent = this.value; render(true); });
+  $('sort').addEventListener('change', function () { render(false); });
+  ['level', 'gender', 'from', 'to'].forEach(function (id) { $(id).addEventListener('change', function () { render(true); }); });
 
-  var today = new Date().toISOString().slice(0, 10);
-  $('from').value = today;
+  var t = new Date();
+  $('from').value = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0');
 
   fetch('data/fixtures.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
     DATA = d;
@@ -247,8 +371,8 @@
     levels.forEach(function (l) {
       var o = document.createElement('option'); o.value = l; o.textContent = l; $('level').appendChild(o);
     });
-    if (d.updated) $('updated').textContent = 'Fixtures last updated ' + new Date(d.updated).toLocaleString('en-GB') + '. Kick-off times and dates can change; check the club before travelling.';
-    render();
+    if (d.updated) $('updated').textContent = 'Fixtures last updated ' + new Date(d.updated).toLocaleString('en-GB') + '. Kick-off times and dates can change, so check with the club before travelling.';
+    render(true);
   }).catch(function () { $('status').textContent = 'Could not load fixtures.'; });
 })();
 </script>
