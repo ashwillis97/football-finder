@@ -1,8 +1,8 @@
 {
  "premier-league": {
-  "fixtures": 293,
+  "fixtures": 290,
   "months": {
-   "december": 63,
+   "december": 60,
    "january": 50,
    "february": 40,
    "march": 30,
@@ -14,11 +14,11 @@
   "unlocated": []
  },
  "championship": {
-  "fixtures": 384,
+  "fixtures": 389,
   "months": {
    "december": 72,
-   "january": 60,
-   "february": 60,
+   "january": 62,
+   "february": 63,
    "march": 60,
    "april": 72,
    "may": 12
@@ -28,10 +28,10 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 391,
+  "fixtures": 393,
   "months": {
    "december": 63,
-   "january": 74,
+   "january": 76,
    "february": 60,
    "march": 60,
    "april": 72,
@@ -56,7 +56,7 @@
   "unlocated": []
  },
  "national-league": {
-  "fixtures": 363,
+  "fixtures": 362,
   "months": {
    "december": 61,
    "january": 61,
@@ -186,9 +186,9 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 299,
+  "fixtures": 300,
   "months": {
-   "december": 47,
+   "december": 48,
    "january": 55,
    "february": 55,
    "march": 55,
@@ -352,9 +352,7 @@
   },
   "clubs": 18,
   "missing_grounds": 0,
-  "unlocated": [
-   "Petts Wood & Holmesdale"
-  ]
+  "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
   "fixtures": 249,
@@ -366,12 +364,8 @@
    "april": 30
   },
   "clubs": 20,
-  "missing_grounds": 2,
-  "unlocated": [
-   "Arlesey Town",
-   "Baldock Town",
-   "Everett Rovers"
-  ]
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "united-counties-league-premier-division-north": {
   "fixtures": 182,
@@ -394,7 +388,7 @@
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 252,
+  "fixtures": 251,
   "months": {
    "december": 45,
    "january": 57,
@@ -445,9 +439,9 @@
   "fixtures": 191,
   "months": {
    "december": 26,
-   "january": 38,
+   "january": 39,
    "february": 29,
-   "march": 34,
+   "march": 33,
    "april": 36
   },
   "clubs": 18,
@@ -516,11 +510,10 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 342,
+  "fetched_this_run": 0,
   "not_yet_fetched": 0,
   "page_has_no_ground_info": [
    "afc bournemouth",
-   "afc welwyn",
    "afc wimbledon",
    "arsenal",
    "aston villa",
@@ -532,7 +525,6 @@
    "charlton athletic",
    "chelsea",
    "cheltenham town",
-   "colney heath",
    "crystal palace",
    "derby county",
    "durham",
@@ -574,8 +566,6 @@
  },
  "low_confidence_places": [],
  "bad_postcodes": [
-  "BR52 8HG",
-  "JE2 4LF",
-  "SB15 6RS"
+  "JE2 4LF"
  ]
 }
