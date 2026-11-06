@@ -81,6 +81,12 @@
 
   /* map pieces: square pins and clusters, flat controls and popups */
   .leaflet-container { font: inherit; }
+  .leaflet-tile-pane { filter: grayscale(1) contrast(.92) brightness(1.12); }
+  @media (prefers-color-scheme: dark) {
+    .leaflet-tile-pane { filter: grayscale(1) invert(1) contrast(.9) brightness(.85); }
+    .leaflet-control-attribution { background: rgba(15,20,17,.75) !important; color: var(--muted); }
+    .leaflet-control-attribution a { color: var(--muted); }
+  }
   .pin { width: 16px; height: 16px; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.35); }
   .pin-men { background: var(--accent); }
   .pin-women { background: var(--women); }
@@ -165,19 +171,11 @@
   var map = L.map('map', { zoomControl: false }).setView([52.8, -1.6], 6);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-  // Clean, light basemap (dark one when the visitor's device is in dark mode).
-  var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-  var tiles = null;
-  function setTiles() {
-    if (tiles) map.removeLayer(tiles);
-    var style = dark && dark.matches ? 'dark_all' : 'light_all';
-    tiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/' + style + '/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd', maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    }).addTo(map);
-  }
-  setTiles();
-  if (dark && dark.addEventListener) dark.addEventListener('change', setTiles);
+  // Standard OpenStreetMap tiles (no key needed), toned down with CSS so the pins stand out.
+  var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
 
   var group = L.markerClusterGroup ? L.markerClusterGroup({
     showCoverageOnHover: false, maxClusterRadius: 42, spiderfyOnMaxZoom: true,
