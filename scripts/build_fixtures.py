@@ -354,7 +354,15 @@ def parse_club_info(html):
     ground, address = value("ground"), value("address")
     m = POSTCODE.search(address.upper())
     postcode = f"{m.group(1)} {m.group(2).replace('O', '0', 1) if m.group(2)[0] == 'O' else m.group(2)}" if m else ""
-    return {"ground": ground, "address": address, "postcode": postcode}
+    website = ""
+    for el in soup.find_all(string=re.compile(r"official club website", re.I)):
+        for a in el.find_all_next("a", href=re.compile(r"^https?://", re.I), limit=6):
+            if not re.search(r"footballwebpages|facebook\.com|twitter\.com|x\.com|instagram\.com|youtube\.com|tiktok\.com", a["href"], re.I):
+                website = a["href"].strip()
+                break
+        if website:
+            break
+    return {"ground": ground, "address": address, "postcode": postcode, "website": website}
 
 
 def fetch_club_info(slugs, cache, budget):
@@ -363,7 +371,7 @@ def fetch_club_info(slugs, cache, budget):
     fetched = 0
     for slug in sorted(slugs):
         entry = cache.get(slug)
-        if entry:
+        if entry and "website" in entry:
             age = (today - datetime.fromisoformat(entry["fetched"]).date()).days
             if age < (90 if (entry.get("ground") or entry.get("postcode")) else 14):
                 continue
@@ -439,7 +447,7 @@ def main():
 
     grounds = load_grounds()
     club_info = json.loads(CLUBINFO.read_text()) if CLUBINFO.exists() else {}
-    need = {slug for (c, g), slug in club_slugs.items() if (c, g) not in grounds and (c, "") not in grounds}
+    need = set(club_slugs.values())  # every club: grounds for some, websites for all
     fetched = 0
     if not args.html:
         fetched = fetch_club_info(need, club_info, CLUB_PAGE_BUDGET)
@@ -463,6 +471,12 @@ def main():
                    if g.get("ground") and g.get("town") and not (g.get("postcode") and coords.get(g["postcode"]))}
     places = geocode_places(need_places)
 
+    sites = {(c, g): (club_info.get(slug) or {}).get("website", "") for (c, g), slug in club_slugs.items()}
+    for f in all_fixtures:
+        for side in ("home", "away"):
+            w = sites.get((f[side].lower(), f["gender"]))
+            if w:
+                f[side + "_site"] = w
     for f in all_fixtures:
         g = find_ground(grounds, f["home"], f["gender"])
         loc = locate(g, coords, places) if g else None
