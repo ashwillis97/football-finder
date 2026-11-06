@@ -23,7 +23,7 @@
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
 
-  .bar { display: flex; align-items: baseline; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: baseline; gap: 20px; padding: 22px 32px; border-bottom: 1px solid var(--line); }
   .bar h1 { margin: 0; font: 400 1.9rem/1 var(--display); letter-spacing: .04em; }
   .bar p { margin: 0; color: var(--muted); font-size: .9rem; }
   @media (max-width: 640px) { .bar p { display: none; } }
@@ -31,52 +31,53 @@
   .layout { display: grid; grid-template-columns: minmax(340px, 420px) 1fr; align-items: start; }
   @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
 
-  .side { padding: 20px; min-width: 0; }
-  @media (max-width: 900px) { .side { padding: 16px; } }
+  .side { padding: 40px 32px 56px; min-width: 0; }
+  @media (max-width: 900px) { .side { padding: 36px 24px 48px; } }
 
-  label { display: block; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 2px; }
+  label { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
   input[type=text], input[type=date], select {
-    width: 100%; padding: 8px 0; font: inherit; color: var(--ink); background: transparent;
+    width: 100%; padding: 10px 0; font: inherit; color: var(--ink); background: transparent;
     border: 0; border-bottom: 2px solid var(--ink); outline: none; appearance: none; -webkit-appearance: none;
   }
   select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
            background-position: calc(100% - 10px) 55%, calc(100% - 5px) 55%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 24px; }
   input:focus-visible, select:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-  input[type=range] { width: 100%; accent-color: var(--accent); margin: 6px 0 0; }
-  input[type=date] { color-scheme: light dark; }
+  input[type=range] { width: 100%; accent-color: var(--accent); margin: 14px 0 0; }
+  input[type=date] { color-scheme: light dark; display: block; min-height: 3rem; text-align: left; }
+  input[type=date]::-webkit-date-and-time-value { text-align: left; }
 
-  .search { display: flex; gap: 12px; align-items: flex-end; }
+  .search { display: flex; gap: 16px; align-items: flex-end; }
   .search > div { flex: 1; }
-  button { font: inherit; font-weight: 600; padding: 10px 20px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  button { font: inherit; font-weight: 600; padding: 12px 26px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
   button:hover { filter: brightness(1.08); }
-  button.link { background: none; color: var(--accent); padding: 8px 0 0; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  button.link { background: none; color: var(--accent); padding: 18px 0 0; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 
-  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; margin-top: 22px; }
+  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 28px; margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--line); }
   .filters .wide { grid-column: 1 / -1; }
   .distance-line { display: flex; justify-content: space-between; align-items: baseline; }
   .distance-line b { font: 400 1.5rem/1 var(--display); letter-spacing: .03em; }
 
-  .results-head { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: space-between; align-items: baseline; margin: 26px 0 0; padding-top: 14px; border-top: 2px solid var(--ink); }
+  .results-head { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; align-items: baseline; margin: 56px 0 0; padding-top: 24px; border-top: 2px solid var(--ink); }
   #status { margin: 0; font-weight: 600; }
   .legend { color: var(--muted); font-size: .8rem; white-space: nowrap; }
   .legend i { display: inline-block; width: 10px; height: 10px; margin: 0 4px 0 10px; vertical-align: -1px; }
 
-  ul#list { list-style: none; margin: 4px 0 0; padding: 0; }
-  li.day { font: 400 1.15rem/1 var(--display); letter-spacing: .05em; padding: 20px 0 6px; color: var(--muted); }
-  li.match { display: grid; grid-template-columns: 66px 1fr; gap: 14px; padding: 14px 0 14px 0; border-bottom: 1px solid var(--line); cursor: pointer; border-left: 3px solid transparent; padding-left: 10px; margin-left: -13px; }
+  ul#list { list-style: none; margin: 12px 0 0; padding: 0; }
+  li.day { font: 400 1.2rem/1 var(--display); letter-spacing: .06em; padding: 40px 0 10px; color: var(--muted); }
+  li.match { display: grid; grid-template-columns: 72px 1fr; gap: 20px; padding: 22px 0 22px 0; border-bottom: 1px solid var(--line); cursor: pointer; border-left: 3px solid transparent; padding-left: 10px; margin-left: -13px; }
   li.match:hover, li.match:focus-visible { background: var(--tint); outline: none; border-left-color: var(--accent); }
   li.match.women:hover, li.match.women:focus-visible { border-left-color: var(--women); }
   .when { font: 400 1.35rem/1.05 var(--display); letter-spacing: .03em; }
   .when small { display: block; font: 600 .8rem/1.3 system-ui, sans-serif; letter-spacing: 0; color: var(--muted); }
-  .teams { font-weight: 700; }
-  .meta { color: var(--muted); font-size: .88rem; }
+  .teams { font-weight: 700; margin-bottom: 4px; }
+  .meta { color: var(--muted); font-size: .88rem; line-height: 1.55; }
   .meta .dist { color: var(--ink); font-weight: 600; }
 
   .mapwrap { position: sticky; top: 0; height: 100vh; min-height: 420px; }
   @media (max-width: 900px) { .mapwrap { position: relative; height: 62vh; min-height: 340px; order: -1; } }
   #map { height: 100%; width: 100%; background: var(--tint); }
 
-  footer { padding: 16px 20px 32px; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line); }
+  footer { padding: 32px 32px 48px; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line); }
 
   /* map pieces: square pins and clusters, flat controls and popups */
   .leaflet-container { font: inherit; }
@@ -116,13 +117,6 @@
       <div class="wide">
         <div class="distance-line"><label for="dist">Distance</label><b><span id="distVal">25</span> miles</b></div>
         <input id="dist" type="range" min="1" max="200" value="25">
-      </div>
-      <div class="wide">
-        <label for="sort">Sort by</label>
-        <select id="sort">
-          <option value="distance">Distance, nearest first</option>
-          <option value="date">Date, soonest first, then nearest</option>
-        </select>
       </div>
       <div>
         <label for="level">Level</label>
@@ -237,13 +231,21 @@
     return ids;
   }
 
-  function sortRows(rows, how) {
+  // Soonest date first, then nearest (once we know where the visitor is), then kick-off time.
+  function sortRows(rows) {
     var byTime = function (a, b) { return (a.time || '99:99').localeCompare(b.time || '99:99'); };
     rows.sort(function (a, b) {
-      if (how === 'distance' && origin) return (a.dist - b.dist) || a.date.localeCompare(b.date) || byTime(a, b);
-      // date: soonest first, then nearest when we know where the visitor is
       return a.date.localeCompare(b.date) || (origin ? a.dist - b.dist : 0) || byTime(a, b);
     });
+  }
+
+  // "EFL Championship" and "Championship" are the same thing; show the more specific label once.
+  function levelLabel(m) {
+    var lv = m.level || '', lg = m.league || '';
+    if (!lg) return lv;
+    if (lg.toLowerCase().indexOf(lv.toLowerCase()) >= 0) return lg;
+    if (lv.toLowerCase().indexOf(lg.toLowerCase()) >= 0) return lv;
+    return lv + ' · ' + lg;
   }
 
   function pin(m) {
@@ -253,7 +255,7 @@
   function render(fit) {
     group.clearLayers();
     var maxD = +$('dist').value, level = $('level').value, gender = $('gender').value;
-    var from = $('from').value, to = $('to').value, how = $('sort').value;
+    var from = $('from').value, to = $('to').value;
     var nextIds = nextMatchIds();
 
     var rows = DATA.matches.filter(function (m) {
@@ -269,7 +271,7 @@
       return m;
     }).filter(function (m) { return !origin || m.dist <= maxD; });
 
-    sortRows(rows, how);
+    sortRows(rows);
 
     var list = $('list');
     list.innerHTML = '';
@@ -278,12 +280,12 @@
       var ko = fmtKO(m.time);
       var dirs = 'https://www.google.com/maps/dir/?api=1&destination=' + m.lat + ',' + m.lon;
       var popup = '<b>' + esc(m.home) + ' v ' + esc(m.away) + '</b><br>' + esc(fmtShort(m.date)) + ', ' + esc(ko) +
-        '<br>' + esc(addr(m)) + '<br><small>' + esc(m.league) + '</small><br><a href="' + dirs + '" target="_blank" rel="noopener">Directions</a>';
+        '<br>' + esc(addr(m)) + '<br><small>' + esc(levelLabel(m)) + '</small><br><a href="' + dirs + '" target="_blank" rel="noopener">Directions</a>';
       var marker = L.marker([m.lat, m.lon], { icon: pin(m), title: m.home + ' v ' + m.away }).bindPopup(popup);
       group.addLayer(marker);
       bounds.push([m.lat, m.lon]);
 
-      if (how === 'date' && m.date !== lastDay) {
+      if (m.date !== lastDay) {
         var h = document.createElement('li');
         h.className = 'day'; h.textContent = fmtLong(m.date);
         list.appendChild(h);
@@ -296,7 +298,7 @@
       li.innerHTML = '<div class="when">' + esc(fmtShort(m.date).toUpperCase()) + '<small>' + esc(ko) + '</small></div>' +
         '<div><div class="teams">' + esc(m.home) + ' v ' + esc(m.away) + '</div>' +
         '<div class="meta">' + esc(addr(m)) + '</div>' +
-        '<div class="meta">' + (m.dist != null ? '<span class="dist">' + m.dist.toFixed(1) + ' mi</span> · ' : '') + esc(m.level) + ' · ' + esc(m.league) + '</div></div>';
+        '<div class="meta">' + (m.dist != null ? '<span class="dist">' + m.dist.toFixed(1) + ' mi</span> · ' : '') + esc(levelLabel(m)) + '</div></div>';
       var open = function () {
         map.setView([m.lat, m.lon], Math.max(map.getZoom(), 13));
         if (group.zoomToShowLayer) group.zoomToShowLayer(marker, function () { marker.openPopup(); });
@@ -354,7 +356,6 @@
       function () { $('status').textContent = 'Location permission was declined. Enter a postcode instead.'; });
   });
   $('dist').addEventListener('input', function () { $('distVal').textContent = this.value; render(true); });
-  $('sort').addEventListener('change', function () { render(false); });
   ['level', 'gender', 'from', 'to'].forEach(function (id) { $(id).addEventListener('change', function () { render(true); }); });
 
   var t = new Date();
