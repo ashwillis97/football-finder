@@ -251,13 +251,13 @@
   "unlocated": []
  },
  "combined-counties-league-premier-division-north": {
-  "fixtures": 226,
+  "fixtures": 231,
   "months": {
-   "december": 41,
-   "january": 52,
-   "february": 36,
+   "december": 42,
+   "january": 54,
+   "february": 38,
    "march": 48,
-   "april": 15
+   "april": 16
   },
   "clubs": 20,
   "missing_grounds": 0,
@@ -472,7 +472,7 @@
    "may": 20
   },
   "clubs": 14,
-  "missing_grounds": 14,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "womens-super-league-two": {
@@ -486,7 +486,7 @@
    "may": 12
   },
   "clubs": 12,
-  "missing_grounds": 12,
+  "missing_grounds": 0,
   "unlocated": []
  },
  "womens-national-league-north": {
@@ -499,69 +499,35 @@
    "april": 12
   },
   "clubs": 12,
-  "missing_grounds": 12,
+  "missing_grounds": 8,
   "unlocated": []
  },
  "womens-national-league-south": {
   "fixtures": 13,
   "months": {},
   "clubs": 12,
-  "missing_grounds": 11,
+  "missing_grounds": 7,
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 0,
-  "not_yet_fetched": 0,
+  "fetched_this_run": 450,
+  "not_yet_fetched": 9,
   "page_has_no_ground_info": [
    "afc bournemouth",
    "afc wimbledon",
-   "arsenal",
-   "aston villa",
-   "birmingham city",
-   "boldmere st michaels",
-   "brighton & hove albion",
-   "bristol city",
-   "burnley",
-   "charlton athletic",
-   "chelsea",
    "cheltenham town",
-   "crystal palace",
-   "derby county",
-   "durham",
-   "everton",
    "exeter city",
    "fulham",
    "huddersfield town",
    "hull city",
-   "ipswich town",
-   "leicester city",
-   "lewes",
-   "liverpool",
    "liverpool feds wfc",
-   "london city lionesses",
-   "loughborough lightning",
-   "manchester city",
-   "manchester united",
    "middlesbrough",
-   "newcastle united",
    "norwich city",
-   "nottingham forest",
    "oxford united",
    "peterborough united",
    "plymouth argyle",
-   "portsmouth",
-   "real bedford",
-   "rugby borough",
-   "sheffield united",
-   "southampton",
    "stoke city",
-   "sunderland",
-   "swindon town",
-   "tottenham hotspur",
-   "watford",
-   "west bromwich albion",
-   "west ham united",
-   "wolverhampton wanderers"
+   "west bromwich albion"
   ]
  },
  "low_confidence_places": [],

@@ -1,2613 +1,3153 @@
 {
  "1874-northwich": {
   "address": "Townfield Lane, Barnton, Northwich, CW8 4LH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Townfield",
-  "postcode": "CW8 4LH"
+  "postcode": "CW8 4LH",
+  "website": "https://www.1874northwich.com"
  },
  "abbey-rangers": {
   "address": "Addlestone Moor, Addlestone, Surrey, KT15 2QH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Addlestone Moor",
-  "postcode": "KT15 2QH"
+  "postcode": "KT15 2QH",
+  "website": "https://www.abbeyrangers.co.uk/"
  },
  "abingdon-united": {
   "address": "Northcourt Stadium, Northcourt Road, Abingdon, Oxfordshire, OX14 1PL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Northcourt",
-  "postcode": "OX14 1PL"
+  "postcode": "OX14 1PL",
+  "website": "http://www.pitchero.com/clubs/abingdonunited"
  },
  "accrington-stanley": {
   "address": "Livingstone Road, Accrington, Lancashire, BB5 5BX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Wham Stadium",
-  "postcode": "BB5 5BX"
+  "postcode": "BB5 5BX",
+  "website": "https://www.accringtonstanley.co.uk"
  },
  "afc-bournemouth": {
   "address": "Dean Court, Bournemouth, Dorset, BH7 7AF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Vitality Stadium",
-  "postcode": "BH7 7AF"
+  "postcode": "BH7 7AF",
+  "website": "https://www.afcb.co.uk"
  },
  "afc-bournemouth-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "afc-croydon-athletic": {
   "address": "Mayfield Road, Thornton Heath, CR7 6DN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mayfield Stadium",
-  "postcode": "CR7 6DN"
+  "postcode": "CR7 6DN",
+  "website": "https://www.croydonathletic.com"
+ },
+ "afc-fylde": {
+  "address": "Coronation Way, Wesham, PR4 3JZ",
+  "fetched": "2026-11-06",
+  "ground": "Mill Farm Sports Village",
+  "postcode": "PR4 3JZ",
+  "website": "http://www.afcfylde.co.uk"
  },
  "afc-greenwich-borough": {
   "address": "Oakley Road, Bromley, Kent, BR2 8HQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The New Inn Stadium (Holmesdale FC)",
-  "postcode": "BR2 8HQ"
+  "postcode": "BR2 8HQ",
+  "website": "http://www.greenwichborough.co.uk"
  },
  "afc-mansfield": {
   "address": "Clipstone Rd. West, Forest Town, Mansfield., NG19 0EE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Forest Town Arena",
-  "postcode": "NG19 0EE"
+  "postcode": "NG19 0EE",
+  "website": "https://www.afcmansfield.net/"
  },
  "afc-newbiggin": {
   "address": "Woodhorn Road, Newbiggin by the Sea, NE64 6JD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Newbiggin Sports Community Hub",
-  "postcode": "NE64 6JD"
+  "postcode": "NE64 6JD",
+  "website": "https://www.pitchero.com/clubs/afcnewbiggin/"
  },
  "afc-portchester": {
   "address": "Privett Road, Gosport, Hampshire, PO12 3SX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "AEI Stadium (Gosport Borough FC)",
-  "postcode": "PO12 3SX"
+  "postcode": "PO12 3SX",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "afc-rushden-and-diamonds": {
   "address": "Hayden Road, Rushden, Northamptonshire, NN10 0HX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hayden Road Sports Ground",
-  "postcode": "NN10 0HX"
+  "postcode": "NN10 0HX",
+  "website": "http://www.afcdiamonds.com"
  },
  "afc-stoneham": {
   "address": "SO16 2PA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stoneham Football Complex",
-  "postcode": "SO16 2PA"
+  "postcode": "SO16 2PA",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "afc-sudbury": {
   "address": "Brundon Lane, Sudbury, Suffolk, CO10 7HN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "MEL Group Stadium",
-  "postcode": "CO10 7HN"
+  "postcode": "CO10 7HN",
+  "website": "http://www.pitchero.com/clubs/afcsudbury"
  },
  "afc-telford-united": {
   "address": "Watling Street, Wellington, Telford, TF1 2TU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Bucks Head Stadium",
-  "postcode": "TF1 2TU"
+  "postcode": "TF1 2TU",
+  "website": "http://www.telfordunited.com"
  },
  "afc-totton": {
   "address": "Salisbury Road, Totton, Southampton, Hampshire, SO40 2RW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Testwood Stadium",
-  "postcode": "SO40 2RW"
+  "postcode": "SO40 2RW",
+  "website": "http://www.afctotton.com"
  },
  "afc-welwyn": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "afc-whyteleafe": {
   "address": "Sidcup By-Pass Road, Chislehurst, BR7 6HL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Flamingo Park",
-  "postcode": "BR7 6HL"
+  "postcode": "BR7 6HL",
+  "website": "https://www.afcwhyteleafe.com"
  },
  "afc-wimbledon": {
   "address": "Plough Lane, London, SW17 0NR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Plough Lane",
-  "postcode": "SW17 0NR"
+  "postcode": "SW17 0NR",
+  "website": "https://www.afcwimbledon.co.uk"
  },
  "afc-wimbledon-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "albion-sports": {
   "address": "489 Barkerend Road, Bradford, BD3 8QX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Myra Shay",
-  "postcode": "BD3 8QX"
+  "postcode": "BD3 8QX",
+  "website": ""
  },
  "alcester-town": {
   "address": "B49 6LN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stratford Road",
-  "postcode": "B49 6LN"
+  "postcode": "B49 6LN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
+ },
+ "aldershot-town": {
+  "address": "Aldershot Town FC, The High Street, Aldershot, GU11 1TW",
+  "fetched": "2026-11-06",
+  "ground": "The EBB Stadium",
+  "postcode": "GU11 1TW",
+  "website": "https://www.theshots.co.uk"
  },
  "alfreton-town": {
   "address": "North Street, Alfreton, Derbyshire, DE55 7FZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Impact Arena",
-  "postcode": "DE55 7FZ"
+  "postcode": "DE55 7FZ",
+  "website": "http://www.alfretontownfc.com"
  },
  "alnwick-town": {
   "address": "Weaver's Way, Alnwick, Northumberland, NE66 1BG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "St James' Park",
-  "postcode": "NE66 1BG"
+  "postcode": "NE66 1BG",
+  "website": ""
  },
  "alton": {
   "address": "The Enclosure, Anstey Park, Anstey Road, Alton GU34 2NB, GU34 2NB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Exclusive Networks Stadium",
-  "postcode": "GU34 2NB"
+  "postcode": "GU34 2NB",
+  "website": "https://www.altonfc.com/"
+ },
+ "altrincham": {
+  "address": "Moss Lane, Altrincham, WA15 8AP",
+  "fetched": "2026-11-06",
+  "ground": "J Davidson Stadium",
+  "postcode": "WA15 8AP",
+  "website": "http://www.altrinchamfc.co.uk"
  },
  "alvechurch": {
   "address": "Redditch Road, Alvechurch, B48 7RS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Lye Meadow",
-  "postcode": "B48 7RS"
+  "postcode": "B48 7RS",
+  "website": "http://www.alvechurchfc.club"
  },
  "amersham-town": {
   "address": "School Lane, Amersham, Buckinghamshire, HP7 0EL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Spratleys Meadow",
-  "postcode": "HP7 0EL"
+  "postcode": "HP7 0EL",
+  "website": "https://www.amershamtownfc.com/"
  },
  "anstey-nomads": {
   "address": "Cropston Road, LE7 7BP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mark\u2019s Electrical Arena",
-  "postcode": "LE7 7BP"
+  "postcode": "LE7 7BP",
+  "website": "https://ansteynomads.com/"
  },
  "appleby-frodingham": {
   "address": "DN16 1AA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "DN16 1AA"
+  "postcode": "DN16 1AA",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ardley-united": {
   "address": "Ardley Playing Field, Ardley Road, Ardley, OX27 7PA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Nolan Oils Ground",
-  "postcode": "OX27 7PA"
+  "postcode": "OX27 7PA",
+  "website": "https://www.ardleyunitedfc.co.uk/"
  },
  "arlesey-town": {
   "address": "Hitchin Road, Arlesey, Bedfordshire, SB15 6RS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Lamb Meadow",
-  "postcode": "SB15 6RS"
+  "postcode": "SB15 6RS",
+  "website": "http://www.arleseytownfc.co.uk"
  },
  "armthorpe-welfare": {
   "address": "DN3 3AG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "DN3 3AG"
+  "postcode": "DN3 3AG",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "arsenal": {
   "address": "Highbury House, 75 Drayton Park, London, N5 1BU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Emirates Stadium",
-  "postcode": "N5 1BU"
+  "postcode": "N5 1BU",
+  "website": "https://www.arsenal.com"
  },
  "arsenal-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ascot-united": {
   "address": "Winkfield Road, Ascot, Berkshire, SL5 7LJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ascot Racecourse",
-  "postcode": "SL5 7LJ"
+  "postcode": "SL5 7LJ",
+  "website": "https://ascotunited.net/"
  },
  "ashby-ivanhoe": {
   "address": "lower Packington road, Ashby De La Zouch, Leicestershire, LE65 1TS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Element ground",
-  "postcode": "LE65 1TS"
+  "postcode": "LE65 1TS",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ashford-town-middx": {
   "address": "Short Lane, Stanwell, Staines upon Thames, Surrey, TW19 7BH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Robert Parker Stadium",
-  "postcode": "TW19 7BH"
+  "postcode": "TW19 7BH",
+  "website": "http://www.ashfordtownmiddlesexfc.com"
  },
  "ashford-united": {
   "address": "Ashford Road, Kingsnorth, Ashford, Kent, TN26 1NJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Green Box Stadium",
-  "postcode": "TN26 1NJ"
+  "postcode": "TN26 1NJ",
+  "website": "http://ashfordunitedfc.com"
  },
  "ashington-afc": {
   "address": "Woodhorn Lane, Ashington, Northumberland, NE63 9FW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Woodhorn Lane",
-  "postcode": "NE63 9FW"
+  "postcode": "NE63 9FW",
+  "website": "https://www.ashingtonafc.com/"
  },
  "ashton-united": {
   "address": "Surrey Street, Ashton Under Lyne, Lancashire, OL6 8DY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hurst Cross",
-  "postcode": "OL6 8DY"
+  "postcode": "OL6 8DY",
+  "website": "https://www.ashtonunited.co.uk"
  },
  "aston-villa": {
   "address": "Birmingham, B6 6HE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Villa Park",
-  "postcode": "B6 6HE"
+  "postcode": "B6 6HE",
+  "website": "https://www.avfc.co.uk"
  },
  "aston-villa-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "athersley-recreation": {
   "address": "REAR OF 123-125 OLLERTON ROAD, ATHERSLEY NORTH, BARNSLEY, S71 3DP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Sheerien Park",
-  "postcode": "S71 3DP"
+  "postcode": "S71 3DP",
+  "website": "http://www.athersleyrecfc.co.uk"
  },
  "atherstone-town": {
   "address": "CV9 3AD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "CV9 3AD"
+  "postcode": "CV9 3AD",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "atherton-collieries": {
   "address": "Alder Street, Atherton, M46 9EY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Dreams2Reality Stadium",
-  "postcode": "M46 9EY"
+  "postcode": "M46 9EY",
+  "website": "http://athertoncollieries.co.uk"
  },
  "aveley": {
   "address": "Park Lane, Aveley, Essex, RM15 4PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Parkside",
-  "postcode": "RM15 4PX"
+  "postcode": "RM15 4PX",
+  "website": "http://www.pitchero.com/clubs/aveley"
  },
  "avro": {
   "address": "White Bank Road, Oldham, Greater Manchester, OL8 3JH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Vestacare Stadium",
-  "postcode": "OL8 3JH"
+  "postcode": "OL8 3JH",
+  "website": "https://www.avrofc.co.uk/"
  },
  "aylesbury-united": {
   "address": "Amy Lane, Chesham, Buckinghamshire, HP5 1NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Meadow (Chesham United FC)",
-  "postcode": "HP5 1NE"
+  "postcode": "HP5 1NE",
+  "website": "http://www.aylesburyunitedfc.co.uk"
  },
  "aylesbury-vale-dynamos": {
   "address": "Haywood Way, Aylesbury, Bucks, HP19 9WZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Greenfleets Stadium",
-  "postcode": "HP19 9WZ"
+  "postcode": "HP19 9WZ",
+  "website": "https://www.aylesburyvaledynamos.co.uk"
  },
  "aylestone-park": {
   "address": "Saffron Lane, Wigston, Leicester, LE2 6TG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mary Linwood Ground",
-  "postcode": "LE2 6TG"
+  "postcode": "LE2 6TG",
+  "website": "https://www.aylestoneparkfc.org.uk/"
  },
  "badshot-lea": {
   "address": "GU10 4PF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Westfield Lane",
-  "postcode": "GU10 4PF"
+  "postcode": "GU10 4PF",
+  "website": "https://badshotleafootballclub.co.uk/"
  },
  "baldock-town": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Lamb Meadow",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "balham": {
   "address": "SM4 6BF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Imperial Fields (Tooting & Mitcham United)",
-  "postcode": "SM4 6BF"
+  "postcode": "SM4 6BF",
+  "website": "https://balhamfc.com"
  },
  "bamber-bridge": {
   "address": "Brownedge Road, Bamber Bridge, Preston, Lancashire, PR5 6UU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The SFC Stadium at Irongate",
-  "postcode": "PR5 6UU"
+  "postcode": "PR5 6UU",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "banbury-united": {
   "address": "Station Approach, Banbury, Oxfordshire, OX16 5AB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Banbury Plant Hire Community Stadium",
-  "postcode": "OX16 5AB"
+  "postcode": "OX16 5AB",
+  "website": "http://www.banburyunitedfc.co.uk"
  },
  "banstead-athletic": {
   "address": "Merland Rise,, Tadworth,, Surrey, KT20 5JG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Banstead Athletic Football Club",
-  "postcode": "KT20 5JG"
+  "postcode": "KT20 5JG",
+  "website": "https://www.bansteadathleticfc.co.uk"
  },
  "barking": {
   "address": "Mayesbrook Park,, Lodge Avenue,, Dagenham,, Essex,, RM8 2JR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Lawtech Stadium",
-  "postcode": "RM8 2JR"
+  "postcode": "RM8 2JR",
+  "website": "http://www.barking-fc.co.uk"
  },
  "barnet": {
   "address": "Camrose Avenue, London, HA8 6AG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Hive London",
-  "postcode": "HA8 6AG"
+  "postcode": "HA8 6AG",
+  "website": "https://www.barnetfc.com"
  },
  "barnsley": {
   "address": "Grove Street, Barnsley, South Yorkshire, S71 1ET",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Oakwell Stadium",
-  "postcode": "S71 1ET"
+  "postcode": "S71 1ET",
+  "website": "https://www.barnsleyfc.co.uk"
  },
  "barnstaple-town": {
   "address": "Barnstaple, Devon, EX31 1JQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mill Road",
-  "postcode": "EX31 1JQ"
+  "postcode": "EX31 1JQ",
+  "website": "http://www.barnstapletownfc.com"
+ },
+ "barrow": {
+  "address": "Wilkie Road, Barrow-in-Furness, Cumbria, LA14 5UW",
+  "fetched": "2026-11-06",
+  "ground": "The Furness Building Society Stadium",
+  "postcode": "LA14 5UW",
+  "website": "http://www.barrowafc.com"
  },
  "barton-rovers": {
   "address": "Barton Le Clay, Bedfordshire, MK45 4LQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Winton Haulage Stadium",
-  "postcode": "MK45 4LQ"
+  "postcode": "MK45 4LQ",
+  "website": "http://www.bartonrovers.com"
  },
  "barton-town": {
   "address": "off Falkland Way, Barton upon Humber, DN18 5JD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Barton Town Stadium",
-  "postcode": "DN18 5JD"
+  "postcode": "DN18 5JD",
+  "website": "https://bartontownfc.co.uk/"
  },
  "barwell": {
   "address": "Kirkby Road, Barwell, Leicestershire, LE9 8FQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Kirkby Road Sports Ground",
-  "postcode": "LE9 8FQ"
+  "postcode": "LE9 8FQ",
+  "website": "http://www.pitchero.com/clubs/barwell"
  },
  "basford-united": {
   "address": "Greenwich Avenue, Basford, Nottingham, NG6 0LD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mill Street Playing Field",
-  "postcode": "NG6 0LD"
+  "postcode": "NG6 0LD",
+  "website": "https://www.pitchero.com/clubs/basfordunitedfc/"
  },
  "basildon-united": {
   "address": "Gardiners Close, Basildon, Essex, SS14 3AW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "DST Stadium",
-  "postcode": "SS14 3AW"
+  "postcode": "SS14 3AW",
+  "website": "https://www.basildonunited.co.uk"
  },
  "basingstoke-town": {
   "address": "RG23 8BF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Winklebury Stadium",
-  "postcode": "RG23 8BF"
+  "postcode": "RG23 8BF",
+  "website": "http://www.basingstoketown.net"
  },
  "bath-city": {
   "address": "Twerton, Bath, BA2 1DB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Twerton Park",
-  "postcode": "BA2 1DB"
+  "postcode": "BA2 1DB",
+  "website": "http://www.bathcityfc.com"
  },
  "beaconsfield-town": {
   "address": "Windsor Road, Beaconsfield, Buckinghamshire, HP9 2SE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Holloways Park",
-  "postcode": "HP9 2SE"
+  "postcode": "HP9 2SE",
+  "website": "http://www.beaconsfieldtownfc.co.uk"
  },
  "bearsted": {
   "address": "Bearsted Football Club, Otham Sports Ground, Honey Lane, Otham, Kent, ME15 8RG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Otham Sports Ground",
-  "postcode": "ME15 8RG"
+  "postcode": "ME15 8RG",
+  "website": "https://www.bearstedfc.co.uk/"
  },
  "beckenham-town": {
   "address": "374 Eden Park Avenue, BR3 3JL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Eden Park Avenue",
-  "postcode": "BR3 3JL"
+  "postcode": "BR3 3JL",
+  "website": "https://www.beckenhamtownfc.com"
  },
  "bedfont": {
   "address": "Hatton Road, Bedfont, TW14 9QT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Orchard",
-  "postcode": "TW14 9QT"
+  "postcode": "TW14 9QT",
+  "website": "https://www.bedfontfc.com/"
  },
  "bedfont-sports": {
   "address": "The Recreation Ground, Hatton Rd, Bedfont, TW14 9QS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bedfont Sports Club",
-  "postcode": "TW14 9QS"
+  "postcode": "TW14 9QS",
+  "website": "https://www.pitchero.com/clubs/bedfontsportsfc"
  },
  "bedford-town": {
   "address": "Meadow Lane, Cardington, Bedfordshire, MK44 3LW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Eyrie",
-  "postcode": "MK44 3LW"
+  "postcode": "MK44 3LW",
+  "website": "https://www.bedfordtownfc.com"
  },
  "bedworth-united": {
   "address": "Coventry Road, Bedworth, CV12 8NN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Oval",
-  "postcode": "CV12 8NN"
+  "postcode": "CV12 8NN",
+  "website": "http://www.bedworthunited.com"
  },
  "belper-town": {
   "address": "Christchurch Meadow, Belper, Derbyshire, DE56 1BA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Raygar Stadium",
-  "postcode": "DE56 1BA"
+  "postcode": "DE56 1BA",
+  "website": "http://www.belpertownfc.co.uk"
  },
  "belper-united": {
   "address": "DE3 9FB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Don Amott Arena (Mickleover)",
-  "postcode": "DE3 9FB"
+  "postcode": "DE3 9FB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "belstone": {
   "address": "Watling Street, Radlett, WD6 3AB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Medburn Ground",
-  "postcode": "WD6 3AB"
+  "postcode": "WD6 3AB",
+  "website": "https://www.belstonefc.com/"
  },
  "benfleet": {
   "address": "Benfleet, Essex, SS7 4PA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Woodside Park",
-  "postcode": "SS7 4PA"
+  "postcode": "SS7 4PA",
+  "website": "https://www.benfleetfc.co.uk/"
  },
  "berkhamsted": {
   "address": "HP4 2AL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Glencar Community Stadium",
-  "postcode": "HP4 2AL"
+  "postcode": "HP4 2AL",
+  "website": "https://www.pitchero.com/clubs/berkhamstedfootballclub"
  },
  "berks-county": {
   "address": "Winkfield Road, Ascot, SL5 7LJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Racecourse Ground",
-  "postcode": "SL5 7LJ"
+  "postcode": "SL5 7LJ",
+  "website": "https://www.berkscountyfc.com"
  },
  "beverley-town": {
   "address": "Recreation Lane, Norwood, Beverley, HU17 9HW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Norwood",
-  "postcode": "HU17 9HW"
+  "postcode": "HU17 9HW",
+  "website": "https://www.beverleytownfc.com"
  },
  "bewdley-town": {
   "address": "Ribbesford, Bewdley, Worcestershire, DY12 2TJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ribbesford Meadows",
-  "postcode": "DY12 2TJ"
+  "postcode": "DY12 2TJ",
+  "website": "https://www.bewdleytownfc.co.uk"
  },
  "bideford": {
   "address": "Kingsley Road, Bideford, Devon, EX39 2NG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Sports Ground",
-  "postcode": "EX39 2NG"
+  "postcode": "EX39 2NG",
+  "website": "http://www.pitchero.com/clubs/bidefordafc"
  },
  "biggleswade": {
   "address": "MK44 3LW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Eyrie (Bedford Town FC)",
-  "postcode": "MK44 3LW"
+  "postcode": "MK44 3LW",
+  "website": "https://www.biggleswadefc.co.uk"
  },
  "biggleswade-town": {
   "address": "Langford Road, Biggleswade, Bedfordshire, SG18 9JT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Carlsberg Stadium",
-  "postcode": "SG18 9JT"
+  "postcode": "SG18 9JT",
+  "website": "http://www.biggleswadetownfc.co.uk"
  },
  "biggleswade-united": {
   "address": "Fairfield Rd, Biggleswade, SG18 0AA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Verdant Stadium",
-  "postcode": "SG18 0AA"
+  "postcode": "SG18 0AA",
+  "website": "https://www.biggleswadeutd.com"
  },
  "billericay-town": {
   "address": "Blunts Wall Road, Billericay, Essex, CM12 9SA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Lodge",
-  "postcode": "CM12 9SA"
+  "postcode": "CM12 9SA",
+  "website": "http://www.billericaytownfc.co.uk"
  },
  "billingham-synthonia": {
   "address": "Bisopton Road West, Stockton-on-Tees, TS9 5NY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bishopton Road West",
-  "postcode": "TS9 5NY"
+  "postcode": "TS9 5NY",
+  "website": "https://www.synners.co.uk"
  },
  "billingham-town": {
   "address": "Bedford Terrace, Billingham, TS23 4AE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Carters Stadium",
-  "postcode": "TS23 4AE"
+  "postcode": "TS23 4AE",
+  "website": "http://billinghamtownfc.net"
  },
  "binfield": {
   "address": "Hill Farm Lane,, Binfield, RG42 5NR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Iconic Stadium",
-  "postcode": "RG42 5NR"
+  "postcode": "RG42 5NR",
+  "website": "https://binfieldfc.com"
  },
  "birmingham-city": {
   "address": "Birmingham, B9 4RL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "St Andrew's Stadium",
-  "postcode": "B9 4RL"
+  "postcode": "B9 4RL",
+  "website": "https://www.bcfc.com"
  },
  "birmingham-city-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "birtley-town": {
   "address": "Durham Road, Birtley., DH3 2QW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Arrowmark Home Improvements Stadium",
-  "postcode": "DH3 2QW"
+  "postcode": "DH3 2QW",
+  "website": "https://www.birtleytownfc.co.uk"
  },
  "bishop-auckland": {
   "address": "Heritage Park, Stadium Way, Bishop Auckland, Co Durham, DL14 9AE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Vest Construction Stadium",
-  "postcode": "DL14 9AE"
+  "postcode": "DL14 9AE",
+  "website": "https://bishopafc.com"
  },
  "bishops-cleeve": {
   "address": "Bishops Cleeve, Cheltenham, Gloucestershire, GL52 3PD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Kayte Lane",
-  "postcode": "GL52 3PD"
+  "postcode": "GL52 3PD",
+  "website": "http://www.pitchero.com/clubs/bishopscleevefc"
  },
  "bishops-stortford": {
   "address": "Dunmow Road, Bishop\u2019s Stortford, Hertfordshire, CM23 5RG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Woodside Park",
-  "postcode": "CM23 5RG"
+  "postcode": "CM23 5RG",
+  "website": "http://www.bsfc.co.uk"
  },
  "blackburn-rovers": {
   "address": "Blackburn, Lancashire, BB2 4JF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ewood Park",
-  "postcode": "BB2 4JF"
+  "postcode": "BB2 4JF",
+  "website": "https://www.rovers.co.uk"
  },
  "blackpool": {
   "address": "Seasiders Way, Blackpool, Lancashire, FY1 6JJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bloomfield Road",
-  "postcode": "FY1 6JJ"
+  "postcode": "FY1 6JJ",
+  "website": "https://www.blackpoolfc.co.uk"
  },
  "blackstones": {
   "address": "PE9 1UU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "SBJ Stadium",
-  "postcode": "PE9 1UU"
+  "postcode": "PE9 1UU",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "blyth-spartans": {
   "address": "Blyth, Northumberland, NE24 3JE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Croft Park",
-  "postcode": "NE24 3JE"
+  "postcode": "NE24 3JE",
+  "website": "http://www.blythspartans.com"
  },
  "blyth-town": {
   "address": "Sandringham Drive, Blyth, NE24 3PS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Gateway Park",
-  "postcode": "NE24 3PS"
+  "postcode": "NE24 3PS",
+  "website": "https://blythtownfc.com"
  },
  "bognor-regis-town": {
   "address": "Bognor Regis, West Sussex, PO21 2TY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Nyewood Lane",
-  "postcode": "PO21 2TY"
+  "postcode": "PO21 2TY",
+  "website": "https://www.bognorregistownfc.co.uk"
  },
  "boldmere-st-michaels": {
   "address": "B73 5RY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Boldmere Community Stadium",
-  "postcode": "B73 5RY"
+  "postcode": "B73 5RY",
+  "website": "https://www.themikesfc.co.uk"
  },
  "boldmere-st-michaels-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "boldon-community-association": {
   "address": "NE35 9AN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Boldon Colliery Welfare Ground",
-  "postcode": "NE35 9AN"
+  "postcode": "NE35 9AN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bolton-wanderers": {
   "address": "Burnden Way, Lostock, Bolton, Lancashire, BL6 6JW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "University of Bolton Stadium",
-  "postcode": "BL6 6JW"
+  "postcode": "BL6 6JW",
+  "website": "https://www.bwfc.co.uk"
  },
  "bootle": {
   "address": "Vesty Road, Bootle, L30 1NY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Berry Street Garage Stadium",
-  "postcode": "L30 1NY"
+  "postcode": "L30 1NY",
+  "website": "https://www.bootlefc.com"
+ },
+ "boreham-wood": {
+  "address": "Borehamwood, Hertfordshire, WD6 5AL",
+  "fetched": "2026-11-06",
+  "ground": "Broughinge Road",
+  "postcode": "WD6 5AL",
+  "website": "http://www.borehamwoodfootballclub.co.uk"
  },
  "boston-town": {
   "address": "Tattershall Road, PE21 9LR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Mortgages for You Stadium",
-  "postcode": "PE21 9LR"
+  "postcode": "PE21 9LR",
+  "website": "https://bostontownfc.co.uk/"
+ },
+ "boston-united": {
+  "address": "York Street, Boston, Lincolnshire, PE21 7NH",
+  "fetched": "2026-11-06",
+  "ground": "The Jakemans Stadium",
+  "postcode": "PE21 7NH",
+  "website": "http://www.bostonunited.co.uk"
  },
  "bottesford-town": {
   "address": "The Barrett Steel Stadium, Bottesford Town Football Club, Bottesford, Scunthorpe, DN17 2TQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Barrett Steel Stadium",
-  "postcode": "DN17 2TQ"
+  "postcode": "DN17 2TQ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bourne-town": {
   "address": "PE10 9EN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "PE10 9EN"
+  "postcode": "PE10 9EN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bovingdon": {
   "address": "HP3 0LA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Green Lane",
-  "postcode": "HP3 0LA"
+  "postcode": "HP3 0LA",
+  "website": ""
  },
  "bowers-and-pitsea": {
   "address": "Crown Avenue, Pitsea, Essex, SS13 2BE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Len Salmon Stadium",
-  "postcode": "SS13 2BE"
+  "postcode": "SS13 2BE",
+  "website": "https://www.bowerspitseafc.co.uk"
  },
  "brackley-town": {
   "address": "Churchill Way, Brackley, Northamptonshire, NN13 7EJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "St James Park",
-  "postcode": "NN13 7EJ"
+  "postcode": "NN13 7EJ",
+  "website": "http://www.brackleytownfc.com"
  },
  "bracknell-town": {
   "address": "GU47 9BJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bottom Meadow",
-  "postcode": "GU47 9BJ"
+  "postcode": "GU47 9BJ",
+  "website": "https://www.bracknelltownfc.com"
  },
  "bradford-city": {
   "address": "Valley Parade, Bradford, West Yorkshire, BD8 7DY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mbanq Valley Parade Stadium",
-  "postcode": "BD8 7DY"
+  "postcode": "BD8 7DY",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bradford-park-avenue": {
   "address": "Cemetery Road, Bradford, West Yorkshire, BD6 2NG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Horsfall Community Stadium",
-  "postcode": "BD6 2NG"
+  "postcode": "BD6 2NG",
+  "website": "https://app.fanbaseclub.com/Fan/Fixtures/Index?fanStoreType=Fixtures&clubId=361"
  },
  "bradford-town": {
   "address": "Trowbridge Road, Bradford on Avon, Wiltshire, BA15 1EX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "BK Decorators Ground",
-  "postcode": "BA15 1EX"
+  "postcode": "BA15 1EX",
+  "website": "https://bradfordtownfc.com"
  },
  "braintree-town": {
   "address": "Clockhouse Way, Braintree, Essex, CM7 3DE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Ironmongery Direct Stadium",
-  "postcode": "CM7 3DE"
+  "postcode": "CM7 3DE",
+  "website": "http://www.braintreetownfc.org.uk"
  },
  "brantham-athletic": {
   "address": "New Village, Brantham, Cattawade, Manningtree, CO11 1RZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Brantham Leisure Centre",
-  "postcode": "CO11 1RZ"
+  "postcode": "CO11 1RZ",
+  "website": "https://www.branthamathletic.com/"
  },
  "brentford": {
   "address": "Lionel Road, Brentford, Middlesex, TW8 0RU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Gtech Community Stadium",
-  "postcode": "TW8 0RU"
+  "postcode": "TW8 0RU",
+  "website": "https://www.brentfordfc.com"
  },
  "brentwood-town": {
   "address": "Brentwood Centre, Doddinghurst Road, Brentwood, Essex, CM15 9NN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Brentwood Centre Arena",
-  "postcode": "CM15 9NN"
+  "postcode": "CM15 9NN",
+  "website": "http://www.brentwoodtownfc.co.uk"
  },
  "bridlington-town": {
   "address": "Queensgate, Bridlington, East Yorkshire, YO16 7LN, YO16 7LN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Mounting Systems Stadium",
-  "postcode": "YO16 7LN"
+  "postcode": "YO16 7LN",
+  "website": "https://www.bridtownafc.com"
  },
  "bridon-ropes": {
   "address": "Charlton Park Lane, Charlton, SE7 8QS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Meridian Sports & Social Club",
-  "postcode": "SE7 8QS"
+  "postcode": "SE7 8QS",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "brigg-town": {
   "address": "The Hawthorns, Hawthorn Avenue, Brigg, North Lincolnshire, DN20 8PG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "DN20 8PG"
+  "postcode": "DN20 8PG",
+  "website": "http://www.briggtownfc.info"
  },
  "brightlingsea-regent": {
   "address": "North Road, Brightlingsea, Essex, CO7 0PL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "North Road",
-  "postcode": "CO7 0PL"
+  "postcode": "CO7 0PL",
+  "website": "https://www.brightlingsearegentfc.com"
  },
  "brighton-and-hove-albion": {
   "address": "Village Way, Brighton, East Sussex, BN1 9BL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "American Express Stadium",
-  "postcode": "BN1 9BL"
+  "postcode": "BN1 9BL",
+  "website": "https://www.brightonandhovealbion.com"
  },
  "brighton-and-hove-albion-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "brimscombe-and-thrupp": {
   "address": "London Road, Stroud, GL5 2SH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Meadow",
-  "postcode": "GL5 2SH"
+  "postcode": "GL5 2SH",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bristol-city": {
   "address": "Bristol, BS3 2EJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ashton Gate Stadium",
-  "postcode": "BS3 2EJ"
+  "postcode": "BS3 2EJ",
+  "website": "https://www.bcfc.co.uk"
  },
  "bristol-city-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "bristol-manor-farm": {
   "address": "Portway, Bristol, BS9 2HS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Creek",
-  "postcode": "BS9 2HS"
+  "postcode": "BS9 2HS",
+  "website": "http://www.bristolmanorfarm.com"
  },
  "bristol-rovers": {
   "address": "Filton Avenue, Horfield, Bristol, BS7 0BF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Memorial Stadium",
-  "postcode": "BS7 0BF"
+  "postcode": "BS7 0BF",
+  "website": "https://www.bristolrovers.co.uk"
  },
  "broadbridge-heath": {
   "address": "Wickhurst Lane, Broadbridge Heath, West Sussex, RH12 3YS, RH12 3YS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Air Engineering Stadium",
-  "postcode": "RH12 3YS"
+  "postcode": "RH12 3YS",
+  "website": "https://www.pitchero.com/clubs/broadbridgeheathfc"
  },
  "broadfields-united": {
   "address": "151 Rayners Lane, Harrow, Middlesex, HA2 0XH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Tithe Farm",
-  "postcode": "HA2 0XH"
+  "postcode": "HA2 0XH",
+  "website": "https://www.broadfieldsunitedfc.co.uk/"
  },
  "bromley": {
   "address": "Bromley, Kent, BR2 9EF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Westminster Waste Stadium",
-  "postcode": "BR2 9EF"
+  "postcode": "BR2 9EF",
+  "website": "https://www.bromleyfc.tv"
  },
  "bromsgrove-sporting": {
   "address": "B61 0DR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Victoria Ground",
-  "postcode": "B61 0DR"
+  "postcode": "B61 0DR",
+  "website": "https://bromsgrovesporting.co.uk"
  },
  "bromyard-town": {
   "address": "Stourport Road, Bromyard, HR7 4NT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Delahay Meadow",
-  "postcode": "HR7 4NT"
+  "postcode": "HR7 4NT",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "brook-house": {
   "address": "Kingshill Avenue, Hayes,, UB4 8DD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Farm Park",
-  "postcode": "UB4 8DD"
+  "postcode": "UB4 8DD",
+  "website": ""
  },
  "buckhurst-hill": {
   "address": "Roding Ln, Buckhurst Hill, IG9 6BJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Roding Lane",
-  "postcode": "IG9 6BJ"
+  "postcode": "IG9 6BJ",
+  "website": "https://bhfc.co.uk/"
  },
  "burgess-hill-town": {
   "address": "Leylands Park, Maple Drive, Burgess Hill, West Sussex, RH15 8DL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Medical Travel Compared Stadium",
-  "postcode": "RH15 8DL"
+  "postcode": "RH15 8DL",
+  "website": "http://bhtfc.co.uk"
  },
  "burnham": {
   "address": "Burnham Football Club, Wymers Wood Road, Burnham, Buckinghamshire, SL1 8JG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The 1878 Stadium",
-  "postcode": "SL1 8JG"
+  "postcode": "SL1 8JG",
+  "website": "https://www.burnhamfc1878.co.uk"
  },
  "burnley": {
   "address": "Harry Potts Way, Burnley, Lancashire, BB10 4BX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Turf Moor",
-  "postcode": "BB10 4BX"
+  "postcode": "BB10 4BX",
+  "website": "https://www.burnleyfootballclub.com"
  },
  "burnley-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "burton-albion": {
   "address": "Princess Way, Burton on Trent, Staffordshire, DE13 0AR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pirelli Stadium",
-  "postcode": "DE13 0AR"
+  "postcode": "DE13 0AR",
+  "website": "https://www.burtonalbionfc.co.uk"
  },
  "bury": {
   "address": "Bury, BL9 9HU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Gigg Lane",
-  "postcode": "BL9 9HU"
+  "postcode": "BL9 9HU",
+  "website": "https://buryfc.co.uk"
  },
  "bury-town": {
   "address": "Ram Meadow, Cotton Lane, Bury St Edmunds, Suffolk, IP33 1XP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Getaway Cars Stadium",
-  "postcode": "IP33 1XP"
+  "postcode": "IP33 1XP",
+  "website": "http://www.burytownfc.co.uk"
  },
  "buxton": {
   "address": "Buxton, Derbyshire, SK17 6QH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Silverlands",
-  "postcode": "SK17 6QH"
+  "postcode": "SK17 6QH",
+  "website": "http://www.buxtonfc.co.uk"
  },
  "camberley-town": {
   "address": "32 Wilton Road,, Camberley,, Surrey, GU15 2QW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Krooner Park",
-  "postcode": "GU15 2QW"
+  "postcode": "GU15 2QW",
+  "website": "http://www.camberleytownfc.co.uk/"
  },
  "cambridge-city": {
   "address": "West Way, Sawston, Cambridgeshire, CB22 3FG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "FWD-IP Community Stadium",
-  "postcode": "CB22 3FG"
+  "postcode": "CB22 3FG",
+  "website": "http://www.cambridgecityfc.com"
  },
  "cambridge-united": {
   "address": "Newmarket Road, Cambridge, CB5 8LN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Abbey Stadium",
-  "postcode": "CB5 8LN"
+  "postcode": "CB5 8LN",
+  "website": "https://www.cambridge-united.co.uk"
  },
  "campion-afc": {
   "address": "BD9 5DB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "BD9 5DB"
+  "postcode": "BD9 5DB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "canvey-island": {
   "address": "Park Lane, Canvey Island, Essex, SS8 7PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Steve Taxi\u2019s Stadium",
-  "postcode": "SS8 7PX"
+  "postcode": "SS8 7PX",
+  "website": "http://canveyislandfc.com"
  },
  "cardiff-city": {
   "address": "Leckwith Road, Leckwith, Cardiff, CF11 8AZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Cardiff City Stadium",
-  "postcode": "CF11 8AZ"
+  "postcode": "CF11 8AZ",
+  "website": "https://www.cardiffcityfc.co.uk"
  },
  "carlisle-city": {
   "address": "Petteril Bank Road, Carlisle, CA1 3AF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Office Technology Stadium",
-  "postcode": "CA1 3AF"
+  "postcode": "CA1 3AF",
+  "website": ""
+ },
+ "carlisle-united": {
+  "address": "Warwick Road, Carlisle, Cumbria, CA1 1LL",
+  "fetched": "2026-11-06",
+  "ground": "Brunton Park",
+  "postcode": "CA1 1LL",
+  "website": "https://www.carlisleunited.co.uk"
  },
  "carlton-town": {
   "address": "Stoke Lane, Gedling, Nottingham, NG4 2QS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bill Stokeld Stadium",
-  "postcode": "NG4 2QS"
+  "postcode": "NG4 2QS",
+  "website": "http://www.carltontownfc.co.uk"
  },
  "carshalton-athletic": {
   "address": "Colston Avenue, Carshalton, Surrey, SM5 2PW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "War Memorial Sports Ground",
-  "postcode": "SM5 2PW"
+  "postcode": "SM5 2PW",
+  "website": "http://www.carshaltonathletic.co.uk"
  },
  "carterton": {
   "address": "Swinbrook Road, Carterton, Oxon, OX18 1DY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Empire Stadium",
-  "postcode": "OX18 1DY"
+  "postcode": "OX18 1DY",
+  "website": "https://www.cartertonfc.co.uk/"
  },
  "charlton-athletic": {
   "address": "Floyd Road, Charlton, London, SE7 8BL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Valley",
-  "postcode": "SE7 8BL"
+  "postcode": "SE7 8BL",
+  "website": "https://www.charltonafc.com"
  },
  "charlton-athletic-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "chasetown": {
   "address": "Church Street, Chasetown, WS7 3QL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Scholars Ground, Chasetown FC",
-  "postcode": "WS7 3QL"
+  "postcode": "WS7 3QL",
+  "website": "https://www.chasetownfc.co.uk"
  },
  "chatham-town": {
   "address": "Maidstone Road, Chatham, Kent, ME4 6LR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Bauvill Stadium",
-  "postcode": "ME4 6LR"
+  "postcode": "ME4 6LR",
+  "website": "http://chathamtownfc.info"
  },
  "chelmsford-city": {
   "address": "Salerno Way, Chelmsford, Essex, CM1 2EH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Melbourne Community Stadium",
-  "postcode": "CM1 2EH"
+  "postcode": "CM1 2EH",
+  "website": "http://www.chelmsfordcityfc.com"
  },
  "chelsea": {
   "address": "Fulham Road, London, SW6 1HS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stamford Bridge",
-  "postcode": "SW6 1HS"
+  "postcode": "SW6 1HS",
+  "website": "https://www.chelseafc.com"
  },
  "chelsea-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "cheltenham-saracens": {
   "address": "St Peters Close, Cheltenham, GL51 9GE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Petersfield Park",
-  "postcode": "GL51 9GE"
+  "postcode": "GL51 9GE",
+  "website": "https://www.cheltenhamsaracensfc.co.uk/"
  },
  "cheltenham-town": {
   "address": "Whaddon Road, Cheltenham, Gloucestershire, GL52 5NA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Jonny-Rocks Stadium",
-  "postcode": "GL52 5NA"
+  "postcode": "GL52 5NA",
+  "website": "https://www.ctfc.com"
  },
  "cheltenham-town-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "chertsey-town": {
   "address": "Alwyns Lane, Chertsey, Surrey, KT16 9DW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Alwyns Lane",
-  "postcode": "KT16 9DW"
+  "postcode": "KT16 9DW",
+  "website": "http://www.chertseytownfc.co.uk"
  },
  "chesham-united": {
   "address": "Amy Lane, Chesham, Buckinghamshire, HP5 1NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Meadow",
-  "postcode": "HP5 1NE"
+  "postcode": "HP5 1NE",
+  "website": "http://www.cheshamunited.co.uk"
  },
  "cheshunt": {
   "address": "Theobalds Lane, Cheshunt, Waltham Cross,, Herts, EN8 8RU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Cheshunt Stadium",
-  "postcode": "EN8 8RU"
+  "postcode": "EN8 8RU",
+  "website": "http://cheshuntfc.com"
  },
  "chester": {
   "address": "Bumpers Lane, Chester, CH1 4LT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Lookers Vauxhall Stadium",
-  "postcode": "CH1 4LT"
+  "postcode": "CH1 4LT",
+  "website": "http://www.chesterfc.com"
  },
  "chester-le-street-town": {
   "address": "Union Lane, Chester Moor, DH2 3RW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Moor Park",
-  "postcode": "DH2 3RW"
+  "postcode": "DH2 3RW",
+  "website": "https://www.chesterlestreettownfc.com/"
  },
  "chesterfield": {
   "address": "1866 Sheffield Road, Whittington Moor, Chesterfield, Derbyshire, S41 8NZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Proact Stadium",
-  "postcode": "S41 8NZ"
+  "postcode": "S41 8NZ",
+  "website": "https://www.chesterfield-fc.co.uk"
  },
  "chichester-city": {
   "address": "Oaklands Way, Chichester, West Sussex, PO19 6AR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Oaklands Park",
-  "postcode": "PO19 6AR"
+  "postcode": "PO19 6AR",
+  "website": "https://chichestercityfc.co.uk"
  },
  "chippenham-town": {
   "address": "Bristol Road, Chippenham, Wiltshire, SN14 6LR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hardenhuish Park",
-  "postcode": "SN14 6LR"
+  "postcode": "SN14 6LR",
+  "website": "http://www.pitchero.com/clubs/chippenhamtown"
  },
  "chipping-sodbury-town": {
   "address": "Wickwar Road, Chipping Sodbury , Bristol, BS37 6GA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Ridings",
-  "postcode": "BS37 6GA"
+  "postcode": "BS37 6GA",
+  "website": "https://cstfc.co.uk/"
  },
  "chipstead": {
   "address": "High Road, Chipstead, Surrey, CR5 3SF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "NRT Stadium",
-  "postcode": "CR5 3SF"
+  "postcode": "CR5 3SF",
+  "website": "http://www.chipsteadfc.com"
  },
  "chislehurst-glebe": {
   "address": "The Clubhouse, Foxbury Avenue, Chislehurst, Kent, BR7 6SD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Glebe FC",
-  "postcode": "BR7 6SD"
+  "postcode": "BR7 6SD",
+  "website": "https://www.pitchero.com/clubs/glebefc/"
  },
  "chorley": {
   "address": "Duke Street, Chorley, Lancashire, PR7 3DU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Chorley Group Victory Park Stadium",
-  "postcode": "PR7 3DU"
+  "postcode": "PR7 3DU",
+  "website": "http://www.chorleyfc.com"
  },
  "cinderford-town": {
   "address": "Edge Hills Road, Hilldeane, Cinderford, Gloucestershire, GL14 2QH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Causeway Ground",
-  "postcode": "GL14 2QH"
+  "postcode": "GL14 2QH",
+  "website": "http://www.pitchero.com/clubs/cinderfordtown"
  },
  "cirencester-town": {
   "address": "Kingshill Lane, Cirencester, Gloucestershire, GL7 1HS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Corinium Stadium",
-  "postcode": "GL7 1HS"
+  "postcode": "GL7 1HS",
+  "website": "http://www.cirentownfc.com"
  },
  "clanfield": {
   "address": "Main Street ,Clanfield,Ox18 2st, OX18 2ST",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Radcot Road",
-  "postcode": "OX18 2ST"
+  "postcode": "OX18 2ST",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "clapton-community": {
   "address": "Walter Tull Way, 212 Upton Lane, Forest Gate, London, E7 9NP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Old Spotted Dog Ground",
-  "postcode": "E7 9NP"
+  "postcode": "E7 9NP",
+  "website": "https://www.claptoncfc.co.uk/"
  },
  "clay-cross-town": {
   "address": "Mill Lane, Clay Cross, S42 6AE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "NYR Ground",
-  "postcode": "S42 6AE"
+  "postcode": "S42 6AE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "cleethorpes-town": {
   "address": "Clee Road, Grimsby, North East Lincolnshire, DN32 8QL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Linden Club",
-  "postcode": "DN32 8QL"
+  "postcode": "DN32 8QL",
+  "website": "http://www.pitchero.com/clubs/cleethorpestown"
  },
  "clifton-all-whites": {
   "address": "245 Green Lane, Clifton, Nottingham, NG11 9AZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Norman Archer",
-  "postcode": "NG11 9AZ"
+  "postcode": "NG11 9AZ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "clipstone-welfare": {
   "address": "NG21 9AB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "NG21 9AB"
+  "postcode": "NG21 9AB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "clitheroe": {
   "address": "off Pendle Road, Clitheroe, Lancashire, BB7 1LZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Shawbridge",
-  "postcode": "BB7 1LZ"
+  "postcode": "BB7 1LZ",
+  "website": "http://www.clitheroefc.co.uk"
  },
  "club-thorne-colliery": {
   "address": "Grange Road, Moorends, Doncaster, DN8 4NH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Chesterfield Poultry Stadium",
-  "postcode": "DN8 4NH"
+  "postcode": "DN8 4NH",
+  "website": "http://www.clubthorne.co.uk"
  },
  "cobham": {
   "address": "KT11 1AA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Reg Madgwick Stadium",
-  "postcode": "KT11 1AA"
+  "postcode": "KT11 1AA",
+  "website": "http://www.cobhamfootballclub.com"
  },
  "cockfosters": {
   "address": "Dacre Field, Chalk Lane, Enfield, EN4 9HZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Cockfosters Football Club",
-  "postcode": "EN4 9HZ"
+  "postcode": "EN4 9HZ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "colchester-united": {
   "address": "United Way, Colchester, Essex, CO4 5UP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "JobServe Community Stadium",
-  "postcode": "CO4 5UP"
+  "postcode": "CO4 5UP",
+  "website": "https://www.cu-fc.com"
  },
  "coleshill-town": {
   "address": "Packington Lane, COLESHILL, B46 3JJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pack Meadow",
-  "postcode": "B46 3JJ"
+  "postcode": "B46 3JJ",
+  "website": "https://www.coleshilltownfc.com/"
  },
  "colliers-wood-united": {
   "address": "Opposite 199-213 Robin Hood Way, ( A3 southbound), West Wimbledon, SW20 0AA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Wibbandune Sports Ground",
-  "postcode": "SW20 0AA"
+  "postcode": "SW20 0AA",
+  "website": "http://www.collierswoodunited.com"
  },
  "colney-heath": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "concord-rangers": {
   "address": "Thames Road, Canvey Island, Essex, SS8 0HH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Aspect Arena",
-  "postcode": "SS8 0HH"
+  "postcode": "SS8 0HH",
+  "website": "http://www.concordrangers.co.uk"
  },
  "congleton-town": {
   "address": "Ivy Gardens, Congleton, Cheshire, CW12 4GA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Cleric Stadium",
-  "postcode": "CW12 4GA"
+  "postcode": "CW12 4GA",
+  "website": "https://www.ctfc.club/"
  },
  "consett-afc": {
   "address": "DH8 7BF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Belle View Stadium",
-  "postcode": "DH8 7BF"
+  "postcode": "DH8 7BF",
+  "website": "https://consettafc.com"
  },
  "corby-town": {
   "address": "Jimmy Kane Way, Rockingham Road, Corby, NN17 2FB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Steel Park",
-  "postcode": "NN17 2FB"
+  "postcode": "NN17 2FB",
+  "website": "http://www.corbytown.co.uk"
  },
  "corinthian": {
   "address": "Valley Road, Fawkham, Longfield, Kent, DA3 8LY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Gay Dawn Farm",
-  "postcode": "DA3 8LY"
+  "postcode": "DA3 8LY",
+  "website": "https://www.corinthiansportsclub.co.uk"
  },
  "corinthian-casuals": {
   "address": "King George's Field, Hook Rise South, Tolworth, Surrey, KT6 7NA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Armada Group Stadium",
-  "postcode": "KT6 7NA"
+  "postcode": "KT6 7NA",
+  "website": "http://www.corinthian-casuals.com"
  },
  "cornard-united": {
   "address": "Blackhouse Lane, Gt Cornard, Sudbury, Suffolk, CO10 0NL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Cornard United Football Club",
-  "postcode": "CO10 0NL"
+  "postcode": "CO10 0NL",
+  "website": "https://cornardunitedfc.co.uk"
  },
  "corsham-town": {
   "address": "SN13 9HS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "SN13 9HS"
+  "postcode": "SN13 9HS",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "cotgrave": {
   "address": "NG12 3PG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "NG12 3PG"
+  "postcode": "NG12 3PG",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "coton-green": {
   "address": "B78 3RX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "B78 3RX"
+  "postcode": "B78 3RX",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "coventry-city": {
   "address": "Jimmy Hill Way, Rowleys Green, Coventry, CV6 6GE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Coventry Building Society Arena",
-  "postcode": "CV6 6GE"
+  "postcode": "CV6 6GE",
+  "website": "https://www.ccfc.co.uk"
  },
  "coventry-sphinx": {
   "address": "Sphinx Drive, CV3 1WA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Cameron Slater Arena",
-  "postcode": "CV3 1WA"
+  "postcode": "CV3 1WA",
+  "website": "https://www.pitchero.com/clubs/coventrysphinx"
  },
  "coventry-united": {
   "address": "Butts Road, Coventry, CV1 3GE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Butts Park Arena",
-  "postcode": "CV1 3GE"
+  "postcode": "CV1 3GE",
+  "website": "https://covunited.com"
  },
  "crawley-town": {
   "address": "Winfield Way, Crawley, West Sussex, RH11 9RX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Peoples Pension Stadium",
-  "postcode": "RH11 9RX"
+  "postcode": "RH11 9RX",
+  "website": "https://www.crawleytownfc.com"
  },
  "cray-valley-pm": {
   "address": "Middle Park Avenue, Eltham, London, SE9 5HP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Mayne Arena, Badgers Sports",
-  "postcode": "SE9 5HP"
+  "postcode": "SE9 5HP",
+  "website": "http://crayvalleypmfc.com"
  },
  "cray-wanderers": {
   "address": "Sidcup Bypass, Kent, BR7 6HL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Flamingo Park",
-  "postcode": "BR7 6HL"
+  "postcode": "BR7 6HL",
+  "website": "http://www.cray-wanderers.com"
  },
  "crewe-alexandra": {
   "address": "Gresty Road, Crewe, Cheshire, CW2 6EB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Alexandra Stadium",
-  "postcode": "CW2 6EB"
+  "postcode": "CW2 6EB",
+  "website": "https://www.crewealex.net"
  },
  "cribbs": {
   "address": "Oaklands Park Stadium, Gloucester Road, Almondsbury, Bristol, BS32 4AG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "GFA Headquarters",
-  "postcode": "BS32 4AG"
+  "postcode": "BS32 4AG",
+  "website": "https://www.cribbsfc.co.uk"
  },
  "crook-town": {
   "address": "West Road, Crook, County Durham, DL15 9PW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Sir Tom Cowie Millfield",
-  "postcode": "DL15 9PW"
+  "postcode": "DL15 9PW",
+  "website": "https://crooktownafc.co.uk/"
  },
  "crowborough-athletic": {
   "address": "TN6 3FY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "TN6 3FY"
+  "postcode": "TN6 3FY",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "crowle-colts": {
   "address": "Godnow Road, Crowle, DN17 4EE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Windsor Park",
-  "postcode": "DN17 4EE"
+  "postcode": "DN17 4EE",
+  "website": "https://www.pitchero.com/clubs/crowletowncoltsfc"
  },
  "croydon": {
   "address": "SE25 4QL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "SE25 4QL"
+  "postcode": "SE25 4QL",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "crystal-palace": {
   "address": "Whitehorse Lane, London, SE25 6PU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Selhurst Park",
-  "postcode": "SE25 6PU"
+  "postcode": "SE25 6PU",
+  "website": "https://www.cpfc.co.uk"
  },
  "crystal-palace-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "curzon-ashton": {
   "address": "Richmond Street, Ashton-under-Lyne, Greater Manchester, OL7 9HG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Tameside Stadium",
-  "postcode": "OL7 9HG"
+  "postcode": "OL7 9HG",
+  "website": "http://www.curzon-ashton.co.uk"
  },
  "dagenham-and-redbridge": {
   "address": "Victoria Road, Dagenham, Essex, RM10 7XL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Chigwell Construction Stadium",
-  "postcode": "RM10 7XL"
+  "postcode": "RM10 7XL",
+  "website": "http://www.daggers.co.uk"
  },
  "darlington": {
   "address": "Grange Road, Darlington, Durham, DL1 5NR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Blackwell Meadows",
-  "postcode": "DL1 5NR"
+  "postcode": "DL1 5NR",
+  "website": "http://darlingtonfootballclub.co.uk"
  },
  "darlington-town": {
   "address": "Bourne Avenue, DL1 1LD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Eastbourne Community Stadium",
-  "postcode": "DL1 1LD"
+  "postcode": "DL1 1LD",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "dartford": {
   "address": "Darenth Road, Dartford, Kent, DA1 1RT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Princes Park Stadium",
-  "postcode": "DA1 1RT"
+  "postcode": "DA1 1RT",
+  "website": "http://www.dartfordfc.com"
  },
  "daventry-town": {
   "address": "Browns Road, Daventry, Northamptonshire, NN11 4NS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Master Abrasives Stadium",
-  "postcode": "NN11 4NS"
+  "postcode": "NN11 4NS",
+  "website": "http://www.dtfc.co.uk"
  },
  "deal-town": {
   "address": "St Leonard\u2019s Road, Deal, Kent, CT14 9AU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Charles Sports Ground",
-  "postcode": "CT14 9AU"
+  "postcode": "CT14 9AU",
+  "website": "https://www.dealtownfc.co.uk"
  },
  "dearne-and-district": {
   "address": "S63 9EH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "S63 9EH"
+  "postcode": "S63 9EH",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "deeping-rangers": {
   "address": "Outgang Road, Market Deeping, Lincolnshire, PE6 8LQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Haydon Whitham Stadium",
-  "postcode": "PE6 8LQ"
+  "postcode": "PE6 8LQ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "derby-county": {
   "address": "Derby, DE24 8XL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pride Park",
-  "postcode": "DE24 8XL"
+  "postcode": "DE24 8XL",
+  "website": "https://www.dcfc.co.uk"
  },
  "derby-county-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "dereham-town": {
   "address": "Norwich Road, Dereham, Norfolk, NR20 3PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Aldiss Park",
-  "postcode": "NR20 3PX"
+  "postcode": "NR20 3PX",
+  "website": "http://www.derehamtownfc.co.uk"
  },
  "desborough-town": {
   "address": "Braybrooke Road, Desborough, Northants., NN14 2LJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "VPK Stadium, Waterworks Field,",
-  "postcode": "NN14 2LJ"
+  "postcode": "NN14 2LJ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "devizes-town": {
   "address": "Nursteed Road, SN10 3DX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Grist Environmental Ground",
-  "postcode": "SN10 3DX"
+  "postcode": "SN10 3DX",
+  "website": "https://devizestownfootball.co.uk"
  },
  "didcot-town": {
   "address": "Bowmont Water, Ladygrove, Didcot, Oxfordshire, OX11 7GA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Draycott Engineering Loop Meadow Stadium",
-  "postcode": "OX11 7GA"
+  "postcode": "OX11 7GA",
+  "website": "http://www.didcottownfc.co.uk"
  },
  "doncaster-rovers": {
   "address": "Stadium Way, Doncaster, DN4 5JW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Keepmoat Stadium",
-  "postcode": "DN4 5JW"
+  "postcode": "DN4 5JW",
+  "website": "https://www.doncasterroversfc.co.uk"
  },
  "dorchester-town": {
   "address": "Weymouth Avenue, Dorchester, Dorset, DT1 2RY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Avenue Stadium",
-  "postcode": "DT1 2RY"
+  "postcode": "DT1 2RY",
+  "website": "http://dorchestertownfc.co.uk"
  },
  "dorking-wanderers": {
   "address": "Mill Lane, Dorking, Surrey, RH4 1DX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Meadowbank Football Ground",
-  "postcode": "RH4 1DX"
+  "postcode": "RH4 1DX",
+  "website": "http://www.dorkingwanderers.com"
  },
  "dover-athletic": {
   "address": "Lewisham Road, Dover, Kent, CT17 0JB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Crabble Athletic Ground",
-  "postcode": "CT17 0JB"
+  "postcode": "CT17 0JB",
+  "website": "http://www.doverathletic.com"
  },
  "downham-town": {
   "address": "PE38 9QE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "PE38 9QE"
+  "postcode": "PE38 9QE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "droitwich-spa": {
   "address": "Briar Mill, Droitwich Spa, Worcestershire, WR9 0RZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Kingy\u2019s (King Georges Playing Fields)",
-  "postcode": "WR9 0RZ"
+  "postcode": "WR9 0RZ",
+  "website": "https://www.dsfc.news"
  },
  "dronfield-town": {
   "address": "Frithwood Drive, Dronfield, S18 2EU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stonelow Stadium",
-  "postcode": "S18 2EU"
+  "postcode": "S18 2EU",
+  "website": "https://bsky.app/profile/dronfieldtownfc.bsky.social"
  },
  "dulwich-hamlet": {
   "address": "Edgar Kail Way, Dog Kennel Hill, East Dulwich, London, SE22 8BD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Champion Hill",
-  "postcode": "SE22 8BD"
+  "postcode": "SE22 8BD",
+  "website": "http://www.dulwichhamletfc.co.uk"
  },
  "dunkirk": {
   "address": "Lenton Lane, Nottingham, NG7 2SA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Empire Sports Ground",
-  "postcode": "NG7 2SA"
+  "postcode": "NG7 2SA",
+  "website": "https://dunkirkfc.uk"
  },
  "dunstable": {
   "address": "Creasey Park Drive, Dunstable, Beds, LU6 1BB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Creasey Park",
-  "postcode": "LU6 1BB"
+  "postcode": "LU6 1BB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "dunston": {
   "address": "NE11 9JL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "UTS Stadium",
-  "postcode": "NE11 9JL"
+  "postcode": "NE11 9JL",
+  "website": "http://www.dunstonutsfc.co.uk"
  },
  "durham-united": {
   "address": "Stockton Road, Durham, DH1 3SE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Maiden Castle",
-  "postcode": "DH1 3SE"
+  "postcode": "DH1 3SE",
+  "website": "https://www.durhamunitedfc.co.uk/"
  },
  "durham-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "eagles-land-benfica": {
   "address": "School Lane Amersham, Buckinghamshire,",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Prest park",
-  "postcode": ""
+  "postcode": "",
+  "website": "https:// Eagleslandfc.co.uk"
  },
  "easington-colliery": {
   "address": "Easington Welfare Park, Easington Colliery, County Durham, SR8 3PL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Welfare Park",
-  "postcode": "SR8 3PL"
+  "postcode": "SR8 3PL",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "easington-sports": {
   "address": "Addison Road, OX16 9DH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Easington Sports FC",
-  "postcode": "OX16 9DH"
+  "postcode": "OX16 9DH",
+  "website": "https://www.pitchero.com/clubs/easingtonsports/"
  },
  "eastbourne-borough": {
   "address": "Langney, Eastbourne, East Sussex, BN23 7QH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Priory Lane",
-  "postcode": "BN23 7QH"
+  "postcode": "BN23 7QH",
+  "website": "http://www.ebfc.co.uk"
  },
  "eastbourne-town": {
   "address": "Compton Place Road, Eastbourne, East Sussex, BN21 1EA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Saffrons",
-  "postcode": "BN21 1EA"
+  "postcode": "BN21 1EA",
+  "website": "http://www.eastbournetown.com"
+ },
+ "eastleigh": {
+  "address": "Stoneham Lane, Eastleigh, Hampshire, SO50 9HT",
+  "fetched": "2026-11-06",
+  "ground": "The Silverlake Stadium",
+  "postcode": "SO50 9HT",
+  "website": "http://www.eastleighfc.com"
  },
  "eastwood-cfc": {
   "address": "Coronation Park, Chewton Street, Eastwood, NG16 3HB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Coronation Park",
-  "postcode": "NG16 3HB"
+  "postcode": "NG16 3HB",
+  "website": "https://www.eastwoodcfc.co.uk"
  },
  "ebbsfleet-united": {
   "address": "Northfleet, Kent, DA11 9GN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stonebridge Road",
-  "postcode": "DA11 9GN"
+  "postcode": "DA11 9GN",
+  "website": "http://ebbsfleetunited.co.uk"
  },
  "edgware-and-kingsbury": {
   "address": "Townsend lane., Kingsbury, NW9 7NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Silver Jubilee stadium",
-  "postcode": "NW9 7NE"
+  "postcode": "NW9 7NE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "egham-town": {
   "address": "Wards Place, Egham, Surrey, TW20 8XD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Runnymede Stadium",
-  "postcode": "TW20 8XD"
+  "postcode": "TW20 8XD",
+  "website": "http://www.eghamtownfcltd.co.uk"
  },
  "ely-city": {
   "address": "Downham Road, Ely, CB6 2SH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Demcom Stadium",
-  "postcode": "CB6 2SH"
+  "postcode": "CB6 2SH",
+  "website": ""
  },
  "emley-afc": {
   "address": "Off Upper Lane, Emley, Huddersfield, HD8 9RE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Fantastic Media Welfare Ground",
-  "postcode": "HD8 9RE"
+  "postcode": "HD8 9RE",
+  "website": "https://www.emleyafc.co.uk"
  },
  "enfield": {
   "address": "Watkins Rise, Potters Bar, EN6 1DP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Lantern Community Stadium",
-  "postcode": "EN6 1DP"
+  "postcode": "EN6 1DP",
+  "website": "https://enfieldfootballclub.co.uk/"
  },
  "enfield-town": {
   "address": "Donkey Lane, Enfield, Middlesex, EN1 3PL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Dave Bryant Stadium",
-  "postcode": "EN1 3PL"
+  "postcode": "EN1 3PL",
+  "website": "https://etfc.london"
  },
  "epsom-and-ewell": {
   "address": "Chalky Lane, Chessington., Surrey., KT9 2NF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Chessington & Hook United",
-  "postcode": "KT9 2NF"
+  "postcode": "KT9 2NF",
+  "website": "https://epsomandewellfc.co.uk/"
  },
  "erith-and-belvedere": {
   "address": "Park View Road, Welling, Kent, DA16 1SY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Acclaim Handling Community Stadium",
-  "postcode": "DA16 1SY"
+  "postcode": "DA16 1SY",
+  "website": "https://bsky.app/profile/thederesofficial.bsky.social"
  },
  "erith-town": {
   "address": "Bayliss Avenue, Thamesmead, London, SE28 8NJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The JM Clark Stadium",
-  "postcode": "SE28 8NJ"
+  "postcode": "SE28 8NJ",
+  "website": "https://erithtown.com"
  },
  "everett-rovers": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pure Logistics Stadium",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "eversley-and-california": {
   "address": "RG27 0NS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "RG27 0NS"
+  "postcode": "RG27 0NS",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "everton": {
   "address": "Bramley-Moore Dock, Liverpool, L5 9SR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hill Dickinson Stadium",
-  "postcode": "L5 9SR"
+  "postcode": "L5 9SR",
+  "website": "https://www.evertonfc.com"
  },
  "everton-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "evesham-united": {
   "address": "Cheltenham Road, Evesham, Worcestershie, WR11 2LZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Spiers & Hartwell Jubilee Stadium",
-  "postcode": "WR11 2LZ"
+  "postcode": "WR11 2LZ",
+  "website": "http://www.eveshamunitedfc.com"
  },
  "exeter-city": {
   "address": "Exeter, EX4 6PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "St James Park",
-  "postcode": "EX4 6PX"
+  "postcode": "EX4 6PX",
+  "website": "https://www.exetercityfc.co.uk"
  },
  "exeter-city-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "exmouth-town": {
   "address": "EX8 3EE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Southern Road",
-  "postcode": "EX8 3EE"
+  "postcode": "EX8 3EE",
+  "website": "https://www.exmouth-townfc.co.uk"
  },
  "eynesbury-rovers": {
   "address": "PE19 2SF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "PE19 2SF"
+  "postcode": "PE19 2SF",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "fairford-town": {
   "address": "GL7 4AX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "GL7 4AX"
+  "postcode": "GL7 4AX",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "fakenham-town": {
   "address": "NR21 8SW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "NR21 8SW"
+  "postcode": "NR21 8SW",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "falmouth-town": {
   "address": "TR11 4PB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bickland Park",
-  "postcode": "TR11 4PB"
+  "postcode": "TR11 4PB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "farnborough": {
   "address": "Cherrywood Road, Farnborough, Hampshire, GU14 8UD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Saunders Transport Community Stadium",
-  "postcode": "GU14 8UD"
+  "postcode": "GU14 8UD",
+  "website": "http://www.farnboroughfc.co.uk"
  },
  "farnham-town": {
   "address": "Mead Lane, Farnham, GU9 7DY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Memorial Ground",
-  "postcode": "GU9 7DY"
+  "postcode": "GU9 7DY",
+  "website": "https://www.ftfconline.com/"
  },
  "faversham-strike-force": {
   "address": "Whitstable Town FC, Belmont Rd, Whitstable, CT5 1QP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Primcura Healthcare Stadium",
-  "postcode": "CT5 1QP"
+  "postcode": "CT5 1QP",
+  "website": "https://www.favershamstrikeforce.co.uk/"
  },
  "faversham-town": {
   "address": "Salters Lane, Faversham, Kent, ME13 8ND",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Aquatherm Stadium",
-  "postcode": "ME13 8ND"
+  "postcode": "ME13 8ND",
+  "website": "http://www.favershamtownfc.co.uk"
  },
  "fc-deportivo-galicia": {
   "address": "Hatton Road, Bedfont, TW14 9QS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bedfont Recreation Ground",
-  "postcode": "TW14 9QS"
+  "postcode": "TW14 9QS",
+  "website": ""
  },
  "fc-elmstead": {
   "address": "Darenth Ave,, Tonbridge, Kent, TN10 3JF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Longmead Stadium",
-  "postcode": "TN10 3JF"
+  "postcode": "TN10 3JF",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
+ },
+ "fc-halifax-town": {
+  "address": "Halifax, West Yorkshire, HX1 2YT",
+  "fetched": "2026-11-06",
+  "ground": "The Shay Stadium",
+  "postcode": "HX1 2YT",
+  "website": "http://www.halifaxafc.co.uk"
  },
  "fc-hartlepool": {
   "address": "Jesmond Gardens Hartlepool, TS24 8PJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Grayfields Enclosure",
-  "postcode": "TS24 8PJ"
+  "postcode": "TS24 8PJ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "fc-peterborough": {
   "address": "Chestnut Ave, Peterborough, PE1 4PE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Millfield Autoparts Stadium",
-  "postcode": "PE1 4PE"
+  "postcode": "PE1 4PE",
+  "website": ""
  },
  "fc-stratford": {
   "address": "Knights Lane, Stratford-upon-Avon, Warwickshire, CV37 7BZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Arden Garages Stadium",
-  "postcode": "CV37 7BZ"
+  "postcode": "CV37 7BZ",
+  "website": "https://www.pitchero.com/clubs/fcstratford"
  },
  "fc-united-of-manchester": {
   "address": "310 Lightbowne Road, Moston, Manchester, M40 0FJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Broadhurst Park",
-  "postcode": "M40 0FJ"
+  "postcode": "M40 0FJ",
+  "website": "http://www.fc-utd.co.uk"
  },
  "felixstowe-and-walton-united": {
   "address": "IP11 9HT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "THE MARTELLO GROUND",
-  "postcode": "IP11 9HT"
+  "postcode": "IP11 9HT",
+  "website": "https://felixstowefootball.co.uk"
  },
  "field-olympic": {
   "address": "Harrogate Road, Bradford, BD10 0HT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Olympic Park",
-  "postcode": "BD10 0HT"
+  "postcode": "BD10 0HT",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "fisher": {
   "address": "Salter Road, Rotherhithe, London, SE16 5EF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "St Paul's Sports Ground",
-  "postcode": "SE16 5EF"
+  "postcode": "SE16 5EF",
+  "website": "https://bsky.app/profile/Fisherfc.bsky.social"
  },
  "flackwell-heath": {
   "address": "Magpie Lane, Flackwell Heath, Buckinghamshire, HP10 9EA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Wilks Park",
-  "postcode": "HP10 9EA"
+  "postcode": "HP10 9EA",
+  "website": ""
  },
  "fleet-town": {
   "address": "Crookham Road, Fleet, Hampshire, GU51 5FA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Easy As HGV Stadium",
-  "postcode": "GU51 5FA"
+  "postcode": "GU51 5FA",
+  "website": "https://www.fleettownfc.co.uk/"
  },
  "fleetwood-town": {
   "address": "Park Avenue, Fleetwood, Lancashire, FY7 6TX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Highbury Stadium",
-  "postcode": "FY7 6TX"
+  "postcode": "FY7 6TX",
+  "website": "https://www.fleetwoodtownfc.com"
  },
  "folkestone-invicta": {
   "address": "Cheriton Road, Folkestone, Kent, CT19 5JU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Alcaline Stadium",
-  "postcode": "CT19 5JU"
+  "postcode": "CT19 5JU",
+  "website": "http://www.folkestoneinvictafc.co.uk"
+ },
+ "forest-green-rovers": {
+  "address": "Another Way, Nailsworth, Gloucestershire, GL6 0FG",
+  "fetched": "2026-11-06",
+  "ground": "The New Lawn",
+  "postcode": "GL6 0FG",
+  "website": "https://www.fgr.co.uk"
  },
  "frenford": {
   "address": "Frenford Clubs,, The Jack Carter Centre,, The Drive,, Ilford, IG1 3PS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Drive",
-  "postcode": "IG1 3PS"
+  "postcode": "IG1 3PS",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "frickley-athletic": {
   "address": "Westfield Lane, South Elmsall, Pontefract, WF9 2EQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Big Fellas Stadium",
-  "postcode": "WF9 2EQ"
+  "postcode": "WF9 2EQ",
+  "website": "http://www.frickleyafc.co.uk"
  },
  "frome-town": {
   "address": "Berkeley Road, Frome, Somerset, BA11 2EH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Special Effect Stadium",
-  "postcode": "BA11 2EH"
+  "postcode": "BA11 2EH",
+  "website": "http://www.frometownfc.co.uk"
  },
  "fulham": {
   "address": "Stevenage Road, London, SW6 6HH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Craven Cottage",
-  "postcode": "SW6 6HH"
+  "postcode": "SW6 6HH",
+  "website": "https://www.fulhamfc.com"
  },
  "fulham-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "gainsborough-trinity": {
   "address": "Northolme, Gainsborough, Lincolnshire, DN21 2QW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Kal Group Stadium",
-  "postcode": "DN21 2QW"
+  "postcode": "DN21 2QW",
+  "website": "http://www.gainsboroughtrinity.com"
  },
  "garforth-town": {
   "address": "Cedar Ridge, Garforth, Leeds, LS25 2PF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "BD Community Stadium",
-  "postcode": "LS25 2PF"
+  "postcode": "LS25 2PF",
+  "website": "https://www.garforth.town"
+ },
+ "gateshead": {
+  "address": "Neilson Road, Gateshead, Tyne and Wear, NE10 0EF",
+  "fetched": "2026-11-06",
+  "ground": "The International Stadium",
+  "postcode": "NE10 0EF",
+  "website": "https://www.gateshead-fc.com"
  },
  "gedling-miners-welfare": {
   "address": "NG3 5RH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "NG3 5RH"
+  "postcode": "NG3 5RH",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "gillingham": {
   "address": "Redfern Avenue, Gillingham, Kent, ME7 4DD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "MEMS Priestfield Stadium",
-  "postcode": "ME7 4DD"
+  "postcode": "ME7 4DD",
+  "website": "https://www.gillinghamfootballclub.com"
  },
  "gloucester-city": {
   "address": "Sudmeadow Road, Hempsted, Gloucester, GL2 5HS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Meadow Park",
-  "postcode": "GL2 5HS"
+  "postcode": "GL2 5HS",
+  "website": "http://www.gloucestercityafc.com"
  },
  "godalming-town": {
   "address": "Wey Court, Meadrow, Godalming, Surrey, GU7 3JE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Bill Kyte Stadium",
-  "postcode": "GU7 3JE"
+  "postcode": "GU7 3JE",
+  "website": "http://www.godalmingtownfc.co.uk"
  },
  "godmanchester-rovers": {
   "address": "PE29 2LQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Peter Hodson Memorial Ground",
-  "postcode": "PE29 2LQ"
+  "postcode": "PE29 2LQ",
+  "website": "http://godmanchesterroversfc.co.uk"
  },
  "golcar-united": {
   "address": "Longfield Avenue, Golcar, Huddersfield, HD7 4AZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Skye Direct Stadium",
-  "postcode": "HD7 4AZ"
+  "postcode": "HD7 4AZ",
+  "website": "https://www.GolcarUnited.co.uk"
  },
  "goole-afc": {
   "address": "Marcus Street, Goole, East Yorkshire, DN14 6SL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Victoria Pleasure Grounds",
-  "postcode": "DN14 6SL"
+  "postcode": "DN14 6SL",
+  "website": "http://www.gooleafc.com"
  },
  "gorleston": {
   "address": "Sandown Road, Great Yarmouth, Norfolk, NR30 1EY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Wellesley Recreation Ground",
-  "postcode": "NR30 1EY"
+  "postcode": "NR30 1EY",
+  "website": "https://www.gorlestonfc.com"
  },
  "gosport-borough": {
   "address": "Privett Road, Gosport, Hampshire, PO12 3SX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "AEI Stadium",
-  "postcode": "PO12 3SX"
+  "postcode": "PO12 3SX",
+  "website": "http://www.gosportboroughfc.co.uk"
  },
  "grangetown-boys-club": {
   "address": "Grange Farm Road, TS6 7HP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "B&W Lifting Ltd Stadium",
-  "postcode": "TS6 7HP"
+  "postcode": "TS6 7HP",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "grantham-town": {
   "address": "Trent Road, Grantham, Lincolnshire, NG31 7XQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "South Kesteven Sports Stadium",
-  "postcode": "NG31 7XQ"
+  "postcode": "NG31 7XQ",
+  "website": "http://www.granthamtownfc.com"
  },
  "grays-athletic": {
   "address": "St. Chad's Road, Tilbury, Essex, RM18 8NL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Chadfields (Tilbury FC)",
-  "postcode": "RM18 8NL"
+  "postcode": "RM18 8NL",
+  "website": "https://www.graysathletic.co.uk"
  },
  "great-wakering-rovers": {
   "address": "Little Wakering Hall Lane, Great Wakering, Essex, SS3 0HH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Burroughs Park",
-  "postcode": "SS3 0HH"
+  "postcode": "SS3 0HH",
+  "website": "https://www.gwrovers.co"
  },
  "great-yarmouth-town": {
   "address": "Sandown Road, Great Yarmouth, NR30 1EY, NR30 1EY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Wellesley",
-  "postcode": "NR30 1EY"
+  "postcode": "NR30 1EY",
+  "website": ""
  },
  "greenways": {
   "address": "Rede Court Road, Rochester, Kent, ME2 3TU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Rochester United Sports Ground",
-  "postcode": "ME2 3TU"
+  "postcode": "ME2 3TU",
+  "website": "https://greenwaysfc.co.uk/greenways-fc"
  },
  "gresley-rovers": {
   "address": "Moat Street, Church Gresley, Swadlincote, Derbyshire, DE11 9RE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Moat Ground",
-  "postcode": "DE11 9RE"
+  "postcode": "DE11 9RE",
+  "website": "http://www.gresleyrovers.com"
  },
  "grimsby-borough": {
   "address": "DN37 0AG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Bradley Football Development Centre",
-  "postcode": "DN37 0AG"
+  "postcode": "DN37 0AG",
+  "website": "https://www.pitchero.com/clubs/grimsbyboroughfc"
  },
  "grimsby-town": {
   "address": "Cleethorpes, Lincolnshire, DN35 7PY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Blundell Park",
-  "postcode": "DN35 7PY"
+  "postcode": "DN35 7PY",
+  "website": "https://www.grimsby-townfc.co.uk"
  },
  "guisborough-town": {
   "address": "Howlbeck Road, Guisborough, Cleveland, TS14 6LE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Kevin Edward KGV Ground",
-  "postcode": "TS14 6LE"
+  "postcode": "TS14 6LE",
+  "website": "https://www.guisboroughtown.co.uk/"
  },
  "guiseley": {
   "address": "Otley Road, Guiseley, Leeds, LS20 8BT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Nethermoor Park",
-  "postcode": "LS20 8BT"
+  "postcode": "LS20 8BT",
+  "website": "http://guiseleyafc.co.uk"
  },
  "hackney-wick": {
   "address": "Spa Road, Witham, CM8 1UN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Simarco Stadium",
-  "postcode": "CM8 1UN"
+  "postcode": "CM8 1UN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hadley": {
   "address": "EN5 3LD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Brickfield Lane",
-  "postcode": "EN5 3LD"
+  "postcode": "EN5 3LD",
+  "website": "https://www.hadleyfc.co.uk"
  },
  "halesowen-town": {
   "address": "Old Hawne Lane, Halesowen, West Midlands, B63 3TB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Grove",
-  "postcode": "B63 3TB"
+  "postcode": "B63 3TB",
+  "website": "http://www.ht-fc.co.uk"
  },
  "hallam": {
   "address": "S10 5SE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "S10 5SE"
+  "postcode": "S10 5SE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hallen": {
   "address": "BS10 7RU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "BS10 7RU"
+  "postcode": "BS10 7RU",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "halls-afc": {
   "address": "Darenth Road, Dartford, Kent, DA1 1RT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Princes Park Stadium (Dartford FC)",
-  "postcode": "DA1 1RT"
+  "postcode": "DA1 1RT",
+  "website": ""
  },
  "halstead-town": {
   "address": "Rosemary Lane, Broton Industrial Estate, Halstead, CO9 1HR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Milbank Stadium",
-  "postcode": "CO9 1HR"
+  "postcode": "CO9 1HR",
+  "website": "https://www.halsteadtownfc.com/"
  },
  "hampton-and-richmond-borough": {
   "address": "Beaver Close, Hampton, Middlesex, TW12 2BX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Beveree Stadium",
-  "postcode": "TW12 2BX"
+  "postcode": "TW12 2BX",
+  "website": "http://www.hamrichfc.com/"
  },
  "handsworth": {
   "address": "Handsworth FC, Olivers Mount, Sheffield, S9 4PA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Express Worktops Stadium",
-  "postcode": "S9 4PA"
+  "postcode": "S9 4PA",
+  "website": "https://www.pitchero.com/clubs/handsworthfc"
  },
  "hanley-town": {
   "address": "ST2 8AJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Potteries Park",
-  "postcode": "ST2 8AJ"
+  "postcode": "ST2 8AJ",
+  "website": "https://www.hanley-townfc.co.uk"
  },
  "hanwell-town": {
   "address": "Perivale Lane, Greenford, Middlesex, UB6 8TL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Oliver Connell & Son Community Stadium",
-  "postcode": "UB6 8TL"
+  "postcode": "UB6 8TL",
+  "website": "http://www.hanwelltown.com"
  },
  "hanworth-villa": {
   "address": "Park Rd, Hanworth, Middlesex, TW13 6PN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Rectory Meadow",
-  "postcode": "TW13 6PN"
+  "postcode": "TW13 6PN",
+  "website": "http://www.hanworthvilla.co.uk"
  },
  "harborough-town": {
   "address": "Northampton Road, Market Harborough, Leicestershire, LE16 9HF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Harborough Town Community Football Ground",
-  "postcode": "LE16 9HF"
+  "postcode": "LE16 9HF",
+  "website": "https://harboroughtownfc.org"
  },
  "harefield-united": {
   "address": "Breakspear Road North Harefield Middlesex, UB9 6NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "PRESTON PARK",
-  "postcode": "UB9 6NE"
+  "postcode": "UB9 6NE",
+  "website": "http://www.harefieldunited.com"
  },
  "haringey-borough": {
   "address": "White Hart Lane, London, N17 7JP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Coles Park",
-  "postcode": "N17 7JP"
+  "postcode": "N17 7JP",
+  "website": "http://www.haringeyboroughfc.com"
  },
  "harleston-town": {
   "address": "IP20 9DD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Recreation Ground",
-  "postcode": "IP20 9DD"
+  "postcode": "IP20 9DD",
+  "website": "https://www.harlestontownfc.com/"
  },
  "harlow-town": {
   "address": "Elizabeth Way, Harlow, Essex, CM19 5BE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Harlow Arena",
-  "postcode": "CM19 5BE"
+  "postcode": "CM19 5BE",
+  "website": "http://www.harlowtownfootballclub.co.uk"
  },
  "harpenden-town": {
   "address": "Rothamsted Park, Amenbury Lane, Harpenden, AL5 2EF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Rothamsted Park",
-  "postcode": "AL5 2EF"
+  "postcode": "AL5 2EF",
+  "website": "https://www.harpendentownfc.com"
  },
  "harrogate-railway-athletic": {
   "address": "Station View, Starbeck Harrogate, North Yorkshire, HG2 7JA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Station View Stadium",
-  "postcode": "HG2 7JA"
+  "postcode": "HG2 7JA",
+  "website": "http://www.pitchero.com/clubs/harrogaterailwayathletic"
+ },
+ "harrogate-town": {
+  "address": "Wetherby Road, Harrogate, North Yorkshire, HG1 1TE",
+  "fetched": "2026-11-06",
+  "ground": "CNG Stadium",
+  "postcode": "HG1 1TE",
+  "website": "https://www.harrogatetownafc.com"
  },
  "harrow-borough": {
   "address": "Carlyon Avenue, Harrow, Middlesex, HA2 8SS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Rogers Family Stadium, Earlsmead",
-  "postcode": "HA2 8SS"
+  "postcode": "HA2 8SS",
+  "website": "http://www.pitchero.com/clubs/harrowborough"
  },
  "harrowby-united": {
   "address": "Dickens Road, Grantham, Lincs, NG31 9QY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Fruehauf Stadium",
-  "postcode": "NG31 9QY"
+  "postcode": "NG31 9QY",
+  "website": "http://www.harrowbyunited.com"
+ },
+ "hartlepool-united": {
+  "address": "Clarence Road, Hartlepool, TS24 8BZ",
+  "fetched": "2026-11-06",
+  "ground": "The Northern Gas and Power Stadium",
+  "postcode": "TS24 8BZ",
+  "website": "https://www.hartlepoolunited.co.uk"
  },
  "hartley-wintney": {
   "address": "Green Lane, Hartley Wintney, Hants, RG27 8DL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Memorial Playing Fields",
-  "postcode": "RG27 8DL"
+  "postcode": "RG27 8DL",
+  "website": "http://www.hartleyfc.com"
  },
  "hartpury": {
   "address": "GL19 3BE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "GL19 3BE"
+  "postcode": "GL19 3BE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "harwich-and-parkeston": {
   "address": "CO12 4AA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Royal Oak",
-  "postcode": "CO12 4AA"
+  "postcode": "CO12 4AA",
+  "website": "https://www.harwichandparkeston.com/"
  },
  "hashtag-united": {
   "address": "IG6 1NB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Techsoc.com Stadium (Redbridge)",
-  "postcode": "IG6 1NB"
+  "postcode": "IG6 1NB",
+  "website": "https://hashtagunited.co.uk"
  },
  "hashtag-united-women": {
   "address": "Park Lane, Aveley, Essex, RM15 4PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Techsoc.com Stadium (Redbridge FC)",
-  "postcode": "RM15 4PX"
+  "postcode": "RM15 4PX",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hastings-united": {
   "address": "Elphinstone Road, Hastings, East Sussex, TN34 2AX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Pilot Field",
-  "postcode": "TN34 2AX"
+  "postcode": "TN34 2AX",
+  "website": "http://www.hastingsunitedfc.co.uk"
  },
  "havant-and-waterlooville": {
   "address": "Martin Road, Havant, Hampshire, PO9 5TH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Westleigh Park",
-  "postcode": "PO9 5TH"
+  "postcode": "PO9 5TH",
+  "website": "https://www.havantandwaterloovillefc.co.uk"
  },
  "haverhill-rovers": {
   "address": "Chalkstone Way, Haverhill, Suffolk, CB9 0BW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The New Croft",
-  "postcode": "CB9 0BW"
+  "postcode": "CB9 0BW",
+  "website": "https://www.pitchero.com/clubs/haverhillroversfc/"
  },
  "hayes-and-yeading-united": {
   "address": "Beaconsfield Road, Hayes, Middlesex, UB4 0SL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "SKYex Community Stadium",
-  "postcode": "UB4 0SL"
+  "postcode": "UB4 0SL",
+  "website": "http://www.hyufc.com"
  },
  "heacham": {
   "address": "13 Station Road Heacham, Kings lynn, Norfolk, PE31 7HG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Station Road Heacham",
-  "postcode": "PE31 7HG"
+  "postcode": "PE31 7HG",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "heanor-town": {
   "address": "DE75 7EN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "DE75 7EN"
+  "postcode": "DE75 7EN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "heaton-stannington": {
   "address": "Newton Road, Newcastle upon Tyne, NE7 7HP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Willow Park",
-  "postcode": "NE7 7HP"
+  "postcode": "NE7 7HP",
+  "website": "https://heatonstan.co.uk"
  },
  "hebburn-town": {
   "address": "16 South Drive, Hebburn, NE31 1UN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Trustmark Group Stadium",
-  "postcode": "NE31 1UN"
+  "postcode": "NE31 1UN",
+  "website": "https://www.hebburntownfc.com"
  },
  "hednesford-town": {
   "address": "Keys Park Road, Hednesford, Cannock, Staffordshire, WS12 2DZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Keys Park Stadium",
-  "postcode": "WS12 2DZ"
+  "postcode": "WS12 2DZ",
+  "website": "http://www.htfc.co.uk"
  },
  "hemel-hempstead-town": {
   "address": "Hemel Hempstead, Hertfordshire, HP2 4HW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Vauxhall Road",
-  "postcode": "HP2 4HW"
+  "postcode": "HP2 4HW",
+  "website": "http://www.hemelfc.com"
  },
  "hemsworth-miners-welfare": {
   "address": "WF9 5AJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "WF9 5AJ"
+  "postcode": "WF9 5AJ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hendon": {
   "address": "Townsend Lane, Kingsbury, London, NW9 7NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Silver Jubilee Park",
-  "postcode": "NW9 7NE"
+  "postcode": "NW9 7NE",
+  "website": "http://www.hendonfc.net"
  },
  "hereford": {
   "address": "Hereford, HR4 9JU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Edgar Street Athletic Ground",
-  "postcode": "HR4 9JU"
+  "postcode": "HR4 9JU",
+  "website": "http://www.herefordfc.co.uk"
  },
  "hereford-pegasus": {
   "address": "Old School Lane, Hereford, HR1 1EX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The KGD Stadium",
-  "postcode": "HR1 1EX"
+  "postcode": "HR1 1EX",
+  "website": "https://www.herefordpegasus.co.uk"
  },
  "herne-bay": {
   "address": "Winch's Field, Stanley Gardens, Herne Bay, Kent, CT6 5SG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Crest Stadium",
-  "postcode": "CT6 5SG"
+  "postcode": "CT6 5SG",
+  "website": "http://www.pitchero.com/clubs/hernebay"
  },
  "hertford-town": {
   "address": "West Street, Hertford, SG13 8EZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hertingfordbury Park",
-  "postcode": "SG13 8EZ"
+  "postcode": "SG13 8EZ",
+  "website": "http://hertfordtownfc.co.uk"
  },
  "heybridge-swifts": {
   "address": "Scraley Road, Heybridge, Maldon, Essex, CM9 8FJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Heybridge Swifts Community Stadium",
-  "postcode": "CM9 8FJ"
+  "postcode": "CM9 8FJ",
+  "website": "http://www.heybridgeswiftsfc.com"
  },
  "highgate-united": {
   "address": "The Coppice Stadium, Tythe Barn Lane, Solihull, West Midlands, B90 1PH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Coppice Stadium",
-  "postcode": "B90 1PH"
+  "postcode": "B90 1PH",
+  "website": "https://www.pitchero.com/clubs/highgateunitedfootballclub/"
  },
  "highworth-town": {
   "address": "The Elms, Highworth, SN6 7DD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Save on Tyres Stadium",
-  "postcode": "SN6 7DD"
+  "postcode": "SN6 7DD",
+  "website": "https://www.pitchero.com/clubs/highworthtown"
  },
  "hilltop": {
   "address": "Townsend Road, London, NW9 7NE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Silver Jubilee Park Stadium",
-  "postcode": "NW9 7NE"
+  "postcode": "NW9 7NE",
+  "website": "https://hilltopfc.co.uk/"
  },
  "hinckley-afc": {
   "address": "Kirkby Road, Barwell, LE9 8FQ, LE9 8FQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Barwell Sports Complex",
-  "postcode": "LE9 8FQ"
+  "postcode": "LE9 8FQ",
+  "website": "https://hinckleyafc.co.uk"
  },
  "histon": {
   "address": "Bridge Road, Impington, Cambridge, CB24 9PH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bridge Road Stadium",
-  "postcode": "CB24 9PH"
+  "postcode": "CB24 9PH",
+  "website": "http://www.histonfc.co.uk"
  },
  "hitchin-town": {
   "address": "Fishponds Road, Hitchin, Hertfordshire, SG5 1NU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Top Field",
-  "postcode": "SG5 1NU"
+  "postcode": "SG5 1NU",
+  "website": "http://www.hitchintownfc.club"
  },
  "hollands-and-blair": {
   "address": "ME7 3AN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "ME7 3AN"
+  "postcode": "ME7 3AN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "holmer-green": {
   "address": "87 Watchet Lane, Holmer Green, Bucks, HP15 6UF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Watchet Lane",
-  "postcode": "HP15 6UF"
+  "postcode": "HP15 6UF",
+  "website": "https://www.holmergreenfc.co.uk"
  },
  "holyport": {
   "address": "Summerleaze Road. Maidenhead, SL6 7JR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Summerleaze Park",
-  "postcode": "SL6 7JR"
+  "postcode": "SL6 7JR",
+  "website": "https://www.holyportfc.co.uk/"
  },
  "horbury-town": {
   "address": "WF4 5BH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pulse Hire Ltd Stadium",
-  "postcode": "WF4 5BH"
+  "postcode": "WF4 5BH",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "horden-community-welfare": {
   "address": "Eden Street, Horden, County Durham, SR8 4LX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Horden Welfare Park",
-  "postcode": "SR8 4LX"
+  "postcode": "SR8 4LX",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "horley-town": {
   "address": "Court Lodge Road, Horley, Surrey, RH6 8SP",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The New Defence",
-  "postcode": "RH6 8SP"
+  "postcode": "RH6 8SP",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
+ },
+ "hornchurch": {
+  "address": "Bridge Avenue, Upminster, Essex, RM14 2LX",
+  "fetched": "2026-11-06",
+  "ground": "The Stadium",
+  "postcode": "RM14 2LX",
+  "website": "http://www.hornchurchfc.com"
  },
  "horsham": {
   "address": "Hop Oast, Worthing Road, Horsham, West Sussex, RH13 0AD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Fusion Aviation Community Stadium",
-  "postcode": "RH13 0AD"
+  "postcode": "RH13 0AD",
+  "website": "http://www.horshamfc.co.uk"
  },
  "hucknall-town": {
   "address": "Aerial Way, Hucknall, Nottingham, NG15 6DW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "RM Stadium",
-  "postcode": "NG15 6DW"
+  "postcode": "NG15 6DW",
+  "website": "http://www.hucknalltownfc.com"
  },
  "huddersfield-town": {
   "address": "Huddersfield, HD1 6PX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Accu Stadium",
-  "postcode": "HD1 6PX"
+  "postcode": "HD1 6PX",
+  "website": "https://www.htafc.com"
  },
  "huddersfield-town-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hull-city": {
   "address": "The Circle, Walton Street, Anlaby Road, Hull, HU3 6HU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "KCOM Stadium",
-  "postcode": "HU3 6HU"
+  "postcode": "HU3 6HU",
+  "website": "https://www.wearehullcity.co.uk"
  },
  "hull-city-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "hullbridge-sports": {
   "address": "Lower Road, Hullbridge, Essex, SS5 6BJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "East Bridge Recruitment Stadium",
-  "postcode": "SS5 6BJ"
+  "postcode": "SS5 6BJ",
+  "website": "https://www.hullbridgesportsfc.co.uk"
  },
  "hungerford-town": {
   "address": "Hungerford, West Berkshire, RG17 0AY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bulpit Lane",
-  "postcode": "RG17 0AY"
+  "postcode": "RG17 0AY",
+  "website": "http://www.pitchero.com/clubs/hungerfordtownfc"
  },
  "hutton": {
   "address": "CM12 9SA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Billericay Town FC",
-  "postcode": "CM12 9SA"
+  "postcode": "CM12 9SA",
+  "website": "http://www.huttonfc.com"
  },
  "hyde-united": {
   "address": "Walker Lane, Hyde, Cheshire, SK14 5PL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Project Solar Stadium",
-  "postcode": "SK14 5PL"
+  "postcode": "SK14 5PL",
+  "website": "https://hydeunited.co.uk"
  },
  "hythe-town": {
   "address": "Cheriton Rd, Folkestone, CT19 5JU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Folkestone Invicta FC. Cheriton Road Sports Ground",
-  "postcode": "CT19 5JU"
+  "postcode": "CT19 5JU",
+  "website": "http://www.hythetownfc.co.uk"
  },
  "ilford": {
   "address": "IG1 1FY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Cricklefields Stadium",
-  "postcode": "IG1 1FY"
+  "postcode": "IG1 1FY",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ilkeston-town": {
   "address": "Awsworth Road, Ilkeston, Derbyshire, DE7 8JF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "New Manor Ground",
-  "postcode": "DE7 8JF"
+  "postcode": "DE7 8JF",
+  "website": "http://www.ilkestonfc.co.uk"
  },
  "ilkley-town": {
   "address": "LS29 8AW",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "LS29 8AW"
+  "postcode": "LS29 8AW",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "immingham-town": {
   "address": "Manby road, Immingham, DN40 2LG",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Woodlands sports ground",
-  "postcode": "DN40 2LG"
+  "postcode": "DN40 2LG",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ipswich-town": {
   "address": "Ipswich, Suffolk, IP1 2DA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Portman Road",
-  "postcode": "IP1 2DA"
+  "postcode": "IP1 2DA",
+  "website": "https://www.itfc.co.uk"
  },
  "ipswich-town-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "ipswich-wanderers": {
   "address": "Humber Doucy Lane,, Ipswich, IP4 3NR",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "GBS Stadium",
-  "postcode": "IP4 3NR"
+  "postcode": "IP4 3NR",
+  "website": "https://ipswichwanderers.co.uk/"
  },
  "jarrow": {
   "address": "Perth Green CA. Inverness Road, Jarrow. Tyne & Wear, NE32 4AQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Perth Green",
-  "postcode": "NE32 4AQ"
+  "postcode": "NE32 4AQ",
+  "website": ""
  },
  "jersey-bulls": {
   "address": "2 Janvrin Road, St. Helier, Jersey, JE2 4LF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Springfield Stadium",
-  "postcode": "JE2 4LF"
+  "postcode": "JE2 4LF",
+  "website": "http://www.bulls.je"
  },
  "keighley-town": {
   "address": "Hard Ings Road, Keighley, BD21 3RF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Cougar Park",
-  "postcode": "BD21 3RF"
+  "postcode": "BD21 3RF",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "kempston-rovers": {
   "address": "Hillgrounds Road, Kempston, Bedfordshire, MK42 8SZ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hillgrounds Stadium",
-  "postcode": "MK42 8SZ"
+  "postcode": "MK42 8SZ",
+  "website": "http://kempstonrovers.org"
  },
  "kendal-town": {
   "address": "Parkside Road, Kendal, LA9 7BL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Westmorland Flooring Stadium",
-  "postcode": "LA9 7BL"
+  "postcode": "LA9 7BL",
+  "website": "http://www.kendaltownfc.org"
  },
  "kennington": {
   "address": "Ashford Road, Kingsnorth, Ashford, Kent, TN26 1NJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Homelands",
-  "postcode": "TN26 1NJ"
+  "postcode": "TN26 1NJ",
+  "website": ""
  },
  "kettering-town": {
   "address": "Polwell Lane, Burton Latimer, Kettering, Northamptonshire, NN15 5PS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Latimer Park",
-  "postcode": "NN15 5PS"
+  "postcode": "NN15 5PS",
+  "website": "http://www.ketteringtownfc.com"
+ },
+ "kidderminster-harriers": {
+  "address": "Hoo Road, Kidderminster, Worcestershire, DY10 1NB",
+  "fetched": "2026-11-06",
+  "ground": "Aggborough Stadium",
+  "postcode": "DY10 1NB",
+  "website": "http://www.harriers.co.uk"
  },
  "kidlington": {
   "address": "Yarnton Road, Kidlington, Oxfordshire, England, OX5 1AT",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Yarnton Road",
-  "postcode": "OX5 1AT"
+  "postcode": "OX5 1AT",
+  "website": "http://www.kidlingtonfc.co.uk"
  },
  "kidsgrove-athletic": {
   "address": "Hollinwood Close, Hollinwood Road, Kidsgrove, Stoke-on-Trent, ST7 1DQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Fitzjohn Stadium",
-  "postcode": "ST7 1DQ"
+  "postcode": "ST7 1DQ",
+  "website": "http://www.pitchero.com/clubs/kidsgroveathleticfc"
  },
  "kimberley-miners-welfare": {
   "address": "NG16 2NB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Stag Ground",
-  "postcode": "NG16 2NB"
+  "postcode": "NG16 2NB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "kings-langley": {
   "address": "Hempstead Road, Kings Langley, Hertfordshire, WD4 8BS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Gaywood Park",
-  "postcode": "WD4 8BS"
+  "postcode": "WD4 8BS",
+  "website": "http://www.kingslangleyfc.co.uk"
  },
  "kings-lynn-town": {
   "address": "Tennyson Road, King's Lynn, Norfolk, PE30 5PB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Walks Stadium",
-  "postcode": "PE30 5PB"
+  "postcode": "PE30 5PB",
+  "website": "http://www.kltown.co.uk"
  },
  "kingstonian": {
   "address": "TW19 7BH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Robert Parker Stadium (Ashford Town Middx)",
-  "postcode": "TW19 7BH"
+  "postcode": "TW19 7BH",
+  "website": "https://www.kingstonianfc.com"
  },
  "kinsley-boys": {
   "address": "WF9 5EH",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "WF9 5EH"
+  "postcode": "WF9 5EH",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "kirkley-and-pakefield": {
   "address": "Walmer Road, Pakefield, NR33 7LE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Lavis Life Competition Stadium",
-  "postcode": "NR33 7LE"
+  "postcode": "NR33 7LE",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "knaphill": {
   "address": "Knaphill Football Club, Redding Way, Knaphill, Surrey, GU21 2AY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Redding Way",
-  "postcode": "GU21 2AY"
+  "postcode": "GU21 2AY",
+  "website": "https://www.pitchero.com/clubs/knaphillfootballclub"
  },
  "knaresborough-town": {
   "address": "Manse Lane, Knaresborough, HG5 8LF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Myrings Stadium",
-  "postcode": "HG5 8LF"
+  "postcode": "HG5 8LF",
+  "website": "https://www.knaresboroughtownafc.com/"
  },
  "knowle": {
   "address": "Hampton Road, Knowle, Solihull, West Midlands, B93 0NX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Robins' Nest",
-  "postcode": "B93 0NX"
+  "postcode": "B93 0NX",
+  "website": "https://www.knowlefc.co.uk"
  },
  "lakenheath": {
   "address": "IP27 9HN",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "IP27 9HN"
+  "postcode": "IP27 9HN",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "lancaster-city": {
   "address": "West Road, Lancaster, Lancashire, LA1 5PE",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Giant Axe",
-  "postcode": "LA1 5PE"
+  "postcode": "LA1 5PE",
+  "website": "http://www.lancastercityfc.com"
  },
  "langley": {
   "address": "Stoke Road, Slough, SL2 5AY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Arbour Park",
-  "postcode": "SL2 5AY"
+  "postcode": "SL2 5AY",
+  "website": "https://langley-fc.com"
  },
  "larkfield-and-new-hythe": {
   "address": "251a New Hythe Lane, Larkfield, Kent, ME20 6PU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Eden Estates Stadium",
-  "postcode": "ME20 6PU"
+  "postcode": "ME20 6PU",
+  "website": "https://www.larkfieldandnewhythefc.co.uk/"
  },
  "larkhall-athletic": {
   "address": "Charlcombe Lane, Bath, Somerset, BA1 8DJ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Plain Ham",
-  "postcode": "BA1 8DJ"
+  "postcode": "BA1 8DJ",
+  "website": "http://www.pitchero.com/clubs/larkhallathleticfc"
  },
  "leamington": {
   "address": "Harbury Lane, Leamington Spa, Warwickshire, CV33 9QB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Your Co-op Community Stadium",
-  "postcode": "CV33 9QB"
+  "postcode": "CV33 9QB",
+  "website": "http://www.leamingtonfc.co.uk"
  },
  "leatherhead": {
   "address": "Guildford Road, Leatherhead, Surrey, KT22 9AS",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Fetcham Grove",
-  "postcode": "KT22 9AS"
+  "postcode": "KT22 9AS",
+  "website": "https://leatherheadfc.com"
  },
  "leeds-ufca": {
   "address": "WF4 1LB",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": "WF4 1LB"
+  "postcode": "WF4 1LB",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "leeds-united": {
   "address": "Leeds, LS11 0ES",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Elland Road",
-  "postcode": "LS11 0ES"
+  "postcode": "LS11 0ES",
+  "website": "https://www.leedsunited.com"
  },
  "leek-town": {
   "address": "Macclesfield Road, Leek, Staffordshire, ST13 8LD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Harrison Park",
-  "postcode": "ST13 8LD"
+  "postcode": "ST13 8LD",
+  "website": "http://www.pitchero.com/clubs/leektown"
  },
  "leicester-city": {
   "address": "Filbert Way, Leicester, LE2 7FL",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "King Power Stadium",
-  "postcode": "LE2 7FL"
+  "postcode": "LE2 7FL",
+  "website": "https://www.lcfc.com"
  },
  "leicester-city-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "leicester-nirvana": {
   "address": "100 Sandhill Avenue, LE5 1LU",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Hamilton Park",
-  "postcode": "LE5 1LU"
+  "postcode": "LE5 1LU",
+  "website": "https://www.leicesternirvana.com"
  },
  "leighton-town": {
   "address": "Bell Close, Lake Street, Leighton Buzzard, Bedfordshire, LU7 1RX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Bell Close",
-  "postcode": "LU7 1RX"
+  "postcode": "LU7 1RX",
+  "website": "http://www.pitchero.com/clubs/leightontown"
  },
  "leiston": {
   "address": "Victory Road, Leiston, Suffolk, IP16 4DQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "LTAA",
-  "postcode": "IP16 4DQ"
+  "postcode": "IP16 4DQ",
+  "website": "http://www.leistonfc.co.uk"
  },
  "leverstock-green": {
   "address": "HP2 4NQ",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Pancake Lane",
-  "postcode": "HP2 4NQ"
+  "postcode": "HP2 4NQ",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "lewes": {
   "address": "Mountfield Road, Lewes, East Sussex, BN7 2XA",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Dripping Pan",
-  "postcode": "BN7 2XA"
+  "postcode": "BN7 2XA",
+  "website": "http://www.lewesfc.com"
  },
  "lewes-women": {
   "address": "",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "",
-  "postcode": ""
+  "postcode": "",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "lewisham-borough": {
   "address": "Silveremere Road, London, SE6 4QX",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ladywell Arena",
-  "postcode": "SE6 4QX"
+  "postcode": "SE6 4QX",
+  "website": "https://lbcfc.co.uk"
  },
  "leyton-orient": {
   "address": "Brisbane Road, Leyton, London, E10 5NF",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Matchroom Stadium",
-  "postcode": "E10 5NF"
+  "postcode": "E10 5NF",
+  "website": "https://www.leytonorient.com"
  },
  "lichfield-city": {
   "address": "Brownsfield Road, Lichfield, WS13 6AY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Tyre Trade Community Stadium",
-  "postcode": "WS13 6AY"
+  "postcode": "WS13 6AY",
+  "website": "https://www.lichfieldcityfc.com"
  },
  "lincoln-city": {
   "address": "Lincoln, LN5 8LD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Sincil Bank Stadium",
-  "postcode": "LN5 8LD"
+  "postcode": "LN5 8LD",
+  "website": "https://www.weareimps.com"
  },
  "lincoln-united": {
   "address": "Hartsholme, Lincoln, Lincolnshire, LN6 0DY",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Ashby Avenue",
-  "postcode": "LN6 0DY"
+  "postcode": "LN6 0DY",
+  "website": "http://www.pitchero.com/clubs/lincolnunited"
  },
  "little-oakley": {
   "address": "Harwich Road, Little Oakley, CO12 5ED",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "Little Oakley war memorial ground",
-  "postcode": "CO12 5ED"
+  "postcode": "CO12 5ED",
+  "website": "https://itunes.apple.com/gb/app/football-web-pages-v2/id1078023060?ls=1&mt=8"
  },
  "littlehampton-town": {
   "address": "St Floras Road, Littlehampton, West Sussex,, BN17 6BD",
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "ground": "The Sportsfield",
-  "postcode": "BN17 6BD"
+  "postcode": "BN17 6BD",
+  "website": "https://www.pitchero.com/clubs/littlehamptontown"
  },
  "liv": {
   "address": "Dawson Drive, HU6 7AB",
