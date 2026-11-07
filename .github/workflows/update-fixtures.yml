@@ -20,11 +20,13 @@ jobs:
       - run: pip install requests beautifulsoup4
       - name: Build fixtures
         run: python scripts/build_fixtures.py
+      - name: Build league pages and sitemap
+        run: python scripts/build_pages.py
       - name: Commit changes
         run: |
           git config user.name "fixtures-bot"
           git config user.email "fixtures-bot@users.noreply.github.com"
-          git add -A docs/data data
+          git add -A docs data
           if git diff --cached --quiet; then
             echo "No changes"
           else

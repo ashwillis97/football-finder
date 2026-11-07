@@ -8,6 +8,7 @@ An interactive map of upcoming football matches in England. Search by postcode o
 - `config/grounds.csv` maps each club to its ground and postcode.
 - `scripts/build_fixtures.py` fetches the pages, parses fixtures, looks up postcode coordinates (postcodes.io) and writes `docs/data/fixtures.json`.
 - `docs/index.html` is the map page, served by GitHub Pages from the `docs` folder.
+- `scripts/build_pages.py` writes a crawlable page per league (`docs/leagues/`), the sitemap and the footer links on the home page. Change `SITE` at the top when the real domain is set.
 - `.github/workflows/update-fixtures.yml` runs the build once a day (05:30 UTC) and commits the result.
 
 ## Setup
