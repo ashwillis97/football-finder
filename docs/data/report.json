@@ -14,11 +14,11 @@
   "unlocated": []
  },
  "championship": {
-  "fixtures": 388,
+  "fixtures": 384,
   "months": {
    "december": 72,
-   "january": 62,
-   "february": 63,
+   "january": 60,
+   "february": 61,
    "march": 60,
    "april": 72,
    "may": 12
@@ -28,10 +28,10 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 393,
+  "fixtures": 391,
   "months": {
    "december": 63,
-   "january": 76,
+   "january": 74,
    "february": 60,
    "march": 60,
    "april": 72,
@@ -121,7 +121,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "fixtures": 301,
+  "fixtures": 296,
   "months": {
    "december": 51,
    "january": 56,
@@ -134,7 +134,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 293,
+  "fixtures": 289,
   "months": {
    "december": 48,
    "january": 56,
@@ -199,9 +199,9 @@
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "fixtures": 306,
+  "fixtures": 307,
   "months": {
-   "december": 53,
+   "december": 54,
    "january": 55,
    "february": 55,
    "march": 54,
@@ -225,7 +225,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 299,
+  "fixtures": 297,
   "months": {
    "december": 50,
    "january": 55,
@@ -238,7 +238,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 292,
+  "fixtures": 291,
   "months": {
    "december": 48,
    "january": 55,
@@ -292,7 +292,7 @@
  "essex-senior-league": {
   "fixtures": 257,
   "months": {
-   "december": 46,
+   "december": 48,
    "january": 47,
    "february": 41,
    "march": 41,
@@ -510,7 +510,7 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 366,
+  "fetched_this_run": 0,
   "not_yet_fetched": 0,
   "page_has_no_ground_info": [
    "afc bournemouth",
