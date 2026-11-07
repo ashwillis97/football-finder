@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Football Finder – matches near you</title>
+<title>Local Kick Off – football matches near you</title>
 <meta name="description" content="Find the nearest football matches, from the Premier League to non-league and the women's game, with kick-off times and grounds on a map.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,8 +76,15 @@
   .meta .dist { color: var(--ink); font-weight: 600; }
 
   .mapwrap { position: sticky; top: 0; height: 100vh; min-height: 420px; }
-  @media (max-width: 900px) { .mapwrap { position: relative; height: 62vh; min-height: 340px; order: -1; } }
+  @media (max-width: 900px) { .mapwrap { position: relative; height: 46vh; min-height: 300px; order: -1; } }
   #map { height: 100%; width: 100%; background: var(--tint); }
+
+  .viewbar { display: none; }
+  @media (max-width: 900px) {
+    .viewbar { display: grid; grid-template-columns: 1fr 1fr; position: sticky; top: 0; z-index: 1000; background: var(--bg); border-bottom: 1px solid var(--line); }
+    .viewbar button { background: none; color: var(--muted); padding: 14px 8px; border-bottom: 3px solid transparent; font-size: .95rem; }
+    .viewbar button[aria-pressed=true] { color: var(--ink); border-bottom-color: var(--accent); }
+  }
 
   footer { padding: 32px 32px 48px; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line); }
 
@@ -106,8 +113,13 @@
 </head>
 <body>
 <div class="bar">
-  <h1>Football Finder</h1>
+  <h1>Local Kick Off</h1>
   <p>Matches near you, from the Premier League to the non-league pyramid, men's and women's.</p>
+</div>
+
+<div class="viewbar" role="group" aria-label="Switch between map and list">
+  <button id="vMap" type="button" aria-pressed="true">Map</button>
+  <button id="vList" type="button" aria-pressed="false">List <span id="vCount"></span></button>
 </div>
 
 <div class="layout">
@@ -320,6 +332,7 @@
       list.appendChild(li);
     });
 
+    $('vCount').textContent = rows.length ? '(' + rows.length + ')' : '';
     var where = origin ? ' within ' + maxD + ' miles of ' + originLabel : '';
     $('status').textContent = rows.length
       ? rows.length + ' match' + (rows.length === 1 ? '' : 'es') + where + (rows.length > 200 ? ' (showing 200)' : '')
@@ -385,6 +398,22 @@
     if (d.updated) $('updated').textContent = 'Fixtures last updated ' + new Date(d.updated).toLocaleString('en-GB') + '. Kick-off times and dates can change, so check with the club before travelling.';
     render(true);
   }).catch(function () { $('status').textContent = 'Could not load fixtures.'; });
+  (function () {
+    var vMap = $('vMap'), vList = $('vList');
+    function bar() { return document.querySelector('.viewbar').offsetHeight; }
+    vMap.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    vList.addEventListener('click', function () {
+      var y = $('list').getBoundingClientRect().top + window.pageYOffset - bar() - 90;
+      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    });
+    function spy() {
+      var inList = $('map').getBoundingClientRect().bottom < bar() + 40;
+      vMap.setAttribute('aria-pressed', inList ? 'false' : 'true');
+      vList.setAttribute('aria-pressed', inList ? 'true' : 'false');
+    }
+    window.addEventListener('scroll', spy, { passive: true });
+    spy();
+  })();
 })();
 </script>
 </body>

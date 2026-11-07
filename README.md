@@ -1,4 +1,4 @@
-# Football finder
+# Local Kick Off
 
 An interactive map of upcoming football matches in England. Search by postcode or place, then filter by distance, date, level and men's/women's.
 
