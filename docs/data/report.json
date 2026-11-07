@@ -1,84 +1,236 @@
 {
  "premier-league": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/premier-league/fixtures-results"
+  "fixtures": 285,
+  "months": {
+   "december": 60,
+   "january": 50,
+   "february": 40,
+   "march": 30,
+   "april": 30,
+   "may": 50
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "championship": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/championship/fixtures-results"
+  "fixtures": 373,
+  "months": {
+   "december": 72,
+   "january": 60,
+   "february": 61,
+   "march": 60,
+   "april": 72,
+   "may": 12
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "league-one": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/league-one/fixtures-results"
+  "fixtures": 391,
+  "months": {
+   "december": 63,
+   "january": 74,
+   "february": 60,
+   "march": 60,
+   "april": 72,
+   "may": 24
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "league-two": {
-  "error": "521 Server Error: <none> for url: https://www.footballwebpages.co.uk/league-two/fixtures-results"
+  "fixtures": 388,
+  "months": {
+   "december": 62,
+   "january": 72,
+   "february": 60,
+   "march": 60,
+   "april": 72,
+   "may": 24
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "national-league": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/national-league/fixtures-results"
+  "fixtures": 362,
+  "months": {
+   "december": 61,
+   "january": 61,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "national-league-north": {
-  "fixtures": 0,
-  "months": {},
-  "clubs": 0,
+  "fixtures": 372,
+  "months": {
+   "december": 64,
+   "january": 72,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
   "missing_grounds": 0,
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 0,
-  "months": {},
-  "clubs": 0,
+  "fixtures": 370,
+  "months": {
+   "december": 63,
+   "january": 71,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
   "missing_grounds": 0,
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 0,
-  "months": {},
-  "clubs": 0,
+  "fixtures": 278,
+  "months": {
+   "december": 51,
+   "january": 55,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
   "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-premier-division": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 293,
+  "months": {
+   "december": 51,
+   "january": 59,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/southern-football-league-premier-central-division/fixtures-results"
+  "fixtures": 286,
+  "months": {
+   "december": 51,
+   "january": 56,
+   "february": 45,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "error": "525 Server Error: <none> for url: https://www.footballwebpages.co.uk/southern-football-league-premier-south-division/fixtures-results"
+  "fixtures": 281,
+  "months": {
+   "december": 48,
+   "january": 56,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-premier-league-east-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-east-division/fixtures-results"
+  "fixtures": 269,
+  "months": {
+   "december": 45,
+   "january": 54,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-premier-league-midlands-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-midlands-division/fixtures-results"
+  "fixtures": 277,
+  "months": {
+   "december": 49,
+   "january": 55,
+   "february": 44,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-premier-league-west-division": {
-  "fixtures": 40,
+  "fixtures": 274,
   "months": {
-   "december": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results/december",
-   "january": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results/january",
-   "february": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results/february",
-   "march": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results/march",
-   "april": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-premier-league-west-division/fixtures-results/april"
+   "december": 48,
+   "january": 55,
+   "february": 43,
+   "march": 55,
+   "april": 33
   },
   "clubs": 22,
   "missing_grounds": 0,
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "error": "525 Server Error: <none> for url: https://www.footballwebpages.co.uk/isthmian-football-league-north-division/fixtures-results"
+  "fixtures": 291,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 242,
+  "months": {
+   "december": 54,
+   "january": 55,
+   "february": "error: HTTP 522 for https://www.footballwebpages.co.uk/isthmian-football-league-south-central-division/fixtures-results/february",
+   "march": 54,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "isthmian-football-league-south-east-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/isthmian-football-league-south-east-division/fixtures-results"
+  "fixtures": 292,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 55,
+   "march": 55,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 176,
+  "fixtures": 286,
   "months": {
    "december": 50,
-   "january": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/southern-football-league-division-one-central/fixtures-results/january",
+   "january": 55,
    "february": 43,
-   "march": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
+   "march": 55,
    "april": 33
   },
   "clubs": 22,
@@ -86,24 +238,64 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 281,
+  "months": {
+   "december": 48,
+   "january": 55,
+   "february": 43,
+   "march": 55,
+   "april": 32
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "combined-counties-league-premier-division-north": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/combined-counties-league-premier-division-north/fixtures-results"
+  "fixtures": 221,
+  "months": {
+   "december": 42,
+   "january": 54,
+   "february": 38,
+   "march": 48,
+   "april": 16
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "combined-counties-league-premier-division-south": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/combined-counties-league-premier-division-south/fixtures-results"
+  "fixtures": 221,
+  "months": {
+   "december": 41,
+   "january": 51,
+   "february": 40,
+   "march": 44,
+   "april": 17
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "eastern-counties-league-premier-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/eastern-counties-league-premier-division/fixtures-results"
+  "fixtures": 225,
+  "months": {
+   "december": 38,
+   "january": 47,
+   "february": 41,
+   "march": 42,
+   "april": 23
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "essex-senior-league": {
-  "fixtures": 70,
+  "fixtures": 247,
   "months": {
-   "december": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "january": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/essex-senior-league/fixtures-results/january",
-   "february": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/essex-senior-league/fixtures-results/february",
-   "march": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/essex-senior-league/fixtures-results/march",
+   "december": 48,
+   "january": 47,
+   "february": 41,
+   "march": 41,
    "april": 29
   },
   "clubs": 20,
@@ -111,122 +303,299 @@
   "unlocated": []
  },
  "hellenic-league-premier-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/hellenic-league-premier-division/fixtures-results"
+  "fixtures": 253,
+  "months": {
+   "december": 33,
+   "january": 55,
+   "february": 45,
+   "march": 44,
+   "april": 40
+  },
+  "clubs": 21,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-league-division-one": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-league-division-one/fixtures-results"
+  "fixtures": 198,
+  "months": {
+   "december": 37,
+   "january": 45,
+   "february": 29,
+   "march": 29,
+   "april": 29
+  },
+  "clubs": 21,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 201,
+  "months": {
+   "december": 43,
+   "january": 43,
+   "february": 40,
+   "march": 25,
+   "april": 10
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "southern-counties-east-league-premier-division": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 187,
+  "months": {
+   "december": 35,
+   "january": 40,
+   "february": 27,
+   "march": 32,
+   "april": 36
+  },
+  "clubs": 18,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/spartan-south-midlands-league-premier-division/fixtures-results"
+  "fixtures": 250,
+  "months": {
+   "december": 39,
+   "january": 50,
+   "february": 36,
+   "march": 57,
+   "april": 30
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "united-counties-league-premier-division-north": {
-  "error": "525 Server Error: <none> for url: https://www.footballwebpages.co.uk/united-counties-league-premier-division-north/fixtures-results"
+  "fixtures": 174,
+  "months": {
+   "december": 37,
+   "january": 44,
+   "february": 24,
+   "march": 24,
+   "april": 18
+  },
+  "clubs": 18,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 28,
+  "months": {},
+  "clubs": 19,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/combined-counties-league-division-one/fixtures-results"
+  "fixtures": 242,
+  "months": {
+   "december": 45,
+   "january": 57,
+   "february": 40,
+   "march": 49,
+   "april": 14
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": [
+   "Eagles Land Benfica"
+  ]
  },
  "hellenic-league-division-one": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 30,
+  "months": {},
+  "clubs": 18,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-league-division-two": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-league-division-two/fixtures-results"
+  "fixtures": 189,
+  "months": {
+   "december": 31,
+   "january": 44,
+   "february": 28,
+   "march": 26,
+   "april": 30
+  },
+  "clubs": 20,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "northern-counties-east-league-division-one": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/northern-counties-east-league-division-one/fixtures-results"
+  "fixtures": 223,
+  "months": {
+   "december": 41,
+   "january": 50,
+   "february": 40,
+   "march": 40,
+   "april": 20
+  },
+  "clubs": 21,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "southern-counties-east-league-first-division": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 185,
+  "months": {
+   "december": 26,
+   "january": 39,
+   "february": 29,
+   "march": 33,
+   "april": 36
+  },
+  "clubs": 18,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "united-counties-league-division-one": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/united-counties-league-division-one/fixtures-results"
+  "fixtures": 261,
+  "months": {
+   "december": 43,
+   "january": 56,
+   "february": 43,
+   "march": 44,
+   "april": 33
+  },
+  "clubs": 22,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "womens-super-league": {
-  "error": "525 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-super-league/fixtures-results"
+  "fixtures": 124,
+  "months": {
+   "december": 14,
+   "january": 28,
+   "february": 14,
+   "march": 21,
+   "april": 8,
+   "may": 20
+  },
+  "clubs": 14,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "womens-super-league-two": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 96,
+  "months": {
+   "december": 6,
+   "january": 24,
+   "february": 12,
+   "march": 18,
+   "april": 12,
+   "may": 12
+  },
+  "clubs": 12,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "womens-national-league-north": {
-  "error": "525 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-national-league-north/fixtures-results"
- },
- "womens-national-league-south": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-national-league-south/fixtures-results"
- },
- "fa-cup": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/fa-cup/fixtures-results"
- },
- "efl-cup": {
-  "fixtures": 63,
+  "fixtures": 72,
   "months": {
-   "about-us": 0,
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/api": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/app": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/efl-cup/fixtures-results/app",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/archives": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/belgian-pro-league": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/efl-cup/fixtures-results/belgian-pro-league",
-   "championship": 36,
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/combined-counties-league-division-one": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "combined-counties-league-premier-division-north": 23,
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/combined-counties-league-premier-division-south": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/efl-cup/fixtures-results/combined-counties-league-premier-division-south",
-   "cookies": 0,
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/corrections": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/cymru-premier": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/efl-cup/fixtures-results/cymru-premier",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/danish-superliga": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/efl-cup/fixtures-results/dutch-eredivisie": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+   "december": 6,
+   "january": 12,
+   "february": 18,
+   "march": 12,
+   "april": 12
   },
-  "clubs": 52,
+  "clubs": 12,
   "missing_grounds": 8,
   "unlocated": []
  },
+ "womens-national-league-south": {
+  "fixtures": 13,
+  "months": {},
+  "clubs": 12,
+  "missing_grounds": 7,
+  "unlocated": []
+ },
+ "fa-cup": {
+  "fixtures": 28,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 30,
+  "missing_grounds": 0,
+  "unlocated": []
+ },
+ "efl-cup": {
+  "fixtures": 26,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 26,
+  "missing_grounds": 0,
+  "unlocated": []
+ },
  "efl-trophy": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/efl-trophy/fixtures-results"
+  "fixtures": 24,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 22,
+  "missing_grounds": 1,
+  "unlocated": []
  },
  "fa-trophy": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/fa-trophy/fixtures-results"
+  "fixtures": 62,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 98,
+  "missing_grounds": 0,
+  "unlocated": []
  },
  "fa-vase": {
-  "error": "522 Server Error: <none> for url: https://www.footballwebpages.co.uk/fa-vase/fixtures-results"
+  "fixtures": 48,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 67,
+  "missing_grounds": 16,
+  "unlocated": []
  },
  "womens-fa-cup": {
-  "error": "HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)"
+  "fixtures": 43,
+  "months": {
+   "southern-counties-east-league-first-division": 22
+  },
+  "clubs": 60,
+  "missing_grounds": 37,
+  "unlocated": []
  },
  "womens-league-cup": {
-  "fixtures": 51,
+  "fixtures": 50,
   "months": {
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/about-us": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/about-us",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/api": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "app": 0,
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/archives": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/archives",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/belgian-pro-league": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/championship": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/championship",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/combined-counties-league-division-one": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/combined-counties-league-division-one",
-   "combined-counties-league-premier-division-north": 23,
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/combined-counties-league-premier-division-south": "error: HTTPSConnectionPool(host='www.footballwebpages.co.uk', port=443): Read timed out. (read timeout=30)",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/cookies": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/cookies",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/corrections": "error: 525 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/corrections",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/cymru-premier": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/cymru-premier",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/danish-superliga": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/danish-superliga",
-   "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/dutch-eredivisie": "error: 522 Server Error: <none> for url: https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results/dutch-eredivisie"
+   "southern-counties-east-league-first-division": 22
   },
-  "clubs": 43,
+  "clubs": 41,
   "missing_grounds": 0,
   "unlocated": []
  },
  "club_pages": {
   "fetched_this_run": 0,
   "not_yet_fetched": 0,
-  "page_has_no_ground_info": []
+  "page_has_no_ground_info": [
+   "afc bournemouth",
+   "afc wimbledon",
+   "cheltenham town",
+   "exeter city",
+   "fulham",
+   "huddersfield town",
+   "hull city",
+   "liverpool feds wfc",
+   "middlesbrough",
+   "norwich city",
+   "oxford united",
+   "peterborough united",
+   "plymouth argyle",
+   "stoke city",
+   "west bromwich albion"
+  ]
  },
  "low_confidence_places": [],
  "bad_postcodes": [
   "JE2 4LF"
- ]
+ ],
+ "carried_over_matches": 0
 }
