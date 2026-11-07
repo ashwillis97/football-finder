@@ -5,6 +5,7 @@ docs/data/fixtures.json for the map page.
 Run from the repo root:  python scripts/build_fixtures.py
 Test the parser offline: python scripts/build_fixtures.py --html sample.html --league national-league
 """
+from urllib.parse import urljoin
 import argparse
 import csv
 import json
@@ -97,9 +98,14 @@ def parse_structured(soup, league):
             continue  # has a score, so already played
         else:
             state = "scheduled"
+        def slug_of(td):
+            a = td.find("a", href=True)
+            h = a["href"].strip("/").split("/") if a else []
+            return h[-1] if len(h) == 1 or (len(h) > 1 and h[-2].startswith("footballwebpages")) else ""
         fixtures.append({
             "date": current_date.isoformat(), "time": kickoff, "home": home, "away": away,
             "status": state, "league": league["name"], "level": league["level"], "gender": league["gender"],
+            "_hs": slug_of(home_td), "_as": slug_of(away_td),
         })
     return fixtures if found else None
 
@@ -418,9 +424,35 @@ def main():
                 continue
             time.sleep(2)  # be polite between requests
         fixtures, _ = parse_fixtures(html, league)
+        for f in fixtures:
+            for side, key in (("home", "_hs"), ("away", "_as")):
+                if f.get(key):
+                    club_slugs.setdefault((f[side].lower(), league["gender"]), f[key])
         for title, slug in team_slugs(html).items():
             club_slugs.setdefault((title.lower(), league["gender"]), slug)
         months = {}
+        if league.get("cup") and not args.html:
+            # cups are organised by round, not month: follow the page's other fixtures-results links
+            base = league["url"].rstrip("/")
+            seen = {(f["date"], f["home"], f["away"]) for f in fixtures}
+            soup0 = BeautifulSoup(html, "html.parser")
+            pages = sorted({urljoin(base + "/", a["href"]) for a in soup0.find_all("a", href=True)
+                            if re.search(rf"/{re.escape(league['id'])}/fixtures-results/[a-z0-9-]+/?$", urljoin(base + "/", a["href"]))})
+            for url in pages[:14]:
+                try:
+                    page = fetch(url)
+                except (RuntimeError, requests.RequestException) as e:
+                    months[url] = f"error: {e}"
+                    time.sleep(2)
+                    continue
+                time.sleep(2)
+                extra, _ = parse_fixtures(page, league)
+                new = [f for f in extra if (f["date"], f["home"], f["away"]) not in seen]
+                months[url.rsplit("/", 1)[-1]] = len(new)
+                fixtures.extend(new)
+                seen |= {(f["date"], f["home"], f["away"]) for f in new}
+                for title, slug in team_slugs(page).items():
+                    club_slugs.setdefault((title.lower(), league["gender"]), slug)
         if not args.html:
             base = league["url"].rstrip("/")
             seen = {(f["date"], f["home"], f["away"]) for f in fixtures}

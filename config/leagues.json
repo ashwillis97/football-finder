@@ -278,5 +278,61 @@
     "level": "Women's National League",
     "gender": "women",
     "url": "https://www.footballwebpages.co.uk/womens-national-league-south/fixtures-results"
+  },
+  {
+    "id": "fa-cup",
+    "name": "FA Cup",
+    "level": "FA Cup",
+    "gender": "men",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/fa-cup/fixtures-results"
+  },
+  {
+    "id": "efl-cup",
+    "name": "EFL Cup",
+    "level": "EFL Cup",
+    "gender": "men",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/efl-cup/fixtures-results"
+  },
+  {
+    "id": "efl-trophy",
+    "name": "EFL Trophy",
+    "level": "EFL Trophy",
+    "gender": "men",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/efl-trophy/fixtures-results"
+  },
+  {
+    "id": "fa-trophy",
+    "name": "FA Trophy",
+    "level": "FA Trophy",
+    "gender": "men",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/fa-trophy/fixtures-results"
+  },
+  {
+    "id": "fa-vase",
+    "name": "FA Vase",
+    "level": "FA Vase",
+    "gender": "men",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/fa-vase/fixtures-results"
+  },
+  {
+    "id": "womens-fa-cup",
+    "name": "Women's FA Cup",
+    "level": "Women's FA Cup",
+    "gender": "women",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/womens-fa-cup/fixtures-results"
+  },
+  {
+    "id": "womens-league-cup",
+    "name": "Women's League Cup",
+    "level": "Women's League Cup",
+    "gender": "women",
+    "cup": true,
+    "url": "https://www.footballwebpages.co.uk/womens-league-cup/fixtures-results"
   }
 ]

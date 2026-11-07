@@ -19,7 +19,7 @@ matches = [m for m in data["matches"] if m["status"] != "postponed" and m["date"
 nxt = {}
 for m in sorted(matches, key=lambda m: (m["date"], m["time"] or "99:99")):
     for club in (m["home"], m["away"]):
-        nxt.setdefault((m["league"], m["gender"], club), id(m))
+        nxt.setdefault((m["gender"], club), id(m))  # across league and cup
 by_id = {id(m): m for m in matches}
 
 
@@ -56,7 +56,8 @@ def page(title, desc, path, body, ld=None):
 
 urls, groups = [""], {}
 for lg in leagues:
-    ms = [by_id[i] for i in {v for (l, g, c), v in nxt.items() if l == lg["name"] and g == lg["gender"]}]
+    ms = [m for m in by_id.values() if m["league"] == lg["name"] and m["gender"] == lg["gender"]
+          and (nxt[(m["gender"], m["home"])] == id(m) or nxt[(m["gender"], m["away"])] == id(m))]
     ms.sort(key=lambda m: (m["date"], m["time"] or "99:99", m["home"]))
     pretty = lg["name"] + (" (women's)" if lg["gender"] == "women" and "women" not in lg["name"].lower() else "")
     groups.setdefault(lg["level"], []).append((lg, pretty, len(ms)))
@@ -74,7 +75,7 @@ for lg in leagues:
     if ms:
         parts.append("</ul>")
     listing = "".join(parts) or "<p>No upcoming fixtures are listed right now. Check back soon.</p>"
-    body = (f"<h1>{e(pretty)} fixtures</h1><p class=\"lead\">The next match for each club in the {e(pretty)} ({e(lg['level'])}), "
+    body = (f"<h1>{e(pretty)} fixtures</h1><p class=\"lead\">The next {'cup ties' if lg.get('cup') else 'match for each club'} in the {e(pretty)}, "
             f"with kick-off times and ground addresses. Updated daily.</p>"
             f'<a class="cta" href="{SITE}">See these on the map</a>{listing}'
             f'<p><a href="{SITE}leagues/">Other leagues</a></p>')
