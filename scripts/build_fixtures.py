@@ -447,9 +447,11 @@ def main():
             base = league["url"].rstrip("/")
             seen = {(f["date"], f["home"], f["away"]) for f in fixtures}
             soup0 = BeautifulSoup(html, "html.parser")
+            ROUND = re.compile(r"(round|qualifying|preliminary|quarter|semi|final|play-?off|replay|group|area|first|second|third|fourth|fifth|sixth|seventh|eighth)", re.I)
             pages = sorted({urljoin(base + "/", a["href"]) for a in soup0.find_all("a", href=True)
-                            if re.search(rf"/{re.escape(league['id'])}/fixtures-results/[a-z0-9-]+/?$", urljoin(base + "/", a["href"]))})
-            for url in pages[:14]:
+                            if re.search(rf"/{re.escape(league['id'])}/fixtures-results/([a-z0-9-]+)/?$", urljoin(base + "/", a["href"]))
+                            and ROUND.search(urljoin(base + "/", a["href"]).rstrip("/").rsplit("/", 1)[-1])})
+            for url in pages[:10]:
                 try:
                     page = fetch(url)
                 except (RuntimeError, requests.RequestException) as e:
