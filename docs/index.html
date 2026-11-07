@@ -4,7 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Local Kick Off – football matches near you</title>
-<meta name="description" content="Find the nearest football matches, from the Premier League to non-league and the women's game, with kick-off times and grounds on a map.">
+<meta name="description" content="Find football matches near you in England. Search by postcode to see the next games on a map, from the Premier League to non-league Step 6 and the women's game, with kick-off times, dates and ground addresses.">
+<link rel="canonical" href="https://ashwillis97.github.io/football-finder/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0d1a12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Local Kick Off">
+<meta property="og:title" content="Local Kick Off – football matches near you">
+<meta property="og:description" content="Search by postcode and see the next football matches near you on a map: Premier League to non-league, men's and women's.">
+<meta property="og:url" content="https://ashwillis97.github.io/football-finder/">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Local Kick Off – football matches near you">
+<meta name="twitter:description" content="Search by postcode and see the next football matches near you on a map.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Local Kick Off","url":"https://ashwillis97.github.io/football-finder/","inLanguage":"en-GB","description":"Find football matches near you in England, from the Premier League to non-league and the women's game."}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
@@ -23,10 +36,11 @@
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
 
-  .bar { display: flex; align-items: baseline; gap: 20px; padding: 22px 32px; border-bottom: 1px solid var(--line); }
-  .bar h1 { margin: 0; font: 400 1.9rem/1 var(--display); letter-spacing: .04em; }
-  .bar p { margin: 0; color: var(--muted); font-size: .9rem; }
-  @media (max-width: 640px) { .bar p { display: none; } }
+  .bar { background: #0d1a12; color: #fff; padding: 34px 32px 30px; border-bottom: 6px solid #3fc07a; }
+  .bar h1 { margin: 0; font: 400 clamp(2.6rem, 7vw, 4.4rem)/.95 var(--display); letter-spacing: .05em; }
+  .bar h1 span { color: #3fc07a; }
+  .bar p { margin: 14px 0 0; color: #c9d4cc; font-size: 1.02rem; max-width: 46ch; }
+  @media (max-width: 640px) { .bar { padding: 26px 24px 24px; } }
 
   .layout { display: grid; grid-template-columns: minmax(340px, 420px) 1fr; align-items: start; }
   @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
@@ -113,14 +127,16 @@
 </head>
 <body>
 <div class="bar">
-  <h1>Local Kick Off</h1>
-  <p>Matches near you, from the Premier League to the non-league pyramid, men's and women's.</p>
+  <h1>Local <span>Kick Off</span></h1>
+  <p>Find football matches near you in England, from the Premier League down to Step 6, men's and women's. Search a postcode to see the next games.</p>
 </div>
 
 <div class="viewbar" role="group" aria-label="Switch between map and list">
   <button id="vMap" type="button" aria-pressed="true">Map</button>
   <button id="vList" type="button" aria-pressed="false">List <span id="vCount"></span></button>
 </div>
+
+<noscript><p style="padding:24px 32px">Local Kick Off needs JavaScript to show the map of upcoming football matches in England.</p></noscript>
 
 <div class="layout">
   <div class="side">
@@ -290,9 +306,9 @@
     function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
     function siteLinks(m, cls) {
       var out = [];
-      [['home', m.home, m.home_site], ['away', m.away, m.away_site]].forEach(function (x) {
-        var u = safeUrl(x[2]);
-        if (u) out.push('<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(x[1]) + ' website</a>');
+      [[m.home, m.home_site]].forEach(function (x) {
+        var u = safeUrl(x[1]);
+        if (u) out.push('<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(x[0]) + ' website</a>');
       });
       return out.length ? out.join(cls === 'popup' ? '<br>' : '') : '';
     }

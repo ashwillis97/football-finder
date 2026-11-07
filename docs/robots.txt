@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ashwillis97.github.io/football-finder/sitemap.xml
