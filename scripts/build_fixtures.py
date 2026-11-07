@@ -314,11 +314,22 @@ def locate(g, coords, places):
 
 
 def fetch(url):
-    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-    if r.status_code in (401, 403, 429):
-        raise RuntimeError(f"{url} refused the request (HTTP {r.status_code}); not retrying")
-    r.raise_for_status()
-    return r.text
+    last = None
+    for attempt in range(3):  # the site sometimes answers 5xx or times out; retry with a pause
+        try:
+            r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+            if r.status_code in (401, 403, 429):
+                raise RuntimeError(f"{url} refused the request (HTTP {r.status_code}); not retrying")
+            if r.status_code >= 500:
+                last = requests.HTTPError(f"HTTP {r.status_code} for {url}")
+                time.sleep(8 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            return r.text
+        except (requests.ConnectionError, requests.Timeout) as e:
+            last = e
+            time.sleep(8 * (attempt + 1))
+    raise last
 
 
 POSTCODE = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?)\s*([0-9O][A-Z]{2})\b")
@@ -538,6 +549,25 @@ def main():
         w.writerows(missing_rows)
 
     placed = [{k: v for k, v in f.items() if not k.startswith("_")} for f in all_fixtures if "lat" in f]
+    # If the source site failed for a league this run, keep that league's earlier upcoming fixtures
+    # rather than wiping them from the map.
+    if not args.html and (OUT / "fixtures.json").exists():
+        try:
+            old = json.loads((OUT / "fixtures.json").read_text())["matches"]
+        except (ValueError, KeyError):
+            old = []
+        today_iso = datetime.now(timezone.utc).date().isoformat()
+        got = {(f["league"], f["gender"]) for f in all_fixtures}
+        kept = 0
+        for lg in leagues:
+            failed = "error" in report.get(lg["id"], {}) or (lg["name"], lg["gender"]) not in got
+            if failed:
+                for m in old:
+                    if m["league"] == lg["name"] and m["gender"] == lg["gender"] and m["date"] >= today_iso:
+                        placed.append(m)
+                        kept += 1
+                report.setdefault(lg["id"], {})["carried_over_from_last_run"] = True
+        report["carried_over_matches"] = kept
     placed.sort(key=lambda f: (f["date"], f["time"] or "99:99", f["home"]))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "fixtures.json").write_text(json.dumps({
