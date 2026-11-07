@@ -36,6 +36,8 @@ h2{font:400 1.3rem/1 "Bebas Neue",Impact,sans-serif;letter-spacing:.06em;color:v
 a{color:var(--accent);font-weight:600}.cta{display:inline-block;background:var(--accent);color:var(--bg);padding:12px 24px;text-decoration:none;margin:8px 0 8px}
 ul{list-style:none;margin:0;padding:0}li.m{padding:18px 0;border-bottom:1px solid var(--line)}.t{font-weight:700}.s{color:var(--muted);font-size:.92rem}
 .cols{columns:2 260px;column-gap:40px}.cols li{padding:5px 0;break-inside:avoid}footer{padding:28px 24px 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);text-align:center}"""
+ADS = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6057981338040118"
+     crossorigin="anonymous"></script>'''
 FONT = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">'
 
 
@@ -46,7 +48,7 @@ def page(title, desc, path, body, ld=None):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="{NAME}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:locale" content="en_GB">
-<meta name="theme-color" content="#0d1a12">{FONT}<style>{CSS}</style>{ldj}</head><body>
+<meta name="theme-color" content="#0d1a12">{FONT}{ADS}<style>{CSS}</style>{ldj}</head><body>
 <div class="bar"><a href="{SITE}">Local <span>Kick Off</span></a></div>
 <main>{body}</main>
 <footer><a href="{SITE}leagues/">All leagues</a> · Dates and kick-off times can change, so check with the club before travelling.</footer>
