@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ashwillis97.github.io/football-finder/sitemap.xml
+Sitemap: https://localkickoff.co.uk/sitemap.xml

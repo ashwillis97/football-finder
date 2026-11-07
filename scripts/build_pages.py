@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-SITE = "https://ashwillis97.github.io/football-finder/"   # change when the real domain is set
+SITE = "https://localkickoff.co.uk/"   # change when the real domain is set
 NAME = "Local Kick Off"
 e = html.escape
 
