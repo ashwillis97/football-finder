@@ -422,6 +422,7 @@ def main():
         leagues = [l for l in leagues if l["id"] == args.league]
 
     all_fixtures, report, league_clubs, club_slugs = [], {}, {}, {}
+    LEAGUE_IS_CUP = {l["name"]: bool(l.get("cup")) for l in leagues}
     for league in leagues:
         if args.html:
             html = Path(args.html).read_text(encoding="utf-8")
@@ -450,7 +451,8 @@ def main():
             ROUND = re.compile(r"(round|qualifying|preliminary|quarter|semi|final|play-?off|replay|group|area|first|second|third|fourth|fifth|sixth|seventh|eighth)", re.I)
             pages = sorted({urljoin(base + "/", a["href"]) for a in soup0.find_all("a", href=True)
                             if re.search(rf"/{re.escape(league['id'])}/fixtures-results/([a-z0-9-]+)/?$", urljoin(base + "/", a["href"]))
-                            and ROUND.search(urljoin(base + "/", a["href"]).rstrip("/").rsplit("/", 1)[-1])})
+                            and ROUND.search(urljoin(base + "/", a["href"]).rstrip("/").rsplit("/", 1)[-1])
+                            and not re.search(r"league|division|premier|counties|conference", urljoin(base + "/", a["href"]).rstrip("/").rsplit("/", 1)[-1], re.I)})
             for url in pages[:10]:
                 try:
                     page = fetch(url)
@@ -489,6 +491,9 @@ def main():
         report[league["id"]] = {"fixtures": len(fixtures), "months": months}
         league_clubs[league["id"]] = (league["gender"], sorted({c for f in fixtures for c in (f["home"], f["away"])}))
         all_fixtures.extend(fixtures)
+
+    league_keys = {(f["date"], f["home"], f["away"]) for f in all_fixtures if not LEAGUE_IS_CUP.get(f["league"])}
+    all_fixtures = [f for f in all_fixtures if not (LEAGUE_IS_CUP.get(f["league"]) and (f["date"], f["home"], f["away"]) in league_keys)]
 
     grounds = load_grounds()
     club_info = json.loads(CLUBINFO.read_text()) if CLUBINFO.exists() else {}
