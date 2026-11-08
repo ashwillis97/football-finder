@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 SITE = "https://localkickoff.co.uk/"   # change when the real domain is set
 NAME = "Local Kick Off"
+CONTACT_EMAIL = ""   # add a contact address here and it appears on the privacy page
 e = html.escape
 
 leagues = json.loads((ROOT / "config" / "leagues.json").read_text())
@@ -52,7 +53,7 @@ def page(title, desc, path, body, ld=None):
 <meta name="theme-color" content="#0d1a12">{FONT}{ADS}{CF}<style>{CSS}</style>{ldj}</head><body>
 <div class="bar"><a href="{SITE}">Local <span>Kick Off</span></a></div>
 <main>{body}</main>
-<footer><a href="{SITE}leagues/">All leagues</a> · Dates and kick-off times can change, so check with the club before travelling.</footer>
+<footer><a href="{SITE}leagues/">All leagues</a> · <a href="{SITE}privacy.html">Privacy</a> · Dates and kick-off times can change, so check with the club before travelling.</footer>
 </body></html>
 """
 
@@ -105,11 +106,35 @@ for level, items in groups.items():
     "Fixtures for every league from the Premier League to Step 6 of non-league football, plus the women's game.", "leagues/", idx), encoding="utf-8")
 urls.insert(1, "leagues/")
 
+# privacy policy page
+contact = (f'<p>Questions about this policy: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>' if CONTACT_EMAIL else "")
+priv_body = f"""<h1>Privacy policy</h1><p class="lead">Last updated {datetime.strptime(today, "%Y-%m-%d").strftime("%-d %B %Y")}.</p>
+<h2>The short version</h2>
+<p>{NAME} shows upcoming football matches on a map. You don't need an account, and we don't ask for your name or email. We don't store personal information about you ourselves. A few services we use do collect some data, explained below.</p>
+<h2>Your location and postcode</h2>
+<p>If you tap "Use my location", your browser asks for permission and works out where you are on your device. That location is used in your browser to find nearby matches and isn't sent to us or saved. If you type a postcode, it is sent to the free postcodes.io service so it can be turned into a map position. Place names are looked up the same way.</p>
+<h2>Visit statistics</h2>
+<p>We use Cloudflare Web Analytics to count visits and see which pages are popular. It doesn't use cookies and doesn't track you across other websites. <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare's privacy policy</a>.</p>
+<h2>Advertising and cookies</h2>
+<p>We use Google AdSense to show adverts, which helps pay for the site. Google and its partners may use cookies or similar technologies to show and measure ads, and to personalise them if you agree. Where the law requires it, you are asked for your choice in a message from Google when you first visit, and you can change it later through the same message. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from sites that use its services</a> and <a href="https://adssettings.google.com" rel="noopener">your Google ad settings</a>. You can also block cookies in your browser settings.</p>
+<h2>Other services that see your IP address</h2>
+<p>To load the page, your browser fetches things from other providers, which receive your IP address and browser details as part of any web request: GitHub Pages (hosting), OpenStreetMap (map tiles), Cloudflare (map software), and Google Fonts (typefaces). Each has its own privacy policy.</p>
+<h2>Links to other sites</h2>
+<p>Match listings link to club websites, and the map offers directions in Google Maps. Those sites have their own privacy policies and we don't control them.</p>
+<h2>Where the match information comes from</h2>
+<p>Fixtures, dates and kick-off times are collected from public sources and can change. Always check with the club before travelling. The data describes clubs and matches, not people.</p>
+<h2>Your rights</h2>
+<p>Under UK data protection law you can ask what personal data an organisation holds about you, and ask for it to be corrected or deleted. Since we don't hold personal data ourselves, requests about advertising data are best made to Google through the links above. If you're unhappy with how your data is handled, you can complain to the <a href="https://ico.org.uk" rel="noopener">Information Commissioner's Office</a>.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the date at the top will change too.</p>{contact}"""
+(DOCS / "privacy.html").write_text(page(f"Privacy policy | {NAME}", "How Local Kick Off handles your data, cookies and advertising.", "privacy.html", priv_body), encoding="utf-8")
+urls.append("privacy.html")
+
 (DOCS / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls) + "</urlset>\n")
 
 # footer links on the home page (crawlable)
-links = "".join(f'<a href="leagues/{lg["id"]}.html">{e(p)}</a> ' for items in groups.values() for lg, p, n in items)
+links = "".join(f'<a href="leagues/{lg["id"]}.html">{e(p)}</a> ' for items in groups.values() for lg, p, n in items) + '<a href="privacy.html">Privacy policy</a>'
 ix = DOCS / "index.html"
 s = ix.read_text(encoding="utf-8")
 block = f'<!--LEAGUES--><nav class="leaguelinks"><b>Fixtures by league</b> {links}</nav><!--/LEAGUES-->'
