@@ -69,7 +69,19 @@
   button:hover { filter: brightness(1.08); }
   button.link { background: none; color: var(--accent); padding: 18px 0 0; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 
-  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 28px; margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--line); }
+  .locrow { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 20px 28px; margin-top: 8px; }
+  .locrow .link { padding: 0 0 6px; white-space: nowrap; }
+  .locrow .dist { flex: 1 1 170px; min-width: 150px; }
+  .locrow .distance-line label { margin: 0; }
+  .locrow input[type=range] { margin-top: 10px; }
+  .filterbox { margin-top: 36px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .filterbox summary { list-style: none; cursor: pointer; padding: 16px 0; font-weight: 700; display: flex; justify-content: space-between; align-items: center; }
+  .filterbox summary::-webkit-details-marker { display: none; }
+  .filterbox summary::after { content: ''; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); margin: -4px 4px 0 0; transition: transform .15s; }
+  .filterbox[open] summary::after { transform: rotate(-135deg); margin-top: 4px; }
+  .filterbox summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  #fCount { color: var(--accent); font-weight: 600; margin-left: 8px; }
+  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding: 8px 0 32px; }
   .filters .wide { grid-column: 1 / -1; }
   .distance-line { display: flex; justify-content: space-between; align-items: baseline; }
   .distance-line b { font: 400 1.5rem/1 var(--display); letter-spacing: .03em; }
@@ -153,34 +165,39 @@
       </div>
       <button id="go">Search</button>
     </div>
-    <button id="locate" class="link">Use my location</button>
-
-    <div class="filters">
-      <div class="wide">
+    <div class="locrow">
+      <button id="locate" class="link">Use my location</button>
+      <div class="dist">
         <div class="distance-line"><label for="dist">Distance</label><b><span id="distVal">25</span> miles</b></div>
         <input id="dist" type="range" min="1" max="200" value="25">
       </div>
-      <div>
-        <label for="level">Level</label>
-        <select id="level"><option value="">All levels</option></select>
-      </div>
-      <div>
-        <label for="gender">Men's / women's</label>
-        <select id="gender">
-          <option value="">All matches</option>
-          <option value="men">Men's</option>
-          <option value="women">Women's</option>
-        </select>
-      </div>
-      <div>
-        <label for="from">From</label>
-        <input id="from" type="date">
-      </div>
-      <div>
-        <label for="to">To</label>
-        <input id="to" type="date">
-      </div>
     </div>
+
+    <details class="filterbox" id="filterbox">
+      <summary>Filters <span id="fCount"></span></summary>
+      <div class="filters">
+        <div>
+          <label for="level">Level</label>
+          <select id="level"><option value="">All levels</option></select>
+        </div>
+        <div>
+          <label for="gender">Men's / women's</label>
+          <select id="gender">
+            <option value="">All matches</option>
+            <option value="men">Men's</option>
+            <option value="women">Women's</option>
+          </select>
+        </div>
+        <div>
+          <label for="from">From</label>
+          <input id="from" type="date">
+        </div>
+        <div>
+          <label for="to">To</label>
+          <input id="to" type="date">
+        </div>
+      </div>
+    </details>
 
     <div class="results-head">
       <p id="status" role="status"></p>
@@ -436,6 +453,15 @@
     }
     window.addEventListener('scroll', spy, { passive: true });
     spy();
+  })();
+  (function () {
+    var start = { level: '', gender: '', from: $('from').value, to: $('to').value };
+    function count() {
+      var n = ['level', 'gender', 'from', 'to'].filter(function (id) { return $(id).value !== start[id]; }).length;
+      $('fCount').textContent = n ? '(' + n + ' on)' : '';
+    }
+    ['level', 'gender', 'from', 'to'].forEach(function (id) { $(id).addEventListener('change', count); });
+    count();
   })();
 })();
 </script>
