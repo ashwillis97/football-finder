@@ -310,7 +310,7 @@
 
     var list = $('list');
     list.innerHTML = '';
-    function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
+    function safeUrl(u) { return /^https?:\/\//i.test(u || '') && !/footballwebpages|apple\.com|play\.google|bsky\.app/i.test(u) ? u : ''; }
     function siteLinks(m, cls) {
       var out = [];
       [[m.home, m.home_site]].forEach(function (x) {

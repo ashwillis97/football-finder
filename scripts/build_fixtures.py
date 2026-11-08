@@ -374,7 +374,7 @@ def parse_club_info(html):
     website = ""
     for el in soup.find_all(string=re.compile(r"official club website", re.I)):
         for a in el.find_all_next("a", href=re.compile(r"^https?://", re.I), limit=6):
-            if not re.search(r"footballwebpages|facebook\.com|twitter\.com|x\.com|instagram\.com|youtube\.com|tiktok\.com", a["href"], re.I):
+            if not re.search(r"footballwebpages|itunes\.apple|apps\.apple|play\.google|facebook\.com|twitter\.com|//x\.com|instagram\.com|youtube\.com|tiktok\.com|bsky\.app|threads\.net|linkedin\.com|whatsapp|snapchat", a["href"], re.I):
                 website = a["href"].strip()
                 break
         if website:
