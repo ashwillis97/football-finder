@@ -1,4 +1,100 @@
 {
  "Prest park|School Lane Amersham, Buckinghamshire,": null,
- "Springfield Stadium|St Helier, Jersey": null
+ "Springfield Stadium|St Helier, Jersey": null,
+ "Bristol Road|Portishead": {
+  "lat": 51.47624,
+  "lon": -2.763111,
+  "postcode": "BS20 6QD",
+  "display": "Bristol Road, The Vale, Port Marine, North Weston, Portishead, North Somerset, England, BS20 6QD, United Kingdom",
+  "confident": true
+ },
+ "Brookburn Road|Chorlton, Manchester": {
+  "lat": 53.4335973,
+  "lon": -2.2826496,
+  "postcode": "M21 8FE",
+  "display": "Brookburn Road, Chorltonville, Chorlton-cum-Hardy, Manchester, Greater Manchester, England, M21 8FE, United Kingdom",
+  "confident": true
+ },
+ "Crewe Alex Soccer Centre|Shavington, Crewe": null,
+ "Crown Field|Keynsham": null,
+ "Easy Buy Stadium|Barton-upon-Humber": null,
+ "Gamble Road|Thornton-Cleveleys": null,
+ "Garden Walk|Lower Gornal, Dudley": {
+  "lat": 52.516139,
+  "lon": -2.1273363,
+  "postcode": "DY3 2NR",
+  "display": "Garden Walk, Gornal Wood, Cooper's Bank, Brierley Hill, Dudley, West Midlands, England, DY3 2NR, United Kingdom",
+  "confident": false
+ },
+ "Grange Road Stadium|Cambridge": null,
+ "Haven Sportsfield|Crawley Down, West Sussex": null,
+ "JJ Mac Stadium Abbey Lawn|Bourne, Lincolnshire": null,
+ "Kayte Lane Stadium|Bishop's Cleeve": null,
+ "King George Playing Fields|Droitwich Spa": null,
+ "Manadon Sports Hub|Plymouth": null,
+ "Marsh Lane|Oxford": {
+  "lat": 51.7705067,
+  "lon": -1.2305588,
+  "postcode": "OX3 0NQ",
+  "display": "Marsh Lane, New Marston, Oxford, Oxfordshire, England, OX3 0NQ, United Kingdom",
+  "confident": true
+ },
+ "Meadow Lane|Birstall, Leicester": null,
+ "Millfield|Hadleigh, Suffolk": null,
+ "Moor Park|Chester-le-Street, County Durham": {
+  "lat": 54.8359199,
+  "lon": -1.5869268,
+  "postcode": "DH2 3RW",
+  "display": "Moor Park, A167, Chester Moor, Chester-le-Street, County Durham, North East, England, DH2 3RW, United Kingdom",
+  "confident": true
+ },
+ "Motspur Park|Motspur Park, New Malden": {
+  "lat": 51.3951033,
+  "lon": -0.245014,
+  "postcode": "KT3 6NX",
+  "display": "Motspur Park Horticultural Society, Blakes Lane, Motspur Park, Royal Borough of Kingston upon Thames, Greater London, England, KT3 6NX, United Kingdom",
+  "confident": true
+ },
+ "Myra Shay|Bradford": {
+  "lat": 53.8003186,
+  "lon": -1.7250094,
+  "postcode": "",
+  "display": "Myra Shay, Bradford Moor, Bradford, West Yorkshire, England, United Kingdom",
+  "confident": true
+ },
+ "Oak Farm|Cove, Farnborough": null,
+ "Queen Street Stadium|Bilston": null,
+ "Rakesmoor Lane|Barrow-in-Furness": {
+  "lat": 54.1389035,
+  "lon": -3.2202572,
+  "postcode": "LA14 4LQ",
+  "display": "Rakesmoor Lane, Hawcoat, Barrow, Westmorland and Furness, England, LA14 4LQ, United Kingdom",
+  "confident": false
+ },
+ "Seedhill|Nelson, Lancashire": {
+  "lat": 53.839755,
+  "lon": -2.2141292,
+  "postcode": "BB9 7NA",
+  "display": "Seedhill Terrace, Bradley, Nelson, Barrowford, Pendle, Lancashire, England, BB9 7NA, United Kingdom",
+  "confident": true
+ },
+ "Silkmore Lane|Stafford": {
+  "lat": 52.7921035,
+  "lon": -2.1004771,
+  "postcode": "ST17 4XU",
+  "display": "Silkmore Lane, Beaconside, Stafford, Staffordshire, England, ST17 4XU, United Kingdom",
+  "confident": true
+ },
+ "Simpson Ground|Woolton, Liverpool": null,
+ "Stafflex Arena (Storthes Hall)|Huddersfield": null,
+ "The Beacon|Hassocks, West Sussex": null,
+ "The Nest|Horsford, Norfolk": {
+  "lat": 52.6775521,
+  "lon": 1.2583457,
+  "postcode": "NR10 3AH",
+  "display": "The Nest, Holt Road, Horsford, Horsham St Faith, Broadland, Norfolk, England, NR10 3AH, United Kingdom",
+  "confident": true
+ },
+ "USW Sports Park|Treforest, Pontypridd": null,
+ "Wellbeing Park|Stone, Staffordshire": null
 }

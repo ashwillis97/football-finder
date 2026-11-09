@@ -1,6 +1,6 @@
 {
  "premier-league": {
-  "fixtures": 285,
+  "fixtures": 280,
   "months": {
    "december": 60,
    "january": 50,
@@ -368,7 +368,7 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-north": {
-  "fixtures": 174,
+  "fixtures": 171,
   "months": {
    "december": 37,
    "january": 44,
@@ -381,7 +381,7 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 27,
+  "fixtures": 23,
   "months": {},
   "clubs": 19,
   "missing_grounds": 0,
@@ -436,7 +436,7 @@
   "unlocated": []
  },
  "southern-counties-east-league-first-division": {
-  "fixtures": 185,
+  "fixtures": 186,
   "months": {
    "december": 26,
    "january": 39,
@@ -449,7 +449,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 257,
+  "fixtures": 256,
   "months": {
    "december": 43,
    "january": 56,
@@ -462,7 +462,7 @@
   "unlocated": []
  },
  "womens-super-league": {
-  "fixtures": 124,
+  "fixtures": 119,
   "months": {
    "december": 14,
    "january": 28,
@@ -476,7 +476,7 @@
   "unlocated": []
  },
  "womens-super-league-two": {
-  "fixtures": 96,
+  "fixtures": 90,
   "months": {
    "december": 6,
    "january": 24,
@@ -490,7 +490,7 @@
   "unlocated": []
  },
  "womens-national-league-north": {
-  "fixtures": 72,
+  "fixtures": 69,
   "months": {
    "december": 6,
    "january": 12,
@@ -499,20 +499,27 @@
    "april": 12
   },
   "clubs": 12,
-  "missing_grounds": 8,
-  "unlocated": []
+  "missing_grounds": 0,
+  "unlocated": [
+   "Huddersfield Town",
+   "Peterborough United",
+   "Stoke City"
+  ]
  },
  "womens-national-league-south": {
-  "fixtures": 13,
+  "fixtures": 8,
   "months": {},
   "clubs": 12,
-  "missing_grounds": 7,
-  "unlocated": []
+  "missing_grounds": 0,
+  "unlocated": [
+   "Cheltenham Town",
+   "Plymouth Argyle"
+  ]
  },
  "fa-cup": {
-  "fixtures": 5,
+  "fixtures": 1,
   "months": {},
-  "clubs": 10,
+  "clubs": 2,
   "missing_grounds": 0,
   "unlocated": []
  },
@@ -541,15 +548,31 @@
   "fixtures": 26,
   "months": {},
   "clubs": 50,
-  "missing_grounds": 16,
-  "unlocated": []
+  "missing_grounds": 0,
+  "unlocated": [
+   "Bilston Town",
+   "Birstall United",
+   "Cove",
+   "Crawley Down Gatwick",
+   "Hadleigh United",
+   "Hassocks",
+   "Thornton Cleveleys",
+   "Woolton"
+  ]
  },
  "womens-fa-cup": {
   "fixtures": 21,
   "months": {},
   "clubs": 42,
-  "missing_grounds": 37,
-  "unlocated": []
+  "missing_grounds": 11,
+  "unlocated": [
+   "Cambridge United",
+   "Crewe Alexandra LFC",
+   "Gwalia United",
+   "Keynsham Town",
+   "Kidderminster Harriers",
+   "Stoke City"
+  ]
  },
  "womens-league-cup": {
   "fixtures": 28,
@@ -561,25 +584,12 @@
  "club_pages": {
   "fetched_this_run": 0,
   "not_yet_fetched": 0,
-  "page_has_no_ground_info": [
-   "afc bournemouth",
-   "afc wimbledon",
-   "cheltenham town",
-   "exeter city",
-   "fulham",
-   "huddersfield town",
-   "hull city",
-   "liverpool feds wfc",
-   "middlesbrough",
-   "norwich city",
-   "oxford united",
-   "peterborough united",
-   "plymouth argyle",
-   "stoke city",
-   "west bromwich albion"
-  ]
+  "page_has_no_ground_info": []
  },
- "low_confidence_places": [],
+ "low_confidence_places": [
+  "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)",
+  "Holker Old Boys (Rakesmoor Lane, Barrow-in-Furness)"
+ ],
  "bad_postcodes": [
   "JE2 4LF"
  ],
