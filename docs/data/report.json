@@ -84,7 +84,7 @@
  "national-league-south": {
   "fixtures": 369,
   "months": {
-   "december": 63,
+   "december": 64,
    "january": 71,
    "february": 72,
    "march": 72,
@@ -95,10 +95,10 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 278,
+  "fixtures": 279,
   "months": {
    "december": 51,
-   "january": 55,
+   "january": 56,
    "february": 44,
    "march": 55,
    "april": 33
@@ -108,9 +108,9 @@
   "unlocated": []
  },
  "isthmian-football-league-premier-division": {
-  "fixtures": 293,
+  "fixtures": 294,
   "months": {
-   "december": 51,
+   "december": 52,
    "january": 59,
    "february": 55,
    "march": 55,
@@ -121,7 +121,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "fixtures": 286,
+  "fixtures": 285,
   "months": {
    "december": 51,
    "january": 56,
@@ -134,7 +134,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 281,
+  "fixtures": 280,
   "months": {
    "december": 48,
    "january": 56,
@@ -238,7 +238,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 281,
+  "fixtures": 279,
   "months": {
    "december": 48,
    "january": 55,
@@ -292,7 +292,7 @@
  "essex-senior-league": {
   "fixtures": 247,
   "months": {
-   "december": 48,
+   "december": 49,
    "january": 47,
    "february": 41,
    "march": 41,
@@ -316,10 +316,10 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 197,
+  "fixtures": 199,
   "months": {
-   "december": 37,
-   "january": 45,
+   "december": 42,
+   "january": 43,
    "february": 29,
    "march": 29,
    "april": 29
@@ -368,27 +368,27 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-north": {
-  "fixtures": 171,
+  "fixtures": 167,
   "months": {
-   "december": 37,
+   "december": 36,
    "january": 44,
-   "february": 24,
+   "february": 22,
    "march": 24,
-   "april": 18
+   "april": 17
   },
   "clubs": 18,
   "missing_grounds": 0,
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 23,
+  "fixtures": 25,
   "months": {},
   "clubs": 19,
   "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 242,
+  "fixtures": 241,
   "months": {
    "december": 45,
    "january": 57,
@@ -517,11 +517,12 @@
   ]
  },
  "fa-cup": {
-  "fixtures": 1,
+  "fixtures": 0,
   "months": {},
-  "clubs": 2,
+  "clubs": 0,
   "missing_grounds": 0,
-  "unlocated": []
+  "unlocated": [],
+  "carried_over_from_last_run": true
  },
  "efl-cup": {
   "fixtures": 4,
