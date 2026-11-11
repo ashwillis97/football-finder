@@ -28,9 +28,9 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 391,
+  "fixtures": 390,
   "months": {
-   "december": 63,
+   "december": 64,
    "january": 74,
    "february": 60,
    "march": 60,
@@ -69,7 +69,7 @@
   "unlocated": []
  },
  "national-league-north": {
-  "fixtures": 372,
+  "fixtures": 369,
   "months": {
    "december": 64,
    "january": 72,
@@ -82,7 +82,7 @@
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 369,
+  "fixtures": 366,
   "months": {
    "december": 64,
    "january": 71,
@@ -95,7 +95,7 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 279,
+  "fixtures": 273,
   "months": {
    "december": 51,
    "january": 56,
@@ -108,7 +108,7 @@
   "unlocated": []
  },
  "isthmian-football-league-premier-division": {
-  "fixtures": 294,
+  "fixtures": 289,
   "months": {
    "december": 52,
    "january": 59,
@@ -121,10 +121,10 @@
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "fixtures": 285,
+  "fixtures": 280,
   "months": {
-   "december": 51,
-   "january": 56,
+   "december": 53,
+   "january": 58,
    "february": 45,
    "march": 55,
    "april": 33
@@ -134,9 +134,9 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 280,
+  "fixtures": 276,
   "months": {
-   "december": 48,
+   "december": 49,
    "january": 56,
    "february": 44,
    "march": 55,
@@ -147,7 +147,7 @@
   "unlocated": []
  },
  "northern-premier-league-east-division": {
-  "fixtures": 269,
+  "fixtures": 267,
   "months": {
    "december": 45,
    "january": 54,
@@ -160,7 +160,7 @@
   "unlocated": []
  },
  "northern-premier-league-midlands-division": {
-  "fixtures": 277,
+  "fixtures": 274,
   "months": {
    "december": 49,
    "january": 55,
@@ -173,7 +173,7 @@
   "unlocated": []
  },
  "northern-premier-league-west-division": {
-  "fixtures": 274,
+  "fixtures": 271,
   "months": {
    "december": 48,
    "january": 55,
@@ -186,7 +186,7 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 290,
+  "fixtures": 289,
   "months": {
    "december": 48,
    "january": 55,
@@ -199,7 +199,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "fixtures": 296,
+  "fixtures": 295,
   "months": {
    "december": 54,
    "january": 55,
@@ -212,7 +212,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-east-division": {
-  "fixtures": 292,
+  "fixtures": 286,
   "months": {
    "december": 48,
    "january": 55,
@@ -225,9 +225,9 @@
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 286,
+  "fixtures": 279,
   "months": {
-   "december": 50,
+   "december": 51,
    "january": 55,
    "february": 43,
    "march": 55,
@@ -240,8 +240,8 @@
  "southern-football-league-division-one-south": {
   "fixtures": 279,
   "months": {
-   "december": 48,
-   "january": 55,
+   "december": 49,
+   "january": 57,
    "february": 43,
    "march": 55,
    "april": 32
@@ -264,7 +264,7 @@
   "unlocated": []
  },
  "combined-counties-league-premier-division-south": {
-  "fixtures": 221,
+  "fixtures": 217,
   "months": {
    "december": 41,
    "january": 51,
@@ -277,7 +277,7 @@
   "unlocated": []
  },
  "eastern-counties-league-premier-division": {
-  "fixtures": 225,
+  "fixtures": 222,
   "months": {
    "december": 38,
    "january": 47,
@@ -290,7 +290,7 @@
   "unlocated": []
  },
  "essex-senior-league": {
-  "fixtures": 247,
+  "fixtures": 246,
   "months": {
    "december": 49,
    "january": 47,
@@ -303,7 +303,7 @@
   "unlocated": []
  },
  "hellenic-league-premier-division": {
-  "fixtures": 253,
+  "fixtures": 250,
   "months": {
    "december": 33,
    "january": 55,
@@ -316,7 +316,7 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 199,
+  "fixtures": 198,
   "months": {
    "december": 42,
    "january": 43,
@@ -329,7 +329,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "fixtures": 201,
+  "fixtures": 200,
   "months": {
    "december": 43,
    "january": 43,
@@ -355,7 +355,7 @@
   "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
-  "fixtures": 243,
+  "fixtures": 239,
   "months": {
    "december": 39,
    "january": 50,
@@ -381,14 +381,14 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 25,
+  "fixtures": 26,
   "months": {},
   "clubs": 19,
   "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 241,
+  "fixtures": 240,
   "months": {
    "december": 45,
    "january": 57,
@@ -403,7 +403,7 @@
   ]
  },
  "hellenic-league-division-one": {
-  "fixtures": 30,
+  "fixtures": 29,
   "months": {},
   "clubs": 18,
   "missing_grounds": 0,
@@ -423,7 +423,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-division-one": {
-  "fixtures": 223,
+  "fixtures": 221,
   "months": {
    "december": 41,
    "january": 50,
@@ -449,7 +449,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 256,
+  "fixtures": 254,
   "months": {
    "december": 43,
    "january": 56,
@@ -532,11 +532,12 @@
   "unlocated": []
  },
  "efl-trophy": {
-  "fixtures": 2,
+  "fixtures": 0,
   "months": {},
-  "clubs": 4,
-  "missing_grounds": 1,
-  "unlocated": []
+  "clubs": 0,
+  "missing_grounds": 0,
+  "unlocated": [],
+  "carried_over_from_last_run": true
  },
  "fa-trophy": {
   "fixtures": 40,
@@ -546,9 +547,9 @@
   "unlocated": []
  },
  "fa-vase": {
-  "fixtures": 26,
+  "fixtures": 22,
   "months": {},
-  "clubs": 50,
+  "clubs": 42,
   "missing_grounds": 0,
   "unlocated": [
    "Bilston Town",
@@ -556,9 +557,7 @@
    "Cove",
    "Crawley Down Gatwick",
    "Hadleigh United",
-   "Hassocks",
-   "Thornton Cleveleys",
-   "Woolton"
+   "Hassocks"
   ]
  },
  "womens-fa-cup": {
@@ -588,8 +587,7 @@
   "page_has_no_ground_info": []
  },
  "low_confidence_places": [
-  "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)",
-  "Holker Old Boys (Rakesmoor Lane, Barrow-in-Furness)"
+  "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)"
  ],
  "bad_postcodes": [
   "JE2 4LF"
