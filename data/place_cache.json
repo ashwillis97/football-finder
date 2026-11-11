@@ -1,6 +1,4 @@
 {
- "Prest park|School Lane Amersham, Buckinghamshire,": null,
- "Springfield Stadium|St Helier, Jersey": null,
  "Bristol Road|Portishead": {
   "lat": 51.47624,
   "lon": -2.763111,
@@ -15,10 +13,6 @@
   "display": "Brookburn Road, Chorltonville, Chorlton-cum-Hardy, Manchester, Greater Manchester, England, M21 8FE, United Kingdom",
   "confident": true
  },
- "Crewe Alex Soccer Centre|Shavington, Crewe": null,
- "Crown Field|Keynsham": null,
- "Easy Buy Stadium|Barton-upon-Humber": null,
- "Gamble Road|Thornton-Cleveleys": null,
  "Garden Walk|Lower Gornal, Dudley": {
   "lat": 52.516139,
   "lon": -2.1273363,
@@ -26,12 +20,6 @@
   "display": "Garden Walk, Gornal Wood, Cooper's Bank, Brierley Hill, Dudley, West Midlands, England, DY3 2NR, United Kingdom",
   "confident": false
  },
- "Grange Road Stadium|Cambridge": null,
- "Haven Sportsfield|Crawley Down, West Sussex": null,
- "JJ Mac Stadium Abbey Lawn|Bourne, Lincolnshire": null,
- "Kayte Lane Stadium|Bishop's Cleeve": null,
- "King George Playing Fields|Droitwich Spa": null,
- "Manadon Sports Hub|Plymouth": null,
  "Marsh Lane|Oxford": {
   "lat": 51.7705067,
   "lon": -1.2305588,
@@ -39,8 +27,6 @@
   "display": "Marsh Lane, New Marston, Oxford, Oxfordshire, England, OX3 0NQ, United Kingdom",
   "confident": true
  },
- "Meadow Lane|Birstall, Leicester": null,
- "Millfield|Hadleigh, Suffolk": null,
  "Moor Park|Chester-le-Street, County Durham": {
   "lat": 54.8359199,
   "lon": -1.5869268,
@@ -62,8 +48,6 @@
   "display": "Myra Shay, Bradford Moor, Bradford, West Yorkshire, England, United Kingdom",
   "confident": true
  },
- "Oak Farm|Cove, Farnborough": null,
- "Queen Street Stadium|Bilston": null,
  "Rakesmoor Lane|Barrow-in-Furness": {
   "lat": 54.1389035,
   "lon": -3.2202572,
@@ -85,16 +69,11 @@
   "display": "Silkmore Lane, Beaconside, Stafford, Staffordshire, England, ST17 4XU, United Kingdom",
   "confident": true
  },
- "Simpson Ground|Woolton, Liverpool": null,
- "Stafflex Arena (Storthes Hall)|Huddersfield": null,
- "The Beacon|Hassocks, West Sussex": null,
  "The Nest|Horsford, Norfolk": {
   "lat": 52.6775521,
   "lon": 1.2583457,
   "postcode": "NR10 3AH",
   "display": "The Nest, Holt Road, Horsford, Horsham St Faith, Broadland, Norfolk, England, NR10 3AH, United Kingdom",
   "confident": true
- },
- "USW Sports Park|Treforest, Pontypridd": null,
- "Wellbeing Park|Stone, Staffordshire": null
+ }
 }

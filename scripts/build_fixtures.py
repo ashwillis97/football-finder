@@ -264,6 +264,7 @@ def geocode(postcodes):
 def geocode_places(places):
     """Look up (ground, town) pairs on OpenStreetMap Nominatim, one per second, cached."""
     cache = json.loads(PLACE_CACHE.read_text()) if PLACE_CACHE.exists() else {}
+    cache = {k: v for k, v in cache.items() if v}  # forget earlier misses so they are retried with the town-centre fallback
     todo = [p for p in sorted(places) if f"{p[0]}|{p[1]}" not in cache]
     done = 0
     for ground, town in todo:
@@ -271,25 +272,31 @@ def geocode_places(places):
             print(f"place lookups capped at {MAX_PLACE_LOOKUPS}; {len(todo) - done} left for next run")
             break
         try:
-            r = requests.get("https://nominatim.openstreetmap.org/search",
-                             params={"q": f"{ground}, {town}, United Kingdom", "format": "jsonv2", "limit": 1,
-                                     "addressdetails": 1, "countrycodes": "gb"},
-                             headers={"User-Agent": USER_AGENT}, timeout=30)
-            r.raise_for_status()
-            res = r.json()
-            if res:
-                a = res[0]
-                addr = a.get("address", {})
-                first_town = town.split(",")[0].strip().lower()
-                cache[f"{ground}|{town}"] = {
-                    "lat": float(a["lat"]), "lon": float(a["lon"]),
-                    "postcode": addr.get("postcode", ""), "display": a.get("display_name", ""),
-                    "confident": bool(first_town) and first_town in a.get("display_name", "").lower(),
-                }
-            else:
-                cache[f"{ground}|{town}"] = None
+            first_town = town.split(",")[0].strip().lower()
+            key = f"{ground}|{town}"
+            cache[key] = None
+            # try the ground by name first, then fall back to the town centre (marked as approximate)
+            for query, approx in ((f"{ground}, {town}, United Kingdom", False), (f"{town}, United Kingdom", True)):
+                r = requests.get("https://nominatim.openstreetmap.org/search",
+                                 params={"q": query, "format": "jsonv2", "limit": 1,
+                                         "addressdetails": 1, "countrycodes": "gb"},
+                                 headers={"User-Agent": USER_AGENT}, timeout=30)
+                r.raise_for_status()
+                res = r.json()
+                if res:
+                    a = res[0]
+                    addr = a.get("address", {})
+                    cache[key] = {
+                        "lat": float(a["lat"]), "lon": float(a["lon"]),
+                        "postcode": "" if approx else addr.get("postcode", ""), "display": a.get("display_name", ""),
+                        "confident": (not approx) and bool(first_town) and first_town in a.get("display_name", "").lower(),
+                        "approx": approx,
+                    }
+                    break
+                time.sleep(1.1)
         except (requests.RequestException, ValueError, KeyError) as e:
             print(f"place lookup failed ({ground}, {town}): {e}", file=sys.stderr)
+            cache.pop(key, None)
             break
         done += 1
         time.sleep(1.1)  # Nominatim allows at most one request per second
