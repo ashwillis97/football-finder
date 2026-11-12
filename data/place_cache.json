@@ -75,5 +75,166 @@
   "postcode": "NR10 3AH",
   "display": "The Nest, Holt Road, Horsford, Horsham St Faith, Broadland, Norfolk, England, NR10 3AH, United Kingdom",
   "confident": true
+ },
+ "Crewe Alex Soccer Centre|Shavington, Crewe": {
+  "lat": 53.063985,
+  "lon": -2.4471048,
+  "postcode": "",
+  "display": "Shavington Primary School, Southbank Avenue, Shavington cum Gresty, Crewe, Cheshire East, England, CW2 5DP, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Crown Field|Keynsham": {
+  "lat": 51.4151754,
+  "lon": -2.4983133,
+  "postcode": "",
+  "display": "Keynsham, Bath and North East Somerset, West of England, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Easy Buy Stadium|Barton-upon-Humber": {
+  "lat": 53.6858065,
+  "lon": -0.4395216,
+  "postcode": "",
+  "display": "Barton-upon-Humber, North Lincolnshire, Greater Lincolnshire, England, DN18 5QP, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Gamble Road|Thornton-Cleveleys": {
+  "lat": 53.860942,
+  "lon": -2.9805813,
+  "postcode": "",
+  "display": "Thornton Cleveleys Cricket Club, Skippool, Little Thornton, Wyre, Lancashire, England, FY5 5LA, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Grange Road Stadium|Cambridge": {
+  "lat": 52.1975846,
+  "lon": 0.1391537,
+  "postcode": "",
+  "display": "Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Haven Sportsfield|Crawley Down, West Sussex": {
+  "lat": 51.1248515,
+  "lon": -0.0777491,
+  "postcode": "",
+  "display": "Crawley Down, Mid Sussex, West Sussex, England, RH10 4XE, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "JJ Mac Stadium Abbey Lawn|Bourne, Lincolnshire": {
+  "lat": 52.7682345,
+  "lon": -0.3771579,
+  "postcode": "",
+  "display": "Bourne, South Kesteven, Lincolnshire, Greater Lincolnshire, England, PE10 9EB, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Kayte Lane Stadium|Bishop's Cleeve": {
+  "lat": 51.9468176,
+  "lon": -2.0564818,
+  "postcode": "",
+  "display": "Bishop's Cleeve, Tewkesbury, Gloucestershire, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "King George Playing Fields|Droitwich Spa": {
+  "lat": 52.26851,
+  "lon": -2.1486075,
+  "postcode": "",
+  "display": "Droitwich Spa, Wychavon, Worcestershire, England, WR9 8EJ, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Manadon Sports Hub|Plymouth": {
+  "lat": 50.3714122,
+  "lon": -4.1424451,
+  "postcode": "",
+  "display": "Plymouth, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Meadow Lane|Birstall, Leicester": {
+  "lat": 52.6755134,
+  "lon": -1.1426042,
+  "postcode": "",
+  "display": "Birstall Lodge Farm, Mowmacre Hill, Leicester, City of Leicester, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Millfield|Hadleigh, Suffolk": {
+  "lat": 52.0441822,
+  "lon": 0.9542292,
+  "postcode": "",
+  "display": "Hadleigh, Babergh, Suffolk, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Oak Farm|Cove, Farnborough": {
+  "lat": 51.2981304,
+  "lon": -0.7789089,
+  "postcode": "",
+  "display": "Cove, The Crescent, Farnborough, Rushmoor, Hampshire, England, GU14 9FT, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Prest park|School Lane Amersham, Buckinghamshire,": {
+  "lat": 51.6692051,
+  "lon": -0.6193666,
+  "postcode": "",
+  "display": "School Lane, Old Amersham, Amersham, Amersham and Villages Community Board, Buckinghamshire, England, HP7 0ET, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Queen Street Stadium|Bilston": {
+  "lat": 52.5700229,
+  "lon": -2.0822333,
+  "postcode": "",
+  "display": "Bilston, Wolverhampton, West Midlands, England, WV14 6BA, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Simpson Ground|Woolton, Liverpool": {
+  "lat": 53.3745207,
+  "lon": -2.8667919,
+  "postcode": "",
+  "display": "Woolton, Liverpool, Liverpool City Region, England, L25 7TH, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Springfield Stadium|St Helier, Jersey": null,
+ "Stafflex Arena (Storthes Hall)|Huddersfield": {
+  "lat": 53.6466645,
+  "lon": -1.7822482,
+  "postcode": "",
+  "display": "Huddersfield, Kirklees, West Yorkshire, England, HD1 2AN, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "The Beacon|Hassocks, West Sussex": {
+  "lat": 50.924279,
+  "lon": -0.1453346,
+  "postcode": "",
+  "display": "Hassocks, Keymer, Mid Sussex, West Sussex, England, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "USW Sports Park|Treforest, Pontypridd": {
+  "lat": 51.591903,
+  "lon": -3.3249641,
+  "postcode": "",
+  "display": "Trefforest, Park Street, Pontypridd, Rhondda Cynon Taf, Cymru / Wales, CF37 1SL, United Kingdom",
+  "confident": false,
+  "approx": true
+ },
+ "Wellbeing Park|Stone, Staffordshire": {
+  "lat": 52.9033037,
+  "lon": -2.1477653,
+  "postcode": "",
+  "display": "Stone, Oulton, Stafford, Staffordshire, England, United Kingdom",
+  "confident": false,
+  "approx": true
  }
 }

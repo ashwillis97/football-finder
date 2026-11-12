@@ -28,7 +28,7 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 390,
+  "fixtures": 391,
   "months": {
    "december": 64,
    "january": 74,
@@ -42,9 +42,9 @@
   "unlocated": []
  },
  "league-two": {
-  "fixtures": 388,
+  "fixtures": 390,
   "months": {
-   "december": 62,
+   "december": 64,
    "january": 72,
    "february": 60,
    "march": 60,
@@ -82,7 +82,7 @@
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 366,
+  "fixtures": 365,
   "months": {
    "december": 64,
    "january": 71,
@@ -95,7 +95,7 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 273,
+  "fixtures": 272,
   "months": {
    "december": 51,
    "january": 56,
@@ -134,7 +134,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 276,
+  "fixtures": 275,
   "months": {
    "december": 49,
    "january": 56,
@@ -160,7 +160,7 @@
   "unlocated": []
  },
  "northern-premier-league-midlands-division": {
-  "fixtures": 274,
+  "fixtures": 273,
   "months": {
    "december": 49,
    "january": 55,
@@ -186,9 +186,9 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 289,
+  "fixtures": 290,
   "months": {
-   "december": 48,
+   "december": 49,
    "january": 55,
    "february": 55,
    "march": 55,
@@ -199,7 +199,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "fixtures": 295,
+  "fixtures": 294,
   "months": {
    "december": 54,
    "january": 55,
@@ -238,7 +238,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 279,
+  "fixtures": 276,
   "months": {
    "december": 49,
    "january": 57,
@@ -303,13 +303,13 @@
   "unlocated": []
  },
  "hellenic-league-premier-division": {
-  "fixtures": 250,
+  "fixtures": 249,
   "months": {
-   "december": 33,
-   "january": 55,
-   "february": 45,
-   "march": 44,
-   "april": 40
+   "december": 38,
+   "january": 52,
+   "february": 39,
+   "march": 45,
+   "april": 42
   },
   "clubs": 21,
   "missing_grounds": 0,
@@ -318,9 +318,9 @@
  "northern-league-division-one": {
   "fixtures": 198,
   "months": {
-   "december": 42,
+   "december": 41,
    "january": 43,
-   "february": 29,
+   "february": 30,
    "march": 29,
    "april": 29
   },
@@ -329,7 +329,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "fixtures": 200,
+  "fixtures": 198,
   "months": {
    "december": 43,
    "january": 43,
@@ -368,7 +368,7 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-north": {
-  "fixtures": 167,
+  "fixtures": 166,
   "months": {
    "december": 36,
    "january": 44,
@@ -398,9 +398,7 @@
   },
   "clubs": 22,
   "missing_grounds": 0,
-  "unlocated": [
-   "Eagles Land Benfica"
-  ]
+  "unlocated": []
  },
  "hellenic-league-division-one": {
   "fixtures": 29,
@@ -410,7 +408,7 @@
   "unlocated": []
  },
  "northern-league-division-two": {
-  "fixtures": 189,
+  "fixtures": 188,
   "months": {
    "december": 31,
    "january": 44,
@@ -449,7 +447,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 254,
+  "fixtures": 253,
   "months": {
    "december": 43,
    "january": 56,
@@ -500,29 +498,21 @@
   },
   "clubs": 12,
   "missing_grounds": 0,
-  "unlocated": [
-   "Huddersfield Town",
-   "Peterborough United",
-   "Stoke City"
-  ]
+  "unlocated": []
  },
  "womens-national-league-south": {
   "fixtures": 8,
   "months": {},
   "clubs": 12,
   "missing_grounds": 0,
-  "unlocated": [
-   "Cheltenham Town",
-   "Plymouth Argyle"
-  ]
+  "unlocated": []
  },
  "fa-cup": {
-  "fixtures": 0,
+  "fixtures": 20,
   "months": {},
-  "clubs": 0,
+  "clubs": 40,
   "missing_grounds": 0,
-  "unlocated": [],
-  "carried_over_from_last_run": true
+  "unlocated": []
  },
  "efl-cup": {
   "fixtures": 4,
@@ -547,35 +537,21 @@
   "unlocated": []
  },
  "fa-vase": {
-  "fixtures": 22,
+  "fixtures": 26,
   "months": {},
-  "clubs": 42,
+  "clubs": 50,
   "missing_grounds": 0,
-  "unlocated": [
-   "Bilston Town",
-   "Birstall United",
-   "Cove",
-   "Crawley Down Gatwick",
-   "Hadleigh United",
-   "Hassocks"
-  ]
+  "unlocated": []
  },
  "womens-fa-cup": {
   "fixtures": 21,
   "months": {},
   "clubs": 42,
   "missing_grounds": 11,
-  "unlocated": [
-   "Cambridge United",
-   "Crewe Alexandra LFC",
-   "Gwalia United",
-   "Keynsham Town",
-   "Kidderminster Harriers",
-   "Stoke City"
-  ]
+  "unlocated": []
  },
  "womens-league-cup": {
-  "fixtures": 28,
+  "fixtures": 22,
   "months": {},
   "clubs": 23,
   "missing_grounds": 0,
@@ -587,7 +563,21 @@
   "page_has_no_ground_info": []
  },
  "low_confidence_places": [
-  "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)"
+  "Bilston Town (Queen Street Stadium, Bilston)",
+  "Cheltenham Town (Kayte Lane Stadium, Bishop's Cleeve)",
+  "Cove (Oak Farm, Cove, Farnborough)",
+  "Eagles Land Benfica (Prest park, School Lane Amersham, Buckinghamshire,)",
+  "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)",
+  "Gwalia United (USW Sports Park, Treforest, Pontypridd)",
+  "Hadleigh United (Millfield, Hadleigh, Suffolk)",
+  "Holker Old Boys (Rakesmoor Lane, Barrow-in-Furness)",
+  "Huddersfield Town (Stafflex Arena (Storthes Hall), Huddersfield)",
+  "Keynsham Town (Crown Field, Keynsham)",
+  "Kidderminster Harriers (King George Playing Fields, Droitwich Spa)",
+  "Peterborough United (JJ Mac Stadium Abbey Lawn, Bourne, Lincolnshire)",
+  "Stoke City (Wellbeing Park, Stone, Staffordshire)",
+  "Thornton Cleveleys (Gamble Road, Thornton-Cleveleys)",
+  "Woolton (Simpson Ground, Woolton, Liverpool)"
  ],
  "bad_postcodes": [
   "JE2 4LF"
