@@ -204,7 +204,6 @@
   "confident": false,
   "approx": true
  },
- "Springfield Stadium|St Helier, Jersey": null,
  "Stafflex Arena (Storthes Hall)|Huddersfield": {
   "lat": 53.6466645,
   "lon": -1.7822482,
@@ -236,5 +235,6 @@
   "display": "Stone, Oulton, Stafford, Staffordshire, England, United Kingdom",
   "confident": false,
   "approx": true
- }
+ },
+ "Springfield Stadium|St Helier, Jersey": null
 }
