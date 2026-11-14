@@ -82,10 +82,10 @@
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 365,
+  "fixtures": 366,
   "months": {
    "december": 64,
-   "january": 71,
+   "january": 72,
    "february": 72,
    "march": 72,
    "april": 48
@@ -388,7 +388,7 @@
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 240,
+  "fixtures": 239,
   "months": {
    "december": 45,
    "january": 57,
@@ -421,7 +421,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-division-one": {
-  "fixtures": 221,
+  "fixtures": 219,
   "months": {
    "december": 41,
    "january": 50,
@@ -508,7 +508,7 @@
   "unlocated": []
  },
  "fa-cup": {
-  "fixtures": 20,
+  "fixtures": 21,
   "months": {},
   "clubs": 40,
   "missing_grounds": 0,
