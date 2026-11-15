@@ -28,7 +28,7 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 392,
+  "fixtures": 383,
   "months": {
    "december": 64,
    "january": 74,
@@ -42,7 +42,7 @@
   "unlocated": []
  },
  "league-two": {
-  "fixtures": 390,
+  "fixtures": 378,
   "months": {
    "december": 64,
    "january": 72,
@@ -56,7 +56,7 @@
   "unlocated": []
  },
  "national-league": {
-  "fixtures": 362,
+  "fixtures": 351,
   "months": {
    "december": 61,
    "january": 62,
@@ -95,7 +95,7 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 272,
+  "fixtures": 266,
   "months": {
    "december": 51,
    "january": 56,
@@ -108,7 +108,7 @@
   "unlocated": []
  },
  "isthmian-football-league-premier-division": {
-  "fixtures": 289,
+  "fixtures": 284,
   "months": {
    "december": 52,
    "january": 59,
@@ -121,7 +121,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "fixtures": 280,
+  "fixtures": 274,
   "months": {
    "december": 53,
    "january": 58,
@@ -134,7 +134,7 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 275,
+  "fixtures": 268,
   "months": {
    "december": 49,
    "january": 56,
@@ -147,7 +147,7 @@
   "unlocated": []
  },
  "northern-premier-league-east-division": {
-  "fixtures": 267,
+  "fixtures": 257,
   "months": {
    "december": 45,
    "january": 54,
@@ -160,7 +160,7 @@
   "unlocated": []
  },
  "northern-premier-league-midlands-division": {
-  "fixtures": 273,
+  "fixtures": 263,
   "months": {
    "december": 49,
    "january": 55,
@@ -173,7 +173,7 @@
   "unlocated": []
  },
  "northern-premier-league-west-division": {
-  "fixtures": 271,
+  "fixtures": 260,
   "months": {
    "december": 48,
    "january": 55,
@@ -186,7 +186,7 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 292,
+  "fixtures": 283,
   "months": {
    "december": 51,
    "january": 55,
@@ -199,7 +199,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "fixtures": 294,
+  "fixtures": 284,
   "months": {
    "december": 54,
    "january": 55,
@@ -212,7 +212,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-east-division": {
-  "fixtures": 286,
+  "fixtures": 275,
   "months": {
    "december": 48,
    "january": 55,
@@ -225,7 +225,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 280,
+  "fixtures": 271,
   "months": {
    "december": 51,
    "january": 56,
@@ -238,7 +238,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 277,
+  "fixtures": 267,
   "months": {
    "december": 49,
    "january": 59,
@@ -251,7 +251,7 @@
   "unlocated": []
  },
  "combined-counties-league-premier-division-north": {
-  "fixtures": 221,
+  "fixtures": 211,
   "months": {
    "december": 42,
    "january": 54,
@@ -264,7 +264,7 @@
   "unlocated": []
  },
  "combined-counties-league-premier-division-south": {
-  "fixtures": 217,
+  "fixtures": 208,
   "months": {
    "december": 41,
    "january": 51,
@@ -277,7 +277,7 @@
   "unlocated": []
  },
  "eastern-counties-league-premier-division": {
-  "fixtures": 222,
+  "fixtures": 212,
   "months": {
    "december": 38,
    "january": 47,
@@ -290,7 +290,7 @@
   "unlocated": []
  },
  "essex-senior-league": {
-  "fixtures": 246,
+  "fixtures": 237,
   "months": {
    "december": 49,
    "january": 47,
@@ -303,7 +303,7 @@
   "unlocated": []
  },
  "hellenic-league-premier-division": {
-  "fixtures": 249,
+  "fixtures": 240,
   "months": {
    "december": 38,
    "january": 52,
@@ -316,7 +316,7 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 198,
+  "fixtures": 188,
   "months": {
    "december": 41,
    "january": 43,
@@ -329,7 +329,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "fixtures": 198,
+  "fixtures": 188,
   "months": {
    "december": 43,
    "january": 43,
@@ -342,7 +342,7 @@
   "unlocated": []
  },
  "southern-counties-east-league-premier-division": {
-  "fixtures": 187,
+  "fixtures": 178,
   "months": {
    "december": 35,
    "january": 40,
@@ -355,7 +355,7 @@
   "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
-  "fixtures": 239,
+  "fixtures": 229,
   "months": {
    "december": 39,
    "january": 50,
@@ -368,7 +368,7 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-north": {
-  "fixtures": 166,
+  "fixtures": 158,
   "months": {
    "december": 36,
    "january": 44,
@@ -381,14 +381,14 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 26,
+  "fixtures": 17,
   "months": {},
   "clubs": 19,
   "missing_grounds": 0,
   "unlocated": []
  },
  "combined-counties-league-division-one": {
-  "fixtures": 239,
+  "fixtures": 229,
   "months": {
    "december": 45,
    "january": 57,
@@ -401,14 +401,14 @@
   "unlocated": []
  },
  "hellenic-league-division-one": {
-  "fixtures": 29,
+  "fixtures": 21,
   "months": {},
   "clubs": 18,
   "missing_grounds": 0,
   "unlocated": []
  },
  "northern-league-division-two": {
-  "fixtures": 188,
+  "fixtures": 178,
   "months": {
    "december": 31,
    "january": 44,
@@ -421,7 +421,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-division-one": {
-  "fixtures": 219,
+  "fixtures": 213,
   "months": {
    "december": 41,
    "january": 50,
@@ -434,7 +434,7 @@
   "unlocated": []
  },
  "southern-counties-east-league-first-division": {
-  "fixtures": 186,
+  "fixtures": 179,
   "months": {
    "december": 26,
    "january": 39,
@@ -447,7 +447,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 253,
+  "fixtures": 243,
   "months": {
    "december": 43,
    "january": 56,
@@ -460,7 +460,7 @@
   "unlocated": []
  },
  "womens-super-league": {
-  "fixtures": 119,
+  "fixtures": 115,
   "months": {
    "december": 14,
    "january": 28,
@@ -474,7 +474,7 @@
   "unlocated": []
  },
  "womens-super-league-two": {
-  "fixtures": 90,
+  "fixtures": 89,
   "months": {
    "december": 6,
    "january": 24,
@@ -530,23 +530,24 @@
   "carried_over_from_last_run": true
  },
  "fa-trophy": {
-  "fixtures": 40,
+  "fixtures": 0,
   "months": {},
-  "clubs": 80,
+  "clubs": 0,
   "missing_grounds": 0,
-  "unlocated": []
+  "unlocated": [],
+  "carried_over_from_last_run": true
  },
  "fa-vase": {
-  "fixtures": 26,
+  "fixtures": 25,
   "months": {},
   "clubs": 50,
   "missing_grounds": 0,
   "unlocated": []
  },
  "womens-fa-cup": {
-  "fixtures": 21,
+  "fixtures": 20,
   "months": {},
-  "clubs": 42,
+  "clubs": 40,
   "missing_grounds": 11,
   "unlocated": []
  },
