@@ -355,10 +355,10 @@
   "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
-  "fixtures": 229,
+  "fixtures": 230,
   "months": {
    "december": 39,
-   "january": 50,
+   "january": 51,
    "february": 35,
    "march": 56,
    "april": 30
@@ -381,7 +381,7 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 17,
+  "fixtures": 18,
   "months": {},
   "clubs": 19,
   "missing_grounds": 0,
@@ -434,7 +434,7 @@
   "unlocated": []
  },
  "southern-counties-east-league-first-division": {
-  "fixtures": 179,
+  "fixtures": 177,
   "months": {
    "december": 26,
    "january": 39,
@@ -460,7 +460,7 @@
   "unlocated": []
  },
  "womens-super-league": {
-  "fixtures": 115,
+  "fixtures": 112,
   "months": {
    "december": 14,
    "january": 28,
@@ -474,7 +474,7 @@
   "unlocated": []
  },
  "womens-super-league-two": {
-  "fixtures": 89,
+  "fixtures": 84,
   "months": {
    "december": 6,
    "january": 24,
@@ -545,11 +545,12 @@
   "unlocated": []
  },
  "womens-fa-cup": {
-  "fixtures": 20,
+  "fixtures": 0,
   "months": {},
-  "clubs": 40,
-  "missing_grounds": 11,
-  "unlocated": []
+  "clubs": 0,
+  "missing_grounds": 0,
+  "unlocated": [],
+  "carried_over_from_last_run": true
  },
  "womens-league-cup": {
   "fixtures": 22,
@@ -569,12 +570,9 @@
   "Cove (Oak Farm, Cove, Farnborough)",
   "Eagles Land Benfica (Prest park, School Lane Amersham, Buckinghamshire,)",
   "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)",
-  "Gwalia United (USW Sports Park, Treforest, Pontypridd)",
   "Hadleigh United (Millfield, Hadleigh, Suffolk)",
   "Holker Old Boys (Rakesmoor Lane, Barrow-in-Furness)",
   "Huddersfield Town (Stafflex Arena (Storthes Hall), Huddersfield)",
-  "Keynsham Town (Crown Field, Keynsham)",
-  "Kidderminster Harriers (King George Playing Fields, Droitwich Spa)",
   "Peterborough United (JJ Mac Stadium Abbey Lawn, Bourne, Lincolnshire)",
   "Stoke City (Wellbeing Park, Stone, Staffordshire)",
   "Thornton Cleveleys (Gamble Road, Thornton-Cleveleys)",
