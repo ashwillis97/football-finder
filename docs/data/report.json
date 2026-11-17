@@ -56,10 +56,10 @@
   "unlocated": []
  },
  "national-league": {
-  "fixtures": 351,
+  "fixtures": 348,
   "months": {
-   "december": 61,
-   "january": 62,
+   "december": 57,
+   "january": 63,
    "february": 72,
    "march": 72,
    "april": 48
@@ -69,9 +69,9 @@
   "unlocated": []
  },
  "national-league-north": {
-  "fixtures": 369,
+  "fixtures": 370,
   "months": {
-   "december": 64,
+   "december": 65,
    "january": 72,
    "february": 72,
    "march": 72,
@@ -82,10 +82,10 @@
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 366,
+  "fixtures": 367,
   "months": {
    "december": 64,
-   "january": 72,
+   "january": 73,
    "february": 72,
    "march": 72,
    "april": 48
@@ -121,9 +121,9 @@
   "unlocated": []
  },
  "southern-football-league-premier-central-division": {
-  "fixtures": 274,
+  "fixtures": 275,
   "months": {
-   "december": 53,
+   "december": 54,
    "january": 58,
    "february": 45,
    "march": 55,
@@ -139,7 +139,7 @@
    "december": 49,
    "january": 56,
    "february": 44,
-   "march": 55,
+   "march": 54,
    "april": 33
   },
   "clubs": 22,
@@ -188,7 +188,7 @@
  "isthmian-football-league-north-division": {
   "fixtures": 283,
   "months": {
-   "december": 51,
+   "december": 52,
    "january": 55,
    "february": 55,
    "march": 55,
@@ -381,9 +381,9 @@
   "unlocated": []
  },
  "united-counties-league-premier-division-south": {
-  "fixtures": 18,
+  "fixtures": 15,
   "months": {},
-  "clubs": 19,
+  "clubs": 18,
   "missing_grounds": 0,
   "unlocated": []
  },
@@ -508,7 +508,7 @@
   "unlocated": []
  },
  "fa-cup": {
-  "fixtures": 21,
+  "fixtures": 22,
   "months": {},
   "clubs": 40,
   "missing_grounds": 0,
