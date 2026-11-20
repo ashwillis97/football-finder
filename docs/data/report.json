@@ -3,8 +3,8 @@
   "fixtures": 280,
   "months": {
    "december": 60,
-   "january": 50,
-   "february": 40,
+   "january": 49,
+   "february": 41,
    "march": 30,
    "april": 30,
    "may": 50
@@ -95,9 +95,9 @@
   "unlocated": []
  },
  "northern-premier-league-premier-division": {
-  "fixtures": 261,
+  "fixtures": 260,
   "months": {
-   "december": 50,
+   "december": 49,
    "january": 56,
    "february": 44,
    "march": 55,
@@ -134,9 +134,9 @@
   "unlocated": []
  },
  "southern-football-league-premier-south-division": {
-  "fixtures": 264,
+  "fixtures": 265,
   "months": {
-   "december": 49,
+   "december": 50,
    "january": 57,
    "february": 44,
    "march": 54,
@@ -186,10 +186,10 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 278,
+  "fixtures": 279,
   "months": {
    "december": 52,
-   "january": 55,
+   "january": 56,
    "february": 55,
    "march": 55,
    "april": 33
@@ -225,11 +225,11 @@
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 265,
+  "fixtures": 267,
   "months": {
    "december": 51,
-   "january": 56,
-   "february": 43,
+   "january": 57,
+   "february": 44,
    "march": 55,
    "april": 33
   },
@@ -238,11 +238,11 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 262,
+  "fixtures": 263,
   "months": {
    "december": 49,
-   "january": 59,
-   "february": 43,
+   "january": 58,
+   "february": 45,
    "march": 55,
    "april": 32
   },
@@ -558,7 +558,7 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 0,
+  "fetched_this_run": 51,
   "not_yet_fetched": 0,
   "page_has_no_ground_info": []
  },
