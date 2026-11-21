@@ -28,7 +28,7 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 383,
+  "fixtures": 382,
   "months": {
    "december": 64,
    "january": 74,
@@ -56,10 +56,10 @@
   "unlocated": []
  },
  "national-league": {
-  "fixtures": 348,
+  "fixtures": 349,
   "months": {
-   "december": 57,
-   "january": 63,
+   "december": 58,
+   "january": 64,
    "february": 72,
    "march": 72,
    "april": 48
@@ -69,22 +69,9 @@
   "unlocated": []
  },
  "national-league-north": {
-  "fixtures": 365,
+  "fixtures": 364,
   "months": {
-   "december": 65,
-   "january": 72,
-   "february": 72,
-   "march": 72,
-   "april": 48
-  },
-  "clubs": 24,
-  "missing_grounds": 0,
-  "unlocated": []
- },
- "national-league-south": {
-  "fixtures": 362,
-  "months": {
-   "december": 62,
+   "december": 63,
    "january": 73,
    "february": 72,
    "march": 72,
@@ -94,11 +81,24 @@
   "missing_grounds": 0,
   "unlocated": []
  },
+ "national-league-south": {
+  "fixtures": 365,
+  "months": {
+   "december": 64,
+   "january": 74,
+   "february": 72,
+   "march": 72,
+   "april": 48
+  },
+  "clubs": 24,
+  "missing_grounds": 0,
+  "unlocated": []
+ },
  "northern-premier-league-premier-division": {
-  "fixtures": 260,
+  "fixtures": 262,
   "months": {
    "december": 49,
-   "january": 56,
+   "january": 58,
    "february": 44,
    "march": 55,
    "april": 33
@@ -147,10 +147,10 @@
   "unlocated": []
  },
  "northern-premier-league-east-division": {
-  "fixtures": 255,
+  "fixtures": 256,
   "months": {
-   "december": 45,
-   "january": 54,
+   "december": 46,
+   "january": 56,
    "february": 44,
    "march": 55,
    "april": 33
@@ -186,9 +186,9 @@
   "unlocated": []
  },
  "isthmian-football-league-north-division": {
-  "fixtures": 279,
+  "fixtures": 280,
   "months": {
-   "december": 52,
+   "december": 53,
    "january": 56,
    "february": 55,
    "march": 55,
@@ -316,7 +316,7 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 188,
+  "fixtures": 186,
   "months": {
    "december": 41,
    "january": 43,
@@ -408,7 +408,7 @@
   "unlocated": []
  },
  "northern-league-division-two": {
-  "fixtures": 177,
+  "fixtures": 176,
   "months": {
    "december": 31,
    "january": 44,
@@ -447,7 +447,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 242,
+  "fixtures": 241,
   "months": {
    "december": 43,
    "january": 56,
@@ -558,7 +558,7 @@
   "unlocated": []
  },
  "club_pages": {
-  "fetched_this_run": 51,
+  "fetched_this_run": 0,
   "not_yet_fetched": 0,
   "page_has_no_ground_info": []
  },
