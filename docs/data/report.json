@@ -1,6 +1,6 @@
 {
  "premier-league": {
-  "fixtures": 273,
+  "fixtures": 271,
   "months": {
    "december": 60,
    "january": 49,
@@ -225,7 +225,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-central": {
-  "fixtures": 257,
+  "fixtures": 256,
   "months": {
    "december": 51,
    "january": 57,
@@ -292,8 +292,8 @@
  "essex-senior-league": {
   "fixtures": 221,
   "months": {
-   "december": 48,
-   "january": 48,
+   "december": 47,
+   "january": 49,
    "february": 41,
    "march": 41,
    "april": 29
@@ -316,12 +316,12 @@
   "unlocated": []
  },
  "northern-league-division-one": {
-  "fixtures": 178,
+  "fixtures": 183,
   "months": {
    "december": 41,
    "january": 43,
-   "february": 30,
-   "march": 29,
+   "february": 32,
+   "march": 32,
    "april": 29
   },
   "clubs": 21,
@@ -355,10 +355,10 @@
   "unlocated": []
  },
  "spartan-south-midlands-league-premier-division": {
-  "fixtures": 219,
+  "fixtures": 218,
   "months": {
    "december": 39,
-   "january": 51,
+   "january": 50,
    "february": 35,
    "march": 56,
    "april": 30
@@ -408,11 +408,11 @@
   "unlocated": []
  },
  "northern-league-division-two": {
-  "fixtures": 169,
+  "fixtures": 172,
   "months": {
    "december": 31,
    "january": 44,
-   "february": 29,
+   "february": 32,
    "march": 26,
    "april": 30
   },
@@ -460,7 +460,7 @@
   "unlocated": []
  },
  "womens-super-league": {
-  "fixtures": 108,
+  "fixtures": 105,
   "months": {
    "december": 14,
    "january": 28,
@@ -488,7 +488,7 @@
   "unlocated": []
  },
  "womens-national-league-north": {
-  "fixtures": 68,
+  "fixtures": 63,
   "months": {
    "december": 6,
    "january": 12,
@@ -501,9 +501,9 @@
   "unlocated": []
  },
  "womens-national-league-south": {
-  "fixtures": 8,
+  "fixtures": 2,
   "months": {},
-  "clubs": 12,
+  "clubs": 4,
   "missing_grounds": 0,
   "unlocated": []
  },
@@ -551,9 +551,9 @@
   "unlocated": []
  },
  "womens-league-cup": {
-  "fixtures": 17,
+  "fixtures": 11,
   "months": {},
-  "clubs": 23,
+  "clubs": 22,
   "missing_grounds": 0,
   "unlocated": []
  },
@@ -564,7 +564,6 @@
  },
  "low_confidence_places": [
   "Bilston Town (Queen Street Stadium, Bilston)",
-  "Cheltenham Town (Kayte Lane Stadium, Bishop's Cleeve)",
   "Cove (Oak Farm, Cove, Farnborough)",
   "Eagles Land Benfica (Prest park, School Lane Amersham, Buckinghamshire,)",
   "Gornal Athletic (Garden Walk, Lower Gornal, Dudley)",
