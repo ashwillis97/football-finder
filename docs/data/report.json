@@ -28,7 +28,7 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 367,
+  "fixtures": 366,
   "months": {
    "december": 64,
    "january": 74,
@@ -199,9 +199,9 @@
   "unlocated": []
  },
  "isthmian-football-league-south-central-division": {
-  "fixtures": 266,
+  "fixtures": 265,
   "months": {
-   "december": 55,
+   "december": 54,
    "january": 57,
    "february": 55,
    "march": 54,
@@ -508,7 +508,7 @@
   "unlocated": []
  },
  "fa-cup": {
-  "fixtures": 22,
+  "fixtures": 21,
   "months": {},
   "clubs": 40,
   "missing_grounds": 0,
@@ -522,12 +522,11 @@
   "unlocated": []
  },
  "efl-trophy": {
-  "fixtures": 0,
+  "fixtures": 10,
   "months": {},
-  "clubs": 0,
+  "clubs": 20,
   "missing_grounds": 0,
-  "unlocated": [],
-  "carried_over_from_last_run": true
+  "unlocated": []
  },
  "fa-trophy": {
   "fixtures": 32,
@@ -544,7 +543,7 @@
   "unlocated": []
  },
  "womens-fa-cup": {
-  "fixtures": 18,
+  "fixtures": 17,
   "months": {},
   "clubs": 34,
   "missing_grounds": 5,
