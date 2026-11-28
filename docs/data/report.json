@@ -1,6 +1,6 @@
 {
  "premier-league": {
-  "fixtures": 270,
+  "fixtures": 269,
   "months": {
    "december": 60,
    "january": 49,
@@ -14,7 +14,7 @@
   "unlocated": []
  },
  "championship": {
-  "fixtures": 349,
+  "fixtures": 345,
   "months": {
    "december": 72,
    "january": 60,
@@ -28,7 +28,7 @@
   "unlocated": []
  },
  "league-one": {
-  "fixtures": 366,
+  "fixtures": 364,
   "months": {
    "december": 64,
    "january": 74,
@@ -42,7 +42,7 @@
   "unlocated": []
  },
  "league-two": {
-  "fixtures": 366,
+  "fixtures": 364,
   "months": {
    "december": 64,
    "january": 72,
@@ -56,7 +56,7 @@
   "unlocated": []
  },
  "national-league": {
-  "fixtures": 327,
+  "fixtures": 324,
   "months": {
    "december": 57,
    "january": 66,
@@ -69,10 +69,10 @@
   "unlocated": []
  },
  "national-league-north": {
-  "fixtures": 340,
+  "fixtures": 341,
   "months": {
    "december": 64,
-   "january": 73,
+   "january": 74,
    "february": 71,
    "march": 72,
    "april": 48
@@ -82,10 +82,10 @@
   "unlocated": []
  },
  "national-league-south": {
-  "fixtures": 341,
+  "fixtures": 343,
   "months": {
    "december": 63,
-   "january": 74,
+   "january": 76,
    "february": 72,
    "march": 72,
    "april": 48
@@ -98,7 +98,7 @@
   "fixtures": 247,
   "months": {
    "december": 46,
-   "january": 58,
+   "january": 59,
    "february": 44,
    "march": 55,
    "april": 33
@@ -212,7 +212,7 @@
   "unlocated": []
  },
  "isthmian-football-league-south-east-division": {
-  "fixtures": 257,
+  "fixtures": 256,
   "months": {
    "december": 48,
    "january": 55,
@@ -238,7 +238,7 @@
   "unlocated": []
  },
  "southern-football-league-division-one-south": {
-  "fixtures": 250,
+  "fixtures": 249,
   "months": {
    "december": 48,
    "january": 59,
@@ -290,7 +290,7 @@
   "unlocated": []
  },
  "essex-senior-league": {
-  "fixtures": 215,
+  "fixtures": 212,
   "months": {
    "december": 47,
    "january": 49,
@@ -329,7 +329,7 @@
   "unlocated": []
  },
  "northern-counties-east-league-premier-division": {
-  "fixtures": 179,
+  "fixtures": 178,
   "months": {
    "december": 43,
    "january": 42,
@@ -447,7 +447,7 @@
   "unlocated": []
  },
  "united-counties-league-division-one": {
-  "fixtures": 231,
+  "fixtures": 230,
   "months": {
    "december": 43,
    "january": 56,
